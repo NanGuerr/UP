@@ -40,10 +40,11 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 
 ## 🛠️ Contenido Extra
 Además de las materias troncales, el repositorio incluye apuntes sobre:
-* **Cursos de Verano:** Proyectos Internacionales, Taller de Radio (CONATEL) y DevOps.
+* **Cursos de Verano:** Proyectos Internacionales, CONATEL y DevOps.
 * **Certificaciones:** Nivelación de Inglés con Cambridge.
-* **Electivas:** Modelos y Simulación, Robótica y Seguridad Ambiental.
+* **Electivas:** Modelos y Simulación, Robótica y Seguridad en redes.
 
 ---
 
-> **Disclaimer:** Este repositorio es una iniciativa estudiantil. Para información oficial sobre
+> **Disclaimer:** Este repositorio es una iniciativa estudiantil. Para información oficial sobre correlatividades y actas, consultar siempre al Departamento de Alumnos de la UP.
+

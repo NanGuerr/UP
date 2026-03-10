@@ -30,11 +30,11 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 | Periodo | Ubicación | Foco Académico |
 | :--- | :--- | :--- |
 | **Marzo - Julio 2026** | 🇻🇪 Venezuela | Matemáticas y Física I |
-| **Agosto - Dic 2026** | 🇻🇪 Venezuela | Señales y Arquitectura |
-| **Marzo - Julio 2027** | 🇻🇪 Venezuela | Base de Electrónica y Sistemas Embebidos |
+| **Agosto - Dic 2026** | 🇨🇴 Colombia | Señales y Arquitectura |
+| **Marzo - Julio 2027** | 🇨🇴 Colombia | Base de Electrónica y Sistemas Embebidos |
 | **Agosto - Dic 2027** | 🇦🇷 Argentina | Comunicaciones e Infraestructura |
 | **Agosto - Dic 2028** | 🇦🇷 Argentina | Redes y Gestión |
-| **Marzo - Julio 2029** | 🇨🇴 Colombia | Final de Carrera |
+| **Marzo - Julio 2029** | 🇦🇷 Argentina | Final de Carrera |
 
 ---
 
@@ -45,4 +45,5 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
 * **Electivas:** Modelos y Simulación, Robótica y Seguridad Ambiental.
 
 ---
+
 > **Disclaimer:** Este repositorio es una iniciativa estudiantil. Para información oficial sobre

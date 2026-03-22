@@ -9,7 +9,7 @@ n = 15
 sigma_apc = 0.02 # mm
 sigma_apb = 0.1  # g
 
-# --- 2. FUNCIÓN DE CÁLCULO (Optimización de Ingeniería) ---
+# --- 2. FUNCIÓN DE CÁLCULO ---
 def procesar_magnitud(datos, apreciacion):
     media = np.mean(datos)
     # Error estándar del promedio (la fórmula que usaste en A)

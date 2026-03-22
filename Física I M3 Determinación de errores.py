@@ -18,12 +18,12 @@ def procesar_magnitud(datos, apreciacion):
     error_abs = np.sqrt(error_est**2 + apreciacion**2)
     return media, error_abs
 
-# Aplicamos la función
+# Aplicar la función
 h_m, h_err = procesar_magnitud(h, sigma_apc)
 D_m, D_err = procesar_magnitud(D, sigma_apc)
 P_m, P_err = procesar_magnitud(P, sigma_apb)
 
-# --- 3. PROPAGACIÓN (Tu lógica de derivadas, más limpia) ---
+# --- 3. PROPAGACIÓN ---
 V_m = np.pi * (D_m / 2)**2 * h_m
 # Derivadas parciales
 dV_dD = np.pi * h_m * D_m / 2
@@ -34,7 +34,7 @@ V_err = np.sqrt((dV_dD * D_err)**2 + (dV_dh * h_err)**2)
 rho_m = (P_m / (V_m / 1000)) # g/cm^3
 rho_err = rho_m * np.sqrt((P_err / P_m)**2 + (V_err / V_m)**2)
 
-# --- 4. SALIDA PROFESIONAL ---
+# --- 4. SALIDA ---
 print(f"RESULTADOS FINALES")
 print(f"Altura:   {h_m:.2f} ± {h_err:.2f} mm")
 print(f"Diámetro: {D_m:.2f} ± {D_err:.2f} mm")

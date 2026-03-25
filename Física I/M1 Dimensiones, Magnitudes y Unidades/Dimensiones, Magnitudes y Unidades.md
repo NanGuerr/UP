@@ -1,4 +1,4 @@
-# 📚 Guía de Estudio: Física I - Módulo 1 🚀
+# 📚 Resumen
 ## *Dimensiones, Magnitudes y Unidades*
 
 Este documento resume las herramientas matemáticas y los conceptos fundamentales necesarios para modelar fenómenos naturales en la ingeniería.

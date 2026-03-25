@@ -33,16 +33,12 @@ $$e^{ix} = \cos(x) + i\sin(x)$$
 
 ---
 
-## 4. Tabla de Valores Trigonométricos Notables
-Necesarios para evaluar límites de integración en Fourier o coeficientes en Taylor.
+## 4. Identidades de Suma y Resta
+Esenciales para expandir términos en Series de Fourier cuando el argumento presenta desfases o desplazamientos de fase.
 
-| Radianes | $0$ | $\frac{\pi}{6}$ | $\frac{\pi}{4}$ | $\frac{\pi}{3}$ | $\frac{\pi}{2}$ | $\pi$ |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Seno** | $0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ | $0$ |
-| **Coseno** | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ | $-1$ |
-| **Tangente** | $0$ | $\frac{\sqrt{3}}{3}$ | $1$ | $\sqrt{3}$ | $\nexists$ | $0$ |
-| **Cotangente** | $\nexists$ | $\sqrt{3}$ | $1$ | $\frac{\sqrt{3}}{3}$ | $0$ | $\nexists$ |
-
+* $\cos(A \pm B) = \cos A \cos B \mp \sin A \sin B$
+* $\sin(A \pm B) = \sin A \cos B \pm \cos A \sin B$
+  
 ---
 
 ## 5. Identidades de Suma y Resta (Desplazamiento de Centro)

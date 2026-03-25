@@ -1,5 +1,4 @@
-# 📚 Resumen de Estudio: Análisis Matemático IIIB
-## Módulo 2: Series de Taylor y de Mac Laurin 📐
+# 📚 Resumen Series de Taylor y de Mac Laurin 📐
 
 Este documento contiene los conceptos fundamentales, fórmulas y aplicaciones de las series de potencias para el desarrollo de funciones.
 

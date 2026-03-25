@@ -1,5 +1,5 @@
 # 📝 Repaso de Autoevaluación: 
-*Dimensiones, Magnitudes y Unidades*
+## Dimensiones, Magnitudes y Unidades*
 
 Este resumen contiene la resolución de los puntos clave evaluados en la autoevaluación, ideal para reforzar los conceptos de ingeniería.
 

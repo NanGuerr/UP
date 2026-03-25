@@ -1,7 +1,11 @@
 # 📐 Tabla de Identidades Trigonométricas (0 - 2π) 🌀
 
 Esta guía contiene los valores fundamentales de las funciones trigonométricas organizados para una consulta rápida. 
-
+### 📐 Trigonometría
+Esencial para la **descomposición de vectores** en triángulos rectángulos:
+* 🔵 $sen(\theta) = \frac{opuesto}{hipotenusa}$
+* 🔴 $cos(\theta) = \frac{adyacente}{hipotenusa}$
+* 🟢 $tan(\theta) = \frac{opuesto}{adyacente}$
 ---
 
 ### 📍 Primer y Segundo Cuadrante (0 a π)

@@ -18,11 +18,11 @@ El concepto central evaluado es cómo determinar si una serie converge o diverge
 
 Basado en una serie con **$R = 5$**:
 
-* **📍 Evaluación en $x = 3$:** * $|3| < 5$ **SÍ**. 
+* **📍 Evaluación en $x = 3$:**  $|3| < 5$ **SÍ**. 
     * **Conclusión:** La serie converge. (Es *falso* decir que diverge). 
-* **📍 Evaluación en $x = -2$:** * $|-2| < 5$ **SÍ**. 
+* **📍 Evaluación en $x = -2$:**  $|-2| < 5$ **SÍ**. 
     * **Conclusión:** La serie **converge**. ✅
-* **📍 Evaluación en $x = -4$:** * $|-4| < 5$ **SÍ**. 
+* **📍 Evaluación en $x = -4$:**  $|-4| < 5$ **SÍ**. 
     * **Conclusión:** La serie converge. (Es *falso* decir que diverge). ❌
 
 ---

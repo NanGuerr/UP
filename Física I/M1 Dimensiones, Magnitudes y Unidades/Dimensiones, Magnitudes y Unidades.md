@@ -1,5 +1,4 @@
 # 📚 Resumen
-## *Dimensiones, Magnitudes y Unidades*
 
 Este documento resume las herramientas matemáticas y los conceptos fundamentales necesarios para modelar fenómenos naturales en la ingeniería.
 

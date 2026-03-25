@@ -1,5 +1,4 @@
 # 📝 Autoevaluación
-## *Dimensiones, Magnitudes y Unidades*
 
 Este documento resume los puntos críticos evaluados en la autoevaluación para asegurar el dominio de los fundamentos de ingeniería.
 

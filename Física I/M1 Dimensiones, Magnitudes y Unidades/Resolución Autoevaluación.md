@@ -1,5 +1,4 @@
 # 📚 Repaso de Autoevaluación
-## *Dimensiones, Magnitudes y Unidades*
 
 Este documento combina las herramientas matemáticas fundamentales y la resolución de puntos clave evaluados en la autoevaluación.
 

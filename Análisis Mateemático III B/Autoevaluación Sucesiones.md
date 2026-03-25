@@ -1,4 +1,4 @@
-# 📝 Resumen: Autoevaluación Sucesiones y Series Numéricas ✅
+# 📝 Resumen: Autoevaluación Sucesiones y Series Numéricas 
 
 Este resumen sintetiza los ejercicios y conceptos clave de la autoevaluación (Calificación: 10/10). Se enfoca en el comportamiento de las series de potencias según su radio de convergencia ($R$).
 

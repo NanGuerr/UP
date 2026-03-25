@@ -1,10 +1,10 @@
-# 📚 Análisis Matemático IIIb - Resumen Módulo 1 🎓
+# 📚 Resumen Series de Potencias 🎓
 
-¡Excelente! Estás cursando una materia fundamental en la **Facultad de Ingeniería (UP)**. Aquí se conecta el cálculo avanzado con aplicaciones prácticas como la teoría de señales y la acústica. 🔊
+Aquí se conecta el cálculo avanzado con aplicaciones prácticas como la teoría de señales y la acústica. 🔊
 
 ---
 
-## 1. El Corazón del Módulo 1: Series de Funciones 🌀
+## 1. Series de Funciones 🌀
 
 A diferencia de las series numéricas, aquí los sumandos son funciones $f_n(x)$. La serie se expresa como:
 

@@ -1,6 +1,6 @@
-# Guía Completa de Identidades y Series: Análisis Matemático III
+# Guía para Identidades Trigonométricas y Series
 
-Esta guía resume las herramientas fundamentales para trabajar con Series de Fourier, Taylor y Maclaurin, enfocándose en la **linealización**, **descomposición** y **desplazamiento de centros**.
+Esta guía resume las herramientas fundamentales para trabajar con Series de Fourier, Taylor y Mac  Laurin, enfocándose en la **linealización**, **descomposición** y **desplazamiento de centros**.
 
 ---
 
@@ -68,5 +68,14 @@ Series de referencia centradas en $a=0$:
 | $\frac{1}{1-x}$ | $\sum_{n=0}^{\infty} x^n$ | $|x| < 1$ |
 
 > **Aplicación Práctica:** Para hallar Taylor de $\cos(x)$ en $a = \pi/4$, aplica la identidad de suma y luego sustituye $u = (x - \pi/4)$ en las series de Maclaurin de $\cos(u)$ y $\sin(u)$.
+
+---
+
+## 7. Definición General: Serie de Taylor
+Para una función $f(x)$ derivable infinitamente en un punto $a$:
+
+$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n$$
+
+> **Nota de paridad:** En Maclaurin ($a=0$), $\cos(x)$ solo tiene potencias pares (función par) y $\sin(x)$ solo potencias impares (función impar).
 
 ---

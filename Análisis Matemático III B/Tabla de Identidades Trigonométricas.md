@@ -1,6 +1,6 @@
 # 📐 Tabla de Identidades Trigonométricas (0 - 2π) 🌀
 
-Esta guía contiene los valores fundamentales de las funciones trigonométricas organizados de forma horizontal para una consulta rápida. 🚀
+Esta guía contiene los valores fundamentales de las funciones trigonométricas organizados para una consulta rápida. 
 
 ---
 
@@ -11,8 +11,8 @@ Esta guía contiene los valores fundamentales de las funciones trigonométricas 
 | **Grados** | $0^\circ$ | $30^\circ$ | $45^\circ$ | $60^\circ$ | $90^\circ$ | $120^\circ$ | $135^\circ$ | $150^\circ$ | $180^\circ$ |
 | **🟦 $\sin(\theta)$** | $0$ | $1/2$ | $\sqrt{2}/2$ | $\sqrt{3}/2$ | $1$ | $\sqrt{3}/2$ | $\sqrt{2}/2$ | $1/2$ | $0$ |
 | **🟥 $\cos(\theta)$** | $1$ | $\sqrt{3}/2$ | $\sqrt{2}/2$ | $1/2$ | $0$ | $-1/2$ | $-\sqrt{2}/2$ | $-\sqrt{3}/2$ | $-1$ |
-| **🟩 $\tan(\theta)$** | $0$ | $\sqrt{3}/3$ | $1$ | $\sqrt{3}$ | 🚫 *Und.* | $-\sqrt{3}$ | $-1$ | $-\sqrt{3}/3$ | $0$ |
-| **🟨 $\cot(\theta)$** | 🚫 *Und.* | $\sqrt{3}$ | $1$ | $\sqrt{3}/3$ | $0$ | $-\sqrt{3}/3$ | $-1$ | $-\sqrt{3}$ | 🚫 *Und.* |
+| **🟩 $\tan(\theta)$** | $0$ | $\sqrt{3}/3$ | $1$ | $\sqrt{3}$ | $+\infty$ | $-\sqrt{3}$ | $-1$ | $-\sqrt{3}/3$ | $0$ |
+| **🟨 $\cot(\theta)$** | $+\infty$ | $\sqrt{3}$ | $1$ | $\sqrt{3}/3$ | $0$ | $-\sqrt{3}/3$ | $-1$ | $-\sqrt{3}$ | $+\infty$ |
 
 ---
 
@@ -23,8 +23,8 @@ Esta guía contiene los valores fundamentales de las funciones trigonométricas 
 | **Grados** | $210^\circ$ | $225^\circ$ | $240^\circ$ | $270^\circ$ | $300^\circ$ | $315^\circ$ | $330^\circ$ | $360^\circ$ |
 | **🟦 $\sin(\theta)$** | $-1/2$ | $-\sqrt{2}/2$ | $-\sqrt{3}/2$ | $-1$ | $-\sqrt{3}/2$ | $-\sqrt{2}/2$ | $-1/2$ | $0$ |
 | **🟥 $\cos(\theta)$** | $-\sqrt{3}/2$ | $-\sqrt{2}/2$ | $-1/2$ | $0$ | $1/2$ | $\sqrt{2}/2$ | $\sqrt{3}/2$ | $1$ |
-| **🟩 $\tan(\theta)$** | $\sqrt{3}/3$ | $1$ | $\sqrt{3}$ | 🚫 *Und.* | $-\sqrt{3}$ | $-1$ | $-\sqrt{3}/3$ | $0$ |
-| **🟨 $\cot(\theta)$** | $\sqrt{3}$ | $1$ | $\sqrt{3}/3$ | $0$ | $-\sqrt{3}/3$ | $-1$ | $-\sqrt{3}$ | 🚫 *Und.* |
+| **🟩 $\tan(\theta)$** | $\sqrt{3}/3$ | $1$ | $\sqrt{3}$ | $+\infty$ | $-\sqrt{3}$ | $-1$ | $-\sqrt{3}/3$ | $0$ |
+| **🟨 $\cot(\theta)$** | $\sqrt{3}$ | $1$ | $\sqrt{3}/3$ | $0$ | $-\sqrt{3}/3$ | $-1$ | $-\sqrt{3}$ | $+\infty$ |
 
 ---
 

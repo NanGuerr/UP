@@ -1,4 +1,4 @@
-# 📑 Resumen: Resolución Autoevaluación - Series de Potencias 🚀
+# 📑 Resumen: Resolución Autoevaluación - Series de Potencias
 
 Este documento presenta la resolución detallada de los ejercicios de autoevaluación del **Módulo 1 de Análisis Matemático IIIb**, basándose en los criterios del libro de Piskunov y los apuntes de la cátedra.
 

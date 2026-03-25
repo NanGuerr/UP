@@ -1,4 +1,4 @@
-# 📝 Resolución: Actividad de Series de Taylor y Mac Laurin
+# 📝 Resolución: Actividad de Series de Taylor y Maclaurin
 Este documento detalla el desarrollo de funciones mediante series de potencias y sus respectivos intervalos de convergencia.
 
 ---

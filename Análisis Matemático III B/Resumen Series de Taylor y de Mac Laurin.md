@@ -1,17 +1,17 @@
 # 📚 Resumen de Estudio: Análisis Matemático IIIB
-## Módulo 2: Series de Taylor y de Maclaurin 📐
+## Módulo 2: Series de Taylor y de Mac Laurin 📐
 
 Este documento contiene los conceptos fundamentales, fórmulas y aplicaciones de las series de potencias para el desarrollo de funciones.
 
 ---
 
-### 1. Definición de Series de Taylor y Maclaurin ✍️
+### 1. Definición de Series de Taylor y Mac Laurin ✍️
 Las series de Taylor permiten expresar una función mediante sus derivadas sucesivas en un punto específico.
 
 * **Serie de Taylor:** Si una función $f(x)$ tiene derivadas de cualquier orden en un entorno del punto $x=a$:
     $$f(x) = f(a) + \frac{x-a}{1!}f'(a) + \frac{(x-a)^2}{2!}f''(a) + \dots + \frac{(x-a)^n}{n!}f^{(n)}(a) + \dots$$
 
-* **Serie de Maclaurin:** Es el caso especial donde el centro es $a=0$:
+* **Serie de Mac Laurin:** Es el caso especial donde el centro es $a=0$:
     $$f(x) = f(0) + \frac{x}{1!}f'(0) + \frac{x^2}{2!}f(0) + \dots + \frac{x^n}{n!}f^{(n)}(0) + \dots$$
 
 ---
@@ -28,10 +28,10 @@ $$\lim_{n \to \infty} R_n(x) = 0$$
 
 ---
 
-### 3. Desarrollos de Funciones Elementales (Maclaurin) ⚡
+### 3. Desarrollos de Funciones Elementales (Mac Laurin) ⚡
 Estos desarrollos son válidos para toda la recta real ($\mathbb{R}$):
 
-| Función | Serie de Maclaurin | Desarrollo |
+| Función | Serie de Mac Laurin | Desarrollo |
 | :--- | :--- | :--- |
 | **Exponencial** 📈 | $\sum_{n=0}^{\infty} \frac{x^n}{n!}$ | $1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots$ |
 | **Seno** 🌊 | $\sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!}x^{2n+1}$ | $x - \frac{x^3}{3!} + \frac{x^5}{5!} - \dots$ |

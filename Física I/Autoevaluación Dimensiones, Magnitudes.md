@@ -38,6 +38,14 @@ Se evaluó la capacidad de aplicar reglas de derivación complejas.
 
 ### 🛠️ Regla del Cociente
 Para derivar $f(x) = \frac{6x^2}{2 \cos(x)}$:
+Si tenemos $f(x) = \frac{u}{v}$, su derivada es:
+$$f'(x) = \frac{u' \cdot v - u \cdot v'}{v^2}$$
+
+* **Ejercicio resuelto:** $\frac{6x^2}{2 \cos x}$
+  1. Identificamos $u = 6x^2$ (derivada $12x$) y $v = 2 \cos x$ (derivada $-2 \sin x$).
+  2. Aplicamos la regla:
+  $$f'(x) = \frac{(12x)(2 \cos x) - (6x^2)(-2 \sin x)}{(2 \cos x)^2}$$
+  $$f'(x) = \frac{24x \cos x + 12x^2 \sin x}{4 \cos^2 x}$$ ✅
 * **Fórmula:** $\frac{u'v - uv'}{v^2}$
 * **Resultado:** $$\frac{24x \cos(x) + 12x^2 \sin(x)}{4 \cos^2(x)}$$
 

@@ -1,4 +1,4 @@
-# 📑 Resumen: Diferenciación e Integración de Series de Potencias
+# 📑 Actividad Diferenciación e Integración de Series de Potencias
 
 Este documento detalla la resolución de ejercicios prácticos y la justificación técnica de conceptos clave sobre el desarrollo y manipulación de series de potencias.
 

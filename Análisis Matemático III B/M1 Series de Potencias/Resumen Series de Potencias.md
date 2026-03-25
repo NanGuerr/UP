@@ -1,4 +1,4 @@
-# 📚 Resumen Series de Potencias 🎓
+# 📚 Resumen: Series de Potencias 🎓
 
 Aquí se conecta el cálculo avanzado con aplicaciones prácticas como la teoría de señales y la acústica. 🔊
 

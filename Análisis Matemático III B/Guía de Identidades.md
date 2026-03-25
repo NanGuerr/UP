@@ -14,7 +14,7 @@ Vitales para convertir potencias de $\sin$ o $\cos$ en términos lineales. Indis
 
 ---
 
-## 2. Identidades de Producto a Suma
+## 2. Identidades de Producto a Suma (Identidades de Ortogonalidad)
 Fundamentales para calcular los coeficientes de Fourier ($a_n$ y $b_n$). Estas identidades explican la ortogonalidad en intervalos simétricos.
 
 * $\sin(mx)\cos(nx) = \frac{1}{2} [\sin((m+n)x) + \sin((m-n)x)]$

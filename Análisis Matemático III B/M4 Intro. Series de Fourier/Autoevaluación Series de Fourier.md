@@ -57,6 +57,30 @@ Este documento detalla los enunciados y las soluciones correctas de la autoevalu
 * **Respuesta correcta:** Falso
 * **Justificación:** 🌊 La función $f(x) = \cos(x)$ es una función **par**. Para cualquier función par, los coeficientes $b_n$ (senos) son estrictamente iguales a $0$.
 
+### 🔢 Pregunta 11: Coeficiente Independiente $a_0$
+**Enunciado:** El coeficiente independiente $a_0$ de la función $f(x) = x^4$ es distinto de $0$ en cualquier intervalo $(-l, l)$.
+
+* **Respuesta:** ✅ **Verdadero**
+* **Justificación:** Como $f(x) = x^4$ es una función **par** y no negativa, su integral en un intervalo simétrico $(-l, l)$ no se anula. El coeficiente se calcula como:
+    $$a_0 = \frac{1}{l} \int_{-l}^{l} x^4 dx$$
+    Dado que el área bajo la curva de $x^4$ es positiva en cualquier intervalo alrededor del origen, el resultado siempre será un valor real distinto de cero. 📈
+
+### 📐 Pregunta 12: Linealidad de la Serie de Fourier
+**Enunciado:** La serie de Fourier es un operador lineal.
+
+* **Respuesta:** ✅ **Verdadero**
+* **Explicación:** Un operador $T$ se considera **lineal** cuando cumple con la propiedad de linealidad al aplicarse sobre funciones $f$ y $g$. 
+
+---
+
+#### ✨ Definición de Operador Lineal:
+Se verifica la linealidad si:
+$$T(af + bg) = aT(f) + bT(g)$$
+Para todos los escalares $a, b \in \mathbb{R}$ y para todo par de funciones $f, g$.
+
+**¿Por qué aplica a la Serie de Fourier?** 🛠️
+Debido a que los coeficientes de Fourier ($a_n, b_n$) se obtienen mediante integrales, y la integral es por definición un operador lineal, la serie completa hereda esta propiedad. Esto permite calcular la serie de una combinación de funciones sumando las series de cada una por separado.
+
 ---
 
 ## 📊 Resumen de Propiedades: Paridad y Coeficientes
@@ -73,3 +97,7 @@ Este documento detalla los enunciados y las soluciones correctas de la autoevalu
 1.  **Identifica la Paridad Primero:** Antes de integrar, mira si la función es par o impar. Esto te ahorrará la mitad del trabajo. 🕒
 2.  **Puntos de Discontinuidad:** Si ves un "salto" en la gráfica, la serie convergerá al punto medio del salto, no al valor de la función. 🌉
 3.  **Continuidad en los Extremos:** Para la convergencia en toda la recta real, los valores en los extremos del intervalo deben coincidir para que la repetición periódica sea fluida. 🔄
+
+---
+
+*Documento preparado para estudio de examen parcial.* 🎓

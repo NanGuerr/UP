@@ -1,5 +1,3 @@
----
-
 # 📚 Guía de Estudio: Módulo 4 - Estática del Punto Material
 
 ## 1. Concepto de Fuerza y Carácter Vectorial 🏹

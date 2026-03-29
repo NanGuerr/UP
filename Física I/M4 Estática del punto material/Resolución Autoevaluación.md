@@ -31,7 +31,7 @@ Calculamos las proyecciones en los ejes $x$ e $y$:
 
 | Fuerza | Componente en $X$ ($F \cdot \cos \theta$) | Componente en $Y$ ($F \cdot \sin \theta$) |
 | :--- | :--- | :--- |
-| $T_C$ | $0,866 \cdot |\vec{T}_C|$ | $0,5 \cdot |\vec{T}_C|$ |
+| $T_C$ | $0,866 \cdot |\vec{T}_C|$ | $0,5 \cdot \vec{T}_C|$ |
 | $T_B$ | $-0,643 \cdot |\vec{T}_B|$ | $0,766 \cdot |\vec{T}_B|$ |
 | $P$ | $0$ | $-300$ kgf |
 

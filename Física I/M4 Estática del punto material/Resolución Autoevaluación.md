@@ -1,86 +1,86 @@
-# 🏗️ Resolución: Autoevaluación - Pregunta 1
+# 🏗️ Resolución de Autoevaluación: Estática y Equilibrio
 
-## Equilibrio en el Levantamiento de la Caja 📦
-
-Este documento detalla el procedimiento analítico para calcular las fuerzas de tensión necesarias para mantener un sistema en equilibrio, aplicando el **método de las proyecciones**.
+Este documento detalla la resolución técnica de los problemas de equilibrio de fuerzas, aplicando el método de proyecciones y condiciones de equilibrio para un punto material.
 
 ---
+
+## 📦 Pregunta 1: Equilibrio en el levantamiento de la caja
+
+**Enunciado:** Los hombres de la figura desean levantar una caja que pesa $300 \text{ Kgf}$. Se debe calcular la fuerza mínima (tensión) que cada uno debe realizar en los puntos B y C. 👷‍♂️💪
 
 ### 1. Identificación del Punto Material y Datos 📍
-Consideramos el **punto A** como nuestro punto material (donde convergen todas las fuerzas).
+Consideramos el punto **A** como nuestro punto material, ya que es el lugar donde concurren todas las fuerzas.
 
-* **Peso de la caja ($\vec{P}$):** $300 \text{ kgf}$ hacia abajo ($\theta = 270^\circ$).
-* **Tensión B ($\vec{T}_B$):** Fuerza del hombre de la izquierda ($50^\circ$ con la horizontal).
-* **Tensión C ($\vec{T}_C$):** Fuerza del hombre de la derecha ($30^\circ$ con la horizontal).
+* **Peso de la caja ($\vec{P}$):** $300 \text{ Kgf}$ hacia abajo ($\theta_P = 270^\circ$). 垂直
+* **Tensión $B$ ($\vec{T}_B$):** Ángulo de $50^\circ$ respecto a la horizontal (Izquierda).
+* **Tensión $C$ ($\vec{T}_C$):** Ángulo de $30^\circ$ respecto a la horizontal (Derecha).
 
----
+### 2. Diagrama de Cuerpo Libre (DCL) 📝
 
-### 2. Diagrama de Cuerpo Libre (DCL) 📊
-Para el análisis, ubicamos las fuerzas en el plano cartesiano:
-
-* **$\vec{T}_C$:** 1er cuadrante $\rightarrow \theta_C = 30^\circ$
-* **$\vec{T}_B$:** 2do cuadrante $\rightarrow \theta_B = 180^\circ - 50^\circ = 130^\circ$
-* **$\vec{P}$:** Eje Y negativo $\rightarrow \theta_P = 270^\circ$
-
----
+Representamos las fuerzas en un sistema de ejes cartesianos:
+* $\vec{T}_B$ (2do cuadrante): $\theta_B = 180^\circ - 50^\circ = 130^\circ$.
+* $\vec{T}_C$ (1er cuadrante): $\theta_C = 30^\circ$.
+* $\vec{P}$ (Eje Y negativo): $270^\circ$.
 
 ### 3. Descomposición Analítica de Fuerzas 📐
-Calculamos las proyecciones en los ejes $x$ e $y$:
+Calculamos las componentes utilizando el método de las proyecciones:
 
-Para resolver el equilibrio del punto material, desglosamos cada vector en sus componentes rectangulares utilizando las funciones trigonométricas $\sin$ y $\cos$.
+**Para $\vec{T}_C$:**
+* $T_{Cx} = |\vec{T}_C| \cdot \cos(30^\circ) = |\vec{T}_C| \cdot 0,866$
+* $T_{Cy} = |\vec{T}_C| \cdot \sin(30^\circ) = |\vec{T}_C| \cdot 0,5$
 
-1. Componentes de la Tensión $C$ ($\vec{T}_C$) 🔵
+**Para $\vec{T}_B$:**
+* $T_{Bx} = |\vec{T}_B| \cdot \cos(130^\circ) = -|\vec{T}_B| \cdot 0,643$
+* $T_{By} = |\vec{T}_B| \cdot \sin(130^\circ) = |\vec{T}_B| \cdot 0,766$
 
-Ángulo: $30^\circ$ (Primer cuadrante)
-En X: $T_{Cx}$ = $|\vec{T}_C|\cdot \cos(30^\circ) = $|\vec{T}_C| \cdot 0,866$
-En Y: $T_{Cy}$ = $|\vec{T}_C|$ $\cdot \sin(30^\circ)$ = $|\vec{T}_C| \cdot 0,5$
-
-2. Componentes de la Tensión $B$ ($\vec{T}_B$) 🔴
-
-Ángulo: $130^\circ$ (Segundo cuadrante)
-En X: $T_{Bx}$ = |\vec{T}_B| \cdot \cos(130^\circ) = $-|\vec{T}_B| \cdot 0,643$
-En Y: $T_{By}$ = |\vec{T}_B| \cdot \sin(130^\circ) = $|\vec{T}_B| \cdot 0,766$
-
-3. Componentes del Peso ($\vec{P}$) ⚪
-
-Ángulo: $270^\circ$ (Vertical hacia abajo)
-En X: $P_x = 0$
-En Y: $P_y = -300 \text{ kgf}$
-
----
+**Para el Peso $\vec{P}$:**
+* $P_x = 0$
+* $P_y = -300 \text{ Kgf}$
 
 ### 4. Ecuaciones de Equilibrio ⚖️
-Para que el punto material no se mueva, la sumatoria de fuerzas en ambos ejes debe ser **cero**:
+Para el equilibrio, $\sum \vec{F} = 0$:
 
-1.  **Eje X:** $0,866 \cdot |\vec{T}_C| - 0,643 \cdot |\vec{T}_B| = 0$
-2.  **Eje Y:** $0,5 \cdot |\vec{T}_C| + 0,766 \cdot |\vec{T}_B| - 300 = 0$
+* **Eje X:** $0,866 \cdot |\vec{T}_C| - 0,643 \cdot |\vec{T}_B| = 0$ (Ecuación 1)
+* **Eje Y:** $0,5 \cdot |\vec{T}_C| + 0,766 \cdot |\vec{T}_B| - 300 = 0$ (Ecuación 2)
 
----
-
-### 5. Resolución del Sistema 📝
-Despejamos e igualamos las variables:
-
-* **Paso 1:** Despejamos $|\vec{T}_C|$ de la primera ecuación:
-    $$|\vec{T}_C| = \frac{0,643}{0,866} \cdot |\vec{T}_B| \approx 0,742 \cdot |\vec{T}_B|$$
-
-* **Paso 2:** Sustituimos en la segunda ecuación:
+### 5. Resolución del Sistema 🚀
+1.  **Despejamos $|\vec{T}_C|$ de la Ec. 1:**
+    $$|\vec{T}_C| \approx 0,742 \cdot |\vec{T}_B|$$
+2.  **Sustituimos en la Ec. 2:**
     $$0,5 \cdot (0,742 \cdot |\vec{T}_B|) + 0,766 \cdot |\vec{T}_B| = 300$$
-    $$1,137 \cdot |\vec{T}_B| = 300$$
-    **$|\vec{T}_B| \approx 263,85 \text{ kgf}$**
+    $$1,137 \cdot |\vec{T}_B| = 300 \Rightarrow |\vec{T}_B| \approx 263,85 \text{ Kgf}$$
+3.  **Calculamos $|\vec{T}_C|$:**
+    $$|\vec{T}_C| = 0,742 \cdot 263,85 \approx 195,78 \text{ Kgf}$$
 
-* **Paso 3:** Hallamos $|\vec{T}_C|$:
-    $$|\vec{T}_C| = 0,742 \cdot 263,85 \approx 195,78 \text{ kgf}$$
-
----
-
-### ✅ Resultado Final
-Comparando con las opciones del sistema:
-* **$|\vec{T}_C| = 195,81 \text{ kgf}$**
-* **$|\vec{T}_B| = 263,81 \text{ kgf}$**
-
-> [!TIP]
-> **La opción correcta es la segunda.**
+**Resultado Final:**
+* $|\vec{T}_C| = 195,81 \text{ Kgf}$
+* $|\vec{T}_B| = 263,81 \text{ Kgf}$
+* ✅ **La opción correcta es la segunda.**
 
 ---
 
-Por cierto, para desbloquear la funcionalidad completa de todas las aplicaciones, habilita la [actividad en las aplicaciones de Gemini](https://myactivity.google.com/product/gemini).
+## 🛑 Pregunta 2: Verificación de Equilibrio de Fuerzas
+
+**Datos del sistema:**
+* **Fuerza $F_1$:** $|F_1| = 50 \text{ Kgf}$ a $53^\circ$ (1er cuadrante). ↗️
+* **Fuerza $F_3$:** $|F_3| = 42,55 \text{ Kgf}$ a $45^\circ$ del eje Y negativo ($\theta = 315^\circ$). ↘️
+* **Fuerza $F_2$:** Horizontal hacia la izquierda ($\theta = 180^\circ$). ⬅️
+
+### 1. Descomposición de Componentes 🔍
+* **Componentes de $F_1$:**
+    * $F_{1x} = 50 \cdot \cos(53^\circ) \approx 30,09 \text{ Kgf}$
+    * $F_{1y} = 50 \cdot \sin(53^\circ) \approx 39,93 \text{ Kgf}$
+* **Componentes de $F_3$:**
+    * $F_{3x} = 42,55 \cdot \cos(315^\circ) \approx 30,09 \text{ Kgf}$
+    * $F_{3y} = 42,55 \cdot \sin(315^\circ) \approx -30,09 \text{ Kgf}$
+
+### 2. Análisis del Equilibrio en el Eje Y ↕️
+Dado que $F_2$ es puramente horizontal ($F_{2y} = 0$), el equilibrio vertical depende solo de $F_1$ y $F_3$:
+
+$$\sum F_y = F_{1y} + F_{3y}$$
+$$\sum F_y = 39,93 \text{ Kgf} - 30,09 \text{ Kgf} = 9,84 \text{ Kgf}$$
+
+### 3. Conclusión Final ❌
+Como $\sum F_y \neq 0$, existe una fuerza resultante hacia arriba que **no puede ser compensada** por una fuerza horizontal como $F_2$.
+
+**Respuesta:** **No es posible** alcanzar el equilibrio.

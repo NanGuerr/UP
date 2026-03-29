@@ -67,7 +67,7 @@ Este documento detalla los enunciados y las soluciones correctas de la autoevalu
 **Enunciado:** La serie de Fourier es un operador lineal.
 
 * **Respuesta:** ✅ **Verdadero**
-* **Explicación:** Un operador $T$ se considera **lineal** cuando cumple con la propiedad de linealidad al aplicarse sobre funciones $f$ y $g$. 
+* **Justificación:** Un operador $T$ se considera **lineal** cuando cumple con la propiedad de linealidad al aplicarse sobre funciones $f$ y $g$. 
 
 ---
 

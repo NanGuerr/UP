@@ -1,6 +1,4 @@
-# 📊 Autoevaluación Magnitudes Escalares y Vectoriales
-
-¡Claro que sí! Aquí tienes la información organizada en un archivo de formato Markdown (`.md`), estructurada para que sea fácil de leer y con los toques visuales que pediste.
+# 📊 Resolución Autoevaluación M1
 
 ---
 

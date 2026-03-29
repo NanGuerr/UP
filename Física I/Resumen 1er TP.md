@@ -45,7 +45,5 @@ Este documento resume el análisis realizado sobre un cilindro metálico para id
 | **Volumen** 🧊 | $6800 \text{ mm}^3$ | $50 \text{ mm}^3$ | $(6800 \pm 50) \text{ mm}^3$ |
 | **Densidad** 🔬 | $7360 \text{ kg/m}^3$ | $60 \text{ kg/m}^3$ | $(7360 \pm 60) \text{ kg/m}^3$ |
 
-[cite: 408]
-
 ---
-¿Te gustaría que profundice en el código Python utilizado para estos cálculos o en alguna de las fórmulas de propagación?
+

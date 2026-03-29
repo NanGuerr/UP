@@ -1,5 +1,3 @@
-# 🎓 Universidad de Palermo - Facultad de Ingeniería
-
 ## 📐 Análisis Matemático 3B: Primer Parcial
 
 **Información del Examen:**

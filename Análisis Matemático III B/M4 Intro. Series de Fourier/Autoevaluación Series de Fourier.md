@@ -4,8 +4,6 @@ Este documento detalla los enunciados y las soluciones correctas de la autoevalu
 
 ---
 
-## 📝 Desarrollo de Preguntas
-
 ### 🔢 Pregunta 1
 **Enunciado:** La serie de Fourier en el intervalo $(-l, l)$ de la función $f(x) = x$ es:
 * **Respuesta correcta:** $a_0 = 0$ y $a_n = 0$
@@ -92,7 +90,7 @@ Debido a que los coeficientes de Fourier ($a_n, b_n$) se obtienen mediante integ
 
 ---
 
-## 💡 Tips para tu próximo examen
+## 💡 Tips para el parcial
 
 1.  **Identifica la Paridad Primero:** Antes de integrar, mira si la función es par o impar. Esto te ahorrará la mitad del trabajo. 🕒
 2.  **Puntos de Discontinuidad:** Si ves un "salto" en la gráfica, la serie convergerá al punto medio del salto, no al valor de la función. 🌉

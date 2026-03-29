@@ -32,14 +32,14 @@ Para resolver el equilibrio del punto material, desglosamos cada vector en sus c
 1. Componentes de la Tensión $C$ ($\vec{T}_C$) 🔵
 
 Ángulo: $30^\circ$ (Primer cuadrante)
-En X: $T_{Cx}$ = $|\vec{T}_C|$ $\cdot \cos(30^\circ)$ = $|\vec{T}_C| \cdot 0,866$
+En X: $T_{Cx}$ = $|\vec{T}_C|\cdot \cos(30^\circ) = $|\vec{T}_C| \cdot 0,866$
 En Y: $T_{Cy}$ = $|\vec{T}_C|$ $\cdot \sin(30^\circ)$ = $|\vec{T}_C| \cdot 0,5$
 
 2. Componentes de la Tensión $B$ ($\vec{T}_B$) 🔴
 
 Ángulo: $130^\circ$ (Segundo cuadrante)
-En X: $T_{Bx} = |\vec{T}_B| \cdot \cos(130^\circ) = -|\vec{T}_B| \cdot 0,643$
-En Y: $T_{By} = |\vec{T}_B| \cdot \sin(130^\circ) = |\vec{T}_B| \cdot 0,766$
+En X: $T_{Bx}$ = |\vec{T}_B| \cdot \cos(130^\circ) = $-|\vec{T}_B| \cdot 0,643$
+En Y: $T_{By}$ = |\vec{T}_B| \cdot \sin(130^\circ) = $|\vec{T}_B| \cdot 0,766$
 
 3. Componentes del Peso ($\vec{P}$) ⚪
 

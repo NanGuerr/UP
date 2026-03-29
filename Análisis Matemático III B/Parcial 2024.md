@@ -1,4 +1,4 @@
-## 📐 Análisis Matemático 3B: Primer Parcial
+# 📚 Parcial: Análisis Matemático IIIB 2024
 
 **Información del Examen:**
 * **Requisito de aprobación:** Mínimo de 55 puntos. ✅

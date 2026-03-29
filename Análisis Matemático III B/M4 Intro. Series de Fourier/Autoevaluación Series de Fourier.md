@@ -1,4 +1,4 @@
-# 📚 Resolución de Autoevaluación: Series de Fourier
+# 📚 Autoevaluación: Series de Fourier
 
 Este documento detalla los enunciados y las soluciones correctas de la autoevaluación, analizando las propiedades de paridad, convergencia y coeficientes.
 

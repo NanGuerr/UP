@@ -29,11 +29,11 @@ Para el análisis, ubicamos las fuerzas en el plano cartesiano:
 ### 3. Descomposición Analítica de Fuerzas 📐
 Calculamos las proyecciones en los ejes $x$ e $y$:
 
-| Fuerza | Componente en X ($F \cdot \cos \theta$) | Componente en Y ($F \cdot \sin \theta$) |
+| Fuerza | Componente en $X$ ($F \cdot \cos \theta$) | Componente en $Y$ ($F \cdot \sin \theta$) |
 | :--- | :--- | :--- |
-| **$\vec{T}_C$** | $0,866 \cdot |\vec{T}_C|$ | $0,5 \cdot |\vec{T}_C|$ |
-| **$\vec{T}_B$** | $-0,643 \cdot |\vec{T}_B|$ | $0,766 \cdot |\vec{T}_B|$ |
-| **$\vec{P}$** | $0$ | $-300 \text{ kgf}$ |
+| $T_C$ | $0,866 \cdot |\vec{T}_C|$ | $0,5 \cdot |\vec{T}_C|$ |
+| $T_B$ | $-0,643 \cdot |\vec{T}_B|$ | $0,766 \cdot |\vec{T}_B|$ |
+| $P$ | $0$ | $-300$ kgf |
 
 ---
 

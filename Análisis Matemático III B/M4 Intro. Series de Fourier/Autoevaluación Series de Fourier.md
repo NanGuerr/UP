@@ -14,7 +14,7 @@ Este documento detalla los enunciados y las soluciones correctas de la autoevalu
 ### 🔢 Pregunta 2
 **Enunciado:** La serie de Fourier en el intervalo $(-l, l)$ de la función $f(x) = x^2$ es:
 * **Respuesta correcta:** $b_n = 0$
-* **Justificación:** 🪞 La función $f(x) = x^2$ es una función **par** ($f(-x) = f(x)$). En este caso, la gráfica es perfectamente simétrica respecto al eje vertical, lo que hace que la integral que define a los coeficientes de los senos se anule por completo.
+* **Justificación:** 🪞 La función $f(x) = x^2$ es una función **par** $f(-x) = f(x)$. En este caso, la gráfica es perfectamente simétrica respecto al eje vertical, lo que hace que la integral que define a los coeficientes de los senos se anule por completo.
 
 ### 🔢 Pregunta 3
 **Enunciado:** La serie de Fourier en el intervalo $(-5, 5)$ de la función: $f(x) = I_{(-5,0)}(x) + xI_{(0,5)}(x)$ es:

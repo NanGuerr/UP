@@ -11,7 +11,7 @@ Este documento detalla la resolución técnica de los problemas de equilibrio de
 ### 1. Identificación del Punto Material y Datos 📍
 Consideramos el punto **A** como nuestro punto material, ya que es el lugar donde concurren todas las fuerzas.
 
-* **Peso de la caja ($\vec{P}$):** $300 \text{ Kgf}$ hacia abajo ($\theta_P = 270^\circ$). 垂直
+* **Peso de la caja ($\vec{P}$):** $300 \text{ Kgf}$ hacia abajo ($\theta_P = 270^\circ$). 
 * **Tensión $B$ ($\vec{T}_B$):** Ángulo de $50^\circ$ respecto a la horizontal (Izquierda).
 * **Tensión $C$ ($\vec{T}_C$):** Ángulo de $30^\circ$ respecto a la horizontal (Derecha).
 

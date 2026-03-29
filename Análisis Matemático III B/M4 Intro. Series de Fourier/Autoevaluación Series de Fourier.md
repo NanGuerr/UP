@@ -9,7 +9,7 @@ Este documento detalla los enunciados y las soluciones correctas de la autoevalu
 ### 🔢 Pregunta 1
 **Enunciado:** La serie de Fourier en el intervalo $(-l, l)$ de la función $f(x) = x$ es:
 * **Respuesta correcta:** $a_0 = 0$ y $a_n = 0$
-* **Justificación:** ⚖️ La función $f(x) = x$ es una función **impar** ($f(-x) = -f(x)$. Por propiedad matemática, en cualquier intervalo simétrico $(-l, l)$, todos los coeficientes que acompañan a los cosenos ($a_n$) y el término independiente ($a_0$) se anulan. Solo sobreviven los coeficientes de los senos ($b_n$).
+* **Justificación:** ⚖️ La función $f(x) = x$ es una función **impar** $f(-x) = -f(x)$. Por propiedad matemática, en cualquier intervalo simétrico $(-l, l)$, todos los coeficientes que acompañan a los cosenos ($a_n$) y el término independiente ($a_0$) se anulan. Solo sobreviven los coeficientes de los senos ($b_n$).
 
 ### 🔢 Pregunta 2
 **Enunciado:** La serie de Fourier en el intervalo $(-l, l)$ de la función $f(x) = x^2$ es:

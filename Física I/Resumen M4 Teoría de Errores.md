@@ -1,4 +1,4 @@
-# 📊 Resumen de Teoría de Errores
+# 📊 Resumen M4 Teoría de Errores
 
 
 Basado en el material de estudio y el syllabus de Física I para el Módulo 2, esta guía se centra en comprender que toda medida física es inexacta y requiere un tratamiento matemático para determinar su grado de confiabilidad.

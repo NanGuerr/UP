@@ -29,12 +29,12 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 
 | Periodo | Ubicación | Foco Académico |
 | :--- | :--- | :--- |
-| **Marzo - Julio 2026** | 🇻🇪 Venezuela | Matemáticas y Física I |
-| **Agosto - Dic 2026** | 🇨🇴 Colombia | Señales y Arquitectura |
-| **Marzo - Julio 2027** | 🇨🇴 Colombia | Base de Electrónica y Sistemas Embebidos |
-| **Agosto - Dic 2027** | 🇦🇷 Argentina | Comunicaciones e Infraestructura |
-| **Agosto - Dic 2028** | 🇦🇷 Argentina | Redes y Gestión |
-| **Marzo - Julio 2029** | 🇦🇷 Argentina | Final de Carrera |
+| **Marzo - Julio 2026** |  | Matemáticas y Física I |
+| **Agosto - Dic 2026** |  | Señales y Arquitectura |
+| **Marzo - Julio 2027** |  | Base de Electrónica y Sistemas Embebidos |
+| **Agosto - Dic 2027** |  | Comunicaciones e Infraestructura |
+| **Agosto - Dic 2028** |  | Redes y Gestión |
+| **Marzo - Julio 2029** |  | Final de Carrera |
 
 ---
 

@@ -74,4 +74,3 @@ Aplicación de reglas fundamentales de derivación (Regla de la potencia, suma y
 
 ---
 *Material de apoyo para la cátedra de Física I.*
-```

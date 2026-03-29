@@ -1,7 +1,5 @@
 # 📚 Resolución Autoevaluación M 1
 
-Este documento resume los ejercicios clave de la **Unidad 1: Dimensiones, magnitudes, unidades y herramientas matemáticas**, basados en el material de la Universidad de Palermo.
-
 ---
 
 ## 📐 Pregunta 1: Descomposición de Vectores (Cuadrante I)

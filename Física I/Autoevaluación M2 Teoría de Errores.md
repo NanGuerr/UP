@@ -1,4 +1,4 @@
-# 📏 Resolución de Actividad: Teoría de Errores 🔍
+# 📏 Autoevaluación: Teoría de Errores 🔍
 
 Para resolver estos ejercicios, aplicaremos las reglas de **cifras significativas** y **redondeo de errores** detalladas en el material de Hidalgo y los apuntes de la UP:
 

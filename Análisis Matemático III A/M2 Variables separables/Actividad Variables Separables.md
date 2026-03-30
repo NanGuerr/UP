@@ -1,4 +1,4 @@
-# 📝 Resolución de Ecuación Diferencial de Variables Separables
+# 📝 Resolución Actividad de Ecuación Diferencial de Variables Separables
 
 Resumen del procedimiento paso a paso para hallar la solución general de la ecuación diferencial propuesta, aplicando técnicas de factorización, integración por sustitución y propiedades logarítmicas. 🧠
 

@@ -58,5 +58,3 @@ Piensa en una **cerradura** 🔒 (la ecuación diferencial) que no abre con los 
 4.  ✅ **Resolver:** Resuelve la nueva ecuación (que ahora es exacta) mediante el método de integración de funciones de varias variables.
 
 ---
-
-¿Te gustaría que te ayude a crear un ejemplo práctico donde apliquemos una de estas fórmulas paso a paso? 📝

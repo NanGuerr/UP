@@ -22,7 +22,7 @@ Este documento contiene una recopilación de ejercicios sobre **Ecuaciones de Va
 | **k)** 🟦 | $(xy+x)dx=(x^{2}y^{2}+x^{2}+y^{2}+1)dy$ | $\frac{y^{2}}{2}-y+2~ln|y+1|=\frac{1}{2}ln(x^{2}+1)+C$ |
 | **l)** 🟨 | $y\cdot ln~x\cdot ln~y~dx+dy=0$ | $y=e^{cx^{x}\cdot e^{-x}}$ |
 | **m)** 🟧 | $3e^{x}\cdot tg~y~dx+(2-e^{x})\cdot sec^{2}y~dy=0$ | $y=C\cdot(e^{x}-2)^{3}$ |
-
+$3e^{x}\cdot tg~y~dx+(2-e^{x})\cdot sec^{2}y~dy=0$
 ---
 
 ## 🎯 Parte 2: Problemas de Aplicación y Valores Iniciales

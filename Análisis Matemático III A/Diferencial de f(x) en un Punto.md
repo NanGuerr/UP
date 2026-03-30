@@ -1,7 +1,7 @@
 
 # 📈 El Diferencial de una Función en un Punto
 
-Este documento explica la definición, interpretación geométrica y propiedades del diferencial de una función $y=f(x)$.
+Resumen de la definición, interpretación geométrica y propiedades del diferencial de una función $y=f(x)$.
 
 ---
 

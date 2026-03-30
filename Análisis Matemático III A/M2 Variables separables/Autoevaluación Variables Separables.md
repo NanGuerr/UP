@@ -72,6 +72,6 @@ Muchas veces, al integrar, obtenemos una **solución implícita** de la forma $H
     Como $5 = 5$, la curva pasa por el punto $(1,3)$. ✅
 
 🎯 **Respuesta:** **b) Es la solución particular de la ecuación $y' = 2/y$ que verifica $y(1) = 3$.**
-*(No es la general porque carece de la constante arbitraria $C$)*.
+*(No es la general porque carece de la constante arbitraria C)*.
 
 ---

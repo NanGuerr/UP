@@ -1,8 +1,6 @@
 # 📘 Resumen: Ecuaciones Diferenciales Homogéneas
 
-¡Hola! He analizado a fondo todos los materiales que compartiste para el **Análisis Matemático IIIA**. Esto incluye la bibliografía de **Zill**, los apuntes teóricos, la guía de ejercicios (con sus soluciones) y los dos videos de Khan Academy.
-
-Aquí tienes un resumen estructurado con los conceptos clave que necesitas dominar:
+Resumen estructurado con los conceptos clave a dominar, apuntes teóricos y videos de Khan Academy.
 
 ---
 

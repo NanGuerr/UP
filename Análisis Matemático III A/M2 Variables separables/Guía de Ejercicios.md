@@ -9,7 +9,7 @@ Este documento contiene una recopilación de ejercicios sobre **Ecuaciones de Va
 
 | Ejercicio | Ecuación Diferencial | Solución General |
 | :--- | :--- | :--- |
-| **a)** 🟢 | $y^{\prime}=\frac{2x}{y}$ | $|y|=\sqrt{2x^{2}+C}$ |
+| **a)** 🟢 | $y^{\prime}=\frac{2x}{y}$ | $y=\sqrt{2x^{2}+C}$ |
 | **b)** 🔵 | $\frac{dy}{dx}=1+y$ | $y=C\cdot e^{x}-1$ |
 | **c)** 🟡 | $x\cdot ydx+e^{-x^{2}}(y^{2}-1)dy=0$ | $\frac{y^{2}}{2}-ln|y|=-\frac{1}{2}e^{x^{2}}+C$  |
 | **d)** 🟠 | $y^{\prime}=\frac{b^{2}x}{a^{2}y}$ | $\frac{a^{2}y^{2}}{2}=\frac{b^{2}x^{2}}{2}+C$ |

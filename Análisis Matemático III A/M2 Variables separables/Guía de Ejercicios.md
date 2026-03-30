@@ -14,12 +14,12 @@ Este documento contiene una recopilación de ejercicios sobre **Ecuaciones de Va
 | **c)** 🟡 | $x\cdot ydx+e^{-x^{2}}(y^{2}-1)dy=0$ | $\frac{y^{2}}{2}-ln$ $y=-\frac{1}{2}e^{x^{2}}+C$ |
 | **d)** 🟠 | $y^{\prime}=\frac{b^{2}x}{a^{2}y}$ | $\frac{a^{2}y^{2}}{2}=\frac{b^{2}x^{2}}{2}+C$ |
 | **e)** 🔴 | $x^{3}\frac{dy}{dx}+y^{2}=0$ | $y=\frac{2x^{2}}{1+2Cx^{2}}$ |
-| **f)** 🟣 | $\frac{dy}{dx}=\frac{senx}{cosy}$ | $sen~y=-cosx+C$ |
+| **f)** 🟣 | $\frac{dy}{dx}=\frac{senx}{cosy}$ | $seny=-cosx+C$ |
 | **g)** ⚫ | $\frac{dy}{dx}=\frac{y}{2x}$ | $y=C\cdot x^{\frac{1}{2}}$ |
 | **h)** ⚪ | $\frac{dy}{dx}=e^{-y}\cdot cos~x$ | $y=ln(sen~x+C)$ |
-| **i)** 🟤 | $x\cdot ydx+y^{2}\frac{dy}{dx}=6x$ | $-y^{2}-6y-36ln$| $y-6=x^{2}+C$ |
+| **i)** 🟤 | $x\cdot ydx+y^{2}\frac{dy}{dx}=6x$ | $-y^{2}-6y-36ln$ $y-6=x^{2}+C$ |
 | **j)** 🟩 | $x\cdot ydx-(x+2)dy=0$ | $y=\frac{c\cdot e^{x}}{(x+2)^{2}}$ |
-| **k)** 🟦 | $(xy+x)dx=(x^{2}y^{2}+x^{2}+y^{2}+1)dy$ | $\frac{y^{2}}{2}-y+2ln$ | $|y+1|=\frac{1}{2}ln(x^{2}+1)+C$ |
+| **k)** 🟦 | $(xy+x)dx=(x^{2}y^{2}+x^{2}+y^{2}+1)dy$ | $\frac{y^{2}}{2}-y+2ln$ $y+1=\frac{1}{2}ln(x^{2}+1)+C$ |
 | **l)** 🟨 | $y\cdot lnx\cdot lnydx+dy=0$ | $y=e^{cx^{x}\cdot e^{-x}}$ |
 | **m)** 🟧 | $3e^{x}\cdot tgydx+(2-e^{x})\cdot sec^{2}ydy=0$ | $y=C\cdot(e^{x}-2)^{3}$ |
 

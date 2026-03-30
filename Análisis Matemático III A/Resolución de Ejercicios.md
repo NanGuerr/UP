@@ -1,4 +1,4 @@
-# 📝 Resolución Guía de Ejercicios: Ecuaciones Diferenciales Ordinarias
+# 📝 Resolución de Ejercicios: Ecuaciones Diferenciales Ordinarias
 
 A continuación, se presenta la resolución detallada de la **Unidad 1: Conceptos Introductorios**, siguiendo el cronograma oficial.
 

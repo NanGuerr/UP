@@ -44,6 +44,6 @@ $$n = 1$$
 La ecuación es homogénea si y solo si **$m = 3$** y **$n = 1$**. Esto permite que tanto $M$ como $N$ sean funciones de grado $4$ y que el argumento del logaritmo sea el cociente $(y/x)$, que es característico de estas ecuaciones. ✅
 
 **Respuesta correcta:**
-**d) $m=3 \wedge n=1$**
+**$m=3 \wedge n=1$**
 
 ---

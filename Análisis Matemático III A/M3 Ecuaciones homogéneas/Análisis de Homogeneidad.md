@@ -1,4 +1,4 @@
-# 📝 Resolución: Análisis de Homogeneidad en Ecuaciones Diferenciales
+# 📝 Resolución: Análisis de Homogeneidad
 
  Identificar los valores de $m$ y $n$ que hacen que la ecuación sea homogénea. 🧐
 

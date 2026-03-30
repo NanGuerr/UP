@@ -1,5 +1,4 @@
-# 📝 Reporte de Autoevaluación: Ecuaciones Diferenciales (Conceptos Introductorios)
-
+# 📝 Autoevaluación: Ecuaciones Diferenciales
 ---
 ## 🔍 Análisis de Preguntas
 

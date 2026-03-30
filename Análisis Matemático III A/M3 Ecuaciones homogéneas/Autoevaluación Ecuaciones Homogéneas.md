@@ -1,4 +1,4 @@
-# 📝 Resolución: Autoevaluación de Ecuaciones Diferenciales Homogéneas
+# 📝 Resolución: Autoevaluación de Ecuaciones Homogéneas
 
 A continuación, presento la resolución detallada de la autoevaluación, basada en los métodos de **sustitución** y **verificación de grado de homogeneidad** estudiados en el material de Zill y los apuntes de la cátedra. 📚
 

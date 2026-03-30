@@ -17,9 +17,9 @@ Este documento contiene una recopilación de ejercicios sobre **Ecuaciones de Va
 | **f)** 🟣 | $\frac{dy}{dx}=\frac{senx}{cosy}$ | $sen~y=-cosx+C$ |
 | **g)** ⚫ | $\frac{dy}{dx}=\frac{y}{2x}$ | $y=C\cdot x^{\frac{1}{2}}$ |
 | **h)** ⚪ | $\frac{dy}{dx}=e^{-y}\cdot cos~x$ | $y=ln(sen~x+C)$ |
-| **i)** 🟤 | $x\cdot ydx+y^{2}\frac{dy}{dx}=6x$ | $-y^{2}-6y-36ln$|y-6$$=x^{2}+C$ |
+| **i)** 🟤 | $x\cdot ydx+y^{2}\frac{dy}{dx}=6x$ | $-y^{2}-6y-36ln$| $y-6=x^{2}+C$ |
 | **j)** 🟩 | $x\cdot ydx-(x+2)dy=0$ | $y=\frac{c\cdot e^{x}}{(x+2)^{2}}$ |
-| **k)** 🟦 | $(xy+x)dx=(x^{2}y^{2}+x^{2}+y^{2}+1)dy$ | $\frac{y^{2}}{2}-y+2ln|y+1|=\frac{1}{2}ln(x^{2}+1)+C$ |
+| **k)** 🟦 | $(xy+x)dx=(x^{2}y^{2}+x^{2}+y^{2}+1)dy$ | $\frac{y^{2}}{2}-y+2ln$|y+1|=\frac{1}{2}ln(x^{2}+1)+C$ |
 | **l)** 🟨 | $y\cdot lnx\cdot lnydx+dy=0$ | $y=e^{cx^{x}\cdot e^{-x}}$ |
 | **m)** 🟧 | $3e^{x}\cdot tgydx+(2-e^{x})\cdot sec^{2}ydy=0$ | $y=C\cdot(e^{x}-2)^{3}$ |
 

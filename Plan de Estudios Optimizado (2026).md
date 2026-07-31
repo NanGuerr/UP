@@ -11,7 +11,6 @@
 
 ## ☀️ Verano — Enero - Febrero 2027
 
-* 🌐 `(027105)` Proyectos Internacionales Online
 * 📻 `(021436)` Conatel Taller de Radio
 
 ## 🚀 Semestre 4 (Destrabando la rama de Señales) — Marzo - Julio 2027

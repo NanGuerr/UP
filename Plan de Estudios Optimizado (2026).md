@@ -1,4 +1,4 @@
-# 📡 Verificación del Plan de Estudios 2026 vs Pensum UP - Ingeniería en Telecomunicaciones 🎓
+# 📡 Plan de Estudios 2026 🎓
 
 ## 🔍 Análisis de Correlativas y Materias Afectadas
 

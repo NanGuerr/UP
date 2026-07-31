@@ -32,13 +32,17 @@
 5. 📈 `(024886)` Teoría de la Información
 6. 🔬 `(023959)` Laboratorio de Electrónica (Req: Física IIb)
 
+## ☀️ Verano — Enero - Febrero 2028
+
+* ☁️ `(027221)` DevOps (Electiva)
+
 ## 📡 Semestre 6 (Comunicaciones e Infraestructura) — Marzo - Julio 2028
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Req: Dispositivos Electrónicos + Teoría de Circuitos)
 2. 🧲 `(026446)` Electromagnetismo (Req: Matemática Avanzada)
 3. 🎲 `(026448)` Procesos Estocásticos (Req: Señales y Sistemas + Probabilidad)
 4. 📶 `(026447)` Procesamiento de Señales (Req: Procesos Estocásticos + Álgebra Lineal)
-5. ☁️ `(027221)` DevOps (Electiva)
+5. 👔 `(026009)` Organización, Gestión y Entrepreneurship
 6. 🛡️ `(026319)` Seguridad Ambiental y del Trabajo
 
 ## 🌐 Semestre 7 (Sistemas Complejos) — Agosto - Diciembre 2028
@@ -48,7 +52,13 @@
 3. 🛰️ `(023962)` Dispositivos de Comunicaciones
 4. 📊 `(025920)` Modelos y Simulación (Electiva)
 5. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos
-6. 👔 `(026009)` Organización, Gestión y Entrepreneurship
+6. 💰 `(026532)` Fundamentos de Economía y Finanzas
+
+## ☀️ Verano — Enero - Febrero 2029
+
+* 🥳 *Cumpleaños de Andrés 13*
+* 🥳 *Cumpleaños de Esteban 9*
+* 🥳 *Cumpleaños de Efraín 8*
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 
@@ -57,17 +67,16 @@
 3. 🖥️ `(025418)` Sistemas Operativos (Electiva)
 4. ⚖️ `(025701)` Ingeniería Legal
 5. 🦾 `(027178)` Introducción a la Robótica (Electiva)
-6. 💰 `(026532)` Fundamentos de Economía y Finanzas
+6. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final
 
 ## 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029
 
-1. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final
+1. 🏢 `(027510)` Práctica Profesional Supervisada
 2. 📜 `(027513)` Trabajo Final de Grado
 3. ⚡ `(023961)` Circuitos Electrónicos II
 4. 📻 `(023968)` Conducción e Irradiación de Ondas (Req: Electromagnetismo)
 5. 📡 `(024829)` Circuitos para Radiofrecuencias
 6. 🔬 `(023965)` Laboratorio de Comunicaciones
-7. 🏢 `(027510)` Práctica Profesional Supervisada
 
 ---
 

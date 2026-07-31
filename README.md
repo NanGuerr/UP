@@ -1,4 +1,4 @@
-# 📡 Ingeniería en Telecomunicaciones - Universidad de Palermo (Plan 2026)
+# 📡 Ingeniería en Telecomunicaciones
 
 Este repositorio centraliza los **resúmenes, guías y material de estudio** de la carrera de Ingeniería en Telecomunicaciones en la UP, iniciando la cohorte en marzo de 2025. El contenido está organizado siguiendo el cronograma de movilidad internacional y el enfoque técnico de cada semestre.
 

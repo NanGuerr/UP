@@ -1,7 +1,5 @@
 > ### *"El Análisis Matemático III es un verdadero desafío, pero con paciencia y mucha práctica, hasta la integral de superficie más intimidante termina saliendo."*
 
-
-
 <p align="center">
   <img src="https://github.com/NanGuerr/UP/blob/main/An%C3%A1lisis%20Matem%C3%A1tico%20III%20A/Banner.png?raw=true" width="80%">
 </p>

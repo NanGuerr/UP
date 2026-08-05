@@ -3,16 +3,16 @@
 
 
 <p align="center">
-  <a href="#-ingeniería-en-telecomunicaciones">
+  <a href="#ingeniería-en-telecomunicaciones">
     <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Inicio">
   </a>
-  <a href="#-guía-de-correlativas">
+  <a href="#guía-de-correlativas">
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
-  <a href="#-ruta-de-aprendizaje">
+  <a href="#ruta-de-aprendizaje">
     <img src="https://img.shields.io/badge/Ruta-00BFFF?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="Ruta">
   </a>
-  <a href="#-contenido-extra">
+  <a href="#contenido-extra">
     <img src="https://img.shields.io/badge/Extra-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Extra">
   </a>
 </p>

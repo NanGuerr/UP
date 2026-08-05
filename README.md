@@ -1,5 +1,5 @@
+> [!IMPORTANT]
 > ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."* 
-
 
 <p align="center">
   <img src="https://github.com/NanGuerr/UP/blob/main/Banner.png?raw=true" width="80%">

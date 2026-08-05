@@ -55,7 +55,7 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 
 ## 🛠️ Contenido Extra
 Además de las materias troncales, el repositorio incluye apuntes sobre:
-* **Cursos de Verano:** Proyectos Internacionales, CONATEL y DevOps.
+* **Cursos de Verano:** Sistema embebidos y DevOps.
 * **Certificaciones:** Nivelación de Inglés con Cambridge.
 * **Electivas:** Modelos y Simulación, Robótica y Seguridad en redes.
 

@@ -61,5 +61,7 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
 
 ---
 
-> **Disclaimer:** Este repositorio es una iniciativa estudiantil. Para información oficial sobre correlatividades y actas, consultar siempre al Departamento de Alumnos de la UP.
+> [!NOTE]
+> *Este repositorio es una iniciativa estudiantil. Para información oficial sobre correlatividades y actas, consultar siempre al Departamento de Alumnos de la UP.*
+
 

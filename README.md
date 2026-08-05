@@ -61,17 +61,17 @@ Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias crí
 
 ## 🗺️ Ruta de Aprendizaje 
 
-El material está categorizado según la ubicación geográfica y el foco académico del semestre:
+El material está categorizado según el foco académico del semestre:
 
 
-| Periodo | Ubicación | Foco Académico |
-| :--- | :--- | :--- |
-| **Agosto - Dic 2026** |  | Matemáticas y Física I |
-| **Marzo - Julio 2027** |  | Señales y Arquitectura |
-| **Agosto - Dic 2027** |  | Base de Electrónica y Sistemas Embebidos |
-| **Marzo - Julio 2028** |  | Comunicaciones e Infraestructura |
-| **Agosto - Dic 2028** |  | Redes y Gestión |
-| **Marzo - Julio 2029** |  | Final de Carrera |
+| Periodo | Foco Académico |
+| :--- | :--- |
+| **Agosto - Dic 2026** | Matemáticas y Física I |
+| **Marzo - Julio 2027** | Señales y Arquitectura |
+| **Agosto - Dic 2027** | Base de Electrónica y Sistemas Embebidos |
+| **Marzo - Julio 2028** | Comunicaciones e Infraestructura |
+| **Agosto - Dic 2028** | Redes y Gestión |
+| **Marzo - Julio 2029** | Final de Carrera |
 
 ---
 

@@ -85,7 +85,7 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
   <a href="#-ruta-de-aprendizaje-internacional">
-    <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-d97706?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
+    <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-00BFFF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
   </a>
 </p>
 

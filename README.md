@@ -30,16 +30,17 @@
 ![Análisis Vectorial](https://img.shields.io/badge/Análisis_Vectorial-%2300B8D9.svg?style=flat&logoColor=black)
 ![Curvas en el Espacio](https://img.shields.io/badge/Curvas_en_el_Espacio-%23008080.svg?style=flat)
 
+---
 
 ## 📡 Ingeniería en Telecomunicaciones  
 
 Este repositorio centraliza los **resúmenes, guías y material de estudio** de la carrera de Ingeniería en Telecomunicaciones en la UP, iniciando la cohorte en marzo de 2025. El contenido está organizado siguiendo el cronograma de movilidad internacional y el enfoque técnico de cada semestre.
 
+---
 
 ## ⛓️ Guía de Correlativas 
 
 Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias críticas que habilitan el avance en las distintas ramas:
-
 
 ### 🧮 Rama de Matemáticas y Señales
 * **Análisis Matemático IIIb (025054):** Habilita directamente *Señales y Sistemas* y *Matemática Avanzada*.
@@ -56,6 +57,7 @@ Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias crí
 * **Arquitectura de Computadores (025612):** Habilita las electivas de *Sistemas Operativos* e *Introducción a los Sistemas Embebidos*.
 * **Sistemas Digitales II (026178):** Necesaria para ingresar al *Laboratorio de Microprocesadores*.
 
+---
 
 ## 🗺️ Ruta de Aprendizaje 
 
@@ -71,6 +73,7 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 | **Agosto - Dic 2028** |  | Redes y Gestión |
 | **Marzo - Julio 2029** |  | Final de Carrera |
 
+---
 
 ## 🛠️ Contenido Extra  
 

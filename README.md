@@ -10,10 +10,10 @@
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
   <a href="#-ruta-de-aprendizaje">
-    <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-00BFFF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
+    <img src="https://img.shields.io/badge/Ruta-00BFFF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
   </a>
   <a href="#-contenido-extra">
-    <img src="https://img.shields.io/badge/Contenido_Extra-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Extra">
+    <img src="https://img.shields.io/badge/Extra-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Extra">
   </a>
 </p>
 

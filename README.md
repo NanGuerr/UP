@@ -1,6 +1,7 @@
 > [!IMPORTANT]
 > ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."* 
 
+
 <p align="center">
   <a href="#-ingeniería-en-telecomunicaciones">
     <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
@@ -75,6 +76,7 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
 * **Certificaciones:** Nivelación de Inglés con Cambridge.
 * **Electivas:** Modelos y Simulación, Robótica y Seguridad en redes.
 
+
 <p align="center">
   <a href="#-ingeniería-en-telecomunicaciones">
     <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
@@ -86,6 +88,7 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
     <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-d97706?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
   </a>
 </p>
+
 
 ---
 

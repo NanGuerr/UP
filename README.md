@@ -6,10 +6,10 @@
   <a href="#-ingeniería-en-telecomunicaciones">
     <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
   </a>
-  <a href="#-guía-de-correlativas-y-materias-llave">
+  <a href="#-guía-de-correlativas">
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
-  <a href="#-ruta-de-aprendizaje-internacional">
+  <a href="#-ruta-de-aprendizaje">
     <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-00BFFF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
   </a>
   <a href="#-contenido-extra">
@@ -36,7 +36,7 @@ Este repositorio centraliza los **resúmenes, guías y material de estudio** de 
 
 ---
 
-## ⛓️ Guía de Correlativas y "Materias Llave"
+## ⛓️ Guía de Correlativas
 Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias críticas que habilitan el avance en las distintas ramas:
 
 ### 🧮 Rama de Matemáticas y Señales
@@ -56,7 +56,7 @@ Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias crí
 
 ---
 
-## 🗺️ Ruta de Aprendizaje Internacional
+## 🗺️ Ruta de Aprendizaje
 El material está categorizado según la ubicación geográfica y el foco académico del semestre:
 
 | Periodo | Ubicación | Foco Académico |
@@ -81,10 +81,10 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
   <a href="#-ingeniería-en-telecomunicaciones">
     <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
   </a>
-  <a href="#-guía-de-correlativas-y-materias-llave">
+  <a href="#-guía-de-correlativas">
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
-  <a href="#-ruta-de-aprendizaje-internacional">
+  <a href="#-ruta-de-aprendizaje">
     <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-00BFFF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
   </a>
 </p>

@@ -3,16 +3,16 @@
 
 
 <p align="center">
-  <a href="#ingeniería-en-telecomunicaciones">
+  <a href="#-ingeniería-en-telecomunicaciones">
     <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Inicio">
   </a>
-  <a href="#guía-de-correlativas">
+  <a href="#-guía-de-correlativas">
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
-  <a href="#ruta-de-aprendizaje">
+  <a href="#-ruta-de-aprendizaje">
     <img src="https://img.shields.io/badge/Ruta-00BFFF?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="Ruta">
   </a>
-  <a href="#contenido-extra">
+  <a href="#-contenido-extra">
     <img src="https://img.shields.io/badge/Extra-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Extra">
   </a>
 </p>
@@ -30,13 +30,13 @@
 ![Análisis Vectorial](https://img.shields.io/badge/Análisis_Vectorial-%2300B8D9.svg?style=flat&logoColor=black)
 ![Curvas en el Espacio](https://img.shields.io/badge/Curvas_en_el_Espacio-%23008080.svg?style=flat)
 
-# Ingeniería en Telecomunicaciones 📡 
+# 📡Ingeniería en Telecomunicaciones  
 
 Este repositorio centraliza los **resúmenes, guías y material de estudio** de la carrera de Ingeniería en Telecomunicaciones en la UP, iniciando la cohorte en marzo de 2025. El contenido está organizado siguiendo el cronograma de movilidad internacional y el enfoque técnico de cada semestre.
 
 ---
 
-## Guía de Correlativas ⛓️ 
+# ⛓️Guía de Correlativas  
 Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias críticas que habilitan el avance en las distintas ramas:
 
 ### 🧮 Rama de Matemáticas y Señales
@@ -56,7 +56,7 @@ Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias crí
 
 ---
 
-## Ruta de Aprendizaje 🗺️
+# 🗺️Ruta de Aprendizaje 
 El material está categorizado según la ubicación geográfica y el foco académico del semestre:
 
 | Periodo | Ubicación | Foco Académico |
@@ -70,7 +70,7 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 
 ---
 
-## Contenido Extra 🛠️ 
+# 🛠️Contenido Extra  
 Además de las materias troncales, el repositorio incluye apuntes sobre:
 * **Cursos de Verano:** Sistema embebidos y DevOps.
 * **Certificaciones:** Nivelación de Inglés con Cambridge.

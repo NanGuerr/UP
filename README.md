@@ -46,13 +46,13 @@
 
 ---
 
-## 📡 Ingeniería en Telecomunicaciones
+## Ingeniería en Telecomunicaciones
 
 Este repositorio centraliza los **resúmenes, guías y material de estudio** de la carrera de Ingeniería en Telecomunicaciones en la UP, iniciando la cohorte en marzo de 2025. El contenido está organizado siguiendo el cronograma de movilidad internacional y el enfoque técnico de cada semestre.
 
 ---
 
-## ⛓️ Guía de Correlativas
+## Guía de Correlativas
 
 Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias críticas que habilitan el avance en las distintas ramas:
 
@@ -73,7 +73,7 @@ Basado en el **Plan de Estudios Reorganizado 2026**, estas son las materias crí
 
 ---
 
-## 🗺️ Ruta de Aprendizaje
+## Ruta de Aprendizaje
 
 El material está categorizado según el foco académico del semestre:
 
@@ -89,7 +89,7 @@ El material está categorizado según el foco académico del semestre:
 
 ---
 
-## 🛠️ Contenido Extra
+## Contenido Extra
 
 Además de las materias troncales, el repositorio incluye apuntes sobre:
 * **Cursos de Verano:** Sistema embebidos y DevOps.

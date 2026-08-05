@@ -2,6 +2,22 @@
 > ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."* 
 
 <p align="center">
+  <a href="#-ingeniería-en-telecomunicaciones">
+    <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
+  </a>
+  <a href="#-guía-de-correlativas-y-materias-llave">
+    <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
+  </a>
+  <a href="#-ruta-de-aprendizaje-internacional">
+    <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-d97706?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
+  </a>
+  <a href="#-contenido-extra">
+    <img src="https://img.shields.io/badge/Contenido_Extra-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Extra">
+  </a>
+</p>
+
+
+<p align="center">
   <img src="https://github.com/NanGuerr/UP/blob/main/Banner.png?raw=true" width="80%">
 </p>
 
@@ -58,6 +74,18 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
 * **Cursos de Verano:** Sistema embebidos y DevOps.
 * **Certificaciones:** Nivelación de Inglés con Cambridge.
 * **Electivas:** Modelos y Simulación, Robótica y Seguridad en redes.
+
+<p align="center">
+  <a href="#-ingeniería-en-telecomunicaciones">
+    <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
+  </a>
+  <a href="#-guía-de-correlativas-y-materias-llave">
+    <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
+  </a>
+  <a href="#-ruta-de-aprendizaje-internacional">
+    <img src="https://img.shields.io/badge/Ruta_de_Aprendizaje-d97706?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
+  </a>
+</p>
 
 ---
 

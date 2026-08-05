@@ -85,13 +85,13 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
 
 <p align="center">
   <a href="#-ingeniería-en-telecomunicaciones">
-    <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Inicio">
+    <img src="https://img.shields.io/badge/Inicio-0059b3?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Inicio">
   </a>
   <a href="#-guía-de-correlativas">
     <img src="https://img.shields.io/badge/Correlativas-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Correlativas">
   </a>
   <a href="#-ruta-de-aprendizaje">
-    <img src="https://img.shields.io/badge/Ruta-00BFFF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ruta">
+    <img src="https://img.shields.io/badge/Ruta-00BFFF?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="Ruta">
   </a>
 </p>
 

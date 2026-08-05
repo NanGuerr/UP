@@ -1,3 +1,18 @@
+> ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."* 
+
+
+<p align="center">
+  <img src="https://github.com/NanGuerr/UP/blob/main/Banner.png?raw=true" width="80%">
+</p>
+
+![Análisis Matemático](https://img.shields.io/badge/Análisis_Matemático-%230A2540.svg?style=flat)
+![Cálculo Avanzado](https://img.shields.io/badge/Cálculo_Avanzado-%230D1117.svg?style=flat)
+![Ingeniería](https://img.shields.io/badge/Ingeniería-%2300E5FF.svg?style=flat&logoColor=black)
+![Ecuaciones Diferenciales](https://img.shields.io/badge/Ecuaciones_Diferenciales-%23238636.svg?style=flat)
+![Integración Múltiple](https://img.shields.io/badge/Integración_Múltiple-%230A2540.svg?style=flat)
+![Análisis Vectorial](https://img.shields.io/badge/Análisis_Vectorial-%2300B8D9.svg?style=flat&logoColor=black)
+![Curvas en el Espacio](https://img.shields.io/badge/Curvas_en_el_Espacio-%23008080.svg?style=flat)
+
 # 📡 Ingeniería en Telecomunicaciones
 
 Este repositorio centraliza los **resúmenes, guías y material de estudio** de la carrera de Ingeniería en Telecomunicaciones en la UP, iniciando la cohorte en marzo de 2025. El contenido está organizado siguiendo el cronograma de movilidad internacional y el enfoque técnico de cada semestre.
@@ -29,10 +44,10 @@ El material está categorizado según la ubicación geográfica y el foco acadé
 
 | Periodo | Ubicación | Foco Académico |
 | :--- | :--- | :--- |
-| **Marzo - Julio 2026** |  | Matemáticas y Física I |
-| **Agosto - Dic 2026** |  | Señales y Arquitectura |
-| **Marzo - Julio 2027** |  | Base de Electrónica y Sistemas Embebidos |
-| **Agosto - Dic 2027** |  | Comunicaciones e Infraestructura |
+| **Agosto - Dic 2026** |  | Matemáticas y Física I |
+| **Marzo - Julio 2027** |  | Señales y Arquitectura |
+| **Agosto - Dic 2027** |  | Base de Electrónica y Sistemas Embebidos |
+| **Marzo - Julio 2028** |  | Comunicaciones e Infraestructura |
 | **Agosto - Dic 2028** |  | Redes y Gestión |
 | **Marzo - Julio 2029** |  | Final de Carrera |
 

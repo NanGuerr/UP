@@ -24,6 +24,93 @@
 > **🎯 Objetivo del repositorio:** 
 > Material de estudio enfocado en álgebra lineal, teoría de números y espacios vectoriales, diseñado específicamente para aplicar estos conocimientos a la resolución de problemas reales en diversas áreas de la computación y las telecomunicaciones.
 
+# 📘 Guia de la Asignatura: Álgebra Lineal 
+
+## 🏫 1. Información General de la Materia
+
+* **Modalidad:** A distancia 💻.
+* **Profesor:** Filippo Visco-Comandini 👨‍🏫.
+* **Carga horaria:** 68 horas totales, con un estimado de 102 horas adicionales de estudio independiente y preparación ⏱️.
+* **Objetivos principales:** 🎯
+* Comprender los principios de la geometría analítica 📐.
+* Aplicar el principio de inducción completa para la demostración de propiedades de los números enteros 🔢.
+* Trabajar con espacios vectoriales e identificar isomorfismos 🔀.
+
+---
+
+## 📚 2. Programa Analítico (Unidades y Módulos)
+
+### 🔢 Unidad 1: Conjuntos de números enteros
+
+* **Módulo 1:** Números enteros (Divisibilidad, múltiplos, divisores, MCM, MCD y Algoritmo de Euclides) ➗.
+* **Módulo 2:** Ecuaciones diofánticas lineales y congruencias ⚖️.
+
+### 🧠 Unidad 2: Razonamiento matemático
+
+* **Módulo 3:** Inducción matemática (Ciclo FOR, sumatorias y demostraciones) 🔄.
+
+### ➡️ Unidad 3: Vectores
+
+* **Módulo 4:** Vectores en el plano (Definiciones, sentido, módulo, vectores unitarios y producto escalar) 📉.
+* **Módulo 5:** Vectores en el espacio (Ángulos directores, producto cruz y su interpretación geométrica) 🌐.
+
+### 📐 Unidad 4: Geometría analítica
+
+* **Módulo 6:** Rectas y planos en el espacio (Ecuaciones explícitas, vectoriales, paramétricas y distancias) 📏.
+
+### 🧮 Unidad 5: Espacios vectoriales
+
+* **Módulo 7:** Espacios y subespacios vectoriales 📦.
+* **Módulo 8:** Combinaciones entre vectores e independencia lineal 🔗.
+* **Módulo 9:** Bases de los espacios vectoriales y cambio de base 🔀.
+* **Módulo 10:** Propiedades de una matriz (Imagen, rango, núcleo y nulidad) 🔲.
+* **Módulo 11:** Espacio vectorial de los polinomios 📈.
+
+### ⚡ Unidad 6: Transformaciones lineales
+
+* **Módulo 12:** Definiciones, ejemplos y propiedades de transformaciones lineales 🔄.
+* **Módulo 13:** Isomorfismos, representación matricial, autovalores y autovectores 🧩.
+
+---
+
+## 📝 3. Instrucciones para la Entrega de Actividades y Parciales
+
+* **Desarrollo en papel:** Se sugiere trabajar con hojas auxiliares al lado para efectuar los cálculos y desarrollos de forma legible 📄.
+* **Carga de respuestas en Blackboard:** El estudiante debe ingresar la respuesta final debajo de cada pregunta correspondiente en la plataforma 💻.
+* **Contenido adicional obligatorio:** 📌
+* Al finalizar, es indispensable adjuntar las fotos del desarrollo de cada ejercicio como contenido adicional en formato PDF 📎.
+* **¡Atención!** Las fotos no deben subirse como respuesta directa de la pregunta ⚠️.
+
+
+* **Requisitos de las imágenes:** 🖼️
+* Las fotos deben ser completamente legibles (todos los datos deben distinguirse con claridad) 🔍.
+* Se debe evitar la presencia de sombras o bajo contraste que dificulten la lectura 💡.
+* Se recomienda el uso de aplicaciones móviles de escaneo como CamScanner u Office Lens para convertir las capturas a PDF, permitiendo que el profesor pueda corregir y anotar sobre ellas 📱.
+
+
+
+---
+
+## ✅ 4. Requisitos de Aprobación y Evaluación
+
+* **Aprobación de la Cursada:** 🎓
+* Completar la totalidad de las actividades prácticas de cada módulo considerando la corrección y el desarrollo de competencias 📚.
+* Aprobar los exámenes parciales con una nota igual o superior a 4 (cuatro) 📝.
+
+
+* **Aprobación del Examen Final:** 🏆
+* Se evalúa mediante un examen final asincrónico filmado de carácter sumativo 🎥.
+* Se aprueba con una nota mínima de 4 (cuatro) puntos ✨.
+
+
+
+---
+
+## 💬 5. Canales de Soporte y Comunicación
+
+* **Soporte Técnico (Blackboard / Carga de archivos):** Contactar a Helpdesk a través de `ayudablackboard@palermo.edu` 🛠️.
+* **Consultas Académicas:** Dirigirse al profesor de la cátedra o al tutor asignado mediante los canales oficiales de la plataforma 🙋‍♂️.
+
 ### Herramientas Tecnológicas
 
 ![LaTeX](https://img.shields.io/badge/LaTeX-%230052CC.svg?style=for-the-badge&logo=latex&logoColor=black)

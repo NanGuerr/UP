@@ -2,13 +2,13 @@
 > ### *"Diseña cada paso con lógica y la certeza de que estás construyendo una versión superior del hardware de tu futuro."*
 
 <p align="center">
-  <a href="#🗂️-2-estructura-analítica-del-contenido">
+  <a href="#-2-estructura-analítica-del-contenido">
     <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
   </a>
-  <a href="#📊-4-sistema-de-evaluación-y-requisitos-de-aprobación">
+  <a href="#-4-sistema-de-evaluación-y-requisitos-de-aprobación">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
   </a>
-  <a href="#📚-5-recursos-bibliográficos">
+  <a href="#-5-recursos-bibliográficos">
     <img src="https://img.shields.io/badge/Bibliografía-28a745?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Bibliografía">
   </a>
 </p>

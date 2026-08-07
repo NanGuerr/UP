@@ -1,3 +1,34 @@
+> [!IMPORTANT]
+> ### *"Cada ecuación resuelta es un puente firme hacia la ingeniería moderna."*
+
+
+<p align="center">
+  <a href="#-estructura-de-contenidos">
+    <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
+  </a>
+  <a href="#-metodología-de-evaluación">
+    <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
+  </a>
+  <a href="#-bibliografía-de-estudio">
+    <img src="https://img.shields.io/badge/Bibliografía-28a745?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Bibliografía">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github.com/NanGuerr/UP/blob/main/An%C3%A1lisis%20Matem%C3%A1tico%20III%20B/Banner.png?raw=true" width="80%">
+</p>
+
+
+![Sucesiones y Series](https://img.shields.io/badge/Sucesiones_y_Series-%2300FFFF.svg?style=flat)
+![Series de Fourier](https://img.shields.io/badge/Series_de_Fourier-%230A2540.svg?style=flat)
+![Funciones de Variable Compleja](https://img.shields.io/badge/Funciones_de_Variable_Compleja-%2336B37E.svg?style=flat)
+![Funciones Complejas Elementales](https://img.shields.io/badge/Funciones_Complejas_Elementales-%2300FFFF.svg?style=flat)
+
+
+> **🎯 Objetivo del repositorio:**
+> Material de estudio avanzado especializado en Variable Compleja, Series y Transformadas de Fourier, diseñado para consolidar el rigor teórico del análisis matemático y aplicarlo efectivamente en el modelado, simulación y resolución de problemas técnicos complejos propios de la ingeniería y el desarrollo de software.
+
+
 # 📚 Guía Informativa: Análisis Matemático IIIb 🎓
 
 ## 📝 Resumen Ejecutivo

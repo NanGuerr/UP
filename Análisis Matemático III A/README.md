@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"El Análisis Matemático III es un verdadero desafío, pero con paciencia y mucha práctica, hasta la integral de superficie más intimidante termina saliendo."*
+> ### *"Con disciplina y práctica, hasta la integral de superficie más intimidante termina saliendo."*
 
 
 <p align="center">

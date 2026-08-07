@@ -106,10 +106,7 @@
 
 ---
 
-## 💬 5. Canales de Soporte y Comunicación
 
-* **Soporte Técnico (Blackboard / Carga de archivos):** Contactar a Helpdesk a través de `ayudablackboard@palermo.edu` 🛠️.
-* **Consultas Académicas:** Dirigirse al profesor de la cátedra o al tutor asignado mediante los canales oficiales de la plataforma 🙋‍♂️.
 
 ### Herramientas Tecnológicas
 

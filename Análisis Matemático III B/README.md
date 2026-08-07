@@ -112,3 +112,13 @@ El curso requiere **68 horas presenciales** y se estiman **102 horas de estudio 
 ### Bibliografía Complementaria:
 *   Apostol, T. (1984): *Calculus*. Vol 1 y Vol 2. Reverté.
 *   Wunsch, D. (1999): *Variable compleja con aplicaciones*. 2da ed. Pearson Educación.
+
+
+<p align="center">
+  <a href="#-estructura-de-contenidos-y-cronograma">
+    <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
+  </a>
+  <a href="#-sistema-de-evaluación">
+    <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
+  </a>
+</p>

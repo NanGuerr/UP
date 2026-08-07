@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="#-1-objetivos-y-competencias-centrales">
-    <img src="https://img.shields.io/badge/Objetivos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Objetivos">
+    <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
   </a>
   <a href="#-4-sistema-de-evaluación-y-requisitos-de-aprobación">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
@@ -120,7 +120,7 @@ La evaluación es continua y se basa en evidencias de aprendizaje que demuestran
 * 📡 **Texas Instruments & Analog Devices:** Reportes de aplicación sobre estándares lógicos, interfaces de bajo voltaje y hojas de datos.
 
 <p align="center">
-  <a href="#-2-estructura-analítica-del-contenido">
+  <a href="#-1-objetivos-y-competencias-centrales">
     <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
   </a>
   <a href="#-4-sistema-de-evaluación-y-requisitos-de-aprobación">

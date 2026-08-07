@@ -23,7 +23,13 @@ Calcular el máximo común divisor de $3452$ y $1234$ utilizando el algoritmo de
 
 Calcular el determinante de la siguiente matriz $A$:
 
-$$A = \begin{pmatrix} -2 & -8 & -9 \\ -4 & -9 & 5 \\ 4 & 7 & -9 \end{pmatrix}$$
+$$
+A = \begin{bmatrix} 
+-2 & -8 & -9 \\ 
+-4 & -9 & 5 \\ 
+4 & 7 & -9 
+\end{bmatrix}
+$$
 
 Desarrollando por cofactores o Sarrus:
 
@@ -40,12 +46,24 @@ $$\vert{}A\vert{} = -2(46) + 8(16) - 9(8) = -92 + 128 - 72$$
 
 Calcular la transpuesta de la matriz:
 
-$$\begin{pmatrix} 1 & -8 & -9 \\ -4 & 3 & 5 \\ 4 & 7 & 0 \end{pmatrix}$$
+$$
+\begin{bmatrix} 
+1 & -8 & -9 \\ 
+-4 & 3 & 5 \\ 
+4 & 7 & 0 
+\end{bmatrix}
+$$
 
 🎯 **Respuesta:**
 
 
-$$\begin{pmatrix} 1 & -4 & 4 \\ -8 & 3 & 7 \\ -9 & 5 & 0 \end{pmatrix}$$
+$$
+\begin{bmatrix} 
+1 & -4 & 4 \\ 
+-8 & 3 & 7 \\ 
+-9 & 5 & 0 
+\end{bmatrix}
+$$
 
 ---
 
@@ -53,7 +71,13 @@ $$\begin{pmatrix} 1 & -4 & 4 \\ -8 & 3 & 7 \\ -9 & 5 & 0 \end{pmatrix}$$
 
 Resolver el siguiente sistema de ecuaciones lineales:
 
-$$\begin{cases} x - y - z = -3 \\ 3x + 2y - 8z = -19 \\ 2x - y - 3z = -8 \end{cases}$$
+$$
+\begin{cases} 
+x - y - z = -3 \\ 
+3x + 2y - 8z = -19 \\ 
+2x - y - 3z = -8 
+\end{cases}
+$$
 
 * 📊 **Clasificación del sistema:** Sistema compatible indeterminado (SCI), cuenta con infinitas soluciones.
 

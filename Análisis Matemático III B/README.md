@@ -3,13 +3,13 @@
 
 
 <p align="center">
-  <a href="#-estructura-de-contenidos">
+  <a href="#-estructura-de-contenidos-y-cronograma">
     <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
   </a>
-  <a href="#-metodología-de-evaluación">
+  <a href="#-sistema-de-evaluación">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
   </a>
-  <a href="#-bibliografía-de-estudio">
+  <a href="#-carga-horaria-y-bibliografía">
     <img src="https://img.shields.io/badge/Bibliografía-28a745?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Bibliografía">
   </a>
 </p>
@@ -29,7 +29,7 @@
 > Material de estudio avanzado especializado en Variable Compleja, Series y Transformadas de Fourier, diseñado para consolidar el rigor teórico del análisis matemático y aplicarlo efectivamente en el modelado, simulación y resolución de problemas técnicos complejos propios de la ingeniería y el desarrollo de software.
 
 
-# 📚 Guía Informativa: Análisis Matemático IIIb 🎓
+# 📚 Guía Informativa: Análisis Matemático IIIb
 
 ## 📝 Resumen Ejecutivo
 La asignatura **Análisis Matemático IIIb**, dictada bajo la modalidad a distancia por la Facultad de Ingeniería de la **Universidad de Palermo**, tiene como eje central la transición del cálculo diferencial del campo real al complejo y el estudio avanzado de series. El programa, a cargo del profesor **Pablo Esteban Schmidberg**, se estructura en 14 semanas y abarca cuatro unidades fundamentales. ⚙️

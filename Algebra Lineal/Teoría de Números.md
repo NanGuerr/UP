@@ -33,18 +33,18 @@ Cálculo del mcd para diversos pares de números enteros:
 
 ---
 
-### 🔲 Ejercicio 2: Determinantes de Matrices
+## 🔲 Ejercicio 2: Determinantes de Matrices
 
 Cálculo de los determinantes para distintas matrices cuadradas:
 
-* Para la matriz $\begin{pmatrix} 1 & 0 & 3 \\ 5 & 1 & 1 \\ 0 & 1 & 2 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $16$
-* Para la matriz $\begin{pmatrix} 1 & 0 & -2 \\ 3 & 3 & 2 \\ 0 & -1 & 1 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $11$
-* Para la matriz $\begin{pmatrix} 1 & -1 & 0 \\ -1 & 0 & 1 \\ 0 & 1 & -1 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $0$
-* Para la matriz $\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $2$
-* Para la matriz $\begin{pmatrix} -3 & 2 & 213 \\ -2 & 1 & 1 \\ -10 & 1 & 3 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $-\frac{26}{3}$
-* Para la matriz $\begin{pmatrix} 4 & 0 & -1 \\ 3 & 3 & 3 \\ -4 & -1 & 1 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $15$
-* Para la matriz $\begin{pmatrix} 7 & -1 & 0 \\ -1 & 0 & 3 \\ 5 & 1 & -1 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $-8$
-* Para la matriz $\begin{pmatrix} -9 & 1 & 4 \\ -4 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix} \rightarrow$ 🎯 **Solución:** $-6$
+* Para la matriz $$\begin{pmatrix} 1 & 0 & 3 \\ 5 & 1 & 1 \\ 0 & 1 & 2 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $16$
+* Para la matriz $$\begin{pmatrix} 1 & 0 & -2 \\ 3 & 3 & 2 \\ 0 & -1 & 1 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $11$
+* Para la matriz $$\begin{pmatrix} 1 & -1 & 0 \\ -1 & 0 & 1 \\ 0 & 1 & -1 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $0$
+* Para la matriz $$\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $2$
+* Para la matriz $$\begin{pmatrix} -3 & 2 & 213 \\ -2 & 1 & 1 \\ -10 & 1 & 3 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $-\frac{26}{3}$
+* Para la matriz $$\begin{pmatrix} 4 & 0 & -1 \\ 3 & 3 & 3 \\ -4 & -1 & 1 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $15$
+* Para la matriz $$\begin{pmatrix} 7 & -1 & 0 \\ -1 & 0 & 3 \\ 5 & 1 & -1 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $-8$
+* Para la matriz $$\begin{pmatrix} -9 & 1 & 4 \\ -4 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix}$$ $\rightarrow$ 🎯 **Solución:** $-6$
 
 ---
 

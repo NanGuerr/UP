@@ -39,6 +39,7 @@ El programa se estructura en una carga horaria total de **68 horas**, complement
 ---
 
 ## 🎯 1. Objetivos y Competencias Centrales
+
 El curso está diseñado para que los estudiantes desarrollen capacidades técnicas específicas integradas en el marco de la ingeniería en telecomunicaciones:
 
 * ⚙️ **Dominio Técnico:** Descripción y utilización de bloques básicos de construcción de sistemas digitales y manejo experto del lenguaje VHDL.
@@ -49,6 +50,7 @@ El curso está diseñado para que los estudiantes desarrollen capacidades técni
 ---
 
 ## 🗂️ 2. Estructura Analítica del Contenido
+
 El contenido se divide en cinco unidades fundamentales que llevan al estudiante desde los conceptos físicos del hardware hasta la implementación de sistemas complejos:
 
 ### ⚡ Unidad 1: Hardware Digital
@@ -77,6 +79,7 @@ El contenido se divide en cinco unidades fundamentales que llevan al estudiante 
 ---
 
 ## 🌐 3. Metodología de Enseñanza y Herramientas
+
 El modelo pedagógico es centrado en el estudiante, fomentando el aprendizaje autónomo y colaborativo a través de:
 
 * 🏫 **Entorno Virtual:** Uso de la plataforma Blackboard para foros de debate, clases sincrónicas y entrega de actividades.
@@ -87,6 +90,7 @@ El modelo pedagógico es centrado en el estudiante, fomentando el aprendizaje au
 ---
 
 ## 📊 4. Sistema de Evaluación y Requisitos de Aprobación
+
 La evaluación es continua y se basa en evidencias de aprendizaje que demuestran competencias prácticas.
 
 ### 📋 Ponderación de la Cursada
@@ -116,10 +120,10 @@ La evaluación es continua y se basa en evidencias de aprendizaje que demuestran
 * 📡 **Texas Instruments & Analog Devices:** Reportes de aplicación sobre estándares lógicos, interfaces de bajo voltaje y hojas de datos.
 
 <p align="center">
-  <a href="#🗂️-2-estructura-analítica-del-contenido">
+  <a href="#-2-estructura-analítica-del-contenido">
     <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
   </a>
-  <a href="#📊-4-sistema-de-evaluación-y-requisitos-de-aprobación">
+  <a href="#-4-sistema-de-evaluación-y-requisitos-de-aprobación">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
   </a>
 </p>

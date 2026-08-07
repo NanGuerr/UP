@@ -18,14 +18,11 @@
   <img src="https://github.com/NanGuerr/UP/blob/main/An%C3%A1lisis%20Matem%C3%A1tico%20III%20A/Banner.png?raw=true" width="80%">
 </p>
 
-![Calculus](https://img.shields.io/badge/Calculus-%232088FF.svg?style=flat)
-![Differential Equations](https://img.shields.io/badge/Differential_Equations-%230052CC.svg?style=flat)
-![Math Notes](https://img.shields.io/badge/Math_Notes-%2300B8D9.svg?style=flat)
+
 ![Multivariable Calculus](https://img.shields.io/badge/Multivariable_Calculus-%230A2540.svg?style=flat)
 ![Engineering Math](https://img.shields.io/badge/Engineering_Math-%2336B37E.svg?style=flat)
 ![Vector Calculus](https://img.shields.io/badge/Vector_Calculus-%230A2540.svg?style=flat)
 ![Applied Mathematics](https://img.shields.io/badge/Applied_Mathematics-%23008080.svg?style=flat)
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-%232E8B57.svg?style=flat)
 
 
 > **🎯 Objetivo del repositorio:** 

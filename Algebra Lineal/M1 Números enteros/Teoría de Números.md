@@ -206,8 +206,8 @@ su transpuesta es:
 
 $$
 \begin{bmatrix} 
-1 & -1 & 1 \\  
--1 & 1 & 1 \\   
-1 & 1 & -1    
+0 & -1 & 1 \\  
+-1 & 0 & 1 \\   
+1 & 0 & -1    
 \end{bmatrix}
 $$

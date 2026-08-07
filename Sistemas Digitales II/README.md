@@ -2,7 +2,7 @@
 > ### *"Diseña cada paso con lógica y la certeza de que estás construyendo una versión superior del hardware de tu futuro."*
 
 <p align="center">
-  <a href="#-2-estructura-analítica-del-contenido">
+  <a href="#--programa-académico-sistemas-digitales-ii-">
     <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
   </a>
   <a href="#-4-sistema-de-evaluación-y-requisitos-de-aprobación">
@@ -27,7 +27,7 @@
 > Material de estudio enfocado en álgebra lineal, teoría de números y espacios vectoriales, diseñado específicamente para aplicar estos conocimientos a la resolución de problemas reales en diversas áreas de la computación y las telecomunicaciones.
 
 
-# 📊 Programa Académico: Sistemas Digitales II 💻
+# 📊 Programa Académico: Sistemas Digitales II
 
 ---
 

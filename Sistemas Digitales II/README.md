@@ -2,8 +2,8 @@
 > ### *"Diseña cada paso con lógica y la certeza de que estás construyendo una versión superior del hardware de tu futuro."*
 
 <p align="center">
-  <a href="#--programa-académico-sistemas-digitales-ii-">
-    <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
+  <a href="#-1-objetivos-y-competencias-centrales">
+    <img src="https://img.shields.io/badge/Objetivos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Objetivos">
   </a>
   <a href="#-4-sistema-de-evaluación-y-requisitos-de-aprobación">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">

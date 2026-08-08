@@ -2,13 +2,13 @@
 > ### *"Con lógica el algoritmo más encriptado termina revelando su solución."*
 
 <p align="center">
-  <a href="#-información-general-de-la-materia">
+  <a href="#-1-información-general-de-la-materia">
     <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
   </a>
-  <a href="#-programa-analítico-unidades-y-módulos">
+  <a href="#-2-programa-analítico-unidades-y-módulos">
     <img src="https://img.shields.io/badge/Programa_Analítico-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Programa Analítico">
   </a>
-  <a href="#-requisitos-de-aprobación-y-evaluación">
+  <a href="#-4-requisitos-de-aprobación-y-evaluación">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
   </a>
 </p>

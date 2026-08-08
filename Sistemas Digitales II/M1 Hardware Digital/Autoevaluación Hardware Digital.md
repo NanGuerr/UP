@@ -75,7 +75,7 @@ Seleccionar del siguiente listado todas aquellas características que tiene un s
   
   $$T = \frac{1}{100\,\text{MHz}} = 10\,\text{ns}$$
   
-  El retardo de propagación máximo ($t_{pd} = \max(t_{pHL}, t_{pLH})$) de la interfaz no debe superar este período de $10\,\text{ns}$ para garantizar que el circuito pueda responder adecuadamente a esa frecuencia.
+El retardo de propagación máximo $t_{pd} = \max(t_{pHL}, t_{pLH})$ de la interfaz no debe superar este período de $10\,\text{ns}$ para garantizar que el circuito pueda responder adecuadamente a esa frecuencia.
 
 ---
 
@@ -95,15 +95,15 @@ Seleccionar del siguiente listado todas aquellas características que tiene un s
 
 ## ⏱️ Análisis de Frecuencia Máxima ($100\,\text{MHz}$)
 
-Para un sistema que opera a una frecuencia máxima de $100\,\text{MHz}$ (período de $10\,\text{ns}$), evaluamos el retardo máximo ($t_{pd} = \max(t_{pHL}, t_{pLH})$) de cada interfaz:
+Para un sistema que opera a una frecuencia máxima de $100\,\text{MHz}$ (período de $10\,\text{ns}$), evaluamos el retardo máximo $t_{pd} = \max(t_{pHL}, t_{pLH})$ de cada interfaz:
 
 * ❌ **A.** $\max(10\,\text{ns}, 12\,\text{ns}) = 12\,\text{ns} > 10\,\text{ns}$  
-  * *Demasiado lento, solo soporta hasta $\approx 83.3\,\text{MHz}$.*
+  * *Demasiado lento, solo soporta hasta* $\approx 83.3\,\text{MHz}$.
 * ❌ **B.** $\max(20\,\text{ns}, 10\,\text{ns}) = 20\,\text{ns} > 10\,\text{ns}$  
-  * *Demasiado lento, solo soporta hasta $50\,\text{MHz}$.*
+  * *Demasiado lento, solo soporta hasta* $50\,\text{MHz}$.
 * ✅ **C.** $\max(3\,\text{ns}, 1\,\text{ns}) = 3\,\text{ns} \le 10\,\text{ns}$  
-  * *Válido, soporta frecuencias mayores o iguales a $100\,\text{MHz}$.*
+  * *Válido, soporta frecuencias mayores o iguales a* $100\,\text{MHz}$.
 * ❌ **D.** $\max(18\,\text{ns}, 4\,\text{ns}) = 18\,\text{ns} > 10\,\text{ns}$  
-  * *Demasiado lento, solo soporta hasta $\approx 55.5\,\text{MHz}$.*
+  * *Demasiado lento, solo soporta hasta* $\approx 55.5\,\text{MHz}$.
 * ✅ **E.** $\max(5\,\text{ns}, 5\,\text{ns}) = 5\,\text{ns} \le 10\,\text{ns}$  
-  * *Válido, soporta frecuencias mayores o iguales a $100\,\text{MHz}$.*
+  * *Válido, soporta frecuencias mayores o iguales a* $100\,\text{MHz}$.

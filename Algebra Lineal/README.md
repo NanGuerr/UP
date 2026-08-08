@@ -106,7 +106,14 @@
 
 ---
 
-
+<p align="center">
+  <a href="#-1-información-general-de-la-materia">
+    <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
+  </a>
+  <a href="#-2-programa-analítico-unidades-y-módulos">
+    <img src="https://img.shields.io/badge/Programa_Analítico-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Programa Analítico">
+  </a>
+</p>
 
 ### Herramientas Tecnológicas
 

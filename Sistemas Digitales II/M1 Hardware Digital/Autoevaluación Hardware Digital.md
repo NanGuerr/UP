@@ -65,13 +65,17 @@ Seleccionar del siguiente listado todas aquellas características que tiene un s
 
 ---
 
-### **Pregunta 6** ❓ 
-**Se coloca entre dos circuitos digitales una interfaz, el sistema general debe poder operar como máximo a 100 MHz. Indicar cuáles (todas) de las siguientes interfaces utilizaría.** 
+### **Pregunta 9** ❓  
+**Se coloca entre dos circuitos digitales una interfaz, el sistema general debe poder operar como máximo a 100 MHz. Indicar cuáles (todas) de las siguientes interfaces utilizaría.**  
 * **Opciones Correctas Seleccionadas:**
-  * ✅ **C. $t_{pHL} = 3\,\text{ns}$, $t_{pLH} = 1\,\text{ns}$.** 
-  * ✅ **E. $t_{pHL} = 5\,\text{ns}$, $t_{pLH} = 5\,\text{ns}$.** 
+  * ✅ **C. $t_{pHL} = 3\,\text{ns}$, $t_{pLH} = 1\,\text{ns}$.**  
+  * ✅ **E. $t_{pHL} = 5\,\text{ns}$, $t_{pLH} = 5\,\text{ns}$.**  
 
-* *Nota:* Para que un sistema digital pueda operar a una frecuencia máxima de 100 MHz, el período del reloj ($T$) es:$$T = \frac{1}{100\text{ MHz}} = 10\text{ ns}$$El retardo de propagación máximo ($t_{pd} = \max(t_{pHL}, t_{pLH})$) de la interfaz no debe superar este período de $10\text{ ns}$ para garantizar que el circuito pueda responder adecuadamente a esa frecuencia.
+* *Nota:* Para que un sistema digital pueda operar a una frecuencia máxima de $100\,\text{MHz}$, el período del reloj ($T$) es:
+  
+  $$T = \frac{1}{100\,\text{MHz}} = 10\,\text{ns}$$
+  
+  El retardo de propagación máximo ($t_{pd} = \max(t_{pHL}, t_{pLH})$) de la interfaz no debe superar este período de $10\,\text{ns}$ para garantizar que el circuito pueda responder adecuadamente a esa frecuencia.
 
 ---
 
@@ -93,13 +97,13 @@ Seleccionar del siguiente listado todas aquellas características que tiene un s
 
 Para un sistema que opera a una frecuencia máxima de $100\,\text{MHz}$ (período de $10\,\text{ns}$), evaluamos el retardo máximo ($t_{pd} = \max(t_{pHL}, t_{pLH})$) de cada interfaz:
 
-* ❌ **A.** $\max(10\,\text{ns}, 12\,\text{ns}) = 12\,\text{ns} > 10\,\text{ns}$ 
+* ❌ **A.** $\max(10\,\text{ns}, 12\,\text{ns}) = 12\,\text{ns} > 10\,\text{ns}$  
   * *Demasiado lento, solo soporta hasta $\approx 83.3\,\text{MHz}$.*
-* ❌ **B.** $\max(20\,\text{ns}, 10\,\text{ns}) = 20\,\text{ns} > 10\,\text{ns}$ 
+* ❌ **B.** $\max(20\,\text{ns}, 10\,\text{ns}) = 20\,\text{ns} > 10\,\text{ns}$  
   * *Demasiado lento, solo soporta hasta $50\,\text{MHz}$.*
-* ✅ **C.** $\max(3\,\text{ns}, 1\,\text{ns}) = 3\,\text{ns} \le 10\,\text{ns}$ 
+* ✅ **C.** $\max(3\,\text{ns}, 1\,\text{ns}) = 3\,\text{ns} \le 10\,\text{ns}$  
   * *Válido, soporta frecuencias mayores o iguales a $100\,\text{MHz}$.*
-* ❌ **D.** $\max(18\,\text{ns}, 4\,\text{ns}) = 18\,\text{ns} > 10\,\text{ns}$ 
+* ❌ **D.** $\max(18\,\text{ns}, 4\,\text{ns}) = 18\,\text{ns} > 10\,\text{ns}$  
   * *Demasiado lento, solo soporta hasta $\approx 55.5\,\text{MHz}$.*
-* ✅ **E.** $\max(5\,\text{ns}, 5\,\text{ns}) = 5\,\text{ns} \le 10\,\text{ns}$ 
+* ✅ **E.** $\max(5\,\text{ns}, 5\,\text{ns}) = 5\,\text{ns} \le 10\,\text{ns}$  
   * *Válido, soporta frecuencias mayores o iguales a $100\,\text{MHz}$.*

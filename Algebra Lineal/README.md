@@ -2,14 +2,14 @@
 > ### *"Con lógica el algoritmo más encriptado termina revelando su solución."*
 
 <p align="center">
-  <a href="#-estructura-de-contenidos">
-    <img src="https://img.shields.io/badge/Contenidos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Contenidos">
+  <a href="#1-información-general-de-la-materia">
+    <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
   </a>
-  <a href="#-metodología-de-evaluación">
-    <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Evaluación">
+  <a href="#2-programa-analítico-unidades-y-módulos">
+    <img src="https://img.shields.io/badge/Programa_Analítico-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Programa Analítico">
   </a>
-  <a href="#-bibliografía-de-estudio">
-    <img src="https://img.shields.io/badge/Bibliografía-28a745?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Bibliografía">
+  <a href="#4-requisitos-de-aprobación-y-evaluación">
+    <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 > **🎯 Objetivo del repositorio:** 
 > Material de estudio enfocado en álgebra lineal, teoría de números y espacios vectoriales, diseñado específicamente para aplicar estos conocimientos a la resolución de problemas reales en diversas áreas de la computación y las telecomunicaciones.
 
-# 📘 Guia de la Asignatura: Álgebra Lineal 
+# 📘 Guia de la Asignatura: Álgebra Lineal
 
 ## 🏫 1. Información General de la Materia
 

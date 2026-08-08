@@ -134,6 +134,9 @@ La bibliografía se divide en textos obligatorios para el seguimiento de los mó
 * 📖 **Cabrera, R. (2013):** *Ejercicios de física*. Eudeba.
 * 📖 **Gettys, W. E. (2005):** *Física para ingeniería y ciencias*. McGraw-Hill.
 
+### Herramientas Tecnológicas
+
+![Beyond Labz](https://img.shields.io/badge/Beyond_Labz-%230052CC.svg?style=for-the-badge&logo=latex&logoColor=black)
 
 <p align="center">
   <a href="#2--programa-analítico-y-estructura">

@@ -14,17 +14,6 @@
   </a>
 </p>
 
-
-# 📑 Informe de Orientación: Física I (Ingeniería en Telecomunicaciones)
-
-## 📄 Resumen Ejecutivo
-
-El presente documento detalla la estructura, objetivos y requisitos académicos de la asignatura **Física I** para la carrera de **Ingeniería en Telecomunicaciones** (Plan ITC2020). La materia se dicta bajo una modalidad a distancia de carácter asincrónico, con una carga horaria total de **102 horas** ⏱️. El enfoque pedagógico se centra en el aprendizaje autónomo y colaborativo, utilizando la plataforma **Blackboard** como entorno principal.
-
-Los ejes fundamentales de la asignatura abarcan desde la teoría de errores y mecánica clásica hasta la gravitación universal, vinculando estos conceptos con las competencias necesarias para el diseño y desarrollo de proyectos en telecomunicaciones. La evaluación es rigurosa, integrando el desempeño continuo en actividades prácticas (**40%** de la nota de cursada) con un examen parcial obligatorio y auditado (**60%** de la nota), cuya aprobación es indispensable para la acreditación de la materia.
-
----
-
 ## 1. 🎯 Objetivos y Competencias Profesionales
 
 La asignatura se propone identificar a la física como una herramienta esencial para conocer y entender la naturaleza 🌿, comprendiendo el papel de la matemática 📐 en la elaboración de modelos científicos.

@@ -14,6 +14,22 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://github.com/NanGuerr/UP/blob/main/F%C3%ADsica%20I/Banner.png?raw=true" width="80%">
+</p>
+
+
+![Unidad 3](https://img.shields.io/badge/U3--Cinemática-38BDF8?style=flat&logo=rocket&logoColor=black)
+![Unidad 4](https://img.shields.io/badge/U4--Dinámica-4ADE80?style=flat&logo=speedometer&logoColor=black)
+![Unidad 5](https://img.shields.io/badge/U5--Trabajo_y_Energía-⚡-FFD700?style=flat&logo=lightning&logoColor=black)
+![Unidad 6](https://img.shields.io/badge/U6--Impulso_y_Movimiento-0A2540?style=flat&logo=asterisk&logoColor=white)
+![Unidad 7](https://img.shields.io/badge/U7--Gravitación-🌌-0B0F19?style=flat&logo=nasa&logoColor=white)
+
+
+> **🎯 Objetivo del repositorio:** 
+> Repositorio de estudio enfocado en el análisis vectorial, la mecánica clásica (estática, cinemática y dinámica) y las leyes de conservación de la energía  y la propagación de señales en el ámbito de la ingeniería en telecomunicaciones.
+
+
 ## 1. 🎯 Objetivos y Competencias Profesionales
 
 La asignatura se propone identificar a la física como una herramienta esencial para conocer y entender la naturaleza 🌿, comprendiendo el papel de la matemática 📐 en la elaboración de modelos científicos.

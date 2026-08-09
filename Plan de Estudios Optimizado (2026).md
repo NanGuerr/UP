@@ -55,9 +55,9 @@
 
 ## ☀️ Verano — Enero - Febrero 2029
 
-* 🥳 *Cumpleaños de Andrés 13*
-* 🥳 *Cumpleaños de Esteban 9*
-* 🥳 *Cumpleaños de Efraín 8*
+* 🥳 *Andrés 13*
+* 🥳 *Esteban 9*
+* 🥳 *Efraín 8*
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 

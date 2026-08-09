@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"Con disciplina y práctica, hasta la integral de superficie más intimidante termina saliendo."*
+> ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."*
 
 
 <p align="center">

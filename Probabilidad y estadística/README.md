@@ -13,17 +13,7 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#-1-estructura-y-contenidos-académicos">
-    <img src="https://img.shields.io/badge/Contenidos_Académicos-0059b3?style=for-the-badge&logo=gitbook&logoColor=white" alt="Estructura y Contenidos Académicos">
-  </a>
-  <a href="#-2-metodología-de-evaluación-y-calificación">
-    <img src="https://img.shields.io/badge/Evaluación_y_Calificación-38bdf8?style=for-the-badge&logo=googlesheets&logoColor=black" alt="Metodología de Evaluación">
-  </a>
-  <a href="#-5-recursos-y-bibliografía">
-    <img src="https://img.shields.io/badge/Recursos_y_Bibliografía-28a745?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Recursos y Bibliografía">
-  </a>
-</p>
+
 
 <p align="center">
   <img src="https://github.com/NanGuerr/UP/blob/main/Probabilidad%20y%20estad%C3%ADstica/Banner.png?raw=true" width="80%">

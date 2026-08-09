@@ -1,4 +1,4 @@
-# 📊 Conceptos Generales y Definiciones de la Estadística
+# 📊 Conceptos Generales y Definiciones
 
 ---
 

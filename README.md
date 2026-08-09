@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."* 
+> ### *"Canalizar el caos de la propagación electromagnética mediante adaptación de impedancias, guiado de ondas y modulación espectral para hacer legible lo invisible."* 
 
 
 <p align="center">
@@ -22,14 +22,18 @@
   <img src="https://github.com/NanGuerr/UP/blob/main/Banner.png?raw=true" width="80%">
 </p>
 
-![Análisis Matemático](https://img.shields.io/badge/Análisis_Matemático-%230A2540.svg?style=flat)
-![Cálculo Avanzado](https://img.shields.io/badge/Cálculo_Avanzado-%230D1117.svg?style=flat)
-![Ingeniería](https://img.shields.io/badge/Ingeniería-%2300E5FF.svg?style=flat&logoColor=black)
-![Ecuaciones Diferenciales](https://img.shields.io/badge/Ecuaciones_Diferenciales-%23238636.svg?style=flat)
-![Integración Múltiple](https://img.shields.io/badge/Integración_Múltiple-%230A2540.svg?style=flat)
-![Análisis Vectorial](https://img.shields.io/badge/Análisis_Vectorial-%2300B8D9.svg?style=flat&logoColor=black)
-![Curvas en el Espacio](https://img.shields.io/badge/Curvas_en_el_Espacio-%23008080.svg?style=flat)
-
+![Señales y Sistemas](https://img.shields.io/badge/-Señales_y_Sistemas-38BDF8?style=flat&logo=rss&logoColor=white)
+![Procesos Estocásticos](https://img.shields.io/badge/-Procesos_Estocásticos-9333EA?style=flat&logo=python&logoColor=white)
+![Electromagnetismo](https://img.shields.io/badge/-Electromagnetismo-6366F1?style=flat&logo=digitalocean&logoColor=white)
+![Matemática Avanzada](https://img.shields.io/badge/-Matemática_Avanzada-EF4444??style=flat&logo=matrix&logoColor=white)
+![Circuitos para Radiofrecuencias](https://img.shields.io/badge/-Circuitos_para_RF-D97706?style=flat&logo=rss&logoColor=white)
+![Laboratorio de Microprocesadores](https://img.shields.io/badge/-Lab._de_Microprocesadores-0284C7?style=flat&logo=raspberrypi&logoColor=white)
+![Sistemas Digitales](https://img.shields.io/badge/-Sistemas_Digitales-0D9488?style=flat&logo=digitalocean&logoColor=white)
+![Laboratorio de Electrónica](https://img.shields.io/badge/-Lab._de_Electrónica-E11D48?style=flat&logo=flask&logoColor=white)
+![Laboratorio de Comunicaciones](https://img.shields.io/badge/-Lab._de_Comunicaciones-059669?style=flat&logo=flask&logoColor=white)
+![Redes de Backbone](https://img.shields.io/badge/-Red_Backbone-4F46E5?style=flat&logo=cisco&logoColor=white)
+![Redes de Acceso](https://img.shields.io/badge/-Red_de_Acceso-0891B2?style=flat&logo=rss&logoColor=white)
+![Laboratorio de Comunicaciones](https://img.shields.io/badge/-Conducción_de_Ondas-059669?style=flat&logo=target&logoColor=white)
 ---
 
 ## Ingeniería en Telecomunicaciones

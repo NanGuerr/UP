@@ -8,7 +8,7 @@
   <a href="#-2-metodología-de-evaluación-y-calificación">
     <img src="https://img.shields.io/badge/Evaluación-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Evaluación">
   </a>
-  <a href="#-5-recursos-y-bibliografía">
+  <a href="#-5-recursos-y-bibliografías">
     <img src="https://img.shields.io/badge/Bibliografía-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Bibliografía">
   </a>
 </p>
@@ -128,7 +128,7 @@ Todos los exámenes asincrónicos se habilitan en la plataforma en una ventana h
 
 ---
 
-## 5. Recursos y Bibliografía
+## 💻 5. Recursos y Bibliografías
 
 La materia se apoya en bibliografía de referencia internacional y el uso intensivo de herramientas digitales.
 

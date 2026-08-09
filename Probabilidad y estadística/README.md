@@ -2,14 +2,14 @@
 > ### *"Optimización de sistemas complejos mediante la modelación de incertidumbres, el análisis estocástico y la inferencia predictiva basada en datos."*
 
 <p align="center">
-  <a href="#-1-información-general-de-la-materia">
-    <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
+  <a href="#-1-estructura-y-contenidos-académicos">
+    <img src="https://img.shields.io/badge/Contenido-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Contenido">
   </a>
-  <a href="#-2-programa-analítico-unidades-y-módulos">
-    <img src="https://img.shields.io/badge/Programa_Analítico-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Programa Analítico">
+  <a href="#-2-metodología-de-evaluación-y-calificación">
+    <img src="https://img.shields.io/badge/Evaluación-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Evaluación">
   </a>
-  <a href="#-4-requisitos-de-aprobación-y-evaluación">
-    <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
+  <a href="#-5-recursos-y-bibliografía">
+    <img src="https://img.shields.io/badge/Bibliografía-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Bibliografía">
   </a>
 </p>
 

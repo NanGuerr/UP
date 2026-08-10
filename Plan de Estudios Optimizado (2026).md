@@ -29,7 +29,7 @@
 3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb)
 4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad)
 5. 📈 `(024886)` Teoría de la Información (Probabilidad y Estadística)
-6. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓
+6. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
 
 ## ☀️ Verano — Enero - Febrero 2028
 4to
@@ -47,7 +47,7 @@
 
 ## 🌐 Semestre 7 (Sistemas Complejos) — Agosto - Diciembre 2028
 
-1. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) 🥼
+1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) 🥼
 4. 👔 `(026009)` Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Director de Departamento)
@@ -72,7 +72,7 @@
 1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) 🥼
 3. ⚖️ `(025701)` Ingeniería Legal 🆓
-4. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
+4. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) 🥼
 5. 🖧 `(026214)`  Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) 🥼
 

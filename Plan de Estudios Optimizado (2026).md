@@ -76,5 +76,6 @@
 5. 🖧 `(026214)`  Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) 🥼
 
+---
 
-> 💡 **Nota de Cursada:** Recuerda verificar los requerimientos de presencialidad obligatoria en la sede CABA de la Universidad de Palermo para materias específicas como Laboratorio de Electrónica, Circuitos Electrónicos II, Conducción y Radiación de Ondas, Circuitos de Radiofrecuencia y Laboratorio de Comunicaciones.
+> 💡 **Nota de Cursada:** *Recuerda verificar los requerimientos de presencialidad obligatoria en la sede CABA de la Universidad de Palermo para materias específicas como Laboratorio de Electrónica, Circuitos Electrónicos II, Conducción y Radiación de Ondas, Circuitos de Radiofrecuencia y Laboratorio de Comunicaciones.*

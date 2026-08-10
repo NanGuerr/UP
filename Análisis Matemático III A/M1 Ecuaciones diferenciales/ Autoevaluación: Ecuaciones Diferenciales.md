@@ -34,7 +34,7 @@
     * Es de **orden 3** (Correcto).
     * **No se puede establecer el grado** (Correcto).
 * **Nota:** Cuando la variable dependiente (*y*) y sus derivadas se multiplican entre sí, la ecuación 
-se clasifica como no lineal. En muchas convenciones académicas (incluyendo las que suele seguir la UP en casos específicos de sus guías), si la ecuación no es representable como un polinomio puro de sus derivadas donde cada término mantenga 
+se clasifica como no lineal. Si la ecuación no es representable como un polinomio puro de sus derivadas donde cada término mantenga 
 la independencia de *y*, se considera que el grado no está establecido o no es aplicable. 
 ---
 

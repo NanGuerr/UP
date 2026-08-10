@@ -71,11 +71,12 @@ El material está categorizado según el foco académico del semestre:
 | Periodo | Foco Académico |
 | :--- | :--- |
 | **Agosto - Dic 2026** | Matemáticas y Física I |
-| **Marzo - Julio 2027** | Señales y Arquitectura |
-| **Agosto - Dic 2027** | Base de Electrónica y Sistemas Embebidos |
-| **Marzo - Julio 2028** | Comunicaciones e Infraestructura |
-| **Agosto - Dic 2028** | Redes y Gestión |
-| **Marzo - Julio 2029** | Final de Carrera |
+| **Marzo - Julio 2027** | Sistemas Complejos |
+| **Agosto - Dic 2027** | Señales y Arquitectura |
+| **Marzo - Julio 2028** | Electrónica y Sistemas Embebidos |
+| **Agosto - Dic 2028** | Comunicaciones e Infraestructura |
+| **Marzo - Julio 2029** | Redes y Gestión |
+| **Agosto - Dic 2029** | Final de Carrera |
 
 ---
 

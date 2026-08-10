@@ -33,9 +33,9 @@
 * **Análisis Técnico:**
     * Es de **orden 3** (Correcto).
     * **No se puede establecer el grado** (Correcto).
-* **Error cometido:** Se marcó "De grado 1" como incorrecta en este contexto específico.
-* **Sugerencia del docente:** Repasar los apuntes del módulo para profundizar en la definición de grado.
-
+* **Nota:** Cuando la variable dependiente (*y*) y sus derivadas se multiplican entre sí, la ecuación 
+se clasifica como no lineal. En muchas convenciones académicas (incluyendo las que suele seguir la UP en casos específicos de sus guías), si la ecuación no es representable como un polinomio puro de sus derivadas donde cada término mantenga 
+la independencia de *y*, se considera que el grado no está establecido o no es aplicable. 
 ---
 
 ### 5. Verificación de la Circunferencia $x^2 + y^2 = 4$ ⭕

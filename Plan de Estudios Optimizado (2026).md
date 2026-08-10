@@ -56,7 +56,6 @@
    
 ## ☀️ Verano — Enero - Febrero 2029
 5to
-> * *01/01/16 13, 27/12/19 9, 12/02/21 8*
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 

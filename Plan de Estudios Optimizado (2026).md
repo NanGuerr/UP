@@ -13,7 +13,7 @@
 3er
 * 📻 `(021436)` Conatel Taller de Radio 🆓
 
-## 🚀 Semestre 4 (Destrabando la rama de Señales) — Marzo - Julio 2027
+## 🚀 Semestre 4 (Sistemas Complejos) — Marzo - Julio 2027
 
 1. 📐 `(026177)` Sistemas de Representación para Electrónica 🆓
 2. ⚡ `(024823)` Física IIa
@@ -22,7 +22,7 @@
 5. 🧮 `(026435)` Matemática Avanzada (Electromagnetismo)
 6. 🧲 `(026204)` Física IIb (Dispositivos Electrónicos y Lab. de Electrónica)
 
-## 🔌 Semestre 5 (La base de la Electrónica) — Agosto - Diciembre 2027
+## 🔌 Semestre 5 (Destrabando la rama de Señales) — Agosto - Diciembre 2027
 
 1. 💡 `(026439)` Dispositivos Electrónicos (Física IIb)
 2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada)
@@ -36,7 +36,7 @@
 * ☁️ `(027221)` DevOps (Electiva) 🆓
 * 🔄 (027130) Sensores y Acond. de Señal (Circuitos Electrónicos)
 
-## 📡 Semestre 6 (Comunicaciones e Infraestructura) — Marzo - Julio 2028
+## 📡 Semestre 6 (La base de la Electrónica) — Marzo - Julio 2028
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos)
 2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
@@ -45,7 +45,7 @@
 5. 🌐 `(026213)` TCP/IP 🆓
 6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador)
 
-## 🌐 Semestre 7 (Sistemas Complejos) — Agosto - Diciembre 2028
+## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
 
 1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
@@ -60,7 +60,7 @@
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 
-1. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comunicaciones Digitales y Analógicos)
+1. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
 3. 🛡️ `(026319)` Seguridad Ambiental y del Trabajo 🆓
 4. 🖥️ `(025418)` Sistemas Operativos (Electiva Arquitectura de Computadores) 🌞

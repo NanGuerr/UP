@@ -22,7 +22,7 @@
 5. 🧮 `(026435)` Matemática Avanzada (Electromagnetismo)
 6. 🧲 `(026204)` Física IIb (Dispositivos Electrónicos y Lab. de Electrónica)
 
-## 🔌 Semestre 5 (Destrabando la rama de Señales) — Agosto - Diciembre 2027
+## 🔌 Semestre 5 (Señales y Arquitectura) — Agosto - Diciembre 2027
 
 1. 💡 `(026439)` Dispositivos Electrónicos (Física IIb)
 2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada)
@@ -36,7 +36,7 @@
 * ☁️ `(027221)` DevOps (Electiva) 🆓
 * 🔄 (027130) Sensores y Acond. de Señal (Circuitos Electrónicos)
 
-## 📡 Semestre 6 (La base de la Electrónica) — Marzo - Julio 2028
+## 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos)
 2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)

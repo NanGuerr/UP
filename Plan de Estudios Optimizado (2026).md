@@ -77,4 +77,4 @@
 
 ---
 
-> 💡 **Nota de Cursada:** *Recuerda verificar los requerimientos de presencialidad obligatoria en la sede CABA de la Universidad de Palermo para materias específicas como Laboratorio de Electrónica, Circuitos Electrónicos II, Conducción y Radiación de Ondas, Circuitos de Radiofrecuencia y Laboratorio de Comunicaciones.*
+> 💡 ***Nota de Cursada:*** *Recuerda verificar los requerimientos de presencialidad obligatoria en la sede CABA de la Universidad de Palermo para materias específicas como Laboratorio de Electrónica, Circuitos Electrónicos II, Conducción y Radiación de Ondas, Circuitos de Radiofrecuencia, Laboratorio de Microprocesadores y Laboratorio de Comunicaciones.*

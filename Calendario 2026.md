@@ -1,4 +1,4 @@
-> Fechas críticas 16/09/2026 y 11/11/2026.
+> Fechas críticas 16/09/2026, 11/11/2026 y (RDC) 18/11/2026.
 
 ### 📅 Calendario Académico 2026 - Segundo Cuatrimestre
 

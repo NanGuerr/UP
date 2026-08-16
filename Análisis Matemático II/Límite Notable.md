@@ -1,4 +1,4 @@
-# 🥪 Demostración del Límite Notable con el Teorema del Sándwich 📐✨
+# 🥪 Límite Notable con el Teorema del Sándwich 
 
 En esta guía explicamos paso a paso la demostración geométrica para hallar el límite notable:
 
@@ -87,6 +87,6 @@ $$1 \ge \lim_{\theta \to 0} \frac{\sin\theta}{\theta} \ge 1$$
 
 Por el **Teorema del Sándwich** (o del Apremio), la función $\frac{\sin\theta}{\theta}$ queda "atrapada" entre $1$ y $1$:
 
-$$\bbox[10px,border:2px solid #00E676]{\lim_{\theta \to 0} \frac{\sin\theta}{\theta} = 1}$$
+$${\lim_{\theta \to 0} \frac{\sin\theta}{\theta} = 1}$$
 
 ¡Q.E.D. (Queda Demostrado)! 🚀

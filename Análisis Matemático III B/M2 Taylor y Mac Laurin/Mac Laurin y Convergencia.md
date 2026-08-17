@@ -9,31 +9,31 @@ A continuación se detallan los desarrollos paso a paso de los ejercicios basado
 
 **Paso 1: Reescritura de la variable para centrar en $a=21$**
 Para lograr que la serie esté centrada en 21, sumamos y restamos 21 a la variable $x$:
-$$ x = (x - 21) + 21 $$
+$x = (x - 21) + 21$
 
 Sustituyendo en la función original:
-$$ f(x) = \frac{1}{1 + 7((x - 21) + 21)} $$
+$f(x) = \frac{1}{1 + 7((x - 21) + 21)}$
 
 Distribuyendo el 7 en el segundo término:
-$$ f(x) = \frac{1}{1 + 7(x - 21) + 7(21)} = \frac{1}{1 + 7(x - 21) + 147} $$
+$f(x) = \frac{1}{1 + 7(x - 21) + 7(21)} = \frac{1}{1 + 7(x - 21) + 147}$
 
 Agrupando las constantes:
-$$ f(x) = \frac{1}{148 + 7(x - 21)} $$
+$f(x) = \frac{1}{148 + 7(x - 21)}$
 
 **Paso 2: Acomodar para usar la Serie Geométrica**
 La serie geométrica tiene la forma $\frac{1}{1 - t} = \sum_{n=0}^{\infty} t^n$. Para llevar nuestra expresión a esta forma, sacamos factor común $148$ en el denominador:
-$$ f(x) = \frac{1}{148 \left(1 + \frac{7}{148}(x - 21)\right)} = \frac{1}{148} \cdot \frac{1}{1 - \left(-\frac{7}{148}(x - 21)\right)} $$
+$f(x) = \frac{1}{148 \left(1 + \frac{7}{148}(x - 21)\right)} = \frac{1}{148} \cdot \frac{1}{1 - \left(-\frac{7}{148}(x - 21)\right)}$
 
 **Paso 3: Desarrollo en Serie**
 Llamando $t = -\frac{7}{148}(x - 21)$, aplicamos el desarrollo de la serie geométrica:
-$$ f(x) = \frac{1}{148} \sum_{n=0}^{\infty} \left(-\frac{7}{148}(x - 21)\right)^n = \sum_{n=0}^{\infty} \frac{(-1)^n 7^n}{148^{n+1}} (x - 21)^n $$
+$f(x) = \frac{1}{148} \sum_{n=0}^{\infty} \left(-\frac{7}{148}(x - 21)\right)^n = \sum_{n=0}^{\infty} \frac{(-1)^n 7^n}{148^{n+1}} (x - 21)^n$
 
 **Paso 4: Radio e Intervalo de Convergencia**
 El desarrollo converge si $|t| < 1$:
-$$ \left|-\frac{7}{148}(x - 21)\right| < 1 \implies \frac{7}{148} |x - 21| < 1 \implies |x - 21| < \frac{148}{7} $$
+$\left|-\frac{7}{148}(x - 21)\right| < 1 \implies \frac{7}{148} |x - 21| < 1 \implies |x - 21| < \frac{148}{7}$
 Por lo tanto, el **radio de convergencia** es $R = \frac{148}{7}$.
 El **intervalo de convergencia** es:
-$$ \left(21 - \frac{148}{7}, 21 + \frac{148}{7}\right) $$
+$\left(21 - \frac{148}{7}, 21 + \frac{148}{7}\right)$
 
 ---
 
@@ -48,11 +48,11 @@ Como el grado del numerador es igual al grado del denominador, primero realizamo
 Por el algoritmo de la división: $9 - x = (1 + 7x)\left(-\frac{1}{7}\right) + \frac{16}{7}$.
 
 **Paso 2: Reescritura de la función**
-$$ f(x) = \frac{(1 + 7x)(-1/7) + 16/7}{1 + 7x} = -\frac{1}{7} + \frac{16/7}{1 + 7x} $$
+$f(x) = \frac{(1 + 7x)(-1/7) + 16/7}{1 + 7x} = -\frac{1}{7} + \frac{16/7}{1 + 7x}$
 
 **Paso 3: Uso del resultado anterior**
 Utilizando el desarrollo en serie de $\frac{1}{1 + 7x}$ hallado en el Ejercicio 5d:
-$$ f(x) = -\frac{1}{7} + \frac{16}{7} \sum_{n=0}^{\infty} \frac{(-1)^n 7^n}{148^{n+1}} (x - 21)^n $$
+$f(x) = -\frac{1}{7} + \frac{16}{7} \sum_{n=0}^{\infty} \frac{(-1)^n 7^n}{148^{n+1}} (x - 21)^n$
 El radio y el intervalo de convergencia se mantienen idénticos a los obtenidos en el ejercicio 5d, es decir, $R = \frac{148}{7}$.
 
 ---
@@ -62,22 +62,22 @@ El radio y el intervalo de convergencia se mantienen idénticos a los obtenidos 
 
 **Paso 1: Partir de la Serie Geométrica**
 Sabemos que:
-$$ \sum_{n=0}^{\infty} x^n = \frac{1}{1 - x} \quad \text{para} \quad |x| < 1 $$
+$\sum_{n=0}^{\infty} x^n = \frac{1}{1 - x} \quad \text{para} \quad |x| < 1$
 
 **Paso 2: Teorema de Derivación (Primera Derivada)**
 Derivamos término a término respecto a $x$:
-$$ \left( \sum_{n=0}^{\infty} x^n \right)' = \sum_{n=1}^{\infty} n x^{n-1} $$
+$\left( \sum_{n=0}^{\infty} x^n \right)' = \sum_{n=1}^{\infty} n x^{n-1}$
 Y derivando la función:
-$$ \left( (1-x)^{-1} \right)' = -1(1-x)^{-2}(-1) = \frac{1}{(1-x)^2} $$
+$\left( (1-x)^{-1} \right)' = -1(1-x)^{-2}(-1) = \frac{1}{(1-x)^2}$
 
 **Paso 3: Teorema de Derivación (Segunda Derivada)**
 Derivamos por segunda vez:
-$$ \left( \sum_{n=1}^{\infty} n x^{n-1} \right)' = \sum_{n=2}^{\infty} n(n-1)x^{n-2} $$
+$\left( \sum_{n=1}^{\infty} n x^{n-1} \right)' = \sum_{n=2}^{\infty} n(n-1)x^{n-2}$
 Derivando la función resultante:
-$$ \left( (1-x)^{-2} \right)' = -2(1-x)^{-3}(-1) = \frac{2}{(1-x)^3} $$
+$\left( (1-x)^{-2} \right)' = -2(1-x)^{-3}(-1) = \frac{2}{(1-x)^3}$
 
 Igualando ambos resultados, queda probado que:
-$$ \sum_{n=2}^{\infty} n(n-1)x^{n-2} = \frac{2}{(1-x)^3} $$
+$\sum_{n=2}^{\infty} n(n-1)x^{n-2} = \frac{2}{(1-x)^3}$
 El radio de convergencia se mantiene igual tras las derivaciones: $R = 1$ para $|x| < 1$.
 
 ---

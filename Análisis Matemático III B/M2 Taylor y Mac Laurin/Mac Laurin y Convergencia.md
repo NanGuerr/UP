@@ -1,4 +1,4 @@
-# Resoluciones Paso a Paso - Series de Taylor, Mac Laurin y Convergencia
+# Resoluciones - Series de Taylor y Mac Laurin
 
 A continuación se detallan los desarrollos paso a paso de los ejercicios basados en las notas proporcionadas.
 

@@ -88,17 +88,17 @@ El radio de convergencia se mantiene igual tras las derivaciones: $R = 1$ para $
 **Paso 1: Definir el término $a_n$ y aplicar Criterio de D'Alembert**
 El término es $a_n = \frac{n^2 + 7}{(n+1)!}$.
 Calculamos el límite para el radio de convergencia $\lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right|$:
-$$ a_{n+1} = \frac{(n+1)^2 + 7}{(n+2)!} $$
+$a_{n+1} = \frac{(n+1)^2 + 7}{(n+2)!}$
 
-$$ \frac{a_{n+1}}{a_n} = \frac{(n+1)^2 + 7}{(n+2)!} \cdot \frac{(n+1)!}{n^2 + 7} $$
+$\frac{a_{n+1}}{a_n} = \frac{(n+1)^2 + 7}{(n+2)!} \cdot \frac{(n+1)!}{n^2 + 7}$
 
 **Paso 2: Simplificación de factoriales y polinomios**
 Sabemos que $(n+2)! = (n+2)(n+1)!$, así que simplificamos los factoriales:
-$$ \frac{a_{n+1}}{a_n} = \frac{n^2 + 2n + 8}{(n+2)(n^2 + 7)} $$
+$\frac{a_{n+1}}{a_n} = \frac{n^2 + 2n + 8}{(n+2)(n^2 + 7)}$
 
 **Paso 3: Cálculo del Límite**
 El numerador es un polinomio de grado 2 ($n^2 + 2n + 8$), y el denominador es de grado 3 ($n^3 + 2n^2 + 7n + 14$). Al tender $n$ a infinito:
-$$ \lim_{n \to \infty} \frac{n^2 + 2n + 8}{n^3 + 2n^2 + 7n + 14} = 0 $$
+$\lim_{n \to \infty} \frac{n^2 + 2n + 8}{n^3 + 2n^2 + 7n + 14} = 0$
 
 Dado que el límite es $0$ (que siempre será estrictamente menor que 1 sin importar el valor de $x$), el **radio de convergencia es $R = +\infty$**, y el intervalo de convergencia son todos los números reales $\mathbb{R}$.
 
@@ -110,12 +110,12 @@ Dado que el límite es $0$ (que siempre será estrictamente menor que 1 sin impo
 **Paso 1: Hallar el radio de convergencia**
 Se define $a_n = \frac{(-1)^n \ln(n)}{n^2}$.
 El radio de convergencia se obtiene con el inverso multiplicativo del límite:
-$$ \lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right| = \lim_{n \to \infty} \frac{\ln(n+1)}{(n+1)^2} \cdot \frac{n^2}{\ln(n)} $$
+$\lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right| = \lim_{n \to \infty} \frac{\ln(n+1)}{(n+1)^2} \cdot \frac{n^2}{\ln(n)}$
 
 Separando límites:
-$$ \lim_{n \to \infty} \frac{\ln(n+1)}{\ln(n)} \cdot \lim_{n \to \infty} \frac{n^2}{(n+1)^2} $$
+$\lim_{n \to \infty} \frac{\ln(n+1)}{\ln(n)} \cdot \lim_{n \to \infty} \frac{n^2}{(n+1)^2}$
 El segundo límite es trivialmente 1. Para el primer límite, usando la regla de L'Hôpital para una variable real continua $x$:
-$$ \lim_{x \to \infty} \frac{\ln(x+1)}{\ln(x)} = \lim_{x \to \infty} \frac{1/(x+1)}{1/x} = \lim_{x \to \infty} \frac{x}{x+1} = 1 $$
+$\lim_{x \to \infty} \frac{\ln(x+1)}{\ln(x)} = \lim_{x \to \infty} \frac{1/(x+1)}{1/x} = \lim_{x \to \infty} \frac{x}{x+1} = 1$
 Por tanto, el límite total es 1. El radio de convergencia es $R = 1/1 = 1$.
 Los bordes a analizar son $x = -1$ y $x = 1$.
 

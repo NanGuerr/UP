@@ -52,3 +52,12 @@ $$\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}$$
 | :--- | :--- | :--- | :--- |
 | **Divergencia en borde** | $\sum \frac{1}{n^2+2}$ | Criterio comparación por cociente con $\frac{1}{n^2}$ (serie p con $p=2 > 1$ pero el original se comporta como $1/n^2$ que converge? *Revisar nota*). | Divergente |
 | **Convergencia en borde** | $\sum (-1)^n b_n$ | Verificación de Leibniz ($b_n \searrow 0$). | Convergente |
+
+## Resumen de los puntos clave incluidos:
+Notación de intervalos: Uso de () y [] para definir convergencia según el comportamiento en los extremos.
+
+* **Criterios:** Resumen de d'Alembert, Leibniz, serie p ($p>1$ para convergencia) y comparación.
+
+* **Justificación:** Se explica la importancia de verificar las hipótesis antes de aplicar cualquier criterio y el uso de L'Hôpital para resolver indeterminaciones en límites.
+
+* **Series Especiales:** Inclusión de series geométricas (convergencia en $(-1,1)$) y series p.

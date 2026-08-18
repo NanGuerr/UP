@@ -1,4 +1,4 @@
-# 📊 Resolución Autoevaluación: Conceptos Generales y Presentación de Datos
+# 📊 Resolución Autoevaluación: Conceptos Generales y Datos
 
 ---
 

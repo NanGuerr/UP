@@ -1,0 +1,2 @@
+Nota explicativa: Aunque el valor de la media aritmética ($\bar{x}$) parece faltar en tu enunciado original, podemos deducir esto por lógica. El coeficiente de variación se calcula como $CV = \frac{s}{\bar{x}} \cdot 100\%$. Sabiendo que el desvío estándar es $s = 2,1$ y que la escala máxima de la variable es 10, incluso si usáramos el promedio máximo posible ($\bar{x} = 10$), el resultado daría un $CV$ del 21%. Al ser estrictamente mayor al 20%, la distribución es invariablemente heterogénea.
+

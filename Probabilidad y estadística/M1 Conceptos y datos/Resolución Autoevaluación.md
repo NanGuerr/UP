@@ -77,7 +77,7 @@
 ### 📋 Tabla de Frecuencias Absolutas ($f_i$)
 
 | Variable ($X$) | Frecuencia Absoluta ($f_i$) 🔢 |
-| :: | :: |
+| :---: | :---: |
 | **10** | 7 |
 | **11** | 10 |
 | **12** | 4 |

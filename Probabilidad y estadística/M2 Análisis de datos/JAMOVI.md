@@ -1,4 +1,4 @@
-# 📊 Guía: Cómo calcular medidas resumen con Jamovi
+# 📊 Medidas resumen con Jamovi
 
 Este video tutorial, presentado por Patricia Arnal de la Universidad de Palermo, explica los pasos necesarios para realizar cálculos de medidas estadísticas descriptivas utilizando el software **Jamovi**. 💻📈
 
@@ -23,5 +23,20 @@ Este video tutorial, presentado por Patricia Arnal de la Universidad de Palermo,
 
 5. **🔍 Resultado:**
    * Jamovi generará automáticamente una tabla en la ventana contigua con el resumen de las estadísticas seleccionadas. ✨
+
+### 📊 Tabla de Resumen Estadístico (Ejemplo de salida en Jamovi)
+
+A continuación se presenta un ejemplo de cómo se visualizan los resultados en Jamovi tras realizar el análisis:
+
+| Medida | Valor |
+| :--- | :--- |
+| **N** | 6 |
+| **Media** | 267 |
+| **Mediana** | 255 |
+| **Moda** | 229* |
+| **Desviación típica** | 37.4 |
+| **80-percentil** | 290 |
+
+*\*Nota: Existe más de una moda, solo se reporta la primera.*
 
 ¡Ahora puedes explorar tus datos de manera rápida y eficiente con Jamovi! 🚀

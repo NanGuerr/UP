@@ -1,2 +1,15 @@
-Nota explicativa: Aunque el valor de la media aritmética ($\bar{x}$) parece faltar en tu enunciado original, podemos deducir esto por lógica. El coeficiente de variación se calcula como $CV = \frac{s}{\bar{x}} \cdot 100\%$. Sabiendo que el desvío estándar es $s = 2,1$ y que la escala máxima de la variable es 10, incluso si usáramos el promedio máximo posible ($\bar{x} = 10$), el resultado daría un $CV$ del 21%. Al ser estrictamente mayor al 20%, la distribución es invariablemente heterogénea.
+sta métrica se obtiene observando el Percentil 90 ($P(90) = 7,90$), el cual es una medida de posición relativa que deja al 90% de los datos por debajo y exactamente al 10% de los datos con valores superiores (los de mayor error).
 
+
+
+
+
+e) ¿Qué error absoluto máximo registra la mitad de los modelos?
+
+4,30. Este valor corresponde a la mediana ($Me$), que divide a la distribución ordenada exactamente en dos partes iguales, indicando que el 50% de las observaciones tiene valores iguales o inferiores a este.
+
+
+
+f) Si la FAA = 12 para x = 4; interpretarla en términos del problema.
+
+Significa que 12 de los 50 modelos predictivos analizados registraron un error absoluto medio de 4 o menos. La Frecuencia Absoluta Acumulada (FAA) va sumando las cantidades de ocurrencias hasta el valor de la variable analizado.

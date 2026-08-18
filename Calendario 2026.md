@@ -4,8 +4,6 @@
 
 | Fecha | Hora | Actividad / Evento | Materia / Nota |
 | --- | --- | --- | --- |
-| **14/08** | 18:30 | **Reunión Informativa** | Analisis_Matematico_III_A [Link Zoom](https://us02web.zoom.us/j/89547165460?pwd=lea9srm8UKSyPjMnLztfOag43e1kZE.1) |
-| **14/08** | 20:00 | Zoom 1 | Analisis_Matematico_III_B |
 | **04/09** | 20:00 | Zoom 2 | Analisis_Matematico_III_B |
 | **11/09** | 20:00 | Zoom 3 | Analisis_Matematico_III_B |
 | **16/09** | 08:00 | Primer Parcial | Algebra_Lineal |

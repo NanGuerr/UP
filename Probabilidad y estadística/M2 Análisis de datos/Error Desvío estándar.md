@@ -3,7 +3,7 @@
 > Se observa en la imagen está en la **confusión de las fórmulas y la notación de los símbolos estadísticos** entre el desvío estándar poblacional y el muestral.
 
 <p align="center">
-  <img src="https://github.com/NanGuerr/UP/blob/main/Probabilidad%20y%20estad%C3%ADstica/M2%20An%C3%A1lisis%20de%20datos/error.jpg?raw=true=true" width="80%">
+  <img src="https://github.com/NanGuerr/UP/blob/main/Probabilidad%20y%20estad%C3%ADstica/M2%20An%C3%A1lisis%20de%20datos/error.jpg?raw=true" width="80%">
 </p>
 
 ### **Análisis detallado de los errores:**

@@ -1,4 +1,4 @@
-# 📚 Guía de Normativas Académicas, Exámenes Finales y Escalas de Calificación
+# 📚 Guía Académica: Exámenes Finales y Escalas de Calificación
 
 ## 1. 📑 Normativa y Reglas para Exámenes Finales
 

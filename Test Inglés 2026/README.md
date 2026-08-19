@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/NanGuerr/UP/blob/main/Algebra%20Lineal/Banner.png?raw=truee" width="80%">
+  <img src="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/Banner.jpg?raw=true" width="80%">
 </p>
 
 ![Gramática](https://img.shields.io/badge/Gramática-%232EA44F.svg?style=flat&logo=language&logoColor=white)

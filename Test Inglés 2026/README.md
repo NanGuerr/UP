@@ -11,7 +11,7 @@
   <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#2--metodolog%C3%ADa-de-evaluaci%C3%B3n-y-cursado">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
   </a>
-  <a href="#4-bibliografía-obligatoria">
+  <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#4--bibliograf%C3%ADa-obligatoria">
     <img src="https://img.shields.io/badge/Recursos-e67e22?style=for-the-badge&logo=openlibrary&logoColor=white" alt="Bibliografía">
   </a>
 </p>
@@ -113,12 +113,12 @@ Para tramitar la equivalencia, el alumno debe enviar el certificado escaneado a 
 
 <p align="center">
   <a href="#-programa-de-idioma-inglés-2026">
-    <img src="https://img.shields.io/badge/Información_General-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
+    <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información">
   </a>
-  <a href="#3-estructura-académica-por-niveles-syllabus">
+  <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#3--estructura-acad%C3%A9mica-por-niveles-syllabus">
     <img src="https://img.shields.io/badge/Syllabus-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Syllabus">
   </a>
-  <a href="#2-metodología-de-evaluación-y-cursado">
+  <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#2--metodolog%C3%ADa-de-evaluaci%C3%B3n-y-cursado">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
   </a>
 </p>

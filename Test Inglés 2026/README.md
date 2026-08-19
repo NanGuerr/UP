@@ -5,7 +5,7 @@
   <a href="#-programa-de-idioma-inglés-2026">
     <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información">
   </a>
-  <a href="#3-estructura-académica-por-niveles-syllabus">
+  <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#3--estructura-acad%C3%A9mica-por-niveles-syllabus">
     <img src="https://img.shields.io/badge/Syllabus-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Syllabus">
   </a>
   <a href="#2-metodología-de-evaluación-y-cursado">

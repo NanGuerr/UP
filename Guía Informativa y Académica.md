@@ -2,7 +2,7 @@
 
 📋 Documento compilatorio con toda la información clave extraída de los avisos institucionales, normativas académicas y plataformas de soporte.
 
----
+
 
 ## 1. 📝 Inscripción a Asignaturas y Cursado
 
@@ -12,7 +12,7 @@
 * ⚠️ **Requisito obligatorio:** Para formalizar la inscripción es condición administrativa indispensable contar con la **matrícula anual previamente abonada**.
 * 🏷️ **Descuentos por pago:** El monto a abonar de la matrícula/cursada puede contar con descuentos si se realiza un pago adelantado (dependiendo del mes de pago).
 
----
+
 
 ## 2. 📊 Carga Académica por Semestre (Unidades de Valor - UV)
 
@@ -26,7 +26,7 @@ En las carreras de grado de la universidad, el número regular de materias por s
 * 🟡 **Cursar menos del mínimo:** Se abona un costo proporcional por cada UV inscripta.
 * 🔵 **Cursar más del número regular:** Se abona el equivalente a la cuota completa **más un adicional extra** por cada UV excedente.
 
----
+
 
 ## 3. ☀️ Cursos e Intensivos de Verano
 
@@ -35,7 +35,7 @@ En las carreras de grado de la universidad, el número regular de materias por s
 * 🗓️ **Período de inscripción:** Del **26 de diciembre de 2025 (desde las 6:00 h) hasta el 24 de enero de 2026**.
 * 🌐 **Plataforma de inscripción:** A través del portal **MyUP**.
 
----
+
 
 ## 4. ✅ Requisitos de Asistencia
 
@@ -44,13 +44,13 @@ Según las **Normas Académicas de la Universidad de Palermo** (artículo 9.6.2)
 * 📌 **Porcentaje mínimo:** Se exige un mínimo del **75% de asistencia** a las clases programadas en el período lectivo para mantener la condición de **alumno regular**.
 * 🚫 **Incapacidad de regularizar:** *“No cumple la condición de asistencia a una asignatura quien no asiste como mínimo al 75 % de las clases dispuestas en el período lectivo.”*
 
----
+
 
 # 🔔 Notificaciones Oficiales y Discusiones Comunitarias (UP)
 
 📄 Documento complementario que reúne las notificaciones institucionales recibidas por canales oficiales y las observaciones de los estudiantes en grupos de conversación.
 
----
+
 
 ## 5. 🛠️ Soporte Técnico e Identificación de Inconvenientes (Help Desk)
 
@@ -67,7 +67,7 @@ Para reportar problemas técnicos dentro de la plataforma o Campus Online:
 * ⏰ Día y hora exacta de la falla.
 * 🎥 *(Opcional)* Captura de pantalla o grabación de video explicando el problema a la cámara.
 
----
+
 
 ## 6. 🏛️ Canales de Contacto Directo por Facultad
 
@@ -79,7 +79,7 @@ Para consultas puramente académicas antes o después de rendir un examen:
 * ⚖️ **Facultad de Derecho:** derecho@palermo.edu
 * 🎨 **Facultad de Diseño y Comunicación:** orientaciondc@palermo.edu
 
----
+
 
 ## 7. 🏢 Requerimiento Institucional (RRHH / Administración)
 
@@ -89,7 +89,7 @@ Para consultas puramente académicas antes o después de rendir un examen:
 * 📍 **Ubicación de entrega:** Sede Mario Bravo 1302, 6to piso.
 * 📆 **Fecha límite:** 31/12/2025.
 
----
+
 
 ## 8. 📁 Recursos Internos y Enlaces del Grupo de Estudiantes
 
@@ -99,7 +99,7 @@ Para consultas puramente académicas antes o después de rendir un examen:
 * 💬 **Comunidad/Chat WhatsApp:** [Enlace de invitación a WhatsApp](https://chat.whatsapp.com/I7XRlk1yVfJ4k4FsTVGO9b)
 * 📜 **Normas y Reglamentos Oficiales:** [Sitio web de reglamentos UP](https://www.palermo.edu/normas-y-reglamentos.html)
 
----
+
 
 ## 9. 💻 Guía Rápida: Grabación de Pantalla en Windows
 
@@ -109,7 +109,7 @@ Herramienta nativa para capturar evidencias de fallas en el campus:
 * 🔴 **Iniciar Grabación Directa:** Presionar `Windows` + `Alt` + `R`
 * ⚠️ **Limitaciones:** Permite grabar aplicaciones o juegos individuales, **pero no** captura el escritorio completo ni el Explorador de Archivos de Windows.
 
----
+
 
 ## 10. 💲 Comentarios sobre el "Technology Fee" (Cargo de Tecnología)
 

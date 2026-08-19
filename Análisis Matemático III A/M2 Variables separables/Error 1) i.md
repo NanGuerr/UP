@@ -1,60 +1,58 @@
-## 🧮 Guía Completa: Ecuaciones Diferenciales de Primer Orden de Variables Separables
+# 🧮 Resolución Paso a Paso de la Ecuación Diferencial ✨
 
-Las ecuaciones diferenciales ordinarias (EDO) de primer orden de variables separables representan una de las clases más importantes y accesibles dentro del análisis matemático, permitiendo modelar sistemas físicos básicos y fenómenos complejos.
-
-### 📐 Definición y Forma Estándar
-
-Una ecuación diferencial ordinaria de primer orden se dice que es de **variables separables** si se puede expresar de la forma:
-
-$$\frac{dy}{dx} = g(x) \cdot h(y)$$
-
-O expresada de forma equivalente mediante diferenciales:
-
-$$M(x, y) \, dx + N(x, y) \, dy = 0$$
-
-Siempre que los términos puedan reescribirse de tal manera que las variables queden completamente desacopladas en cada miembro de la igualdad.
+Para resolver la ecuación diferencial ordinaria de primer orden $xy + y^2 \frac{dy}{dx} = 6x$, se aplica rigurosamente el método analítico de separación de variables. 🧠📐
 
 ---
 
-### 📝 Metodología Paso a Paso para la Resolución
+## 🔄 Paso 1: Separación de variables
 
-El procedimiento estándar para encontrar la solución general comprende tres etapas fundamentales:
+📌 **Dada la ecuación diferencial inicial:**
 
-1. **Separación de Variables:**
-Se agrupan todas las expresiones que contienen a la variable dependiente $y$ con el diferencial $dy$ en un miembro, y todas las expresiones que contienen a la variable independiente $x$ con el diferencial $dx$ en el otro miembro:
+$$xy + y^2 \frac{dy}{dx} = 6x$$
 
-$$\frac{1}{h(y)} \, dy = g(x) \, dx$$
+🧩 **Reordenamiento algebraico:** 
+Se aísla el término que contiene la derivada multiplicando toda la expresión por $dx$ y agrupando los términos correspondientes, lo que resulta en:
+$$y^2 \, dy = (6x - xy) \, dx$$
 
+✂️ **Factorización:** 
+Se extrae factor común $x$ en el lado derecho de la igualdad:
+$$y^2 \, dy = x(6 - y) \, dx$$
 
-2. **Integración de Ambos Miembros:**
-Se aplica el operador de integración a ambos lados de la ecuación:
-
-$$\int \frac{1}{h(y)} \, dy = \int g(x) \, dx$$
-
-
-
-Al resolver las integrales indefinidas resultantes, se añade una constante de integración $C$ para reflejar la familia de curvas que satisfacen la ecuación.
-3. **Despeje y Simplificación de la Solución:**
-Se despeja la variable $y$ siempre que sea posible para obtener una solución explícita, o se conserva la forma implícita $G(y) = F(x) + C$.
+🗂️ **Agrupamiento de variables:** 
+Se dividen los términos algebraicos para garantizar que todas las funciones dependientes de la variable $y$ queden agrupadas junto al diferencial $dy$, mientras que las expresiones dependientes de $x$ se sitúan junto al diferencial $dx$:
+$$\frac{y^2}{6 - y} \, dy = x \, dx$$
 
 ---
 
-### 💡 Ejemplo Práctico de Aplicación
+## ⚖️ Paso 2: Integración de ambos miembros
 
-Tomando como referencia el ejercicio de análisis algebraico:
+♾️ Se plantea la integración indefinida en ambos lados de la ecuación previamente separada:
 
+$$\int \frac{y^2}{6 - y} \, dy = \int x \, dx$$
 
-$$x \cdot y^2 dx + (y + x^2 y) dy = 0$$
+➡️ **Evaluación del miembro derecho:**
+La integral directa respecto a $x$ se resuelve aplicando la regla de la potencia:
+$$\int x \, dx = \frac{1}{2}x^2$$
 
-* **Paso 1 (Factorización y Separación):**
-Se factoriza $y$ en el segundo término obteniendo $x \cdot y^2 dx + y(1 + x^2) dy = 0$, para luego reordenar y dividir, separando las variables de la forma $\frac{1}{y} dy = -\frac{x}{1 + x^2} dx$.
-* **Paso 2 (Integración):**
-Se integran ambos miembros: $\int \frac{1}{y} dy = -\int \frac{x}{1 + x^2} dx$, lo que da como resultado $\ln\vert{}y\vert{} = -\frac{1}{2} \ln(1 + x^2) + C$.
-* **Paso 3 (Despeje final):**
-Aplicando propiedades logarítmicas y exponenciales, se determina la solución explícita en su forma simplificada $y = \frac{K}{\sqrt{1 + x^2}}$.
+⬅️ **Evaluación del miembro izquierdo:**
+Dado que el integrando es una función racional impropia (el grado del polinomio en el numerador es mayor que en el denominador), se realiza una división algebraica ➗ o un ajuste equivalente para descomponer la expresión:
+$$\frac{y^2}{6 - y} = -y - 6 + \frac{36}{6 - y}$$
+
+📉 Al integrar cada término resultante de forma individual respecto a $y$, se obtiene:
+$$\int \left(-y - 6 + \frac{36}{6 - y}\right) dy = -\frac{y^2}{2} - 6y - 36 \ln\vert{}6 - y\vert{}$$
+
+🔗 Igualando los resultados obtenidos en ambos lados de la expresión e incorporando la constante de integración arbitraria $C$, se establece la igualdad:
+$$-\frac{y^2}{2} - 6y - 36 \ln\vert{}6 - y\vert{} = \frac{1}{2}x^2 + C$$
 
 ---
 
-[Ejemplo de examen de ecuaciones diferenciales separables](https://www.youtube.com/watch?v=neA46uHip4s)
+## 🧹 Paso 3: Simplificación de la solución
 
-Este video muestra la resolución detallada paso a paso de un ejercicio de examen sobre ecuaciones diferenciales de variables separables con condiciones iniciales.
+✖️ **Eliminación de fracciones y coeficientes negativos:** 
+Se multiplica toda la ecuación por $-2$ con el propósito de simplificar los denominadores y optimizar la expresión: 🛠️
+$$y^2 + 12y + 72 \ln\vert{}6 - y\vert{} = -x^2 + C_1$$
+*(donde $C_1 = -2C$ representa una nueva constante arbitraria resultante de la reasignación escalar 🏷️).*
+
+🏁 **Solución general implícita:** 
+Se reordenan los términos trasladando $-x^2$ al miembro izquierdo para expresar la solución general definitiva de la ecuación diferencial: ✅
+$$x^2 + y^2 + 12y + 72 \ln\vert{}6 - y\vert{} = C_1$$

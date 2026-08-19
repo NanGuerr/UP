@@ -127,3 +127,19 @@ A partir de las búsquedas y conversaciones registradas en los grupos de estudia
 * 📈 **Aumentos y ajustes:** Los alumnos señalan que cuando las cuotas base no sufren modificaciones directas, los incrementos suelen verse reflejados en este rubro.
 * 💳 **Impacto en los pagos:** Se menciona la importancia de contar con el pago de esta tarifa acreditado para evitar recargos o ajustes en el valor final de la cuota.
 * 🎭 **Sátira / Percepción estudiantil:** En la comunidad de estudiantes es recurrente el uso humorístico del término *"technology fee"* para hacer referencia a las tarifas administrativas o cobros extras ante cualquier fallo o actualización de la plataforma.
+
+### 💸 Tabla de pagos por materias 
+
+Tomando como base la cuota completa regular de **$720.000 ARS** (Turno Distancia) y el valor unitario por asignatura de **$180.000 ARS** (Precio UV), los **$900.000 ARS** emitidos en el sistema corresponden al cálculo de cursar 6 materias (Cuota completa + 1 asignatura adicional).
+
+| Cantidad de Materias (UV) | Criterio de Cobro | Cálculo Aplicado | Arancel Total Mensual (ARS) |
+| --- | --- | --- | --- |
+| **1** | Por asignatura individual | 1 × $180.000 | **$180.000** |
+| **2** | Por asignatura individual | 2 × $180.000 | **$360.000** |
+| **3** | Cuota completa | Tarifa plana (3 a 5 materias) | **$720.000** |
+| **4** | Cuota completa | Tarifa plana (3 a 5 materias) | **$720.000** |
+| **5** | Cuota completa | Tarifa plana (3 a 5 materias) | **$720.000** |
+| **6** | Cuota completa + 1 adicional | $720.000 + (1 × $180.000) | **$900.000** |
+| **7** *(Límite máx.)* | Cuota completa + 2 adicionales | $720.000 + (2 × $180.000) | **$1.080.000** |
+
+Al inscribir 6 asignaturas, el sistema cobra la cuota base del turno ($720.000) e incluye un excedente de 1 UV individual ($180.000), dando exactamente los **$900.000 ARS** que figuran en el cupón de pago.

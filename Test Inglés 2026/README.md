@@ -29,7 +29,7 @@
 > **🎯 Objetivo del repositorio:** 
 > Material de estudio enfocado en el dominio de competencias lingüísticas en inglés técnico e internacional, diseñado específicamente para optimizar la interpretación de estándares, documentación de sistemas complejos y la comunicación efectiva en equipos multidisciplinarios de ingeniería y tecnología.
 
-# 🇬🇧 Programa de Idioma Inglés 2026
+# 🗣️ Programa de Idioma Inglés 2026
 
 El Programa de Idioma Inglés de la Universidad de Palermo para el ciclo 2025-2026 se estructura como un sistema integral de formación y evaluación diseñado para desarrollar competencias lingüísticas desde un enfoque normativo y comunicativo. Los aspectos más críticos del programa incluyen:
 

@@ -42,15 +42,15 @@
 2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
 3. 💰 `(026532)` Fundamentos de Economía y Finanzas 🌞
 4. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal) 
-5. 🌐 `(026213)` TCP/IP 🆓
+5. 🌐 `(026213)` TCP/IP
 6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador)
 
 ## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
 
-1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓
+1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓🥼
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) 🥼
-4. 👔 `(026009)` Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Director de Departamento)
+4. 👔 `(026009)` Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)
 5. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)
 6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) 🥼
    

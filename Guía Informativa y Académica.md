@@ -54,7 +54,7 @@ Según las **Normas Académicas de la Universidad de Palermo** (artículo 9.6.2)
 
 
 
-# 🔔 Notificaciones Oficiales y Discusiones Comunitarias (UP)
+## 🔔 Notificaciones Oficiales y Discusiones Comunitarias (UP)
 
 📄 Documento complementario que reúne las notificaciones institucionales recibidas por canales oficiales y las observaciones de los estudiantes en grupos de conversación.
 

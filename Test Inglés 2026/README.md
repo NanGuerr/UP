@@ -8,7 +8,7 @@
   <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#3--estructura-acad%C3%A9mica-por-niveles-syllabus">
     <img src="https://img.shields.io/badge/Syllabus-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Syllabus">
   </a>
-  <a href="#2-metodología-de-evaluación-y-cursado">
+  <a href="https://github.com/NanGuerr/UP/blob/main/Test%20Ingl%C3%A9s%202026/README.md#2--metodolog%C3%ADa-de-evaluaci%C3%B3n-y-cursado">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
   </a>
   <a href="#4-bibliografía-obligatoria">

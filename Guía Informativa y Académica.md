@@ -130,9 +130,9 @@ A partir de las búsquedas y conversaciones registradas en los grupos de estudia
 
 ### 💸 Tabla de pagos por materias 
 
-Tomando como base la cuota completa regular de **$720.000 ARS** (Turno Distancia) y el valor unitario por asignatura de **$180.000 ARS** (Precio UV), los **$900.000 ARS** emitidos en el sistema corresponden al cálculo de cursar 6 materias (Cuota completa + 1 asignatura adicional).
+Tomando como base la cuota completa regular de **$720.000 ARS** (Turno Distancia) y el valor unitario por asignatura de **$180.000 ARS** (Precio UV), los **$900.000 ARS** emitidos en el sistema corresponden al cálculo de cursar 6 materias (Cuota completa + 1 asignatura adicional). Recordar que 1 materia estándar = 1 UV.
 
-| Cantidad Materias (UV) | Criterio de Cobro | Cálculo Aplicado | Arancel Mensual (ARS) |
+| Cantidad de UV | Criterio de Cobro | Cálculo Aplicado | Arancel Mensual (ARS) |
 | --- | --- | --- | --- |
 | **1** | Por asignatura individual | 1 × $180.000 | **$180.000** |
 | **2** | Por asignatura individual | 2 × $180.000 | **$360.000** |

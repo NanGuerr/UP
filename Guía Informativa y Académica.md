@@ -20,11 +20,6 @@ En las carreras de grado de la universidad, el número regular de materias por s
 
 * 📖 **Equivalencia:** `1 materia estándar = 1 UV`.
 * ⚖️ **Carga regular:** El rango regular de cursada equivale a **4 materias por semestre (≈ 4 UV)**.
-# Información sobre Aranceles e Inscripción de Asignaturas
-
-**De:** Julieta Farina (MyUP)  
-**Fecha:** 11 feb 2026, 16:44 GMT-3  
-**Para:** Leandro  
 
 Los aranceles se determinarán en función de la cantidad de asignaturas en las que te inscribas. El valor por asignatura es de **$180.000.-**. Podrás realizar la inscripción a la cantidad de asignaturas que desees y abonar el arancel correspondiente.
 

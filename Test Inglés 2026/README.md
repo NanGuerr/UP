@@ -1,15 +1,18 @@
 > [!IMPORTANT]
-> ### *"Dominar el idioma es un catalizador crítico para la optimización de la transferencia de conocimiento técnico en entornos globales y multidisciplinarios de ingeniería internacional."*
+> ### *"Dominar el idioma es un catalizador crítico para la optimización de la transferencia de conocimiento técnico para entornos globales y multidisciplinarios de ingeniería internacional."*
 
 <p align="center">
-  <a href="#-1-información-general-de-la-materia">
-    <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
+  <a href="#-programa-de-idioma-inglés-2026">
+    <img src="https://img.shields.io/badge/Información_General-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
   </a>
-  <a href="#-2-programa-analítico-unidades-y-módulos">
-    <img src="https://img.shields.io/badge/Programa_Analítico-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Programa Analítico">
+  <a href="#3-estructura-académica-por-niveles-syllabus">
+    <img src="https://img.shields.io/badge/Syllabus-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Syllabus">
   </a>
-  <a href="#-4-requisitos-de-aprobación-y-evaluación">
+  <a href="#2-metodología-de-evaluación-y-cursado">
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
+  </a>
+  <a href="#4-bibliografía-obligatoria">
+    <img src="https://img.shields.io/badge/Recursos-e67e22?style=for-the-badge&logo=openlibrary&logoColor=white" alt="Bibliografía y Equivalencias">
   </a>
 </p>
 
@@ -106,3 +109,16 @@ Para tramitar la equivalencia, el alumno debe enviar el certificado escaneado a 
 
 ### 💡 Nota para estudiantes de Ingeniería:
 "La adquisición de competencias comunicativas en lengua inglesa no solo constituye un requisito académico, sino que actúa como un catalizador crítico para la optimización de la transferencia de conocimiento técnico en entornos globales, permitiendo la interpretación precisa de estándares, documentación de sistemas complejos y la integración sin fricciones en equipos multidisciplinarios de ingeniería internacional."
+
+
+<p align="center">
+  <a href="#-programa-de-idioma-inglés-2026">
+    <img src="https://img.shields.io/badge/Información_General-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
+  </a>
+  <a href="#3-estructura-académica-por-niveles-syllabus">
+    <img src="https://img.shields.io/badge/Syllabus-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Syllabus">
+  </a>
+  <a href="#2-metodología-de-evaluación-y-cursado">
+    <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
+  </a>
+</p>

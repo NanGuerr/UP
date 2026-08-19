@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="#-programa-de-idioma-inglés-2026">
-    <img src="https://img.shields.io/badge/Información_General-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información General">
+    <img src="https://img.shields.io/badge/Información-0059b3?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Información">
   </a>
   <a href="#3-estructura-académica-por-niveles-syllabus">
     <img src="https://img.shields.io/badge/Syllabus-28a745?style=for-the-badge&logo=gitbook&logoColor=white" alt="Syllabus">
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Evaluación-4a4a4a?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Evaluación">
   </a>
   <a href="#4-bibliografía-obligatoria">
-    <img src="https://img.shields.io/badge/Recursos-e67e22?style=for-the-badge&logo=openlibrary&logoColor=white" alt="Bibliografía y Equivalencias">
+    <img src="https://img.shields.io/badge/Recursos-e67e22?style=for-the-badge&logo=openlibrary&logoColor=white" alt="Bibliografía">
   </a>
 </p>
 

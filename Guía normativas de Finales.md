@@ -59,8 +59,9 @@ Para presentar exámenes finales rigen las siguientes condiciones arancelarias:
 En los documentos se identifican dos esquemas de equivalencia para convertir la escala porcentual (0 - 100) a la nota final numérica (1 - 10):
 
 | Porcentaje / Puntaje | Nota Final (Esquema A) | Nota Final (Esquema B) | Condición Académica |
-|  |  |  |  |
-| **0 – 59** | 2 | 2 (dos) | ❌ Desaprobado |
+| --- | --- | --- | --- |
+| **0 – 1** | 0 | 1 (uno) | ❌ Desaprobado |
+| **2 – 59** | 2 | 2 (dos) | ❌ Desaprobado |
 | **60 – 64** | 4 | 4 (cuatro) | ✅ Aprobado |
 | **65 – 66** | 4 | 5 (cinco) | ✅ Aprobado |
 | **67 – 69** | 5 | 5 (cinco) | ✅ Aprobado |
@@ -74,6 +75,9 @@ En los documentos se identifican dos esquemas de equivalencia para convertir la 
 | **90 – 95** | 9 | 9 (nueve) | ✅ Aprobado |
 | **96 – 98** | 10 | 9 (nueve) | ✅ Aprobado |
 | **99 – 100** | 10 | 10 (diez) | ✅ Aprobado |
+
+> [!WARNING]
+> *La puntuación de 0 a 1 se refiere a que el examen se ha anulado, amerita apelación por causa probable de falta grave como sospecha de actos no éticos durante la realización del mismo. A la tercera anulación se plantea la expulsión inmediata de la Universidad*
 
 **📐 Tipos de Escalas de Calificación**
 

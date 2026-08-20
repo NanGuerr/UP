@@ -3,6 +3,7 @@
 Con este código en Python puedes obtener los resultados preliminares del primer laboratorio de Física I. Solo debes sustituir los datos por el conjunto de datos proporcionados.
 
 ```python
+
 import numpy as np
 
 # --- 1. DATOS ---
@@ -44,6 +45,7 @@ print("RESULTADOS FINALES")
 print(f"Altura:   {h_m:.2f} ± {h_err:.2f} mm")
 print(f"Diámetro: {D_m:.2f} ± {D_err:.2f} mm")
 print(f"Masa:     {P_m:.2f} ± {P_err:.2f} g")
+print(f"Volumen:  {V_m:.2f} ± {V_err:.2f} g")
 print(f"Densidad: {rho_m:.2f} ± {rho_err:.2f} g/cm^3")
 
 ```
@@ -56,6 +58,7 @@ RESULTADOS FINALES
 Altura:   13.17 ± 0.05 mm
 Diámetro: 25.61 ± 0.09 mm
 Masa:     50.03 ± 0.13 g
+Volumne:  6785.48 ± 51.81 g
 Densidad: 7.37 ± 0.06 g/cm^3
 
 ```

@@ -1,6 +1,6 @@
 # 🧪 Script de Laboratorio
 
-Con este código en Python puedes obtener los resultados preliminares del primer laboratorio de Física I. Solo debes sustituir los datos por el conjunto de datos proporcionados, con la densidad calculada en kg/m^3.
+Con este código en Python puedes obtener los resultados preliminares del primer laboratorio de Física I. Solo debes sustituir los datos por el conjunto de datos proporcionados, con la densidad calculada en $\text{kg/m}^3$.
 
 ```python
 

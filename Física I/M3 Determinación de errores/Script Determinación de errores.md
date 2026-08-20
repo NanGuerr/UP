@@ -59,6 +59,3 @@ Densidad: 7.37 ± 0.06 g/cm^3
 
 ```
 
-
-> [!WARNING]
-> **Advertencia:** *Es necesario verificar todos los datos, formulas, medidas y las respectivas unidades de medición antes de entregar el TP, ojo la densidad esta en g/cm^3 y se debe llevar a kg/m^3 obteniendo 7372.60 ± 59.38 kg/m^3...*

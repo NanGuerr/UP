@@ -88,3 +88,21 @@ Para verificar si los sucesos son independientes, se debe cumplir **$P(R \mid S)
 ⚖️ Como **$0.85 \neq 0.7375$**, la ocurrencia de estar satisfecho altera la probabilidad de recomendar.
 
 ❌ Los sucesos “satisfecho” y “recomienda” son independientes: **Falso**
+
+## 🗓️ Tabla de Contingencia de Probabilidades
+
+| Satisfacción \ Recomendación | 👍 Recomienda ($R$) | 👎 No Recomienda ($R^c$) | 📊 Total Marginal |
+| :--- | :---: | :---: | :---: |
+| 🟢 **Satisfecho ($S$)** | $P(S \cap R) = \mathbf{0.6375}$ | $P(S \cap R^c) = \mathbf{0.1125}$ | $P(S) = \mathbf{0.7500}$ |
+| 🔴 **No Satisfecho ($S^c$)** | $P(S^c \cap R) = \mathbf{0.1000}$ | $P(S^c \cap R^c) = \mathbf{0.1500}$ | $P(S^c) = \mathbf{0.2500}$ |
+| 📈 **Total Marginal** | $P(R) = \mathbf{0.7375}$ | $P(R^c) = \mathbf{0.2625}$ | $\mathbf{1.0000}$ |
+
+---
+
+## 📈 Tabla de Contingencia Expresada en Porcentajes (%)
+
+| Satisfacción \ Recomendación | 👍 Recomienda ($R$) | 👎 No Recomienda ($R^c$) | 📊 Total |
+| :--- | :---: | :---: | :---: |
+| 🟢 **Satisfecho ($S$)** | **63.75%** | **11.25%** | **75.00%** |
+| 🔴 **No Satisfecho ($S^c$)** | **10.00%** | **15.00%** | **25.00%** |
+| 📈 **Total** | **73.75%** | **26.25%** | **100.00%** |

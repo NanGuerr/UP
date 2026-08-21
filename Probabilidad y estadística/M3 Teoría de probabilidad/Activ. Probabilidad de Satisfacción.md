@@ -1,4 +1,4 @@
-# 📊 Probabilidad: Satisfacción y Recomendación del Servicio 
+# 📊 Probabilidad de Recomendación del Servicio 
 
 Una empresa proveedora de servicios de Internet y telefonía móvil realiza una encuesta a sus usuarios para conocer su nivel de satisfacción con la calidad del servicio de conexión 5G, y si recomendarían el servicio a otros. 
 
@@ -14,7 +14,7 @@ Para responder a todas las consignas, primero definimos los eventos y organizamo
 * 🟢 **$S$**: El usuario está satisfecho ➔ (**$S^c$**: no está satisfecho) 
 * 👍 **$R$**: El usuario recomienda el servicio ➔ (**$R^c$**: no lo recomienda) 
 
----
+
 
 ## 📌 Datos Iniciales
 
@@ -22,7 +22,7 @@ Para responder a todas las consignas, primero definimos los eventos y organizamo
 * 👎 $P(R^c \mid S^c) = 0.60 \implies$  $P(R \mid S^c) = 0.40$
 * 👎 $P(R^c \mid S) = 0.15 \implies$  $P(R \mid S) = 0.85$
 
----
+
 
 ## 🧮 Cálculos Principales
 
@@ -38,7 +38,7 @@ Para responder a todas las consignas, primero definimos los eventos y organizamo
 ### 3️⃣ Probabilidad Condicional $P(S \mid R)$ 
 * 🎯 $P(S \mid R) = \frac{P(S \cap R)}{P(R)} = \frac{0.6375}{0.7375} \approx \mathbf{0.8644}$
 
----
+
 
 ## ❓ Pregunta 2
 
@@ -53,7 +53,7 @@ Opciones correspondientes para la notación:
 
 ✅ La probabilidad pedida se simboliza: **3** = **0.8644**
 
----
+
 
 ## ❓ Pregunta 3
 
@@ -61,22 +61,22 @@ Buscamos la probabilidad de que un usuario no esté satisfecho y tampoco recomie
 
 * 📊 **Porcentaje:** **15%** (obtenido de $P(S^c \cap R^c) = 0.15$).
 
-Dadas las opciones habituales para esta probabilidad ($P(S^c \cap R^c)$ o $P(\text{no } S \text{ y no } R)$):
+Dadas las opciones habituales para esta probabilidad  $P(S^c \cap R^c)$ o $P(S^c \cap R^c)$
 
-* ✅ La probabilidad pedida se simboliza: **4** (correspondiente a la probabilidad conjunta de ambos eventos negativos, $P(S^c \cap R^c)$).
+* ✅ La probabilidad pedida se simboliza: **4** (correspondiente a la probabilidad conjunta de ambos eventos negativos, $P(S^c \cap R^c)$
 
----
+
 
 ## ❓ Pregunta 4
 
 Buscamos la probabilidad de que un usuario recomiende dado que está satisfecho, lo cual corresponde a **$P(R \mid S)$**.
 
-* 📝 **Notación:** Opción **1** ($P(R \mid S)$)
+* 📝 **Notación:** Opción **1** $P(R \mid S)$
 * 🔢 **Valor:** **0.85** (o **0.8500**)
 
 ✅ La probabilidad pedida se simboliza: **1** = **0.85**
 
----
+
 
 ## ❓ Pregunta 5
 

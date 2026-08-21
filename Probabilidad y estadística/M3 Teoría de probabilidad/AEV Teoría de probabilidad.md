@@ -107,7 +107,7 @@ Se llevó a cabo una investigación de mercado, y parte del objetivo era determi
 Como parte de los resultados de un estudio sobre bullying se construyó la siguiente tabla:
 
 | Rendimiento / Bullying | No | Si | Total |
-| : | :: | :: | :: |
+| --- | --- | --- | --- |
 | **Bajo** | 1 | 4 | **5** |
 | **Regular** | 4 | 9 | **13** |
 | **Bueno** | 1 | 11 | **12** |

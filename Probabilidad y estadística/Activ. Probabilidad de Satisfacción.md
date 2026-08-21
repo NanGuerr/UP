@@ -1,32 +1,41 @@
-# 📊 Análisis de Probabilidades: Satisfacción y Recomendación del Servicio 📈
+# 📊 Probabilidad: Satisfacción y Recomendación del Servicio 
+
+Una empresa proveedora de servicios de Internet y telefonía móvil realiza una encuesta a sus usuarios para conocer su nivel de satisfacción con la calidad del servicio de conexión 5G, y si recomendarían el servicio a otros. 
+
+## Los resultados muestran que: 
+
+El 25% de los usuarios no está satisfecho con el servicio 5G. 
+De los no satisfechos, el 60% no lo recomendaría. 
+Además, el 15% de los usuarios satisfechos tampoco lo recomendaría. 
+Llamamos R: recomendar y S: usuario satisfecho. 
 
 Para responder a todas las consignas, primero definimos los eventos y organizamos la información proporcionada:
 
-* 🟢 **$S$**: El usuario está satisfecho ➔ (**$S^c$**: no está satisfecho) 🔴
-* 👍 **$R$**: El usuario recomienda el servicio ➔ (**$R^c$**: no lo recomienda) 👎
+* 🟢 **$S$**: El usuario está satisfecho ➔ (**$S^c$**: no está satisfecho) 
+* 👍 **$R$**: El usuario recomienda el servicio ➔ (**$R^c$**: no lo recomienda) 
 
 ---
 
 ## 📌 Datos Iniciales
 
-* 🔴 $P(S^c) = 0.25 \implies$ 🟢 $P(S) = 0.75$
-* 👎 $P(R^c \mid S^c) = 0.60 \implies$ 👍 $P(R \mid S^c) = 0.40$
-* 👎 $P(R^c \mid S) = 0.15 \implies$ 👍 $P(R \mid S) = 0.85$
+* 🔴 $P(S^c) = 0.25 \implies$  $P(S) = 0.75$
+* 👎 $P(R^c \mid S^c) = 0.60 \implies$  $P(R \mid S^c) = 0.40$
+* 👎 $P(R^c \mid S) = 0.15 \implies$  $P(R \mid S) = 0.85$
 
 ---
 
 ## 🧮 Cálculos Principales
 
-### 1️⃣ Probabilidades Conjuntas 🔀
-* 🟢👍 $P(S \cap R) = P(S) \cdot P(R \mid S) = 0.75 \cdot 0.85 = \mathbf{0.6375}$
-* 🟢👎 $P(S \cap R^c) = P(S) \cdot P(R^c \mid S) = 0.75 \cdot 0.15 = \mathbf{0.1125}$
-* 🔴👍 $P(S^c \cap R) = P(S^c) \cdot P(R \mid S^c) = 0.25 \cdot 0.40 = \mathbf{0.1000}$
-* 🔴👎 $P(S^c \cap R^c) = P(S^c) \cdot P(R^c \mid S^c) = 0.25 \cdot 0.60 = \mathbf{0.1500}$
+### 1️⃣ Probabilidades Conjuntas 
+* 🟢 $P(S \cap R) = P(S) \cdot P(R \mid S) = 0.75 \cdot 0.85 = \mathbf{0.6375}$
+* 🟢 $P(S \cap R^c) = P(S) \cdot P(R^c \mid S) = 0.75 \cdot 0.15 = \mathbf{0.1125}$
+* 🔴 $P(S^c \cap R) = P(S^c) \cdot P(R \mid S^c) = 0.25 \cdot 0.40 = \mathbf{0.1000}$
+* 🔴 $P(S^c \cap R^c) = P(S^c) \cdot P(R^c \mid S^c) = 0.25 \cdot 0.60 = \mathbf{0.1500}$
 
-### 2️⃣ Probabilidad Total de Recomendar $P(R)$ 📣
+### 2️⃣ Probabilidad Total de Recomendar $P(R)$ 
 * 👍 $P(R) = P(S \cap R) + P(S^c \cap R) = 0.6375 + 0.1000 = \mathbf{0.7375}$
 
-### 3️⃣ Probabilidad Condicional $P(S \mid R)$ 🎯
+### 3️⃣ Probabilidad Condicional $P(S \mid R)$ 
 * 🎯 $P(S \mid R) = \frac{P(S \cap R)}{P(R)} = \frac{0.6375}{0.7375} \approx \mathbf{0.8644}$
 
 ---

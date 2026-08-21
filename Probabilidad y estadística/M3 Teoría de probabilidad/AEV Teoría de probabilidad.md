@@ -67,7 +67,8 @@ Se tabularon los datos de una encuesta online, en la que los voluntarios utiliza
 * ✍️ Calcular si es posible la probabilidad $p(\text{utilice las redes más de 3 horas / compra casi todo por Internet})$. Completar con el resultado numérico, usando comas en caso de ser necesario: **`50%`**.
 * ✍️ El hecho de que compre casi todo por Internet es independiente del hecho de que utilice las redes sociales más de 3 horas. ¿Verdadero o falso? **`Falso`**.
 
-> **💬 Comentarios:** Incorrecto. Analizar nuevamente qué sucesos son condicionados.
+> [!CAUTION]
+> **Comentarios:** Incorrecto. Analizar nuevamente qué sucesos son condicionados.
 
 
 

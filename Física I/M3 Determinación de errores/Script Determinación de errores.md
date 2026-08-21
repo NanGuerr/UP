@@ -46,7 +46,9 @@ print("RESULTADOS FINALES")
 print(f"Altura:   {h_m:.2f} ± {h_err:.2f} mm")
 print(f"Diámetro: {D_m:.2f} ± {D_err:.2f} mm")
 print(f"Masa:     {P_m:.2f} ± {P_err:.2f} g")
-print(f"Densidad: {rho_m:.2f} ± {rho_err:.2f} kg/m^3")
+print(f"Volumen:  {V_m:.2f} ± {V_err:.2f} g")
+print(f"Peso esp: {rho_m:.2f} ± {rho_err:.2f} kg/m^3")
+
 ```
 
 # 📐 Resultados Obtenidos

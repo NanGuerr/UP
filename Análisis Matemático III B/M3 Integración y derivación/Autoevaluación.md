@@ -1,4 +1,5 @@
-# 📄 Desarrollo Resolutivo y Análisis Conceptual 📚
+# 📄 Desarrollo Resolutivo
+
 
 Se presenta el análisis detallado y la fundamentación teórica de cada uno de los bloques de la autoevaluación:
 
@@ -23,8 +24,12 @@ $$\int_{a}^{b} \frac{\ln(1+x)}{x} \, dx$$
   $$\frac{\ln(1+x)}{x} = \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^{n-1}}{n}$$
 
 * **Paso 5 (Integración final):** Integramos término a término la serie resultante en el intervalo $[a, b]$:
-  $$\int_{a}^{b} \frac{\ln(1+x)}{x} \, dx = \left[ \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n^2} \right]_a^b = \sum_{n=1}^{\infty} \frac{(-1)^{n-1}(b^n - a^n)}{n^2}$$
+  $$\int_{a}^{b} \frac{\ln(1+x)}{x} \$$
+  
 
+$$\int_a^b \frac{\ln(1+x)}{x} \, dx = \left[\sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n^2} \right]_a^b = \sum_{n=1}^{\infty} \frac{(-1)^{n-1}(b^n - a^n)}{n^2}$$
+
+  
 ### 💡 Conclusiones de las preguntas:
 * **Pregunta 1:** Verdadero. Es estrictamente necesario usar la serie geométrica y la integración de series de potencias. ✅
 * **Pregunta 2:** Falso. Se requiere integración término a término de la serie resultante para resolver la integral, no su derivación. ❌
@@ -47,8 +52,12 @@ $$\int_{a}^{b} \frac{\arctan(x)}{x} \, dx$$
   $$\arctan(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
 
 * **Paso 4 (Dividir por $x$ e Integrar):** Dividimos entre $x$ e integramos la serie de potencias entre $a$ y $b$:
-  $$\int_a^b \frac{\arctan(x)}{x} \, dx = \left[ \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)^2} \right]_a^b = \sum_{n=0}^{\infty} \frac{(-1)^n (b^{2n+1} - a^{2n+1})}{(2n+1)^2}$$
 
+
+
+$$\int_a^b \frac{\arctan(x)}{x} \, dx = \left[ \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)^2} \right]_a^b = \sum_{n=0}^{\infty} \frac{(-1)^n (b^{2n+1} - a^{2n+1})}{(2n+1)^2}$$
+
+  
 ### 💡 Conclusiones de las preguntas:
 * **Pregunta 3:** Verdadero. Requiere serie geométrica e integración término a término. ✅
 * **Pregunta 4:** Falso. El proceso requiere integrar para resolver la integral de la función, no derivar. ❌

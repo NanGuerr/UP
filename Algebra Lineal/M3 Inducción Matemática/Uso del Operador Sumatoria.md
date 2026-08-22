@@ -1,8 +1,8 @@
-# 🧮 Uso del Operador Sumatoria ($\sum$) en Inducción Matemática 📐
+# 🧮 Uso del Operador Sumatoria ($\sum$)
 
 Saber cuándo y cómo usar el operador sumatoria ($\sum$) en la inducción matemática depende de la forma del problema y de un mecanismo algebraico clave en el Paso 4 (Demostración). ⚙️
 
----
+
 
 ## 1. ❓ ¿Cuándo se usa la sumatoria?
 
@@ -16,7 +16,7 @@ Usas el símbolo de sumatoria $\sum$ cuando el ejercicio consiste en demostrar l
 
 Ambas formas dicen lo mismo, pero la notación $\sum$ te permite manipular sumas extensas con mucho más rigor algebraico sin depender de los tres puntos ($\dots$). 💡
 
----
+
 
 ## 2. 📝 ¿Cómo se usa en cada paso de la inducción?
 
@@ -29,21 +29,21 @@ $$\sum_{j=1}^{1} a_j = a_1$$
 
 Luego verificas que $a_1 = F(1)$. ✅
 
----
+
 
 ### 🔹 Paso 2: Hipótesis Inductiva ($n = k$) 💡
 Escribes la sumatoria hasta el término $k$ y asumes que es igual a la fórmula:
 
 $$\sum_{j=1}^{k} a_j = F(k) \quad \text{(Tu herramienta de trabajo)}$$
 
----
+
 
 ### 🔹 Paso 3: Tesis Inductiva ($n = k + 1$) 🎯
 Planteas la sumatoria extendida hasta $k+1$ y la fórmula evaluada en $k+1$:
 
 $$\sum_{j=1}^{k+1} a_j = F(k+1) \quad \text{(Tu meta)}$$
 
----
+
 
 ### 🔹 Paso 4: Demostración (El truco principal) 🔑
 El secreto para resolver la sumatoria en la demostración es **separar el último término** de la sumatoria ($j = k+1$):
@@ -58,7 +58,7 @@ El secreto para resolver la sumatoria en la demostración es **separar el últim
 3. **Operas algebraicamente:**  
    Sumas los términos (usualmente buscando un denominador común o factorizando) hasta llegar exactamente a $F(k+1)$. 🛠️
 
----
+
 
 ## ⚡ Ejemplo rápido: Suma de Cuadrados
 
@@ -80,4 +80,4 @@ En el Paso 4, comienzas con el miembro izquierdo de la tesis: $\sum_{j=1}^{k+1} 
 
 🎉 ¡La demostración queda completada!
 
----
+

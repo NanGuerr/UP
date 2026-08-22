@@ -73,4 +73,4 @@ Supongamos la siguiente tabla de datos sobre **Uso de Redes Sociales** y **Compr
 
 ## 📌 Regla de Oro para Resolver Ejercicios
 
-> **"El evento que va DESPUÉS de palabras como *dado que*, *sabiendo que*, *si*, o *de los que*, SIEMPRE se ubica en el DENOMINADOR de la fórmula ($B$ en $P(A \mid B)$)."**
+> ### El evento que va DESPUÉS de palabras como *dado que*, *sabiendo que*, *si*, o *de los que*, SIEMPRE se ubica en el DENOMINADOR de la fórmula $B$ en $P(A \mid B)$

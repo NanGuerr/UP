@@ -1,4 +1,4 @@
-# 📚 Resumen Propiedades, Condicionales y Diagramas de Árbol 🎲
+# 🎲 Propiedades, Condicionales y Diagramas de Árbol 
 
 Esta guía integra y amplía los conceptos fundamentales presentados en el material de estudio, abarcando desde las propiedades axiomáticas de la probabilidad hasta el uso de diagramas de árbol y el Teorema de la Probabilidad Total.
 
@@ -49,8 +49,8 @@ $$P(A \cap B) = P(B \mid A) \cdot P(A)$$
 Dos sucesos $A$ y $B$ son **independientes** si la ocurrencia de uno no modifica en absoluto la probabilidad de ocurrencia del otro.
 
 ### 📐 Condiciones Equivalentes (Si se cumple una, se cumplen todas):
-1. $P(A \mid B) = P(A)$ *(Saber que ocurrió $B$ no altera la probabilidad de $A$)*.
-2. $P(B \mid A) = P(B)$ *(Saber que ocurrió $A$ no altera la probabilidad de $B$)*.
+1. $P(A \mid B) = P(A)$ *(Saber que ocurrió B no altera la probabilidad de A)*.
+2. $P(B \mid A) = P(B)$ *(Saber que ocurrió A no altera la probabilidad de B)*.
 3. $P(A \cap B) = P(A) \cdot P(B)$ *(Regla del producto simplificada para eventos independientes)*.
 
 
@@ -71,7 +71,7 @@ $$P(A) = \sum_{i=1}^{n} P(A \mid B_i) \cdot P(B_i)$$
 Los diagramas de árbol permiten visualizar escenarios probabilísticos compuestos paso a paso:
 
 * **Primeras ramas (Primera Generación):** Representan los eventos iniciales o condicionantes (ej. producto *Novedoso* vs. *No Novedoso*).
-* **Segundas ramas (Segunda Generación):** Representan las probabilidades condicionales asociadas al resultado del primer paso (ej. $P(E \mid N)$).
+* **Segundas ramas (Segunda Generación):** Representan las probabilidades condicionales asociadas al resultado del primer paso ej. $P(E \mid N)$ .
 * **Extremos de las ramas:** Al multiplicar las probabilidades a lo largo de un camino continuo, se obtiene la **probabilidad conjunta (intersección)**.
 
 ### 🧮 Ejemplo Analizado de la Imagen:

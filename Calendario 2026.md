@@ -4,6 +4,7 @@
 
 | Fecha | Hora | Actividad / Evento | Materia / Nota |
 | --- | --- | --- | --- |
+| **24/08** | 18:30 | **Reunión** | Sistemas_Digitales_II |
 | **04/09** | 20:00 | Zoom 2 | Analisis_Matematico_III_B |
 | **11/09** | 20:00 | Zoom 3 | Analisis_Matematico_III_B |
 | **16/09** | 08:00 | Primer Parcial | Algebra_Lineal |

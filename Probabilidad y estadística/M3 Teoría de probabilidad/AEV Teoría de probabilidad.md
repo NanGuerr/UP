@@ -69,7 +69,7 @@ Se tabularon los datos de una encuesta online, en la que los voluntarios utiliza
 
 > [!CAUTION]
 > **Comentarios:** Incorrecto. Analizar nuevamente qué sucesos son condicionados.
-
+¿Por qué el comentario dice "Incorrecto. Analizar nuevamente qué sucesos son condicionados"? Es muy probable que el sistema tenga cargada la respuesta al revés por un error de diseño (un falso positivo en la clave de corrección de la plataforma), o bien que el comentario automático intente guiarte a comparar $P(A \mid B) = 0,50$ con $P(A) = 0,80$ para justificar por qué son dependientes (condicionados), asumiendo erróneamente que respondiste "Verdadero".
 
 
 ## ❓ Pregunta 6 `(1/1 pto)`

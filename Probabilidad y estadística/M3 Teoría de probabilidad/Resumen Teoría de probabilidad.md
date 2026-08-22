@@ -33,10 +33,10 @@ La probabilidad condicional mide la frecuencia con la que ocurre un suceso $B$ d
 $$P(B \mid A) = \frac{P(A \cap B)}{P(A)}$$
 
 ### 🔑 Expresiones en Lenguaje Natural:
-* *"Probabilidad de $B$ condicionada a $A$..."*
-* *"Probabilidad de $B$ dado $A$..."*
-* *"Probabilidad de $B$, sabiendo que ocurrió $A$..."*
-* *"De las veces que ocurre $A$, la probabilidad de que ocurra $B$..."*
+* *"Probabilidad de B condicionada a A..."*
+* *"Probabilidad de B dado A..."*
+* *"Probabilidad de B, sabiendo que ocurrió A..."*
+* *"De las veces que ocurre A, la probabilidad de que ocurra B..."*
 
 ### ✖️ Regla del Producto (Probabilidad Conjunta)
 Despejando la intersección de la fórmula condicional, obtenemos la regla del producto para saber la probabilidad de que ocurran ambos eventos:

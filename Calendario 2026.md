@@ -13,11 +13,12 @@
 | **22/09** | 09:00 | Primer Parcial | Probabilidad_y_Estadistica |
 | **30/09** | 09:00 | Primer Parcial | Sistemas_Digitales_II |
 | **07/10** | 18:00 | Zoom 4 | Analisis_Matematico_III_B |
+| **02/11** | 09:00 | Segundo Parcial | Probabilidad_y_Estadistica |
 | **04/11** | 18:00 | Zoom 5 | Analisis_Matematico_III_B |
 | **05/11** | 09:00 | Segundo Parcial | Analisis_Matematico_III_A |
 | **11/11** | 08:00 | Segundo Parcial | Algebra_Lineal |
 | **11/11** | 09:00 | Segundo Parcial | Analisis_Matematico_III_B |
-| **11/11** | 13:00 | Primer Parcial | Fisica_I |
+| **11/11** | 13:00 | Único Parcial | Fisica_I |
 | **12/11** | 09:00 | Recup. (RDC) | Analisis_Matematico_III_A |
 | **12/11** | 09:00 | Recup. (RDC) | Probabilidad_y_Estadistica |
 | **13/11** | 17:30 | Zoom 6 | Analisis_Matematico_III_B |

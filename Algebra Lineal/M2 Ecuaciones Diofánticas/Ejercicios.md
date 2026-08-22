@@ -1,4 +1,4 @@
-# 🔢 Ejercitación: Ecuaciones Diofánticas y Congruencias 📐
+# 🔢 Ejercitación: Diofánticas y Congruencias 
 
 
 ## ❓ Pregunta 1: Solución Particular

@@ -84,4 +84,4 @@ Dados los datos del árbol:
 
 2. **Cálculo de la probabilidad posterior $P(\bar{N} \mid E)$:**
    Dado que $P(E) = 0.236$ (obtenido mediante probabilidad total):
-   $$P(\bar{N} \mid E) = \frac{P(\bar{N} \cap E)}{P(E)} = \frac{0.054}{0.236} \approx 0.2288 \quad (22.88\%)$$
+   $$P(\bar{N} \mid E) = \frac{P(\bar{N} \cap E)}{P(E)} = \frac{0.054}{0.236} \approx 0.2288$$ *(22.88%)*

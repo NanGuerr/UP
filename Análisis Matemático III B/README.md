@@ -1,4 +1,3 @@
-> [!IMPORTANT]
 > ### *"Cada ecuación resuelta es un puente firme hacia la ingeniería moderna."*
 
 

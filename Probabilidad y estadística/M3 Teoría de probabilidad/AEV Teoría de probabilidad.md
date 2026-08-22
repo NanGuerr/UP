@@ -144,4 +144,4 @@ Si $A$ y $B$ son sucesos aleatorios, tales que $P(A) = 0.30$, la $P(\text{no } B
 **OPCIÓN MÚLTIPLE**  
 *Determinar las opciones correctas (las incorrectas restan puntos):*
 
-De una investigación realizada se obtuvieron los siguientes datos: el **80%** de los que usan Facebook usan también Instagram. El **60%** utiliza Facebook. Con... *(fin de documento)*
+De una investigación realizada se obtuvieron los siguientes datos: el **80%** de los que usan Facebook usan también Instagram. El **60%** utiliza Facebook.

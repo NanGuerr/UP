@@ -1,4 +1,4 @@
-# Actividad: Diferenciación e Integración de Series de Potencias 📐
+# Actividad: Dif e Int. de Series de Potencias 📐
 
 
 ### 🔹 Ejercicio 1

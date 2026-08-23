@@ -2,7 +2,7 @@
 
 Este documento contiene las herramientas de cálculo esenciales para resolver problemas de Series de Fourier, Transformadas de Laplace y Análisis Complejo. 🧠
 
----
+
 
 ## 1. 📂 Integrales de la Tabla 📄
 
@@ -25,7 +25,7 @@ Estas integrales son el "pan de cada día" al calcular coeficientes de Fourier y
 * **Euler-Cos:** $\int e^{ax} \cdot \cos(bx)dx = \frac{e^{ax}}{a^2+b^2} (a \cdot \cos(bx) + b \cdot \sin(bx)) + C$ 🌀
 * **Euler-Sen:** $\int e^{ax} \cdot \sin(bx)dx = \frac{e^{ax}}{a^2+b^2} (a \cdot \sin(bx) - b \cdot \cos(bx)) + C$ 🌀
 
----
+
 
 ## 2. 📝 Derivadas Frecuentes en Análisis III ⚡
 

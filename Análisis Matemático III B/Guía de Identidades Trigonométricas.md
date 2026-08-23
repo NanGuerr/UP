@@ -1,4 +1,4 @@
-# 📐 Guía Maestra: Identidades Trigonométricas y Series 🌀
+# 📐 Identidades Trigonométricas y Series 🌀
 
 Esta guía resume las herramientas fundamentales para trabajar con **Series de Fourier, Taylor y Maclaurin**, enfocándose en la **linealización**, **descomposición** y **desplazamiento de centros**. 🚀
 
@@ -80,6 +80,3 @@ $$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n$$
 
 ---
 _Documento técnico para Ingeniería de Telecomunicaciones_ 🎓🛰️
-```
-
-¿Te gustaría que desarrolle un ejemplo paso a paso de cómo usar el **desplazamiento de centro** para una serie de Taylor específica?

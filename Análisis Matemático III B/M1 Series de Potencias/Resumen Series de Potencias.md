@@ -2,7 +2,7 @@
 
 Aquí se conecta el cálculo avanzado con aplicaciones prácticas como la teoría de señales y la acústica. 🔊
 
----
+
 
 ## 1. Series de Funciones 🌀
 
@@ -17,7 +17,7 @@ $$\sum_{n=1}^{\infty} f_n(x)$$
 * **📏 Convergencia Uniforme:** Un concepto más fuerte. Significa que las sumas parciales se aproximan a la función límite "al mismo tiempo" en todo el intervalo.
 * **💎 Teorema de Weierstrass:** Si existe una serie numérica convergente $\sum a_n$ tal que $|f_n(x)| \leq a_n$, entonces la serie de funciones converge **absoluta y uniformemente**.
 
----
+
 
 ## 2. Series de Potencias: La "Receta" para el Éxito 📝
 
@@ -35,7 +35,7 @@ El radio define el intervalo $(-R, R)$. Debes analizar los extremos ($x = R$ y $
 * **🔢 Series p:** Convergen si $p > 1$.
 * **⚠️ Condición Necesaria:** Si el término general no tiende a cero, la serie **diverge**.
 
----
+
 
 ## 3. Aplicaciones y Curiosidades 🌍
 
@@ -43,7 +43,7 @@ El radio define el intervalo $(-R, R)$. Debes analizar los extremos ($x = R$ y $
 * **🎸 Acústica y Música:** La "serie armónica" explica el timbre de los sonidos y las escalas pentatónicas (Blues/Música China).
 * **🔢 Números Decimales:** La conversión de decimales periódicos a fracciones deriva de las **series geométricas**.
 
----
+
 
 ## 4. Tips para tu Cursada (Syllabus) 💡
 
@@ -51,6 +51,3 @@ El radio define el intervalo $(-R, R)$. Debes analizar los extremos ($x = R$ y $
 * **📊 La nota importa:** Los parciales representan el **60%** de la nota de cursada.
 * **🎥 Examen Final:** Formato **bimodal**. Primero un examen filmado (asincrónico) y luego defensa oral.
 
----
-
-> **¿Te gustaría que resolvamos juntos paso a paso la serie $\sum \frac{1}{n}x^n$ para practicar el análisis de los bordes?** ✍️

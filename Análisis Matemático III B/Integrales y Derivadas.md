@@ -3,16 +3,51 @@
 Este documento contiene las herramientas de cálculo esenciales para resolver problemas de Series de Fourier, Transformadas de Laplace y Análisis Complejo. 🧠
 
 
-
 ## 1. 📂 Integrales de la Tabla 📄
+
+
+### Fórmulas de Integrales Básicas
+
+* **Constante:** $\int a \, dx = ax + C$ 📏
+* **Potencia:** $\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$ 🚀
+* **Inversa / Log natural:** $\int x^{-1} \, dx = \int \frac{1}{x} \, dx = \ln\vert{}x\vert{} + C$ 📉
+* **Exponencial e:** $\int e^{x} \, dx = e^{x} + C$ 📈
+* **Exponencial natural:** $\int e^{ax} \, dx = \frac{e^{ax}}{a} + C$ 📈
+* **Exponencial genérica:** $\int a^x \, dx = \frac{a^x}{\ln(a)} + C$ ⚡
+* **Seno:** $\int \sin(x) \, dx = -\cos(x) + C$ 🌀
+* **Coseno:** $\int \cos(x) \, dx = \sin(x) + C$ 🌊
+* **Inversa del coseno cuadrado:** $\int \frac{1}{\cos^2(x)} \, dx = \tan(x) + C$ 📐
+* **Inversa del seno cuadrado:** $\int \frac{1}{sen^2(x)} \, dx = \-cotg(x) + C$ 📐
+* **Secante cuadrada:** $\int \sec^2(x)dx = \tan(x) + C$ 📐
+* **Cosecante cuadrada:** $\int \sec^2(x)dx = \-cot(x) + C$ 📐
+* **Secante por tangente:** $\int \sec(x)\tan(x) \, dx = \sec(x) + C$ 🎯
+* **Cosecante por cotangente:** $\int \csc(x)\cot(x) \, dx = -\csc(x) + C$ 🎯
+* **Tangente:** $\int \tan(x) \, dx = \ln\vert{}\sec(x)\vert{} + C$ 📉
+* **Tangente:** $\int \tan(x) \, dx =-\ln\vert{}\cos(x)\vert{} + C$ 📉
+* **Cotangente:** $\int \cot(x) \, dx = \ln\vert{}\sin(x)\vert{} + C$ 📉
+* **Secante:** $\int \sec(x) \, dx = \ln\vert{}\sec(x) + \tan(x)\vert{} + C$ 📈
+* **Cosecante:** $\int \csc(x) \, dx = -\ln\vert{}\csc(x) + \cot(x)\vert{} + C$ 📈
+* **Cosecante:** $\int \csc(x) \, dx = \ln\vert{}\csc(x) - \cot(x)\vert{} + C$ 📈
+* **Arco seno (Raíz en el denominador):** $\int \frac{1}{\sqrt{1 - x^2}} \, dx = \arcsin(x) + C$ 🔄
+* **Arco coseno:** $\int \frac{-1}{\sqrt{1 - x^2}} \, dx = \arccos(x) + C$ 🔄
+* **Arco tangente:** $\int \frac{1}{1 + x^2} \, dx = \arctan(x) + C$ 🔄
+* **Suma (con más):** $\int \frac{1}{x + a} \, dx = \ln\vert{}x + a\vert{} + C$ 📉
+* **Resta (con menos):** $\int \frac{1}{x - a} \, dx = \ln\vert{}x - a\vert{} + C$ 📉
+      
+### 🔵 Funciones Trigonométricas (con $x$ y $x^2$)
 
 Estas integrales son el "pan de cada día" al calcular coeficientes de Fourier y resolver ecuaciones diferenciales. 🛠️
 
-### 🔵 Funciones Trigonométricas (con $x$ y $x^2$)
+* **Seno simple:** $\int \sin(ax)dx = -\frac{\cos(ax)}{a} + C$ 🌀
 * **Coseno simple:** $\int \cos(ax)dx = \frac{\sin(ax)}{a} + C$ 🌊
+* **Secante cuadrada:** $\int \sec^2(ax)dx = \frac{\tan(ax)}{a} + C$ 📐
+* **Cosecante cuadrada:** $\int \csc^2(ax)dx = -\frac{\cot(ax)}{a} + C$ 📐
+* **Secante por tangente:** $\int \sec(ax)\tan(ax)dx = \frac{\sec(ax)}{a} + C$ 🎯
+* **Cosecante por cotangente:** $\int \csc(ax)\cot(ax)dx = -\frac{\csc(ax)}{a} + C$ 🎯
+* **Arco seno:** $\int \frac{1}{\sqrt{a^2 - x^2}} \, dx = \arcsin\left(\frac{x}{a}\right) + C$ 🔄
+* **Arco tangente:** $\int \frac{1}{a^2 + x^2} \, dx = \frac{1}{a} \arctan\left(\frac{x}{a}\right) + C$ 🔄
 * **Coseno con $x$:** $\int x \cdot \cos(ax)dx = \frac{\cos(ax)}{a^2} + \frac{x \cdot \sin(ax)}{a} + C$ 📐
 * **Coseno con $x^2$:** $\int x^2 \cdot \cos(ax)dx = \frac{2x}{a^2} \cdot \cos(ax) + \left(\frac{x^2}{a} - \frac{2}{a^3}\right) \cdot \sin(ax) + C$ 🔄
-* **Seno simple:** $\int \sin(ax)dx = -\frac{\cos(ax)}{a} + C$ 📉
 * **Seno con $x$:** $\int x \cdot \sin(ax)dx = \frac{\sin(ax)}{a^2} - \frac{x \cdot \cos(ax)}{a} + C$ 📏
 * **Seno con $x^2$:** $\int x^2 \cdot \sin(ax)dx = \frac{2x}{a^2} \cdot \sin(ax) + \left(\frac{2}{a^3} - \frac{x^2}{a}\right) \cdot \cos(ax) + C$ 🔄
 

@@ -2,7 +2,8 @@
 
 
 
-### ❓ Conceptos Básicos
+
+## ❓ Conceptos Básicos
 
 * **¿Qué es una serie numérica?**
 Es una expresión de la forma $u_1 + u_2 + u_3 + ... + u_n + ...$ donde cada término es un número real. 📈
@@ -13,7 +14,8 @@ Cuando existe un límite finito $s$ tal que $\lim_{n \rightarrow \infty} S_n = s
 
 
 
-### 🔍 Criterios de Convergencia
+
+## 🔍 Criterios de Convergencia
 
 * **¿Cuál es la condición necesaria de convergencia para $\sum a_n$?**
 Si la serie converge, entonces el límite del término general debe ser cero: $\lim_{n \rightarrow \infty} a_n = 0$. 📉
@@ -24,7 +26,8 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 
 
 
-### 📐 Series Especiales
+
+## 📐 Series Especiales
 
 * **Serie Geométrica ($\sum q^n$):** Converge si y solo si $\vert{}q\vert{} < 1$. ↔️
 * **Suma:** $\frac{1}{1-q}$. 🔢
@@ -35,7 +38,9 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 
 
 
-### 🧪 Criterios Avanzados
+
+
+## 🧪 Criterios Avanzados
 
 * **Criterio del Cociente (D'Alembert):** Converge si $L < 1$, diverge si $L > 1$. ⚖️
 * **Criterio de la Raíz (Cauchy):** Converge si $L < 1$, diverge si $L > 1$. 🔍
@@ -47,7 +52,9 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 
 
 
-### 📉 Convergencia Absoluta y Condicional
+
+
+## 📉 Convergencia Absoluta y Condicional
 
 * **Convergencia Absoluta:** La serie de los valores absolutos $\sum \vert{}a_n\vert{}$ converge. ✨
 * **Convergencia Condicional:** La serie $\sum a_n$ converge, pero $\sum \vert{}a_n\vert{}$ diverge. 🌓
@@ -55,7 +62,9 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 
 
 
-### ⚙️ Series de Funciones y Potencias
+
+
+## ⚙️ Series de Funciones y Potencias
 
 * **Serie de potencias ($\sum a_n x^n$):** Serie de funciones con coeficientes reales $a_n$. 🛠️
 * **Radio de convergencia ($R$):** $R = \lim_{n \rightarrow \infty} \vert{}\frac{a_n}{a_{n+1}}\vert{}$. 📏
@@ -74,7 +83,8 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 
 
 
-### 💡 Tips y Propiedades Adicionales
+
+## 💡 Tips y Propiedades Adicionales
 
 * **Factorial:** $n! = 1 \cdot 2 \cdot ... \cdot n$ y $(n+1)! = (n+1) \cdot n!$. ❗
 * **Series Lineales:** La suma de dos series convergentes $\sum (a_n + b_n)$ converge a $s + \sigma$. ➕

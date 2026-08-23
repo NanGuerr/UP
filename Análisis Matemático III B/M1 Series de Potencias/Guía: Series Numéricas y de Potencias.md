@@ -1,6 +1,6 @@
 # 📚 Guía: Series Numéricas y de Potencias 🔢
 
----
+
 
 ### ❓ Conceptos Básicos
 
@@ -11,7 +11,7 @@ Es la suma de los primeros $n$ términos de la serie: $S_n = u_1 + u_2 + ... + u
 * **¿Cuándo se dice que una serie numérica converge?**
 Cuando existe un límite finito $s$ tal que $\lim_{n \rightarrow \infty} S_n = s$. ✅
 
----
+
 
 ### 🔍 Criterios de Convergencia
 
@@ -22,7 +22,7 @@ La serie diverge. 🚫
 * **¿Es la condición $\lim_{n \rightarrow \infty} a_n = 0$ suficiente?**
 No, es necesaria pero no suficiente; existen series donde el término tiende a cero y aun así divergen. ⚠️
 
----
+
 
 ### 📐 Series Especiales
 
@@ -33,7 +33,7 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 * **Serie $p$ ($\sum \frac{1}{n^p}$):** Converge si y solo si $p > 1$. 🏗️
 * **Serie Armónica ($\sum \frac{1}{n}$):** Es una serie divergente. 🔊
 
----
+
 
 ### 🧪 Criterios Avanzados
 
@@ -45,7 +45,7 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 * **Criterio de Leibniz (Series alternadas):** Converge si $\lim_{n \rightarrow \infty} a_n = 0$ y la sucesión $a_n$ es decreciente. ⬇️
 * **Criterio Integral:** $\sum u_n$ converge si y solo si la integral impropia $\int_{1}^{\infty} f(x) dx$ converge.  ∫
 
----
+
 
 ### 📉 Convergencia Absoluta y Condicional
 
@@ -53,7 +53,7 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 * **Convergencia Condicional:** La serie $\sum a_n$ converge, pero $\sum \vert{}a_n\vert{}$ diverge. 🌓
 * **Relación:** Toda serie absolutamente convergente es también convergente (simple). 🔗
 
----
+
 
 ### ⚙️ Series de Funciones y Potencias
 
@@ -72,7 +72,7 @@ No, es necesaria pero no suficiente; existen series donde el término tiende a c
 
 
 
----
+
 
 ### 💡 Tips y Propiedades Adicionales
 

@@ -1,5 +1,5 @@
-> [!IMPORTANT]
-> ### *"Diseña cada paso con lógica y la certeza de que estás construyendo una versión superior del hardware de tu futuro."*
+
+> ### *"Diseña con lógica y la certeza de que estás construyendo una versión superior del hardware de tu futuro."*
 
 <p align="center">
   <a href="#-1-objetivos-y-competencias-centrales">

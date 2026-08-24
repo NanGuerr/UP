@@ -13,7 +13,10 @@
 
 ## 🌊 Pregunta 2: Análisis de código por Ecuación Booleana
 * **Enunciado:** Indicar el tipo de descripción que se utiliza en el siguiente código:
-  $$	ext{salida1} \Leftarrow a 	ext{ AND } b 	ext{ OR } c;$$
+
+$$\text{salida1} \Leftarrow a \text{ AND } b \text{ OR } c;$$
+
+
 * **Respuesta Correcta:** 📊 **Flujo de datos**
 * **🔍 Justificación:** Este estilo, también conocido como RTL (*Register Transfer Level*), se orienta a cómo fluyen los datos y suele definirse a partir de ecuaciones booleanas directas que describen qué le sucede al flujo de entrada sin requerir procesos secuenciales.
 
@@ -21,7 +24,9 @@
 
 ## 🧠 Pregunta 3: Análisis de código con Estructura Condicional
 * **Enunciado:** Indicar el tipo de descripción que se utiliza en el siguiente código:
-  $$	ext{salida} \Leftarrow c 	ext{ when } a = '1' 	ext{ else } b;$$
+ 
+$$\text{salida} \Leftarrow c \text{ when } a = '1' \text{ else } b;$$
+
 * **Respuesta Correcta:** ⚙️ **Funcional o de comportamiento**
 * **🔍 Justificación:** La descripción funcional apunta a describir el comportamiento del bloque basándose en la relación algorítmica entre entradas y salidas. El uso de la estructura condicional `when-else` en este formato es el ejemplo clásico de una arquitectura de comportamiento (por ejemplo, para modelar un multiplexor).
 

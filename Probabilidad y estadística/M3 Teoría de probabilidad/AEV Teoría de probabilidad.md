@@ -68,8 +68,7 @@ Se tabularon los datos de una encuesta online, en la que los voluntarios utiliza
 * ✍️ El hecho de que compre casi todo por Internet es independiente del hecho de que utilice las redes sociales más de 3 horas. ¿Verdadero o falso? **`Falso`**.
 
 > [!CAUTION]
-> **Comentarios:** Incorrecto. Analizar nuevamente qué sucesos son condicionados.
-La cargada la respuesta es con comas no porcentajes 0,20 y 0,50.
+> **Comentarios:** La cargada la respuesta es con comas no porcentajes 0,20 y 0,50.
 
 
 ## ❓ Pregunta 6 `(1/1 pto)`

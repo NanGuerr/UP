@@ -63,13 +63,13 @@ Sean $A$ y $B$ sucesos aleatorios, tales que $p(A/B) = 0.80$, $p(B) = 0.20$ y $p
 
 Se tabularon los datos de una encuesta online, en la que los voluntarios utilizaban una demo de la nueva red, con la intención de evaluar resultados antes del lanzamiento. El **80%** del grupo utiliza las redes sociales más de 3 horas diarias. El **20%** compra casi todo por Internet, y el **10%** utiliza las redes más de 3 horas diarias y compra casi todo por Internet. Con esta información responder las siguientes preguntas, completando los espacios en blanco:
 
-* ✍️ Calcular si es posible la probabilidad $p(\text{utilice las redes sociales 3 horas o menos})$. Completar con el resultado numérico, usando comas en caso de ser necesario: **`20%`**.
-* ✍️ Calcular si es posible la probabilidad $p(\text{utilice las redes más de 3 horas / compra casi todo por Internet})$. Completar con el resultado numérico, usando comas en caso de ser necesario: **`50%`**.
+* ✍️ Calcular si es posible la probabilidad $p(\text{utilice las redes sociales 3 horas o menos})$. Completar con el resultado numérico, usando comas en caso de ser necesario: **`0,20`**.
+* ✍️ Calcular si es posible la probabilidad $p(\text{utilice las redes más de 3 horas / compra casi todo por Internet})$. Completar con el resultado numérico, usando comas en caso de ser necesario: **`0,50`**.
 * ✍️ El hecho de que compre casi todo por Internet es independiente del hecho de que utilice las redes sociales más de 3 horas. ¿Verdadero o falso? **`Falso`**.
 
 > [!CAUTION]
 > **Comentarios:** Incorrecto. Analizar nuevamente qué sucesos son condicionados.
-¿Por qué el comentario dice "Incorrecto. Analizar nuevamente qué sucesos son condicionados"? Es muy probable que el sistema tenga cargada la respuesta al revés por un error de diseño (un falso positivo en la clave de corrección de la plataforma), o bien que el comentario automático intente guiarte a comparar $P(A \mid B) = 0,50$ con $P(A) = 0,80$ para justificar por qué son dependientes (condicionados), asumiendo erróneamente que respondiste "Verdadero".
+La cargada la respuesta es con comas no porcentajes 0,20 y 0,50.
 
 
 ## ❓ Pregunta 6 `(1/1 pto)`

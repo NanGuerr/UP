@@ -12,8 +12,10 @@
 | **22/09** | 09:00 | Primer Parcial | Probabilidad_y_Estadistica |
 | **23/09** | 09:00 | Consigna de TP | Sistemas_Digitales_II |
 | **30/09** | 09:00 | Primer Parcial | Sistemas_Digitales_II |
+| **05/10** | --:-- | Zoom 3 | Probabilidad_y_Estadistica |
 | **07/10** | 18:00 | Zoom 4 | Analisis_Matematico_III_B |
 | **27/10** | 09:00 | 1era Entrega de TP | Sistemas_Digitales_II |
+| **29/10** | --:-- | Zoom 4 | Probabilidad_y_Estadistica |
 | **02/11** | 09:00 | Segundo Parcial | Probabilidad_y_Estadistica |
 | **03/11** | 09:00 | 2do Entrega de TP | Sistemas_Digitales_II |
 | **04/11** | 18:00 | Zoom 5 | Analisis_Matematico_III_B |

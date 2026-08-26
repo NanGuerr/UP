@@ -1,4 +1,4 @@
-# 📊 Resolución Paso a Paso: Autoevaluación de Introducción a Series de Fourier
+# 📊 Resolución Paso a Paso: Introducción a Series de Fourier
 
 Este documento presenta la resolución detallada, paso a paso y justificada teóricamente de cada uno de los ejercicios de la **Autoevaluación de Introducción a Series de Fourier**, empleando los conceptos, fórmulas y propiedades de simetría e integración expuestos en el apunte teórico oficial.
 

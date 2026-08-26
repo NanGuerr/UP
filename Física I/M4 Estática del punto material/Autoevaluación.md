@@ -97,4 +97,4 @@ Dado que la sumatoria de fuerzas en el eje vertical ($\sum F_y$) **no es cero** 
 
 ### Resultado Correcto Actividad 2
 * **No es posible.**  
-*(Corresponde a la primera opción de la autoevaluación)* [cite: 2]
+*(Corresponde a la primera opción de la autoevaluación)* 

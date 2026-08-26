@@ -3,7 +3,7 @@
 ### 📅 Calendario Académico 2026 - Segundo Cuatrimestre
 
 | Fecha | Hora | Actividad / Evento | Materia / Nota |
-| --- | --- | --- | --- |
+| :---: | --- | --- | --- |
 | **11/09** | 20:00 | Zoom 3 | Analisis_Matematico_III_B |
 | **16/09** | 08:00 | Primer Parcial | Algebra_Lineal |
 | **16/09** | 09:00 | ❗ **12/11 (1er)** | Analisis_Matematico_III_A |

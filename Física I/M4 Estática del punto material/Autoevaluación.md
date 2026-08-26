@@ -1,4 +1,4 @@
-# Resolución Paso a Paso: Autoevaluación de Estática del Punto Material
+# Resolución Paso a Paso: Estática del Punto Material
 
 Este documento presenta la resolución detallada y paso a paso de los ejercicios correspondientes a las actividades de **Estática del Punto Material**, siguiendo la metodología expuesta en los materiales de referencia (método de las proyecciones y condiciones de equilibrio para un sistema de fuerzas concurrentes).
 

@@ -40,7 +40,7 @@ Para resolver problemas, descomponemos los vectores en un plano cartesiano ($x$,
 
 ### Descomposición de componentes:
 * **Eje X:** $F_{ix} = |\vec{F}_i| \cdot \cos \theta$
-* **Eje Y:** $F_{iy} = |\vec{F}_i| \cdot \operatorname{sen} \theta$
+* **Eje Y:** $F_{iy} = |\vec{F}_i| \cdot \sen \theta$
 
 ### Ecuaciones de Equilibrio:
 Para que el sistema sea estático, la suma en cada eje debe ser nula por separado:

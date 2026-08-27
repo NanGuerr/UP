@@ -59,7 +59,7 @@ $$b_n = 0$$
 ### Enunciado
 
 Desarrollar la serie de Fourier de la función 
-$$f(x) =\mathbb{I}_{(-5,0)}(x)+2\cdot\mathbb{I}_{(0,5)}(x)$$
+$$f(x) = \mathbb{I}_{(-5,0)}(x) + 2 \cdot \mathbb{I}_{(0,5)}(x)$$
 en el intervalo $(-5,5)$ (donde $l = 5$)
 
 ### Análisis Teórico y Resolución

@@ -2,14 +2,12 @@ Organización de los cursos enfocados en **Telecomunicaciones, Ciberseguridad e 
 
 | Nivel de Complejidad | Curso | Área Principal | Modalidad y Horario |
 | --- | --- | --- | --- |
-| **1. Inicial / Fundamentos** | El Profesional de TI | Gestión / TI General | Online sincrónica (Miércoles 19 a 22 hs) |
-|  | Testing y QA | Calidad / Software | Presencial y online asincrónica (Lunes 19 a 22 hs) |
+| **1. Inicial / Fundamentos** | Testing y QA | Calidad / Software | Presencial y online asincrónica (Lunes 19 a 22 hs) |
 |  | Estandares y Normativas de Seguridad | Ciberseguridad (Gobernanza) | Online sincrónica (Viernes 19 a 22 hs) |
 |  | Fundamentos de Ciberseguridad | Ciberseguridad | Online sincrónica y asincrónica (Lunes 19 a 22 hs) |
 |  | Riesgos Corporativos y Riesgos de Ciberseguridad | Ciberseguridad (Riesgos) | Online sincrónica (Lunes 19 a 22 hs) |
 |  | Continuidad del Negocio/Ciberresilencia | Ciberseguridad (Resiliencia) | Online sincrónica (Miércoles 19 a 22 hs) |
-| **2. Intermedio (Redes y Sistemas)** | TCP/IP | Telecom / Redes | Online sincrónica (Lunes 18.45 a 22.45 hs) |
-|  | Laboratorio V (comunicación de datos) | Telecom / Redes | Online asincrónica |
+| **2. Intermedio (Redes y Sistemas)** | Laboratorio V (comunicación de datos) | Telecom / Redes | Online asincrónica |
 |  | Redes de acceso | Telecomunicaciones | Online sincrónica (Miércoles 18.45 a 22.45 hs) |
 |  | Seguridad en Sistemas Operativos | Ciberseguridad / Infra | Online asincrónica |
 |  | Infraestructura de Redes y Datacenter | Telecom / Infraestructura | Online sincrónica (Viernes 18.45 a 22.45 hs) |

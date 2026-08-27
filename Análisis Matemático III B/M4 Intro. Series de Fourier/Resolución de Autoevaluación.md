@@ -120,67 +120,169 @@ Desarrollar la serie de Fourier de la función $f(x) = e^{3x}$ en el intervalo $
 
 
 
-## 📌 Preguntas 5 al 8: Convergencia Puntual de Series de Fourier
-
-### Análisis Teórico General
-
-* **Teorema de Convergencia Puntual (Dirichlet):** Si una función $f$ es suave a tramos en $[-l, l]$ (continua a tramos y con derivadas laterales finitas), su serie de Fourier converge puntualmente a $f(x)$ en todos los puntos de continuidad. En los puntos de discontinuidad de salto finito, converge al promedio de los límites laterales:
-
-$$\frac{f(x^+) + f(x^-)}{2}$$
-
-
-* **Pregunta 5:** La función $f(x) = -\mathbb{I}_{(-1,0)}(x) + \mathbb{I}_{(0,1)}(x)$ es continua en todo el intervalo abierto $(-1, 0) \cup (0, 1)$, pero tiene un salto en $x = 0$. Su serie converge a $f(x)$ en $(-1, 1)$ excepto en el punto de salto.
-* **Preguntas 6, 7 y 8:** Dependiendo de la continuidad de las funciones combinadas mediante funciones indicadoras en $[-1, 1]$, si la función resulta continua en todo el intervalo o si se evalúa la convergencia en los tramos de continuidad, se determina la validez de la convergencia puntual.
-
-### 💡 Respuestas Correctas
-
-* **Pregunta 5:** Falso
-* **Pregunta 6:** Verdadero
-* **Pregunta 7:** Verdadero
-* **Pregunta 8:** Falso
+```python
+# Let's verify details for questions 5 to 12 based on the provided PDF and prompt text.
+# We need to present a detailed step-by-step resolution for exercises 5, 6, 7, 8, 9, 10, 11, and 12.
+# Let's inspect the questions from the PDF text:
+# Q5: La serie de Fourier de f(x) = -\mathbb{I}_{(-1,0)}(x) + \mathbb{I}_{(0,1)}(x) converge puntualmente a f en todo el intervalo (-1, 1). -> Falso (since there is a jump discontinuity at x=0, it converges to the average 0 at x=0, not to f(0) which is undefined or doesn't match).
+# Q6: La siguiente serie de Fourier converge puntualmente a f en toda la recta real: f(x) = (x+1)\mathbb{I}_{(-1,0)}(x) + (1-x)\mathbb{I}_{(0,1)}(x). -> Let's check: at x=0, left limit = 0+1 = 1, right limit = 1-0 = 1. The function is continuous at x=0! And extended periodically, it's continuous everywhere. So it converges on the entire real line. -> Verdadero.
+# Q7: La serie de Fourier de f(x) = \mathbb{I}_{(-1,0)}(x) + (1-x)\mathbb{I}_{(0,1)}(x) converge puntualmente a f en todo el intervalo (-1,1). -> Let's check continuity: at x=0, left limit = 1, right limit = 1-0 = 1. Continuous at x=0! In (-1,1) it is continuous, so it converges pointwise to f on (-1,1). -> Verdadero.
+# Q8: La serie de Fourier de f(x) = \mathbb{I}_{(-1,0)}(x) + x\mathbb{I}_{(0,1)}(x) converge puntualmente a f en todo el intervalo (-1,1). -> At x=0, left limit = 1, right limit = 0. Discontinuity at x=0, so it doesn't converge to f(0) at x=0. -> Falso.
+# Q9: El coeficiente a_n de f(x) = x^3 es distinto de 0 en cualquier intervalo (-l, l). -> f(x)=x^3 es impar, a_n = 0 siempre. -> Falso.
+# Q10: El coeficiente b_n de f(x) = \cos(x) es distinto de 0 en cualquier intervalo (-l, l). -> f(x)=\cos(x) es par, b_n = 0 siempre. -> Falso.
+# Q11: El coeficiente independiente a_0 de f(x) = x^4 es distinto de 0 en cualquier intervalo (-l, l). -> a_0 = (1/l)\int_{-l}^l x^4 dx > 0. -> Verdadero.
+# Q12: La serie de Fourier es un operador lineal. -> Verdadero.
 
 
+```
 
-## 📌 Preguntas 9, 10 y 11: Análisis de Coeficientes por Paridad
+A continuación se presenta el desarrollo detallado paso a paso para los ejercicios del **5 al 12** de la autoevaluación, aplicando los teoremas fundamentales de convergencia puntual (Teorema de Dirichlet), paridad de funciones e integración.
 
-### Enunciado y Análisis
 
-* **Pregunta 9 ($f(x) = x^3$ en $(-1, 1)$):** $f(x) = x^3$ es una función **impar**. Por lo tanto, todos los coeficientes de los cosenos ($a_0$ y $a_n$) son estrictamente **iguales a 0**. La afirmación de que $a_n$ es distinto de 0 es **Falsa**.
-* **Pregunta 10 ($f(x) = \cos(x)$ en $(-1, 1)$):** $f(x) = \cos(x)$ es una función **par**. Los coeficientes de los senos ($b_n$) se calculan multiplicando una función par por una impar ($\sin$), dando como resultado una función impar cuya integral en $[-1, l]$ es 0. Por tanto, $b_n = 0$, lo que hace que la afirmación de que $b_n$ es distinto de 0 sea **Falsa**.
-* **Pregunta 11 ($f(x) = x^4$ en $(-1, 1)$):** $f(x) = x^4$ es una función **par**. Su coeficiente independiente $a_0 = \frac{1}{l}\int_{-l}^{l} x^4 dx$ es estrictamente mayor que cero (distinto de 0), ya que la integral de una función estrictamente positiva (salvo en el origen) es positiva. La afirmación es **Verdadera**.
 
-### 💡 Respuestas Correctas
+### Ejercicio 5
 
-* **Pregunta 9:** Falso
-* **Pregunta 10:** Falso
-* **Pregunta 11:** Verdadero
+* **Enunciado:** La serie de Fourier de $f(x) = -\mathbb{I}_{(-1,0)}(x) + \mathbb{I}_{(0,1)}(x)$ converge puntualmente a $f$ en todo el intervalo $(-1, 1)$.
+* **Resolución Paso a Paso:**
+1. Analizamos la función en el intervalo $(-1, 1)$ con $l = 1$: vale $-1$ en $(-1, 0)$ y $+1$ en $(0, 1)$.
+2. En el punto $x = 0$ existe una discontinuidad de salto finito, ya que el límite lateral izquierdo es $-1$ y el derecho es $+1$.
+3. Por el Teorema de Dirichlet, en $x = 0$ la serie de Fourier converge al promedio de los límites laterales: $\frac{-1 + 1}{2} = 0$.
+4. Como en $x = 0$ la función converge a $0$ (y no coincide con los valores abiertos de los tramos o no está definida de manera continua allí), **no** converge puntualmente a $f(x)$ en *todo* el intervalo abierto $(-1, 1)$ sin excepciones.
+
+
+* 💡 **Respuesta Correcta:** **Falso**
+
+
+
+
+### Ejercicio 6
+
+* **Enunciado:** La siguiente serie de Fourier converge puntualmente a $f$ en toda la recta real: $f(x) = (x+1)\mathbb{I}_{(-1,0)}(x) + (1-x)\mathbb{I}_{(0,1)}(x)$.
+* **Resolución Paso a Paso:**
+1. Evaluamos la continuidad de la función en los puntos de empalme y en sus extensiones periódicas.
+2. Para $x = 0$, el límite lateral izquierdo es $(0+1) = 1$ y el límite lateral derecho es $(1-0) = 1$. Como ambos coinciden, la función es **continua** en $x = 0$.
+3. Al extender la función de forma periódica con período $2l = 2$, los extremos del intervalo también conectan de manera continua ($f(-1) = 0$ y $f(1) = 0$).
+4. Al tratarse de una función continua y suave a tramos en toda la recta real, su serie de Fourier converge puntualmente a $f(x)$ para todo $x \in \mathbb{R}$.
+
+
+* 💡 **Respuesta Correcta:** **Verdadero**
+
+
+
+
+### Ejercicio 7
+
+* **Enunciado:** La serie de Fourier de $f(x) = \mathbb{I}_{(-1,0)}(x) + (1-x)\cdot \mathbb{I}_{(0,1)}(x)$ converge puntualmente a $f$ en todo el intervalo $(-1,1)$.
+* **Resolución Paso a Paso:**
+1. Evaluamos los límites laterales en el punto de división $x = 0$:
+* Límite por la izquierda ($x \to 0^-$): la función vale $1$, por lo que el límite es $1$.
+* Límite por la derecha ($x \to 0^+$): la función vale $1 - x$, por lo que el límite es $1 - 0 = 1$.
+
+
+2. Dado que los límites laterales coinciden en $x = 0$, la función es **continua** en dicho punto y en todo el intervalo $(-1, 1)$.
+3. Al ser continua en todo el intervalo abierto $(-1, 1)$, el Teorema de Dirichlet garantiza la convergencia puntual a $f(x)$ en cada uno de los puntos del intervalo.
+
+
+* 💡 **Respuesta Correcta:** **Verdadero**
+
+
+
+
+### Ejercicio 8
+
+* **Enunciado:** La serie de Fourier de $f(x) = \mathbb{I}_{(-1,0)}(x) + x\cdot \mathbb{I}_{(0,1)}(x)$ converge puntualmente a $f$ en todo el intervalo $(-1,1)$.
+* **Resolución Paso a Paso:**
+1. Analizamos el comportamiento en el punto $x = 0$:
+* Límite lateral izquierdo ($x \to 0^-$): la función vale $1$.
+* Límite lateral derecho ($x \to 0^+$): la función vale $x$, por lo que tiende a $0$.
+
+
+2. Como los límites laterales son distintos ($1 \neq 0$), hay una discontinuidad de salto finito en $x = 0$.
+3. En consecuencia, en $x = 0$ la serie de Fourier converge al promedio $\frac{1 + 0}{2} = 0.5$, el cual no coincide con los valores de la función en los tramos adyacentes. Por lo tanto, la serie **no** converge puntualmente a $f(x)$ en todo el intervalo $(-1, 1)$.
+
+
+* 💡 **Respuesta Correcta:** **Falso**
+
+
+
+
+## 📌 Preguntas 9, 11 y 11: Análisis de Coeficientes por Paridad
+
+### 📖 Marco Teórico de Simetría
+
+En un intervalo simétrico $[-l, l]$:
+
+* Si $f(x)$ es una función **impar**, su producto con el coseno $\cos\left(\frac{n\pi}{l}x\right)$ (que es par) resulta en una función impar, cuya integral en $[-l, l]$ es estrictamente **cero** ($a_0 = 0$ y $a_n = 0$).
+* Si $f(x)$ es una función **par**, su producto con el seno $\sin\left(\frac{n\pi}{l}x\right)$ (que es impar) resulta en una función impar, cuya integral es **cero** ($b_n = 0$).
+
+
+
+### Ejercicio 9
+
+* **Enunciado:** El coeficiente $a_n$ de $f(x) = x^3$ es distinto de $0$ en cualquier intervalo $(-l, l)$.
+* **Resolución Paso a Paso:**
+1. Verificamos la paridad de $f(x) = x^3$: al evaluar $f(-x) = (-x)^3 = -x^3 = -f(x)$, determinamos que es una función **impar**.
+2. Por las propiedades de integración en intervalos simétricos para funciones impares, todos los coeficientes de los cosenos ($a_0$ y $a_n$) se anulan idénticamente.
+3. Por lo tanto, $a_n = 0$ siempre, lo que contradice la afirmación de que es distinto de cero.
+
+
+* 💡 **Respuesta Correcta:** **Falso**
+
+
+
+
+### Ejercicio 10
+
+* **Enunciado:** El coeficiente $b_n$ de $f(x) = \cos(x)$ es distinto de $0$ en cualquier intervalo $(-l, l)$.
+* **Resolución Paso a Paso:**
+1. Verificamos la paridad de $f(x) = \cos(x)$: al evaluar $f(-x) = \cos(-x) = \cos(x) = f(x)$, determinamos que es una función **par**.
+2. Los coeficientes de los senos se calculan mediante la integral de $f(x) \cdot \sin\left(\frac{n\pi}{l}x\right)$, que representa el producto de una función par por una impar (impar en total).
+3. La integral de una función impar en un intervalo simétrico $[-l, l]$ es cero, por lo que $b_n = 0$ para todo $n$.
+
+
+* 💡 **Respuesta Correcta:** **Falso**
+
+
+
+
+### Ejercicio 11
+
+* **Enunciado:** El coeficiente independiente $a_0$ de $f(x) = x^4$ es distinto de $0$ en cualquier intervalo $(-l, l)$.
+* **Resolución Paso a Paso:**
+1. La función $f(x) = x^4$ es **par**.
+2. Su coeficiente independiente se define mediante la fórmula:
+
+$$a_0 = \frac{1}{l}\int_{-l}^{l} x^4 \, dx$$
+
+
+3. Como $x^4 \ge 0$ en todo el intervalo y es estrictamente positivo (salvo en el origen), la integral de una función no negativa en un intervalo con longitud positiva arroja un valor estrictamente mayor que cero ($a_0 > 0$).
+4. Por ende, $a_0$ es efectivamente distinto de cero.
+
+
+* 💡 **Respuesta Correcta:** **Verdadero**
+
 
 
 
 ## 📌 Pregunta 12: Linealidad de la Serie de Fourier
 
-### Enunciado
+### Ejercicio 12
 
-¿La serie de Fourier es un operador lineal?
-
-### Análisis Teórico
-
-Un operador $T$ es lineal si cumple con la propiedad de superposición (homogeneidad y aditividad):
-
+* **Enunciado:** La serie de Fourier es un operador lineal.
+* **Resolución Paso a Paso:**
+1. Un operador $T$ se define como lineal si cumple con la superposición (homogeneidad y aditividad):
 
 $$T(a \cdot f + b \cdot g) = a \cdot T(f) + b \cdot T(g)$$
 
 
-Dado que los coeficientes de Fourier ($a_0, a_n, b_n$) se calculan mediante operaciones de integración, y la integral es un operador lineal ($\int (af + bg)dx = a\int f dx + b\int g dx$), la extracción de coeficientes y la construcción de la serie de Fourier satisfacen plenamente la propiedad de linealidad.
+2. Los coeficientes de la serie de Fourier ($a_0, a_n, b_n$) se obtienen a través de operaciones de integración definida.
+3. Debido a que la integral posee la propiedad lineal (la integral de una combinación lineal es la combinación lineal de las integrales):
 
-### 💡 Respuesta Correcta
-
-* **Verdadero**
-
+$$\int_{-l}^{l} [a f(x) + b g(x)] \, dx = a \int_{-l}^{l} f(x) \, dx + b \int_{-l}^{l} g(x) \, dx$$
 
 
-* 📚 **Ejercicios 1 y 2 (Paridad de funciones):** Análisis completo de funciones pares e impares ($f(x) = x$ y $f(x) = x^2$) para determinar la anulación de coeficientes ($a_n = 0$ o $b_n = 0$).
-* 🏗️ **Ejercicios 3 y 4 (Desarrollo por tramos y exponenciales):** Metodología de cálculo de integrales en intervalos personalizados con funciones indicadoras y exponenciales.
-* 🔍 **Ejercicios 5 al 8 (Convergencia puntual):** Aplicación del teorema de Dirichlet sobre continuidad y saltos finitos.
-* ⚖️ **Ejercicios 9 al 11 (Propiedades de coeficientes y simetría):** Verificación analítica mediante paridad para polinomios y funciones trigonométricas básicas.
-* ⚡ **Ejercicio 12 (Linealidad):** Demostración conceptual basada en las propiedades de la integral definida.
+
+tanto el cálculo de los coeficientes como la construcción de la serie resultante heredan directamente esta linealidad.
+
+
+* 💡 **Respuesta Correcta:** **Verdadero**

@@ -60,4 +60,4 @@ Notación de intervalos: Uso de () y [] para definir convergencia según el comp
 
 * **Justificación:** Se explica la importancia de verificar las hipótesis antes de aplicar cualquier criterio y el uso de L'Hôpital para resolver indeterminaciones en límites.
 
-* **Series Especiales:** Inclusión de series geométricas (convergencia en $(-1,1)$) y series p.
+* **Series Especiales:** Inclusión de series geométricas (convergencia en $(-1,1)$ ) y series p.

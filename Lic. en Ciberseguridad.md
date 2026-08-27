@@ -2,7 +2,7 @@
 
 Este documento detalla las asignaturas esenciales que debes dominar para completar la Licenciatura en Ciberseguridad, estructuradas de acuerdo con los pilares fundamentales de la disciplina.
 
----
+
 
 ## ⚔️ Área Técnica y Ofensiva
 
@@ -24,7 +24,7 @@ Este documento detalla las asignaturas esenciales que debes dominar para complet
 ### 6. Ingeniería Reversa
 * **Descripción:** Estudio profundo del código binario y desensamblado de software. Es la herramienta clave para diseccionar muestras de malware, entender su comportamiento interno y diseñar contramedidas específicas.
 
----
+
 
 ## 📋 Área de Gestión, Riesgos y Normativas
 
@@ -43,7 +43,7 @@ Este documento detalla las asignaturas esenciales que debes dominar para complet
 ### 11. Continuidad de Negocio y Ciberresiliencia
 * **Descripción:** Diseño de planes de contingencia, respuesta ante incidentes mayores (*disaster recovery*) y estrategias para garantizar que la empresa pueda operar o recuperarse rápidamente tras un ciberataque masivo.
 
----
+
 
 ## 🎓 Cierre de Carrera
 

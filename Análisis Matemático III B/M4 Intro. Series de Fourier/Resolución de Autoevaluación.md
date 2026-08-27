@@ -58,7 +58,9 @@ $$b_n = 0$$
 
 ### Enunciado
 
-Desarrollar la serie de Fourier de la función $f(x) = \mathbb{I}_{(-5,0)}(x) + 2 \cdot \mathbb{I}_{(0,5)}(x)$ en el intervalo $(-5,5)$ (donde $l = 5$).
+Desarrollar la serie de Fourier de la función 
+$$f(x) =\mathbb{I}_{(-5,0)}(x)+2\cdot\mathbb{I}_{(0,5)}(x)$$
+en el intervalo $(-5,5)$ (donde $l = 5$)
 
 ### Análisis Teórico y Resolución
 
@@ -79,7 +81,21 @@ $$a_0 = \frac{1}{5} \int_{-5}^{0} (1) dx + \frac{1}{5} \int_{0}^{5} (2) dx = \fr
 
 * La opción que contiene los coeficientes trigonométricos correctos con $l=5$ y convergencia puntual en $(-5,5)$.
 
+### 🔍 Desglose de los Componentes
 
+La serie de Fourier analizada presenta los siguientes coeficientes calculados:
+
+#### 1. Término Independiente ($\frac{a_0}{2}$)
+$$\frac{7}{4}$$
+Esto indica que el coeficiente independiente de la serie es $a_0 = \frac{7}{2} = 3.5$.
+
+#### 2. Coeficiente de los Cosenos ($a_n$)
+$$a_n = \frac{5}{n^2\pi^2} \cdot \left((-1)^n - 1\right)$$
+Este término proviene de integrar una función por tramos en el intervalo $(-5, 5)$, donde el factor $\left((-1)^n - 1\right)$ hace que $a_n$ sea cero cuando $n$ es par y tome valores no nulos cuando $n$ es impar.
+
+#### 3. Coeficiente de los Senos ($b_n$)
+$$b_n = \left(\frac{1}{5} - \frac{5}{n\pi}\right) \cdot (-1)^n - \frac{1}{5}$$
+Este término surge de la componente sinusoidal al integrar la función en los subintervalos correspondientes (típicamente asociada a funciones indicadoras o discontinuas definidas en $(-5, 0)$ y $(0, 5)$).
 
 ## 📌 Pregunta 4: Serie de Fourier de $f(x) = e^{3x}$ en $(-1, 1)$
 

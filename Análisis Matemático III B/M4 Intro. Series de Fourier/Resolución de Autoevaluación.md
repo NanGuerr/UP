@@ -114,31 +114,8 @@ Desarrollar la serie de Fourier de la función $f(x) = e^{3x}$ en el intervalo $
 
 3. **Convergencia:** Al ser $f(x) = e^{3x}$ una función continua en todo el intervalo cerrado $[-1, 1]$, la serie converge puntual y uniformemente a $f(x)$ en todo $(-1, 1)$.
 
-### 💡 Respuesta Correcta
-
-* La opción que muestra los términos con denominadores $9 + n^2\pi^2$ y convergencia puntual en $(-1, 1)$.
-
-
-
-```python
-# Let's verify details for questions 5 to 12 based on the provided PDF and prompt text.
-# We need to present a detailed step-by-step resolution for exercises 5, 6, 7, 8, 9, 10, 11, and 12.
-# Let's inspect the questions from the PDF text:
-# Q5: La serie de Fourier de f(x) = -\mathbb{I}_{(-1,0)}(x) + \mathbb{I}_{(0,1)}(x) converge puntualmente a f en todo el intervalo (-1, 1). -> Falso (since there is a jump discontinuity at x=0, it converges to the average 0 at x=0, not to f(0) which is undefined or doesn't match).
-# Q6: La siguiente serie de Fourier converge puntualmente a f en toda la recta real: f(x) = (x+1)\mathbb{I}_{(-1,0)}(x) + (1-x)\mathbb{I}_{(0,1)}(x). -> Let's check: at x=0, left limit = 0+1 = 1, right limit = 1-0 = 1. The function is continuous at x=0! And extended periodically, it's continuous everywhere. So it converges on the entire real line. -> Verdadero.
-# Q7: La serie de Fourier de f(x) = \mathbb{I}_{(-1,0)}(x) + (1-x)\mathbb{I}_{(0,1)}(x) converge puntualmente a f en todo el intervalo (-1,1). -> Let's check continuity: at x=0, left limit = 1, right limit = 1-0 = 1. Continuous at x=0! In (-1,1) it is continuous, so it converges pointwise to f on (-1,1). -> Verdadero.
-# Q8: La serie de Fourier de f(x) = \mathbb{I}_{(-1,0)}(x) + x\mathbb{I}_{(0,1)}(x) converge puntualmente a f en todo el intervalo (-1,1). -> At x=0, left limit = 1, right limit = 0. Discontinuity at x=0, so it doesn't converge to f(0) at x=0. -> Falso.
-# Q9: El coeficiente a_n de f(x) = x^3 es distinto de 0 en cualquier intervalo (-l, l). -> f(x)=x^3 es impar, a_n = 0 siempre. -> Falso.
-# Q10: El coeficiente b_n de f(x) = \cos(x) es distinto de 0 en cualquier intervalo (-l, l). -> f(x)=\cos(x) es par, b_n = 0 siempre. -> Falso.
-# Q11: El coeficiente independiente a_0 de f(x) = x^4 es distinto de 0 en cualquier intervalo (-l, l). -> a_0 = (1/l)\int_{-l}^l x^4 dx > 0. -> Verdadero.
-# Q12: La serie de Fourier es un operador lineal. -> Verdadero.
-
-
-```
-
-A continuación se presenta el desarrollo detallado paso a paso para los ejercicios del **5 al 12** de la autoevaluación, aplicando los teoremas fundamentales de convergencia puntual (Teorema de Dirichlet), paridad de funciones e integración.
-
-
+#### 💡 Respuesta Correcta
+La opción que muestra los términos con denominadores $9 + n^2\pi^2$ y convergencia puntual en $(-1, 1)$.
 
 ### Ejercicio 5
 

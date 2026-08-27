@@ -134,10 +134,10 @@ $$\frac{f(x^+) + f(x^-)}{2}$$
 
 ### 💡 Respuestas Correctas
 
-* **Pregunta 5:** Verdadero
+* **Pregunta 5:** Falso
 * **Pregunta 6:** Verdadero
 * **Pregunta 7:** Verdadero
-* **Pregunta 8:** Verdadero
+* **Pregunta 8:** Falso
 
 
 

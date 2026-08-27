@@ -15,7 +15,7 @@
 
 ## 🚀 Semestre 4 (Sistemas Complejos) — Marzo - Julio 2027
 
-1. 📐 `(026177)` **Sistemas de Representación para Electrónica** 🆓
+1. 📐 `(026177)` Sistemas de Representación para Electrónica 🆓
 2. ⚡ `(024823)` Física IIa
 3. 🖥️ `(025612)` Arquitectura de Computadores (Sistemas Operativos y Embebidos)
 4. 〰️ `(026438)` Señales y Sistemas (Matemático IIIb)
@@ -28,7 +28,7 @@
 2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada)
 3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb)
 4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad)
-5. 📈 `(024886)` **Teoría de la Información (Probabilidad y Estadística)**
+5. 📈 `(024886)` Teoría de la Información (Probabilidad y Estadística)
 6. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
 
 ## ☀️ Verano — Enero - Febrero 2028

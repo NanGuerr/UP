@@ -15,7 +15,7 @@
 
 ## 🚀 Semestre 4 (Sistemas Complejos) — Marzo - Julio 2027
 
-1. 📐 `(026177)` Sistemas de Representación para Electrónica 🆓
+1. 📐 `(026177)` **Sistemas de Representación para Electrónica** 🆓
 2. ⚡ `(024823)` Física IIa
 3. 🖥️ `(025612)` Arquitectura de Computadores (Sistemas Operativos y Embebidos)
 4. 〰️ `(026438)` Señales y Sistemas (Matemático IIIb)
@@ -28,7 +28,7 @@
 2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada)
 3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb)
 4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad)
-5. 📈 `(024886)` Teoría de la Información (Probabilidad y Estadística)
+5. 📈 `(024886)` **Teoría de la Información (Probabilidad y Estadística)**
 6. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
 
 ## ☀️ Verano — Enero - Febrero 2028
@@ -40,7 +40,7 @@
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos)
 2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-3. 💰 `(026532)` Fundamentos de Economía y Finanzas 🌞
+3. 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
 4. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal) 
 5. 🌐 `(026213)` TCP/IP
 6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador)
@@ -50,7 +50,7 @@
 1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓🥼
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) 🥼
-4. 👔 `(026009)` Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)
+4. 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**
 5. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)
 6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) 🥼
    
@@ -61,7 +61,7 @@
 
 1. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
-3. 🛡️ `(026319)` Seguridad Ambiental y del Trabajo 🆓
+3. 🛡️ `(026319)` **Seguridad Ambiental y del Trabajo** 🆓
 4. 🖥️ `(025418)` Sistemas Operativos (Electiva Arquitectura de Computadores) 🌞
 5. 📜 `(027513)` Trabajo Final de Grado (Formulación de Proyectos y autorización del Director de Departamento) ❓
 6. 🦾 `(027178)` Introducción a la Robótica (Electiva Algebra Lineal y Física I) 🌞
@@ -70,7 +70,7 @@
 
 1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) 🥼
-3. ⚖️ `(025701)` Ingeniería Legal 🆓
+3. ⚖️ `(025701)` **Ingeniería Legal** 🆓
 4. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) 🥼
 5. 🖧 `(026214)`  Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) 🥼

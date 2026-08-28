@@ -1,5 +1,9 @@
 # 📚 Examen Parcial: Probabilidad y Estadística
 
+**Empresa:** UrbanMetrics
+
+
+
 ## 🏭 Ejercicio 1: Estadística Descriptiva (Zona Industrial vs. Zona Residencial)
 
 Se registró el nivel de contaminación ($\mu g/m^3$) en dos zonas durante 6 días:
@@ -11,19 +15,19 @@ Se registró el nivel de contaminación ($\mu g/m^3$) en dos zonas durante 6 dí
 ### a) Cálculos estadísticos para cada zona
 
 #### 🏢 Zona Industrial:
-* 📊 **Media ($ ar{x}$):** $rac{120+130+125+135+128+132}{6} = \mathbf{128.33} 	ext{ }\mu g/m^3$
-* 📌 **Mediana ($Me$):** Ordenando $[120, 125, 128, 130, 132, 135]$, el promedio central es $rac{128 + 130}{2} = \mathbf{129.0} 	ext{ }\mu g/m^3$
-* 📈 **Desviación estándar muestral ($s$):** $\mathbf{5.32} 	ext{ }\mu g/m^3$
-* 📐 **Varianza muestral ($s^2$):** $\mathbf{28.27} 	ext{ }(\mu g/m^3)^2$
-* 📉 **Coeficiente de variación ($CV$):** $rac{5.32}{128.33} 	imes 100 = \mathbf{4.14\%}$
+* 📊 **Media ($ ar{x}$):** $\frac{120+130+125+135+128+132}{6} = \mathbf{128.33} \text{ }\mu g/m^3$
+* 📌 **Mediana ($Me$):** Ordenando $[120, 125, 128, 130, 132, 135]$, el promedio central es $\frac{128 + 130}{2} = \mathbf{129.0} \text{ }\mu g/m^3$
+* 📈 **Desviación estándar muestral ($s$):** $\mathbf{5.32} \text{ }\mu g/m^3$
+* 📐 **Varianza muestral ($s^2$):** $\mathbf{28.27} \text{ }(\mu g/m^3)^2$
+* 📉 **Coeficiente de variación ($CV$):** $\frac{5.32}{128.33} \times 100 = \mathbf{4.14\%}$
 * 📐 **Coeficiente de asimetría ($g_1$):** $\mathbf{-0.53}$ (Asimetría negativa leve)
 
 #### 🏡 Zona Residencial:
-* 📊 **Media ($ ar{x}$):** $rac{45+50+48+55+52+49}{6} = \mathbf{49.83} 	ext{ }\mu g/m^3$
-* 📌 **Mediana ($Me$):** Ordenando $[45, 48, 49, 50, 52, 55]$, el promedio central es $rac{49 + 50}{2} = \mathbf{49.5} 	ext{ }\mu g/m^3$
-* 📈 **Desviación estándar muestral ($s$):** $\mathbf{3.43} 	ext{ }\mu g/m^3$
-* 📐 **Varianza muestral ($s^2$):** $\mathbf{11.77} 	ext{ }(\mu g/m^3)^2$
-* 📉 **Coeficiente de variación ($CV$):** $rac{3.43}{49.83} 	imes 100 = \mathbf{6.88\%}$
+* 📊 **Media ($ ar{x}$):** $\frac{45+50+48+55+52+49}{6} = \mathbf{49.83} \text{ }\mu g/m^3$
+* 📌 **Mediana ($Me$):** Ordenando $[45, 48, 49, 50, 52, 55]$, el promedio central es $\frac{49 + 50}{2} = \mathbf{49.5} \text{ }\mu g/m^3$
+* 📈 **Desviación estándar muestral ($s$):** $\mathbf{3.43} \text{ }\mu g/m^3$
+* 📐 **Varianza muestral ($s^2$):** $\mathbf{11.77} \text{ }(\mu g/m^3)^2$
+* 📉 **Coeficiente de variación ($CV$):** $\frac{3.43}{49.83} \times 100 = \mathbf{6.88\%}$
 * 📐 **Coeficiente de asimetría ($g_1$):** $\mathbf{+0.21}$ (Asimetría positiva leve)
 
 
@@ -35,7 +39,7 @@ Se registró el nivel de contaminación ($\mu g/m^3$) en dos zonas durante 6 dí
 
 
 ### c) Análisis comparativo entre las dos zonas. ¿En qué zona hay mayor variabilidad en los niveles de contaminación?
-* 📊 **Nivel general:** La contaminación en la zona industrial es significativamente mayor que en la residencial (media de $128.33$ frente a $49.83$ $\mu g/m^3$).
+* 📊 **Nivel general:** La contaminación en la zona industrial es significativamente mayor que en la residencial (media de $128.33$ frente al $49.83$ $\mu g/m^3$).
 * 🔄 **Variabilidad absoluta:** La zona industrial tiene mayor desviación estándar ($5.32$ vs $3.43$) y mayor varianza ($28.27$ vs $11.77$).
 * ⚖️ **Variabilidad relativa ($CV$):** Al analizar el Coeficiente de Variación, la **zona residencial** muestra una mayor dispersión relativa con un **$6.88\%$** frente al **$4.14\%$** de la zona industrial, debido a que su media es mucho más baja en proporción a su desviación estándar.
 
@@ -53,14 +57,14 @@ Se evalúan dos sistemas de monitoreo de tráfico:
 ### a) ¿Cuál es la probabilidad de que una intersección elegida al azar tenga un error de medición mayor al 5%?
 Aplicamos el Teorema de la Probabilidad Total:
 $$P(E) = P(E|SF) \cdot P(SF) + P(E|CI) \cdot P(CI)$$
-$$P(E) = (0.10 	imes 0.30) + (0.20 	imes 0.70) = 0.03 + 0.14 = 0.17$$
+$$P(E) = (0.10 \times 0.30) + (0.20 \times 0.70) = 0.03 + 0.14 = 0.17$$
 * 📊 **Respuesta:** La probabilidad total de que se registre un error mayor al 5% es del **17%** ($0.17$).
 
 
 
 ### b) Si una intersección tiene más del 5% de error, ¿cuál es la probabilidad de que use Cámaras Inteligentes?
 Aplicamos el Teorema de Bayes para calcular $P(CI|E)$:
-$$P(CI|E) = rac{P(E|CI) \cdot P(CI)}{P(E)} = rac{0.20 	imes 0.70}{0.17} = rac{0.14}{0.17}  pprox 0.8235$$
+$$P(CI|E) = \frac{P(E|CI) \cdot P(CI)}{P(E)} = \frac{0.20 \times 0.70}{0.17} = \frac{0.14}{0.17} \approx 0.8235$$
 * 📊 **Respuesta:** La probabilidad condicional es del **82.35%** ($0.8235$).
 
 
@@ -74,23 +78,22 @@ $$P(CI|E) = rac{P(E|CI) \cdot P(CI)}{P(E)} = rac{0.20 	imes 0.70}{0.17} = rac
 
 * Probabilidad de éxito (superar límite en una muestra): $p = 0.05$
 * Muestras por hora: $n = 24$
-* Promedio diario de muestras que superan el límite: $\lambda_{	ext{día}} = 5$
+* Promedio diario de muestras que superan el límite: $\lambda_{\text{día}} = 5$
 
 
 
 ### a) Probabilidad de que en una hora exactamente 4 muestras superen el límite. Justificá el modelo.
-* **Justificación del modelo:** Se utiliza la **Distribución Binomial** ($X \sim 	ext{Bin}(24, 0.05)$) porque se realizan $n = 24$ ensayos independientes (muestras), cada uno con idéntica probabilidad de éxito $p = 0.05$.
+* **Justificación del modelo:** Se utiliza la **Distribución Binomial** ($X \sim \text{Bin}(24, 0.05)$) porque se realizan $n = 24$ ensayos independientes (muestras), cada uno con idéntica probabilidad de éxito $p = 0.05$.
 * Cálculo de $P(X = 4)$:
-  $$P(X = 4) =  inom{24}{4} (0.05)^4 (0.95)^{20}  pprox 10626 	imes 0.00000625 	imes 0.35848  pprox 0.0238$$
+  $$P(X = 4) = \binom{24}{4} (0.05)^4 (0.95)^{20} \approx 10626 \times 0.00000625 \times 0.35848 \approx 0.0238$$
 * 📊 **Respuesta:** La probabilidad es del **2.38%** ($0.0238$).
 
 
 
 ### b) ¿Cuál es la probabilidad de observar al menos 6 muestras que superen el límite en un día?
-* Para el análisis diario, la tasa esperada es $\lambda = 5$ muestras por día, modelada mediante una **Distribución de Poisson** ($Y \sim 	ext{Poisson}(5)$).
+* Para el análisis diario, la tasa esperada es $\lambda = 5$ muestras por día, modelada mediante una **Distribución de Poisson** ($Y \sim \text{Poisson}(5)$).
 * Queremos $P(Y \ge 6) = 1 - P(Y \le 5)$:
-  $$P(Y \le 5) = e^{-5} \left( rac{5^0}{0!} + rac{5^1}{1!} + rac{5^2}{2!} + rac{5^3}{3!} + rac{5^4}{4!} + rac{5^5}{5!} 
-ight)  pprox 0.6160$$
+  $$P(Y \le 5) = e^{-5} \left( \frac{5^0}{0!} + \frac{5^1}{1!} + \frac{5^2}{2!} + \frac{5^3}{3!} + \frac{5^4}{4!} + \frac{5^5}{5!} \right) \approx 0.6160$$
   $$P(Y \ge 6) = 1 - 0.6160 = 0.3840$$
 * 📊 **Respuesta:** La probabilidad de observar al menos 6 muestras en un día es del **38.40%** ($0.3840$).
 
@@ -98,13 +101,13 @@ ight)  pprox 0.6160$$
 
 ### c) Esperanza, varianza y dispersión relativa de ambas situaciones.
 * **Situación 1 (Binomial):**
-  * Esperanza ($E$) = $n \cdot p = 24 	imes 0.05 = \mathbf{1.20}$
-  * Varianza ($Var$) = $n \cdot p \cdot (1-p) = 24 	imes 0.05 	imes 0.95 = \mathbf{1.14}$
-  * Coeficiente de variación (dispersión relativa): $CV = rac{\sqrt{1.14}}{1.20}  pprox \mathbf{0.8898}$ ($88.98\%$)
+  * Esperanza ($E$) = $n \cdot p = 24 \times 0.05 = \mathbf{1.20}$
+  * Varianza ($Var$) = $n \cdot p \cdot (1-p) = 24 \times 0.05 \times 0.95 = \mathbf{1.14}$
+  * Coeficiente de variación (dispersión relativa): $CV = \frac{\sqrt{1.14}}{1.20} \approx \mathbf{0.8898}$ ($88.98\%$)
 * **Situación 2 (Poisson):**
   * Esperanza ($E$) = $\lambda = \mathbf{5.00}$
   * Varianza ($Var$) = $\lambda = \mathbf{5.00}$
-  * Coeficiente de variación: $CV = rac{\sqrt{5}}{5}  pprox \mathbf{0.4472}$ ($44.72\%$)
+  * Coeficiente de variación: $CV = \frac{\sqrt{5}}{5} \approx \mathbf{0.4472}$ ($44.72\%$)
 * 💡 **Conclusión:** El modelo **Binomial** tiene mayor dispersión relativa ($88.98\%$ frente al $44.72\%$).
 
 
@@ -120,19 +123,19 @@ ight)  pprox 0.6160$$
 
 
 
-### b) Si se toma una muestra de 36 optimizaciones, ¿cuál es la probabilidad de que el tiempo promedio supere los 10 minutos? *(Nota analítica: evaluado con $n=36$, por TLC el promedio muestral se distribuye normal con $\mu_{ ar{X}} = 8$ y $\sigma_{ ar{X}} = rac{1.5}{\sqrt{36}} = 0.25$)*.
-* Estandarizando para $10$ minutos:
-  $$Z = rac{10 - 8}{0.25} = rac{2}{0.25} = 8.0$$
-* $P( ar{X} > 10) = P(Z > 8)  pprox 0$
-* 📊 **Respuesta:** La probabilidad es prácticamente **0%** (un promedio de 10 minutos está a 8 desviaciones estándar de la media, un evento extremadamente improbable).
+### b) Si se toma una muestra de 36 optimizaciones, ¿cuál es la probabilidad de que el tiempo promedio supere los 10 minutos?
+* Estandarizando para $10$ minutos (asumiendo el análisis con muestra grande):
+  $$Z = \frac{10 - 8}{1.5 / \sqrt{36}} = \frac{2}{0.25} = 8.0$$
+* $P(\bar{X} > 10) = P(Z > 8) \approx 0$
+* 📊 **Respuesta:** La probabilidad es prácticamente **0%**.
 
 
 
 ### c) ¿Cuál es la probabilidad de que el promedio esté entre 7.5 y 8.5 minutos? Analizá y justificá.
-* Gracias al **Teorema del Límite Central** (porque $n = 36 \ge 30$), la media muestral $ ar{X}$ se distribuye de forma aproximadamente normal con $\mu_{ ar{X}} = 8$ y $\sigma_{ ar{X}} = 0.25$.
+* Gracias al **Teorema del Límite Central** (porque $n = 36 \ge 30$), la media muestral $\bar{X}$ se distribuye de forma aproximadamente normal con $\mu_{\bar{X}} = 8$ y $\sigma_{\bar{X}} = 0.25$.
 * Estandarizamos los límites:
-  * $Z_1 = rac{7.5 - 8}{0.25} = -2.0$
-  * $Z_2 = rac{8.5 - 8}{0.25} = 2.0$
+  * $Z_1 = \frac{7.5 - 8}{0.25} = -2.0$
+  * $Z_2 = \frac{8.5 - 8}{0.25} = 2.0$
 * Calculamos el área acumulada:
   $$P(-2.0 < Z < 2.0) = P(Z < 2.0) - P(Z < -2.0) = 0.9772 - 0.0228 = 0.9545$$
 * 📊 **Respuesta:** La probabilidad de que el tiempo promedio esté entre 7.5 y 8.5 minutos es del **95.45%**.

@@ -1,4 +1,4 @@
-# 📝 Resolución Paso a Paso: Autoevaluación de Distribuciones de Probabilidad (Parte I)
+# 📝 Resolución Paso a Paso de Probabilidad (Parte I)
 
 Este documento presenta la resolución detallada, justificada y paso a paso de cada una de las preguntas de la **Autoevaluación de Distribuciones de Probabilidad (Parte I)**.
 
@@ -30,11 +30,13 @@ Este documento presenta la resolución detallada, justificada y paso a paso de c
     *   Valor final 3 ($V_3$) = \$10 000 con probabilidad $P_3 = 0.30$
 2.  **Calcular el valor final esperado $E(V)$:**
     $$E(V) = (30000 \cdot 0.30) + (15000 \cdot 0.40) + (10000 \cdot 0.30)$$
-    $$E(V) = 9000 + 6000 + 3000 = \$18\ 000$$
+    $$E(V) = 9000 + 6000 + 3000 = 18000$$
 3.  **Calcular la ganancia media neta:**
     La ganancia neta se obtiene restando el desembolso inicial (\$10 000) al valor final esperado:
-    $$	ext{Ganancia Media} = E(V) - 	ext{Inversión Inicial}$$
-    $$	ext{Ganancia Media} = 18000 - 10000 = \mathbf{8000}$$
+
+   $$ext{Ganancia Media} = E(V) - extInversión Inicial$$
+
+   $$ext{Ganancia Media} = 18000 - 10000 = {8000}$$
 
 ---
 
@@ -67,8 +69,8 @@ Este documento presenta la resolución detallada, justificada y paso a paso de c
 **Enunciado:** ¿Cuál de los siguientes dominios o recorridos corresponden a una variable aleatoria discreta? *(Seleccione las opciones correctas)*
 *   ☑️ $R_x = \{-2; -1; 0; 1.5; 2; 3.6; 4; 5; 7\}$
 *   🔲 $R = (3; 4)$ *(Intervalo continuo)*
-*   ☑️ $R_x = \left\{-rac{3}{4}; 2; rac{7}{2}
-ight\}$
+*   ☑️
+$R_x = \{-3/4; 2; 7/2\}$
 *   ☑️ $R_x = \{3; 4\}$
 
 ### 💡 Explicación paso a paso:
@@ -104,9 +106,9 @@ ight\}$
 
 | $X$ | $P(X)$ |
 | :---: | :---: |
-| **0** | *[Completar: 0.53]* |
-| **3** | $0.12$ |
-| **8** | *[Completar: 0.35]* |
+| **0** | *[Completar: 0,53]* |
+| **3** | $0,12$ |
+| **8** | *[Completar: 0,35]* |
 
 ### 💡 Resolución paso a paso del sistema de ecuaciones:
 
@@ -139,8 +141,9 @@ Aplicamos las dos propiedades fundamentales de las distribuciones de probabilida
 ### 📋 Tabla Completada:
 | $X$ | $P(X)$ |
 | :---: | :---: |
-| **0** | **0.53** |
-| **3** | **0.12** |
-| **8** | **0.35** |
+| **0** | **0,53** |
+| **3** | **0,12** |
+| **8** | **0,35** |
 
-*(Verificación: $0.53 + 0.12 + 0.35 = 1.00$ y $0(0.53) + 3(0.12) + 8(0.35) = 0 + 0.36 + 2.80 = 3.16$).*
+Verificación: 
+$$0.53 + 0.12 + 0.35 = 1.00$$ y $$0(0.53) + 3(0.12) + 8(0.35) = 0 + 0.36 + 2.80 = 3.16$$

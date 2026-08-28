@@ -1,6 +1,6 @@
-# 📊 Análisis de Distribuciones Binomiales: Asimetría y Simetría
+# 📊 Análisis de Asimetría y Simetría
 
-Este documento analiza las tres gráficas de la imagen adjunta, enfocándose en la **Distribución Binomial** y su **Función de Masa de Probabilidad (FMP)** bajo diferentes valores del parámetro de probabilidad de éxito ($p$).
+Este documento analiza la **Distribución Binomial** y su **Función de Masa de Probabilidad (FMP)** bajo diferentes valores del parámetro de probabilidad de éxito ($p$).
 
 
 

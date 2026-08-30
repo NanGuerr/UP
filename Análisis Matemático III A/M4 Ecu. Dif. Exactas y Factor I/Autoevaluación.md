@@ -1,4 +1,4 @@
-# 📘 Autoevaluación de Ecuaciones Diferenciales Exactas y Factor Integrante 📐
+# 📘 Autoevaluación Ecuaciones Dif. Exactas y Factor Integrante 📐
 
 A continuación se presenta el desarrollo analítico y detallado de cada una de las preguntas de la autoevaluación, optimizado para GitHub. 🚀
 

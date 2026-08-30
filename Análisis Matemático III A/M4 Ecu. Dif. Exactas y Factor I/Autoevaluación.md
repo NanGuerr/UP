@@ -3,8 +3,50 @@
 A continuación se presenta el desarrollo analítico y detallado de cada una de las preguntas de la autoevaluación 🚀
 
 
-
 ## ❓ Pregunta 1
+**📝 Enunciado:** Que una ecuación diferencial $M(x;y)dx+N(x;y)dy=0$ sea exacta significa que:
+
+**💡 Desarrollo:**
+La definición formal de una ecuación diferencial exacta es que la expresión diferencial $M(x,y)dx + N(x,y)dy$ corresponde exactamente a la diferencial total ($dF$) de una función potencial $F(x,y)$. 📖
+Recordemos que la diferencial total de una función de dos variables $F(x,y)$ se define como:
+
+$$dF = \frac{\partial F}{\partial x}dx + \frac{\partial F}{\partial y}dy$$
+
+Al igualar ambas expresiones ($Mdx + Ndy = dF$), se concluye que:
+
+$$M(x,y) = \frac{\partial F}{\partial x} \quad \text{y} \quad N(x,y) = \frac{\partial F}{\partial y}$$
+
+Por lo tanto, la exactitud implica directamente que $M$ y $N$ provienen de las derivadas parciales de una misma función de dos variables. 🎯
+
+**✅ Respuesta correcta:** Las funciones $M$ y $N$ son las derivadas parciales con respecto a $x$ y a $y$ respectivamente de alguna función de dos variables $F(x;y)$.
+
+
+
+## ❓ Pregunta 2
+**📝 Enunciado:** Una ecuación diferencial que no es exacta puede admitir:
+
+**💡 Desarrollo:**
+Si una ecuación diferencial admite un factor integrante $\mu(x,y)$ tal que multiplicándola se vuelve exacta y tiene una solución de la forma $F(x,y) = C$, existe una propiedad matemática que establece lo siguiente: 
+Si $\mu(x,y)$ es un factor integrante, entonces la expresión $\mu(x,y) \cdot G(F(x,y))$ también es un factor integrante para cualquier función derivable $G$. Dado que existe una infinidad de funciones $G$ que podemos escoger, se concluye que, de admitir un factor integrante, la ecuación admite una cantidad infinita de ellos. ♾️
+
+**✅ Respuesta correcta:** Un número infinito de factores integrantes.
+
+
+## ❓ Pregunta 3
+**📝 Enunciado:** Siempre es posible encontrar un factor integrante que transforme una ecuación diferencial que no es exacta en otra que sí lo sea.
+
+**💡 Desarrollo:**
+Esta es una clásica pregunta trampa o de concepto. Aunque teóricamente **existe** un factor integrante para toda ecuación de la forma $M(x,y)dx + N(x,y)dy = 0$ que posea una solución general (por el teorema de existencia), la afirmación clave aquí es la palabra **"encontrar"**. 
+
+En la práctica, para encontrar un factor integrante $\mu(x,y)$ que dependa de ambas variables, se necesita resolver una Ecuación Diferencial Parcial (EDP):
+$$M \frac{\partial \mu}{\partial y} - N \frac{\partial \mu}{\partial x} = \left(\frac{\partial N}{\partial x} - \frac{\partial M}{\partial y}\right)\mu$$
+
+Resolver esta EDP suele ser **más difícil** que resolver la ecuación diferencial ordinaria original. Por lo tanto, aunque exista, analítica y operativamente **no siempre es posible encontrarlo**, limitándonos en la práctica a casos especiales (como cuando $\mu$ depende solo de $x$, solo de $y$, o de $x \cdot y$). 🚫🧠
+
+**✅ Respuesta correcta:** Falso.
+
+
+## ❓ Pregunta 4
 **📝 Enunciado:** Para que la ecuación $e^{k^{2}x}\sin(4y)dx + e^{k^{2}x}\cos(4y)dy=0$ sea exacta, debe ser:
 
 **💡 Desarrollo:**
@@ -30,17 +72,7 @@ Una ecuación de la forma $M(x,y)dx + N(x,y)dy = 0$ es exacta si se cumple el cr
 
 
 
-## ❓ Pregunta 2
-**📝 Enunciado:** Siempre es posible encontrar un factor integrante que transforme una ecuación diferencial que no es exacta en otra que sí lo sea.
-
-**💡 Desarrollo:**
-De acuerdo con el teorema de existencia para ecuaciones diferenciales ordinarias de primer orden, toda ecuación de la forma $M(x,y)dx + N(x,y)dy = 0$ que posea una familia general de soluciones $F(x,y)=C$ (siendo $M$ y $N$ funciones continuas con derivadas parciales continuas), admite matemáticamente un factor integrante $\mu(x,y)$. Aunque en la práctica operativa puede resultar sumamente complejo determinar la expresión analítica de dicho factor para ecuaciones arbitrarias, desde el punto de vista teórico su existencia siempre está garantizada. 🧠✨
-
-**✅ Respuesta correcta:** Falso.
-
-
-
-## ❓ Pregunta 3
+## ❓ Pregunta 5
 **📝 Enunciado:** La ecuación diferencial $(y+xy+\sin y)dx + (x+\cos y)dy=0$
 
 **💡 Desarrollo:**
@@ -75,30 +107,7 @@ De acuerdo con el teorema de existencia para ecuaciones diferenciales ordinarias
 
 
 
-## ❓ Pregunta 4
-**📝 Enunciado:** Una ecuación diferencial que no es exacta puede admitir:
-
-**💡 Desarrollo:**
-Si una ecuación diferencial admite un factor integrante $\mu(x,y)$ tal que multiplicándola se vuelve exacta y tiene una solución de la forma $F(x,y) = C$, existe una propiedad matemática que establece lo siguiente: 
-Si $\mu(x,y)$ es un factor integrante, entonces la expresión $\mu(x,y) \cdot G(F(x,y))$ también es un factor integrante para cualquier función derivable $G$. Dado que existe una infinidad de funciones $G$ que podemos escoger, se concluye que, de admitir un factor integrante, la ecuación admite una cantidad infinita de ellos. ♾️
-
-**✅ Respuesta correcta:** Un número infinito de factores integrantes.
 
 
 
-## ❓ Pregunta 5
-**📝 Enunciado:** Que una ecuación diferencial $M(x;y)dx+N(x;y)dy=0$ sea exacta significa que:
 
-**💡 Desarrollo:**
-La definición formal de una ecuación diferencial exacta es que la expresión diferencial $M(x,y)dx + N(x,y)dy$ corresponde exactamente a la diferencial total ($dF$) de una función potencial $F(x,y)$. 📖
-Recordemos que la diferencial total de una función de dos variables $F(x,y)$ se define como:
-
-$$dF = \frac{\partial F}{\partial x}dx + \frac{\partial F}{\partial y}dy$$
-
-Al igualar ambas expresiones ($Mdx + Ndy = dF$), se concluye que:
-
-$$M(x,y) = \frac{\partial F}{\partial x} \quad \text{y} \quad N(x,y) = \frac{\partial F}{\partial y}$$
-
-Por lo tanto, la exactitud implica directamente que $M$ y $N$ provienen de las derivadas parciales de una misma función de dos variables. 🎯
-
-**✅ Respuesta correcta:** Las funciones $M$ y $N$ son las derivadas parciales con respecto a $x$ y a $y$ respectivamente de alguna función de dos variables $F(x;y)$.

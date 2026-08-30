@@ -1,4 +1,4 @@
-# 📘 Apunte: Ecuaciones Diferenciales Exactas y Factor Integrante - Parte 2 🎓
+# 📘 Apunte: Ecuaciones Dif. Exactas y Factor Integrante - Pte 2 .
 
 ## 🔍 Introducción al Problema
 Supongamos que queremos resolver la ecuación diferencial:
@@ -24,7 +24,7 @@ $$h'(y) = -\frac{1}{2}x^2 - xy$$
 
 Como el lado derecho de esta ecuación depende tanto de $x$ como de $y$, **es imposible** resolverla respecto de $y$. Por lo tanto, no existe tal función $F(x,y)$.
 
----
+
 
 ## 🛠️ Factor Integrante
 
@@ -36,7 +36,7 @@ sea una ecuación diferencial exacta. ✨
 
 > **Observación:** En general, no existe una forma sistemática de hallar estos factores integrantes y solo pueden encontrarse en casos muy particulares. El caso más sencillo es cuando el factor integrante depende **solo de la variable $x$ o solo de la variable $y$**.
 
----
+
 
 ## 📍 Factor Integrante que depende solo de $x$: $\mu(x)$
 
@@ -58,7 +58,7 @@ $$\mu'(x) = \left[ \frac{M'_y(x,y) - N'_x(x,y)}{N(x,y)} \right] \cdot \mu(x)$$
 
 Si la expresión $\frac{M'_y - N'_x}{N}$ **depende solo de $x$**, entonces podemos resolver la ecuación diferencial de variables separables para hallar $\mu(x)$. 🎯
 
----
+
 
 ### 📌 Ejemplo 1 (Factor $\mu(x)$)
 
@@ -104,7 +104,7 @@ $$h(x) = -\frac{\ln x}{x} - \frac{1}{x} + C_1$$
 **🎯 Solución general:**
 $$-\frac{y}{x} - \frac{\ln x}{x} - \frac{1}{x} = C$$
 
----
+
 
 ## 📍 Factor Integrante que depende solo de $y$: $\mu(y)$
 
@@ -114,7 +114,7 @@ $$\mu'(y) = \left[ \frac{N'_x(x,y) - M'_y(x,y)}{M(x,y)} \right] \cdot \mu(y)$$
 
 Existirá este factor si la expresión $\frac{N'_x - M'_y}{M}$ **depende solo de $y$**. 🎯
 
----
+
 
 ### 📌 Ejemplo 2 (Factor $\mu(y)$)
 

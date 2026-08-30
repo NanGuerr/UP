@@ -36,7 +36,7 @@ Una ecuación de la forma $M(x,y)dx + N(x,y)dy = 0$ es exacta si se cumple el cr
 **💡 Desarrollo:**
 De acuerdo con el teorema de existencia para ecuaciones diferenciales ordinarias de primer orden, toda ecuación de la forma $M(x,y)dx + N(x,y)dy = 0$ que posea una familia general de soluciones $F(x,y)=C$ (siendo $M$ y $N$ funciones continuas con derivadas parciales continuas), admite matemáticamente un factor integrante $\mu(x,y)$. Aunque en la práctica operativa puede resultar sumamente complejo determinar la expresión analítica de dicho factor para ecuaciones arbitrarias, desde el punto de vista teórico su existencia siempre está garantizada. 🧠✨
 
-**✅ Respuesta correcta:** Verdadero.
+**✅ Respuesta correcta:** Falso.
 
 
 

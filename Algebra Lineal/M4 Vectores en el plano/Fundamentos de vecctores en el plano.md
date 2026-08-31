@@ -1,4 +1,4 @@
-# 📐 Fundamentos Algebraicos y Geométricos 🧭
+# 📐 Fundamentos Algebraicos y Geométricos
 
 Este documento sintetiza los principios fundamentales de los vectores en el plano ($\mathbb{R}^2$), abordando su naturaleza tanto algebraica como geométrica. Se define al vector como un par ordenado de números reales o como un conjunto de segmentos de recta dirigidos equivalentes, caracterizados por una magnitud y una dirección. El análisis incluye las operaciones básicas de suma y multiplicación por un escalar, la importancia de los vectores unitarios y la base canónica $(\mathbf{i}, \mathbf{j})$, y las aplicaciones críticas del producto escalar, tales como el cálculo de ángulos entre vectores, la determinación de ortogonalidad y el cálculo de proyecciones.
 
@@ -98,7 +98,7 @@ $$\mathbf{a} \cdot \mathbf{b} = a_1b_1 + a_2b_2$$
 2. **Distributividad:** $\mathbf{v} \cdot (\mathbf{u} + \mathbf{w}) = \mathbf{v} \cdot \mathbf{u} + \mathbf{v} \cdot \mathbf{w}$.
 3. **Escalamiento:** $(\alpha \mathbf{v}) \cdot \mathbf{u} = \alpha(\mathbf{v} \cdot \mathbf{u})$.
 4. **Positividad:** $\mathbf{v} \cdot \mathbf{v} > 0$ para todo $\mathbf{v} \neq \mathbf{0}$.
-5. **Relación con la magnitud:** \|\mathbf{v}\|^2 = \mathbf{v} \cdot \mathbf{v}$.
+5. **Relación con la magnitud:** $\|\mathbf{v}\|^2 = \mathbf{v} \cdot \mathbf{v}$.
 
 ### 5.2. 📐 Interpretación Geométrica y Ángulos
 

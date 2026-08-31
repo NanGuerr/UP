@@ -1,6 +1,6 @@
-# 📐 Actividad: Vectores en el Plano — Resolución Paso a Paso 🚀
+# 📐 Actividad Vectores en el Plano — Resolución Paso a Paso 
 
-A continuación se presenta la resolución detallada y paso a paso de los ejercicios planteados en la **Actividad: Vectores en el plano**, aplicando rigurosamente los conceptos y fórmulas del apunte teórico correspondientes a geometría analítica y álgebra vectorial. 🎯
+A continuación se presenta la resolución detallada y paso a paso de los ejercicios planteados en la **Actividad: Vectores en el plano**, aplicando rigurosamente los conceptos y fórmulas del apunte teórico correspondientes a geometría analítica y álgebra vectorial. 
 
 
 

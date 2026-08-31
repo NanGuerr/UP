@@ -1,4 +1,4 @@
-# 📝 Resolución de Ecuación Diferencial Exacta con Factor Integrante
+# 📝 Resolución de Ecuación No Exacta con Factor Integrante
 
 **Problema:** Hallar la solución de la ecuación diferencial:
 $$(x^2 + y^2 + x)dx + (xy)dy = 0$$

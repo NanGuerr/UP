@@ -1,5 +1,3 @@
-# 📝 Integrales Dobles y Cambio de Orden de Integración
-
 ## 📌 1. Integrales Dobles sobre Regiones Rectangulares
 
 Para integrar una función $f(x,y)$ sobre una región rectangular $R = [a,b] \times [c,d]$, el teorema de Fubini permite evaluar la integral doble mediante integrales iteradas en cualquier orden:

@@ -33,12 +33,19 @@ Multiplicamos toda la ecuación diferencial por $x$:
 $$x(x^2 + y^2 + x)dx + x(xy)dy = 0$$
 $$(x^3 + xy^2 + x^2)dx + (x^2y)dy = 0$$
 
-Ahora tenemos una nueva ecuación. Verificamos si es exacta con los nuevos $M^*$ y $N^*$:
+Ahora tenemos una nueva ecuación. Verificamos si es exacta con los nuevos $${M^* } y { N^*}$$:
 
 * **$M^*(x,y) = x^3 + xy^2 + x^2$** $\implies (M^*)'_y = 2xy$
 * **$N^*(x,y) = x^2y$** $\implies (N^*)'_x = 2xy$
 
-✅ Ahora sí $\left(M^*\right)'_y = \left(N^*\right)'_x$, la ecuación es exacta.
+✅ Ahora sí, la ecuación es exacta.
+
+| $(M^*)'_y$ | = | $(N^*)'_x$ |
+| :--- | :--- |:--- |
+
+
+
+
 
 ## 🎯 Paso 4: Hallamos la función potencial $F(x,y)$
 Como es exacta, existe una función $F$ tal que $F'_x = M^**$ y $F'_y = N^*$.

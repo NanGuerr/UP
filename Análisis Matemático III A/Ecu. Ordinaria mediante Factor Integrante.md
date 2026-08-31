@@ -4,7 +4,7 @@
 
 $$2y \, dx + (x - \sin\sqrt{y}) \, dy = 0$$
 
----
+
 
 ## 🔍 Paso 1: Comprobación de la exactitud de la ecuación
 
@@ -20,7 +20,7 @@ Calculamos sus derivadas parciales cruzadas:
 
 Como $\frac{\partial M}{\partial y} \neq \frac{\partial N}{\partial x}$ (es decir, $2 \neq 1$), **la ecuación diferencial NO es exacta**.
 
----
+
 
 ## 🧮 Paso 2: Determinación del factor integrante $\mu$
 
@@ -54,7 +54,7 @@ Tomando la constante $C = 1$, obtenemos el **factor integrante**:
 
 $$\mu(y) = y^{-1/2}$$
 
----
+
 
 ## ⚖️ Paso 3: Transformación a una ecuación exacta
 
@@ -76,7 +76,7 @@ Verificamos la exactitud comprobando las derivadas parciales:
 
 Como $\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}$, **la nueva ecuación diferencial es exacta**.
 
----
+
 
 ## 🎯 Paso 4: Obtención de la función potencial $F(x,y)$
 
@@ -115,7 +115,7 @@ Sustituyendo $t = y^{1/2}$:
 
 $$g(y) = 2\cos\left(y^{1/2}\right) + C_1$$
 
----
+
 
 ## ✨ Paso 5: Solución General
 

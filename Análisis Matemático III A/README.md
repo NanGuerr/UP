@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"El análisis matemático es el lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."*
+> ### *"Con lógica hasta una ecuación no exacta termina revelando su solución."*
 
 
 <p align="center">

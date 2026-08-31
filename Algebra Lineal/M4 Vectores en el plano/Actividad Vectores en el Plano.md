@@ -32,7 +32,7 @@ Despejando las razones trigonométricas directoras obtenemos:
 * 🔹 **Seno director:**  
   $$\sin\theta = \frac{b}{|v|} = \frac{4}{5}$$
 
-### Comprobacion ☑️
+### ✅Comprobacion 
 
 $$\sin^2 \theta + \cos^2 \theta = (0.6)^2 + (0.8)^2 = 0.36 + 0.64 = 1$$
 
@@ -43,28 +43,20 @@ $$\sin^2 \theta + \cos^2 \theta = (0.6)^2 + (0.8)^2 = 0.36 + 0.64 = 1$$
 ### 🔗 Paso 1: Aplicación del Teorema de Paralelismo
 Según el **Teorema 4.4 (Ecuación 4.11)** del apunte, dos vectores $u$ y $v$ son paralelos si y solo si uno es múltiplo escalar del otro, es decir, si existe una constante $\alpha \in \mathbb{R}$ tal que:
 
-$$v = \alpha u$$
+$$u = (a,b) \implies u = (1,1)$$
+$$v = (a,b) \implies v = (1,b)$$
 
+$$\left( \frac{va}{ua} \right) = \left( \frac{vb}{ub} \right)$$
+$$\left( \frac{1}{1} \right) = \left( \frac{1}{b} \right)$$
+$$\left( \frac{1}{1} \right) / 1 = b \implies \left( \frac{1}{1} \right) \left( \frac{1}{1} \right)$$
+$$\left( \frac{1}{1} \right) \cdot \left( \frac{1}{1} \right) = b \implies {1} \cdot {1}=b$$
+$$\ 1 =  b$$
+$$\ b =  1$$
 
-
-### ⚙️ Paso 2: Planteamiento del sistema de ecuaciones
-Sustituyendo las componentes de los vectores dados:
-
-$$(1, b) = \alpha (1, 1) \implies (1, b) = (\alpha, \alpha)$$
-
-Igualando componente a componente obtenemos el siguiente sistema:
-
-1. 📍 **Primera componente (eje x):** $1 = \alpha \implies \alpha = 1$
-2. 📍 **Segunda componente (eje y):** $b = \alpha$
-
-
-
-### 💡 Paso 3: Resolución del valor de $b$
-Sustituyendo el valor encontrado $\alpha = 1$ en la segunda ecuación:
-
-$$b = 1$$
+$$v = (a,b) \implies v = (1,1)$$
 
 ✅ **Conclusión:** El vector $v$ es paralelo a $u$ cuando $b = 1$, dando como resultado $v = (1,1)$.
+
 
 
 

@@ -32,7 +32,9 @@ Despejando las razones trigonométricas directoras obtenemos:
 * 🔹 **Seno director:**  
   $$\sin\theta = \frac{b}{|v|} = \frac{4}{5}$$
 
+### Comprobacion ☑️
 
+$$\sin^2 \theta + \cos^2 \theta = (0.6)^2 + (0.8)^2 = 0.36 + 0.64 = 1$$
 
 ## 📌 Pregunta 2: Condición de Paralelismo
 

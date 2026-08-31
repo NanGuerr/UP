@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"Dominar el idioma es un catalizador crítico para la optimización de la transferencia de conocimiento técnico para entornos globales y multidisciplinarios de ingeniería internacional."*
+> ### *"Catalizador crítico para la transferencia de conocimiento técnico de ingeniería internacional."*
 
 <p align="center">
   <a href="#-programa-de-idioma-inglés-2026">

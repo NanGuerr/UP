@@ -76,7 +76,8 @@ $$D = \{ (x,y) \mid 0 \le x \le 2, \, -x \le y \le x \}$$
    $$\int_{0}^{2} \int_{-x}^{x} x^3 y^2 \, dy \, dx$$
 
 2. **Integración respecto a $y$:**
-   $$\int_{0}^{2} x^3 \left[ \frac{y^3}{3} \right]_{-x}^{x} dx = \frac{1}{3} \int_{0}^{2} x^3 \left( x^3 - (-x)^3 \right) dx$$
+
+$$\int_{0}^{2} x^3 \left[ \frac{y^3}{3} \right]_{-x}^{x} dx = \frac{1}{3} \int_{0}^{2} x^3 \left( x^3 - (-x)^3 \right) dx$$
 
    Dado que $(-x)^3 = -x^3$, tenemos:
    $$x^3 - (-x)^3 = x^3 + x^3 = 2x^3$$
@@ -127,6 +128,7 @@ $$\int_{0}^{2} \sqrt{1 + y^3} \left[ \frac{x^2}{2} \right]_{0}^{y} dy = \frac{1}
 * Si $y = 2 \implies t = 1 + 2^3 = 9$
 
 Reemplazando en la integral:
+
 $$\frac{1}{2} \int_{1}^{9} t^{1/2} \cdot \frac{dt}{3} = \frac{1}{6} \int_{1}^{9} t^{1/2} \, dt = \frac{1}{6} \left[ \frac{t^{3/2}}{\frac{3}{2}} \right]_{1}^{9} = \frac{1}{6} \cdot \frac{2}{3} \left[ t^{3/2} \right]_{1}^{9} = \frac{1}{9} \left( 9^{3/2} - 1^{3/2} \right)$$
 
 Como $9^{3/2} = (\sqrt{9})^3 = 3^3 = 27$:

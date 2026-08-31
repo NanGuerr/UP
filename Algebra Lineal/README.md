@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"Con lógica el algoritmo más encriptado termina revelando su solución."*
+> ### *"Una vez que dominas la dirección y la fuerza, no hay sistema que no puedas resolver..."*
 
 <p align="center">
   <a href="#-1-información-general-de-la-materia">

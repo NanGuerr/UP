@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"Optimización de sistemas complejos mediante la modelación de incertidumbres, el análisis estocástico y la inferencia predictiva basada en datos."*
+> ### *"Optimización, modelación de incertidumbres, análisis estocástico y la inferencia predictiva basada en datos."*
 
 <p align="center">
   <a href="#-1-estructura-y-contenidos-académicos">

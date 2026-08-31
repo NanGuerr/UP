@@ -13,7 +13,7 @@ La integral doble en una región Tipo 1 se calcula como:
 
 $$\iint_{D} f(x,y) \, dA = \int_{a}^{b} \left[ \int_{g_1(x)}^{g_2(x)} f(x,y) \, dy \right] dx$$
 
----
+
 
 ### 🔹 Región Tipo 2 (Horizontalmente Simple)
 La variable $y$ está acotada por constantes y la variable $x$ por funciones de $y$:
@@ -24,7 +24,7 @@ La integral doble en una región Tipo 2 se calcula como:
 
 $$\iint_{D} f(x,y) \, dA = \int_{c}^{d} \left[ \int_{h_1(y)}^{h_2(y)} f(x,y) \, dx \right] dy$$
 
----
+
 
 ## ✏️ Ejercicio 1: Cálculo Directo sobre una Región Tipo 1
 
@@ -36,7 +36,7 @@ Donde la región $D$ está definida por:
 
 $$D = \{ (x,y) \mid 0 \le x \le 1, \, 0 \le y \le \sqrt{x} \}$$
 
----
+
 
 ### 🧮 Resolución Paso a Paso
 
@@ -69,7 +69,7 @@ $$\int_{1}^{2} \frac{1}{t} \cdot \frac{dt}{2} = \frac{1}{2} \int_{1}^{2} \frac{1
 
 $$\frac{1}{2} \left( \ln(2) - \ln(1) \right) = \frac{1}{2} \ln(2)$$
 
----
+
 
 ## ✏️ Ejercicio 2: Cambio del Orden de Integración
 
@@ -77,7 +77,7 @@ $$\frac{1}{2} \left( \ln(2) - \ln(1) \right) = \frac{1}{2} \ln(2)$$
 
 $$\int_{0}^{1} \int_{y}^{1} \sin(x^2) \, dx \, dy$$
 
----
+
 
 ### 🧮 Resolución Paso a Paso
 
@@ -113,13 +113,13 @@ Reemplazando en la integral:
 
 $$\int_{0}^{1} \sin(t) \cdot \frac{dt}{2} = \frac{1}{2} \left[ -\cos(t) \right]_{0}^{1} = -\frac{1}{2} \left( \cos(1) - \cos(0) \right) = -\frac{1}{2} (\cos(1) - 1) = \frac{1 - \cos(1)}{2}$$
 
----
+
 
 ## ✏️ Ejercicio 3: Área de una Región Plana Dividida en Subregiones
 
 **Problema:** Calcular el área de la región $D$ acotada por $x \cdot y = 9$, $y = x$, $y = 0$ y $x = 9$.
 
----
+
 
 ### 🧮 Resolución Paso a Paso
 

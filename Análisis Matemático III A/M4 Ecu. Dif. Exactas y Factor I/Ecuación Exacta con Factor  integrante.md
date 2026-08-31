@@ -1,52 +1,70 @@
-# 📝 Resolución de Ecuación Diferencial Exacta
+# 📝 Resolución de Ecuación Diferencial Exacta con Factor Integrante
 
-**Problema:** Hallar la solución general de $2ye^{2xy}dx + (2xe^{2xy} + 2y)dy = 0$
-
-
-
-## 🔍 Paso 1: Verificamos la condición de simetría
-Identificamos $M(x;y)$ y $N(x;y)$ y calculamos sus derivadas parciales:
-
-*   **$M(x;y) = 2ye^{2xy}$** 
-    ➡️ *Derivada parcial:* $M'_y(x;y) = 2e^{2xy} + 2ye^{2xy} \cdot 2x$
-*   **$N(x;y) = 2xe^{2xy} + 2y$** 
-    ➡️ *Derivada parcial:* $N'_x(x;y) = 2e^{2xy} + 2xe^{2xy} \cdot 2y$
-
-✅ Como las derivadas son iguales, se cumple que $\exists F / F'_x = M \land F'_y = N$.
+**Problema:** Hallar la solución de la ecuación diferencial:
+$$(x^2 + y^2 + x)dx + (xy)dy = 0$$
 
 
 
-## 🧮 Paso 2: Para hallar $F$ integramos $M$ respecto de $x$
-$$F(x;y) = \int M dx = \int 2ye^{2xy} dx$$
+## 🔍 Paso 1: Verificamos si la ecuación es exacta
+Identificamos $M(x,y)$ y $N(x,y)$:
+* **$M(x,y) = x^2 + y^2 + x$** * **$N(x,y) = xy$** Calculamos las derivadas parciales:
+* $M'_y = 2y$
+* $N'_x = y$
 
-**Cálculo de la integral:**
-$$\int e^{2xy} dx = \int e^t \frac{dt}{2y} = \frac{1}{2y} \int e^t dt = \frac{1}{2y} e^t$$
-*Volver a sustituir:*
-$$\frac{1}{2y} \cdot e^{2xy}$$
-
-Multiplicando por el factor $2y$ de nuestra integral original y agregando la función dependiente de $y$, obtenemos:
-$$F(x;y) = e^{2xy} + g(y)$$
+❌ Como $M'_y \neq N'_x$, **la ecuación NO es exacta**. 
+Por lo tanto, buscamos un **factor integrante** $\mu$.
 
 
 
-## ⚖️ Paso 3: Derivamos $F$ respecto de $y$ e igualamos a $N$ para determinar $g(y)$
-$$F'_y(x;y) = e^{2xy} \cdot 2x + g'(y) = 2x \cdot e^{2xy} + 2y$$
-*(El término de la derecha corresponde a $N$)*
+## 🧮 Paso 2: Calculamos el Factor Integrante $\mu$
+Calculamos la expresión para ver si depende solo de $x$:
+$$\frac{M'_y - N'_x}{N} = \frac{2y - y}{xy} = \frac{y}{xy} = \frac{1}{x}$$
 
-**Simplificamos** cancelando los términos comunes:
-$$g'(y) = 2y$$
+Como la expresión depende únicamente de $x$, llamamos $p(x) = \frac{1}{x}$.
+El factor integrante $\mu(x)$ se calcula como:
+$$\mu(x) = e^{\int p(x) dx} = e^{\int \frac{1}{x} dx} = e^{\ln(x)} = x$$
 
-**Integramos** para hallar $g(y)$:
-$$g(y) = y^2 + C_1$$
+🪄 **Nuestro factor integrante es $\mu = x$**.
 
 
 
-## 🎯 Paso 4: Solución de la ecuación
-Sustituimos $g(y)$ en nuestra función $F$ y la igualamos a una constante $C_2$:
-$$F(x;y) = e^{2xy} + y^2 + C_1 = C_2$$
+## ⚖️ Paso 3: Multiplicamos la ecuación original por $\mu$
+Multiplicamos toda la ecuación diferencial por $x$:
+$$x(x^2 + y^2 + x)dx + x(xy)dy = 0$$
+$$(x^3 + xy^2 + x^2)dx + (x^2y)dy = 0$$
 
-Agrupamos las constantes:
-$$F(x;y) = e^{2xy} + y^2 = C_2 - C_1$$
+Ahora tenemos una **nueva ecuación**. Verificamos si es exacta con los nuevos $M^*$ y $N^*$:
+* **$M^*(x,y) = x^3 + xy^2 + x^2$** $\implies (M^*)'_y = 2xy$
+* **$N^*(x,y) = x^2y$** $\implies (N^*)'_x = 2xy$
 
-Llamando $C$ a la resta de $(C_2 - C_1)$, llegamos al resultado final:
-✨ **$F(x;y) = e^{2xy} + y^2 = C$**
+✅ Ahora sí $(M^*)'_y = (N^*)'_x$, la ecuación es **exacta**.
+
+
+
+## 🎯 Paso 4: Hallamos la función potencial $F(x,y)$
+Como es exacta, existe una función $F$ tal que $F'_x = M^*$ y $F'_y = N^*$.
+
+**1. Integramos $N^*$ respecto a $y$** (es más sencillo en este caso):
+$$F(x,y) = \int N^* dy = \int x^2y dy$$
+$$F(x,y) = x^2 \frac{y^2}{2} + h(x)$$
+
+**2. Derivamos $F$ respecto a $x$ e igualamos a $M^*$ para hallar $h(x)$:**
+$$F'_x = 2x \frac{y^2}{2} + h'(x) = xy^2 + h'(x)$$
+
+Igualamos a $M^*$:
+$$xy^2 + h'(x) = x^3 + xy^2 + x^2$$
+
+Cancelamos $xy^2$:
+$$h'(x) = x^3 + x^2$$
+
+**3. Integramos para hallar $h(x)$:**
+$$h(x) = \int (x^3 + x^2) dx = \frac{x^4}{4} + \frac{x^3}{3} + C_1$$
+
+
+
+## ✨ Paso 5: Solución General
+Sustituimos $h(x)$ en $F(x,y)$ y lo igualamos a una constante $C$:
+
+$$F(x,y) = \frac{x^2y^2}{2} + \frac{x^4}{4} + \frac{x^3}{3} = C$$
+
+¡Esta es la solución general de la ecuación diferencial!

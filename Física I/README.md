@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"Una vez que dominas la dirección y la fuerza, no hay sistema que no puedas resolver."*
+> ### *"El lenguaje exacto con el que la ingeniería modela la mejor versión de la realidad física."*
 
 
 <p align="center">

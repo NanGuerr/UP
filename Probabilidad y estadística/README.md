@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### *"Optimización, modelación de incertidumbres, análisis estocástico y la inferencia predictiva basada en datos."*
+> ### *"Modelación de incertidumbres y otimización con la inferencia predictiva basada en datos."*
 
 <p align="center">
   <a href="#-1-estructura-y-contenidos-académicos">

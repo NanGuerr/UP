@@ -1,6 +1,6 @@
-# 📐 Actividad: Vectores en el Plano Resolución Paso a Paso
+# 📐 Actividad Vectores en el Plano — Resolución Paso a Paso 🚀
 
-A continuación se presenta la resolución detallada y paso a paso de los ejercicios planteados en la **Actividad: Vectores en el plano**, aplicando rigurosamente los conceptos y fórmulas del apunte teórico correspondientes a geometría analítica y álgebra vectorial. 
+A continuación se presenta la resolución detallada y paso a paso de los ejercicios planteados en la **Actividad: Vectores en el plano**, aplicando rigurosamente los conceptos y fórmulas del apunte teórico correspondientes a geometría analítica y álgebra vectorial. 🎯
 
 
 
@@ -20,17 +20,17 @@ $$|v| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$$
 
 
 ### 📐 Paso 2: Determinación del seno y coseno directores
-Según la **Definición 7 (Ecuación 4.6)** del apunte, al expresar un vector a partir de su dirección $	heta$, sus componentes rectangulares satisfacen:
+Según la **Definición 7 (Ecuación 4.6)** del apunte, al expresar un vector a partir de su dirección $\theta$, sus componentes rectangulares satisfacen:
 
-$$a = |v| \cos	heta \quad 	ext{y} \quad b = |v| \operatorname{sen}	heta$$
+$$a = |v| \cos\theta \quad \text{y} \quad b = |v| \operatorname{sen}\theta$$
 
 Despejando las razones trigonométricas directoras obtenemos:
 
 * 🔹 **Coseno director:**  
-  $$\cos	heta = rac{a}{|v|} = rac{3}{5}$$
+  $$\cos\theta = \frac{a}{|v|} = \frac{3}{5}$$
 
 * 🔹 **Seno director:**  
-  $$\operatorname{sen}	heta = rac{b}{|v|} = rac{4}{5}$$
+  $$\operatorname{sen}\theta = \frac{b}{|v|} = \frac{4}{5}$$
 
 
 
@@ -39,26 +39,26 @@ Despejando las razones trigonométricas directoras obtenemos:
 > **📝 Consigna:** Sean $u = (1,1)$ y $v = (1,b)$. Determinar el valor de $b$ de manera tal que $u$ y $v$ sean vectores paralelos.
 
 ### 🔗 Paso 1: Aplicación del Teorema de Paralelismo
-Según el **Teorema 4.4 (Ecuación 4.11)** del apunte, dos vectores $u$ y $v$ son paralelos si y solo si uno es múltiplo escalar del otro, es decir, si existe una constante $ lpha \in \mathbb{R}$ tal que:
+Según el **Teorema 4.4 (Ecuación 4.11)** del apunte, dos vectores $u$ y $v$ son paralelos si y solo si uno es múltiplo escalar del otro, es decir, si existe una constante $\alpha \in \mathbb{R}$ tal que:
 
-$$v =  lpha u$$
+$$v = \alpha u$$
 
 
 
 ### ⚙️ Paso 2: Planteamiento del sistema de ecuaciones
 Sustituyendo las componentes de los vectores dados:
 
-$$(1, b) =  lpha (1, 1) \implies (1, b) = ( lpha,  lpha)$$
+$$(1, b) = \alpha (1, 1) \implies (1, b) = (\alpha, \alpha)$$
 
 Igualando componente a componente obtenemos el siguiente sistema:
 
-1. 📍 **Primera componente (eje x):** $1 =  lpha \implies  lpha = 1$
-2. 📍 **Segunda componente (eje y):** $b =  lpha$
+1. 📍 **Primera componente (eje x):** $1 = \alpha \implies \alpha = 1$
+2. 📍 **Segunda componente (eje y):** $b = \alpha$
 
 
 
 ### 💡 Paso 3: Resolución del valor de $b$
-Sustituyendo el valor encontrado $ lpha = 1$ en la segunda ecuación:
+Sustituyendo el valor encontrado $\alpha = 1$ en la segunda ecuación:
 
 $$b = 1$$
 
@@ -77,8 +77,7 @@ $$b = 1$$
 #### 🔹 Paso A.1: Aplicación de la fórmula de proyección
 De acuerdo con la **Definición 13 (Ecuación 4.12)** del apunte, la fórmula para proyectar $u$ sobre $v$ es:
 
-$$\operatorname{proy}_v u = \left( rac{u \cdot v}{|v|^2} 
-ight) v$$
+$$\operatorname{proy}_v u = \left( \frac{u \cdot v}{|v|^2} \right) v$$
 
 #### 🔹 Paso A.2: Cálculo del producto escalar ($u \cdot v$)
 Siguiendo la **Definición 8 (Ecuación 4.7)**:
@@ -89,8 +88,7 @@ $$u \cdot v = (3)(1) + (0)(1) = 3 + 0 = 3$$
 $$|v|^2 = 1^2 + 1^2 = 2$$
 
 #### 🔹 Paso A.4: Construcción del vector proyección
-$$\operatorname{proy}_v u = rac{3}{2} (1, 1) = \left( rac{3}{2}, rac{3}{2} 
-ight)$$
+$$\operatorname{proy}_v u = \frac{3}{2} (1, 1) = \left( \frac{3}{2}, \frac{3}{2} \right)$$
 
 
 
@@ -99,8 +97,7 @@ ight)$$
 #### 🔹 Paso B.1: Aplicación de la fórmula de proyección
 Intercambiando los roles de los vectores en la **Definición 13**:
 
-$$\operatorname{proy}_u v = \left( rac{v \cdot u}{|u|^2} 
-ight) u$$
+$$\operatorname{proy}_u v = \left( \frac{v \cdot u}{|u|^2} \right) u$$
 
 #### 🔹 Paso B.2: Uso de propiedades y cálculo de $|u|^2$
 Por la **Proposición 1** (propiedad conmutativa del producto escalar):
@@ -112,7 +109,7 @@ Calculamos el cuadrado del módulo del vector $u$:
 $$|u|^2 = 3^2 + 0^2 = 9$$
 
 #### 🔹 Paso B.3: Construcción del vector proyección
-$$\operatorname{proy}_u v = rac{3}{9} (3, 0) = rac{1}{3} (3, 0) = (1, 0)$$
+$$\operatorname{proy}_u v = \frac{3}{9} (3, 0) = \frac{1}{3} (3, 0) = (1, 0)$$
 
 
 
@@ -120,9 +117,8 @@ $$\operatorname{proy}_u v = rac{3}{9} (3, 0) = rac{1}{3} (3, 0) = (1, 0)$$
 
 | Ejercicio | Incógnita / Operación | Resultado Final |
 | :--- | :--- | :--- |
-| **Pregunta 1** | Coseno director ($\cos	heta$) | $rac{3}{5}$ |
-| **Pregunta 1** | Seno director ($\operatorname{sen}	heta$) | $rac{4}{5}$ |
+| **Pregunta 1** | Coseno director ($\cos\theta$) | $\frac{3}{5}$ |
+| **Pregunta 1** | Seno director ($\operatorname{sen}\theta$) | $\frac{4}{5}$ |
 | **Pregunta 2** | Valor de $b$ (paralelismo) | $b = 1$ |
-| **Pregunta 3 (A)** | Proyección de $u$ sobre $v$ ($\operatorname{proy}_v u$) | $\left( rac{3}{2}, rac{3}{2} 
-ight)$ |
+| **Pregunta 3 (A)** | Proyección de $u$ sobre $v$ ($\operatorname{proy}_v u$) | $\left( \frac{3}{2}, \frac{3}{2} \right)$ |
 | **Pregunta 3 (B)** | Proyección de $v$ sobre $u$ ($\operatorname{proy}_u v$) | $(1, 0)$ |

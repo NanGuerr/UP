@@ -5,6 +5,7 @@
 | Fecha | Hora | Actividad / Evento | Materia / Nota |
 | :---: | :---: | :---: | :--- |
 | **04/09** | 20:00 | Zoom 2 | Analisis_Matematico_III_B |
+| **09/09** | 18:00 | Zoom | Reunion de pasantias |
 | **11/09** | 20:00 | Zoom 3 | Analisis_Matematico_III_B |
 | **16/09** | 08:00 | Primer Parcial | Algebra_Lineal |
 | **16/09** | 09:00 | ❗ **12/11 (1er)** | Analisis_Matematico_III_A |

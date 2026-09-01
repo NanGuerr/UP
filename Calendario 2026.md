@@ -1,6 +1,9 @@
+
+## 📅 Calendario Académico 2026 - Segundo Cuatrimestre
+
+> [!CAUTION]
 > *Fechas críticas 16/09/2026, 11/11/2026 y (RDC) 18/11/2026.*
 
-### 📅 Calendario Académico 2026 - Segundo Cuatrimestre
 
 | Fecha | Hora | Actividad / Evento | Materia / Nota |
 | :---: | :---: | :---: | :--- |
@@ -44,6 +47,7 @@
 | **25/11** | 13:00 | Recup. (RFC) | Fisica_I |
 | **27/11** | --:-- | Examen Oral (RFC) | Probabilidad_y_Estadistica |
 
+> [!WARNING]
 > ### *El 20 de Noviembre es la fecha de cierre de cursada*
 
 ---

@@ -56,5 +56,5 @@
 
 * **Probabilidad y Estadística:** [JAMOVI](https://www.jamovi.org/)
 * **Física I:** BeyondLabz
-* **Sistemas Digitales II:** WIn11
+* **Sistemas Digitales II:** Xinlix w11
 * **Algebra Lineal, Análisis III (A y B):** Sin programa especificado (pendiente confirmar).

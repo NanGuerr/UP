@@ -40,19 +40,22 @@
 ## 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos) 🛰️
-2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-3. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
-4. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal) 
-5. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
-6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
+2. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
+3. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
+
+# TÍTULO INTERMEDIO: TÉCNICO/A UNIVERSITARIO EN TELECOMUNICACIONES ✔️
+
+4. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
+5. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
+6. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal)
 
 ## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
 
-1. 
+1. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
 4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
-5. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)
+5. 📋 `(027515)` **Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)**
 6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
    
 ## ☀️ Verano — Enero - Febrero 2029
@@ -61,20 +64,18 @@
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 
-1. 
+1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
-3. ⚖️ `(025701)` **Ingeniería Legal** 🆓 
+3. 🖧  `(026214)` Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 4. 🖥️ `(025418)` Sistemas Operativos (Electiva Arquitectura de Computadores) 🌞
-5. 📜 `(027513)` Trabajo Final de Grado (Formulación de Proyectos y autorización del Director de Departamento) ❓
+5. 📜 `(027513)` **Trabajo Final de Grado** (Formulación de Proyectos y autorización del Director de Departamento) ❓
 6. 🦾 `(027178)` Introducción a la Robótica (Electiva Algebra Lineal y Física I) 🌞
 
 ## 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029
 
-1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) **PRESENCIAL**
-3. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
 4. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) **PRESENCIAL**
-5. 🖧 `(026214)`  Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
+5. ⚖️ `(025701)` **Ingeniería Legal** 🆓 
 6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) **PRESENCIAL**
 
 ---

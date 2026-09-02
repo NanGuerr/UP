@@ -1,4 +1,4 @@
-# ⚡ Aplicaciones de VHDL: Organización, Arquitectura y Diseño Jerárquico
+# ⚡ Organización, Arquitectura y Diseño Jerárquico
 
 ## 📋 Resumen Ejecutivo
 

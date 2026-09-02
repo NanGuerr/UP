@@ -24,30 +24,30 @@
 
 ## 🔌 Semestre 5 (Señales y Arquitectura) — Agosto - Diciembre 2027
 
-1. 💡 `(026439)` Dispositivos Electrónicos (Física IIb)
-2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada)
-3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb)
-4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad)
+1. 💡 `(026439)` Dispositivos Electrónicos (Física IIb) 🛰️
+2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada) 🛰️
+3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb) 🛰️
+4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad) 🛰️
 5. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
 6. 
 
 ## ☀️ Verano — Enero - Febrero 2028
 4to
+* 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
 * ☁️ `(027221)` DevOps (Electiva) 🆓
-* 📐 `(026177)` Sistemas de Representación para Electrónica 1er 🆓
 
 ## 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028
 
-1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos)
+1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos) 🛰️
 2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-3. 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
+3. 📐 `(026177)` Sistemas de Representación para Electrónica 1er 🛰️
 4. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal) 
-5. 🌐 `(026213)` TCP/IP
-6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador)
+5. 🌐 `(026213)` TCP/IP 🛰️
+6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
 
 ## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
 
-1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓🥼
+1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓🥼 🛰️
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) 🥼
 4. 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**

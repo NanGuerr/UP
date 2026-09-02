@@ -31,7 +31,7 @@ Buscamos una potencia de $17$ que sea congruente a $1$ módulo $3$ para simplifi
 
 ✨ **Resultado del Paso 1:**  
 
-$N = 2 \quad 	ext{tal que} \quad 17^2 \equiv 1 \pmod 3$
+$N = 2 \quad 	{tal que} \quad 17^2 \equiv 1 \pmod 3$
 
 
 
@@ -66,7 +66,7 @@ $17^{245} \equiv 17^{122 \cdot 2} \cdot 17^1 \pmod 3$
 
 
 
-$17^{245} \equiv \left(17^2right)^{122} \cdot 17^1 \pmod 3$
+$17^{245} \equiv \left(17^2\right)^{122} \cdot 17^1 \pmod 3$
 
 
 Sustituyendo $17^2 \equiv 1 \pmod 3$ y $17^1 \equiv 2 \pmod 3$:

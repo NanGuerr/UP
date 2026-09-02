@@ -33,10 +33,7 @@ Encontrar la solución general de las siguientes ecuaciones diofánticas:
 5. $1555x - 300y = 11$
 
 ### 💡 Solución:
-1. $\begin{cases} x = -1 - 8t \\ y = 1 + 5t \end{cases}, \quad t \in \mathbb{Z}$
-2. $\begin{cases} x = -2 - 11t \\ y = 3 + 7t \end{cases}, \quad t \in \mathbb{Z}$
-3. No admite solución ❌
-4. $\begin{cases} x = 1 - 4t \\ y = 1 + 5t \end{cases}, \quad t \in \mathbb{Z}$
+$$\begin{cases} x = -1 - 8t \\ y = 1 + 5t \end{cases}, \quad t \in \mathbb{Z}$$$$\begin{cases} x = -2 - 11t \\ y = 3 + 7t \end{cases}, \quad t \in \mathbb{Z}$$No admite solución ❌$$\begin{cases} x = 1 - 4t \\ y = 1 + 5t \end{cases}, \quad t \in \mathbb{Z}$$
 
 
 

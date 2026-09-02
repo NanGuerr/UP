@@ -3,7 +3,7 @@
 ## 📐 Semestre 3 (Foco en Matemáticas y Física) — Agosto - Diciembre 2026
 
 1. 📚 `(026318)` Análisis Matemático IIIa (Matemática Avanzada)
-2. ⚛️ `(026095)` Física I (Físicas IIa y IIb)
+2. ⚛️ `(026095)` Física I 1er (Físicas IIa y IIb)
 3. 💻 `(026178)` Sistemas Digitales II (Lab. de Microprocesadores)
 4. 📐 `(023209)` Álgebra Lineal (Robótica)
 5. 📈 `(025054)` Análisis Matemático IIIb (Señales y Matemática Avanzada)
@@ -17,7 +17,7 @@
 
 1. 📈 `(024886)` Teoría de la Información (Probabilidad y Estadística)
 2. ⚡ `(024823)` Física IIa
-3. 🖥️ `(025612)` Arquitectura de Computadores (Sistemas Operativos y Embebidos)
+3. 🖥️ `(025612)` Arquitectura de Computadores 1er (Sistemas Operativos y Embebidos)
 4. 〰️ `(026438)` Señales y Sistemas (Matemático IIIb)
 5. 🧮 `(026435)` Matemática Avanzada (Electromagnetismo)
 6. 🧲 `(026204)` Física IIb (Dispositivos Electrónicos y Lab. de Electrónica)
@@ -28,13 +28,13 @@
 2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada)
 3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb)
 4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad)
-5. 🔄 (027130) Sensores y Acond. de Señal (Circuitos Electrónicos)
-6. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
+5. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
+6. 
 
 ## ☀️ Verano — Enero - Febrero 2028
 4to
 * ☁️ `(027221)` DevOps (Electiva) 🆓
-* 📐 `(026177)` Sistemas de Representación para Electrónica 🆓
+* 📐 `(026177)` Sistemas de Representación para Electrónica 1er 🆓
 
 ## 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028
 
@@ -55,13 +55,14 @@
 6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) 🥼
    
 ## ☀️ Verano — Enero - Febrero 2029
+🛡️ `(026319)` **Seguridad Ambiental y del Trabajo** 
 5to
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 
 1. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
-3. 🛡️ `(026319)` **Seguridad Ambiental y del Trabajo** 🆓
+3. 🆓⚖️ `(025701)` **Ingeniería Legal** 🆓 
 4. 🖥️ `(025418)` Sistemas Operativos (Electiva Arquitectura de Computadores) 🌞
 5. 📜 `(027513)` Trabajo Final de Grado (Formulación de Proyectos y autorización del Director de Departamento) ❓
 6. 🦾 `(027178)` Introducción a la Robótica (Electiva Algebra Lineal y Física I) 🌞
@@ -70,7 +71,7 @@
 
 1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) 🥼
-3. ⚖️ `(025701)` **Ingeniería Legal** 🆓
+3. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
 4. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) 🥼
 5. 🖧 `(026214)`  Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) 🥼

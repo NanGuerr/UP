@@ -1,13 +1,6 @@
 # 📝 Transcripción y Solución Paso a Paso: Aritmética Modular
 
 
-
-## 📌 Enunciado del Problema
-
-```math
-17^{245} 	ext{ dividimos por } 3
-```
-
 **¿Cuál es su resto?** 🤔
 
 En notación de congruencia modular, el problema se plantea como:
@@ -46,12 +39,12 @@ $N = 2 \quad 	ext{tal que} \quad 17^2 \equiv 1 \pmod 3$
 
 Dividimos el exponente $245$ entre $N = 2$:
 
-```math
-245 = c \cdot 2 + r
-```
-```math
-245 = 122 \cdot 2 + 1
-```
+
+$245 = c \cdot 2 + r$
+
+
+$245 = 122 \cdot 2 + 1$
+
 
 * **Cociente ($c$):** $122$
 * **Resto ($r$):** $1$
@@ -62,20 +55,19 @@ Dividimos el exponente $245$ entre $N = 2$:
 
 Reescribimos la potencia utilizando las propiedades de las potencias y la congruencia modular:
 
-```math
-17^{245} \equiv 17^{(122 \cdot 2 + 1)} \pmod 3
-```
+
+$17^{245} \equiv 17^{(122 \cdot 2 + 1)} \pmod 3$
+
 
 Aplicando leyes de exponentes:
 
-```math
-17^{245} \equiv 17^{122 \cdot 2} \cdot 17^1 \pmod 3
-```
 
-```math
-17^{245} \equiv \left(17^2
-ight)^{122} \cdot 17^1 \pmod 3
-```
+$17^{245} \equiv 17^{122 \cdot 2} \cdot 17^1 \pmod 3$
+
+
+
+$17^{245} \equiv \left(17^2right)^{122} \cdot 17^1 \pmod 3$
+
 
 Sustituyendo $17^2 \equiv 1 \pmod 3$ y $17^1 \equiv 2 \pmod 3$:
 

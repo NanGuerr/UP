@@ -17,7 +17,7 @@
 
 
 * 💵 **Obligación de pago:** Se debe abonar el "Permiso de Examen" si no se rinde en esas dos instancias, o si ya se cuenta con una inscripción previa, ausencia o aplazo.
-* 💰 **Costo y Gestión de Pago:** El permiso tiene un valor de referencia (por ejemplo, $45.000.-) y se gestiona mediante: `Sistema de Alumnos > Aranceles > Pago de aranceles > Permisos de examen`.
+* 💰 **Costo y Gestión de Pago:** El permiso tiene un valor de $70.000 (Septiembre 2026) y se gestiona mediante: `Sistema de Alumnos > Aranceles > Pago de aranceles > Permisos de examen`.
 * ↩️ **Cancelación de Inscripción:** Si la inscripción se da de baja en el sistema hasta las 18:00 hs del día hábil anterior a la fecha del examen, el permiso utilizado se libera y queda disponible para una nueva fecha.
 
 

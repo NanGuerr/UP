@@ -36,7 +36,7 @@
 2. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
 3. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
 
-## TÉCNICO/A UNIVERSITARIO EN TELECOMUNICACIONES ✔️
+## TÉCNICO UNIVERSITARIO EN TELECOMUNICACIONES 🟢
 
 4. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
 5. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**

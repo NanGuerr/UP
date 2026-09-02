@@ -10,7 +10,7 @@
 
 ## ☀️ Verano — Enero - Febrero 2027
 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
-📻 `(021436)` Conatel Taller de Radio 🆓
+📻 `(021436)` Conatel Taller de Radio
 
 ## 🚀 Semestre 4 (Sistemas Complejos) — Marzo - Julio 2027
 1. 📈 `(024886)` Teoría de la Información (Probabilidad y Estadística)
@@ -30,7 +30,6 @@
 
 ## ☀️ Verano — Enero - Febrero 2028
 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**
-☁️ `(027221)` DevOps (Electiva) 🆓
 
 ## 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos) 🛰️
@@ -39,17 +38,17 @@
 
 # TÍTULO INTERMEDIO: TÉCNICO/A UNIVERSITARIO EN TELECOMUNICACIONES ✔️
 
-4. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-5. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
+4. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
+5. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
 6. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal)
 
 ## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
-1. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
+1. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) **ELECTIVA**
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
-3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
+3. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
 4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
 5. 📋 `(027515)` **Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)**
-6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
+6. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos) **ELECTIVA**
    
 ## ☀️ Verano — Enero - Febrero 2029
 🛡️ `(026319)` **Seguridad Ambiental y del Trabajo** 
@@ -58,9 +57,9 @@
 1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
 3. 🖧  `(026214)` Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
-4. 🖥️ `(025418)` Sistemas Operativos (Electiva Arquitectura de Computadores) 
+4. 🖥️ `(025418)` Sistemas Operativos (Arquitectura de Computadores)  **ELECTIVA**
 5. 📜 `(027513)` **Trabajo Final de Grado** (Formulación de Proyectos y autorización del Director de Departamento) ❓
-6. 🦾 `(027178)` Introducción a la Robótica (Electiva Algebra Lineal y Física I) 
+6. ☁️ `(027221)` DevOps (**ELECTIVA**) 
 
 ## 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029
 1. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) **PRESENCIAL**

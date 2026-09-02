@@ -53,7 +53,7 @@
 1. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) **ELECTIVA**
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
+4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sist. de Comu. Digitales y Analógicos)
 5. 📋 `(027515)` **Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)**
 6. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos) **ELECTIVA**
    

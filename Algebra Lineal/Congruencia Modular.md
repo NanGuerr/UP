@@ -47,7 +47,8 @@ Para hallarlo, se calculan potencias sucesivas módulo $11$:
 * $39^{10} \equiv 1 \pmod{11}$
 
 Se observa que el ciclo se repite cada $N = 10$ pasos, ya que $39^{10} \equiv 1 \pmod{11}$. 
-> 💡 *(Nota: Esto también se deduce por el Pequeño Teorema de Fermat, donde para un número primo $p=11$ y $\operatorname{mcd}(39,11)=1$, se cumple $39^{10} \equiv 1 \pmod{11}$)*.
+> 💡 *(Nota: Esto también se deduce por el Pequeño Teorema de Fermat, donde para un número primo p=11 y el máximo común divisor entre 39 y 11 es 1*.
+
 
 ### ➗ Paso 3: Dividir el exponente entre el período ($N$)
 Como las potencias se repiten en ciclos de $10$, se divide el exponente grande ($5543$) entre el período ($10$) para encontrar cuántos ciclos completos hay y qué residuo queda:

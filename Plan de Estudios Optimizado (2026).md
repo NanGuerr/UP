@@ -47,12 +47,12 @@
 
 ## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
 
-1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓🥼 🛰️
+1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
-3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) 🥼
+3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
 4. 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**
 5. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)
-6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) 🥼
+6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
    
 ## ☀️ Verano — Enero - Febrero 2029
 🛡️ `(026319)` **Seguridad Ambiental y del Trabajo** 
@@ -70,11 +70,11 @@
 ## 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029
 
 1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
-2. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) 🥼
+2. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) **PRESENCIAL**
 3. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) 🆓
-4. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) 🥼
+4. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) **PRESENCIAL**
 5. 🖧 `(026214)`  Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
-6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) 🥼
+6. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) **PRESENCIAL**
 
 ---
 

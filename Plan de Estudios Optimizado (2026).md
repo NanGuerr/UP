@@ -11,6 +11,7 @@
 
 ## ☀️ Verano — Enero - Febrero 2027
 3er
+* 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
 * 📻 `(021436)` Conatel Taller de Radio 🆓
 
 ## 🚀 Semestre 4 (Sistemas Complejos) — Marzo - Julio 2027
@@ -28,29 +29,29 @@
 2. 🧲 `(026446)` Electromagnetismo (Matemática Avanzada) 🛰️
 3. ⚙️ `(026440)` Teoría de Circuitos (Señales y Sistemas + Física IIb) 🛰️
 4. 🎲 `(026448)` Procesos Estocásticos (Señales y Sistemas + Probabilidad) 🛰️
-5. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
-6. 
+5. 📐 `(026177)` Sistemas de Representación para Electrónica 1er 🛰️
+6. 🌐 `(026213)` TCP/IP 🛰️
 
 ## ☀️ Verano — Enero - Febrero 2028
 4to
-* 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
+* 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**
 * ☁️ `(027221)` DevOps (Electiva) 🆓
 
 ## 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos) 🛰️
 2. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-3. 📐 `(026177)` Sistemas de Representación para Electrónica 1er 🛰️
+3. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos)
 4. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal) 
-5. 🌐 `(026213)` TCP/IP 🛰️
+5. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
 6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
 
 ## 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028
 
-1. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
+1. 
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
-4. 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**
+4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
 5. 📋 `(027515)` Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)
 6. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
    
@@ -60,9 +61,9 @@
 
 ## 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029
 
-1. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción e Irradiación de Ondas y Sistemas de Comu. Digitales y Analógicos)
+1. 
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
-3. 🆓⚖️ `(025701)` **Ingeniería Legal** 🆓 
+3. ⚖️ `(025701)` **Ingeniería Legal** 🆓 
 4. 🖥️ `(025418)` Sistemas Operativos (Electiva Arquitectura de Computadores) 🌞
 5. 📜 `(027513)` Trabajo Final de Grado (Formulación de Proyectos y autorización del Director de Departamento) ❓
 6. 🦾 `(027178)` Introducción a la Robótica (Electiva Algebra Lineal y Física I) 🌞

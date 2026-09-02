@@ -1,4 +1,4 @@
-# 📊 Guía de Reportes de Originalidad en Blackboard (SafeAssign)
+# 📊 Guía de Reportes de Originalidad (SafeAssign)
 
 Cuando utilizas Blackboard para evaluar trabajos escritos, el sistema de verificación de plagio emite indicadores que a menudo pueden generar confusiones si no se analizan a profundidad. Esta guía detalla qué significan estos reportes y cómo identificar los **falsos positivos**.
 

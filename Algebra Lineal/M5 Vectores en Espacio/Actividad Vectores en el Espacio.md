@@ -61,7 +61,8 @@ Calculamos el producto vectorial utilizando el determinante formal con los vecto
 $$u \times v = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 0 & 1 \\ 3 & 3 & 3 \end{vmatrix}$$
 
 Desarrollando por la primera fila (adjuntos):
-$$u \times v = \hat{i} \begin{vmatrix} 0 & 1 \\ 3 & 3 \end{vmatrix} - \hat{j} \begin{vmatrix} 2 & 1 \\ 3 & 3 \end{vmatrix} + \hat{k} \begin{vmatrix} 2 & 0 \\ 3 & 3 \end{vmatrix}$$
+
+$$u \times v = \hat{i} \begin{vmatrix} 0 & 1 \\ 3 & 3 \end{vmatrix} - \hat{j} \begin{vmatrix} 2 & 1 \\ 3 & 3 \end{vmatrix} + \hat{k} \begin{vmatrix} 2 & 0 \\ 3 & 3 \end{vmatrix}$$[cite: 2]
 
 Calculamos los determinantes de $2 \times 2$:
 * Componente $\hat{i}$: $(0 \cdot 3 - 1 \cdot 3) = -3$

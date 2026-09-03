@@ -1,6 +1,6 @@
 # 📐 Actividad: Vectores en el Espacio ($\mathbb{R}^3$)
 
----
+
 
 ## 📌 Pregunta 1: Magnitud y ángulos directores de $v = (1, 5, 2)$
 

@@ -1,6 +1,4 @@
-# 🏗️ Estática del Cuerpo Extenso: Principios Teóricos y Aplicaciones Prácticas
-
-## 📋 Resumen Ejecutivo
+# 🏗️ Estática del Cuerpo Extenso: Principios y Aplicaciones
 
 Este documento sintetiza los fundamentos de la estática del cuerpo extenso, diferenciándolos de la estática del punto material. El análisis se centra en la transición conceptual donde el tamaño y los puntos de aplicación de las fuerzas adquieren una relevancia crítica. Los pilares de esta disciplina son la hipótesis del cuerpo rígido, el concepto de momento de una fuerza y las condiciones duales de equilibrio.
 

@@ -88,7 +88,7 @@ La demostración por inducción matemática consta de dos pasos principales:
    $$= (k+1) \left( \frac{k + 2}{2} \right) = \frac{(k+1)(k+2)}{2}$$
 
 ### Resultado Final 🎯
-Se llega exactamente al lado derecho de la tesis de inducción. Por el principio de inducción matemática, la afirmación es **verdadera para todo entero $n \ge 1**. 🚀
+Se llega exactamente al lado derecho de la tesis de inducción. Por el principio de inducción matemática, la afirmación es **verdadera para todo entero $n \ge 1$**.
 
 
 
@@ -111,11 +111,12 @@ $$p \cdot q = 0 + 6 + 4 = 10$$
 
 #### b) Producto vectorial $q \times r$:
 Calculamos el determinante simbólico con los vectores unitarios estándar $\hat{i}, \hat{j}, \hat{k}$:
+
 $$q \times r = \begin{vmatrix} 
 \hat{i} & \hat{j} & \hat{k} \\ 
 -2 & 3 & 4 \\ 
-5 & 1 & -2 
-\end{vmatrix}$$
+5 & 1 & -2 \end{vmatrix}$$
+
 * Componente $\hat{i}$: $(3)(-2) - (4)(1) = -6 - 4 = -10$
 * Componente $\hat{j}$: $-[(-2)(-2) - (4)(5)] = -(4 - 20) = -(-16) = 16$
 * Componente $\hat{k}$: $(-2)(1) - (3)(5) = -2 - 15 = -17$
@@ -166,4 +167,4 @@ La distancia del punto a la línea es:
 $$D = \frac{9}{\sqrt{13}} \quad \left(\text{o racionalizado } \frac{9\sqrt{13}}{13}\right)$$
 
 ---
-*Documento generado automáticamente para estudio y práctica de Matemáticas y Álgebra Lineal.* ✨
+*Documento generado automáticamente para estudio de Álgebra Lineal.* ✨

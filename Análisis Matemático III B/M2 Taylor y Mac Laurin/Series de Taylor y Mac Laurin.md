@@ -162,8 +162,8 @@ Análisis de Convergencia
 * **Radio de convergencia ($R = \infty$):** Al aplicar el criterio del cociente (D'Alembert) sobre el término general $a_n$, se demuestra que el límite tiende a $0 < 1$ para cualquier valor real, por lo que el radio es infinito.
 * **Intervalo de convergencia:** La serie converge de manera absoluta y uniforme en toda la recta real, es decir, en el intervalo $(-\infty, \infty)$.
 ### **Análisis de Convergencia**
-*   **Radio de convergencia (\\(R = \infty\\)):** Al aplicar el criterio del cociente (D'Alembert) sobre el término general \\(a_n\\), se demuestra que el límite tiende a \\(0 < 1\\) para cualquier valor real, por lo que el radio es infinito.
-*   **Intervalo de convergencia:** La serie converge de manera absoluta y uniforme en toda la recta real, es decir, en el intervalo **\\((-\infty, \infty)\\)**.
+* **Radio de convergencia $R = \infty$:** Al aplicar el criterio del cociente (D'Alembert) sobre el término general $a_n$, se demuestra que el límite tiende a $0 < 1$ para cualquier valor real, por lo que el radio es infinito.
+* **Intervalo de convergencia:** La serie converge de manera absoluta y uniforme en toda la recta real, es decir, en el intervalo **$(-\infty, \infty)$**.
 
 
 

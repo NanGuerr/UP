@@ -74,8 +74,7 @@ Sustituyendo valores numéricos:
 $$W_{	ext{roz}} = -0.1 \cdot m \cdot (9.8) \cdot \cos(20^{\circ}) \cdot 2.92 = -0.98 \cdot (0.9397) \cdot 2.92 \cdot m  pprox -2.69m$$
 
 Igualando las expresiones:
-$$-2.69m = \left(rac{1}{2} v_{	ext{borde}}^2 + 9.8
-ight)m - 18m$$
+$$-2.69m = \left(rac{1}{2} v_{	ext{borde}}^2 + 9.8 \right)m - 18m$$
 
 Cancelamos la masa $m$ en toda la ecuación:
 $$-2.69 = rac{1}{2} v_{	ext{borde}}^2 + 9.8 - 18$$

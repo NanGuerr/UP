@@ -1,5 +1,4 @@
-# ⚛️ Física 1 - Segundo Parcial (Primer Cuatrimestre 2008) - Universidad de Palermo 🎓
-
+# ⚛️ Física 1 - Segundo Parcial 
 
 ## 🪙 1. Dinámica del Movimiento Circular (Mesa Giratoria)
 
@@ -19,9 +18,10 @@ Datos iniciales:
 
 #### a) Coeficiente de fricción necesario ($\mu$)
 Primero determinamos la frecuencia $f$ y la velocidad angular $\omega$ del movimiento circular uniforme:
-* Frecuencia: $f = rac{N}{t} = rac{3}{3.14}  pprox rac{3}{\pi}	ext{ Hz}$
-* Velocidad angular: $\omega = 2\pi f = 2\pi \left(rac{3}{\pi}
-ight) = 6	ext{ rad/s}$
+* Frecuencia:
+* $f = rac{N}{t} = rac{3}{3.14}  pprox rac{3}{\pi}	ext{ Hz}$
+* Velocidad angular:
+* $\omega = 2\pi f = 2\pi \left(rac{3}{\pi} \right) = 6	ext{ rad/s}$
 
 La fuerza centrípeta que mantiene a la moneda girando en trayectoria circular es proporcionada exclusivamente por la fuerza de rozamiento estático entre la moneda y la mesa:
 $$F_c = F_{	ext{roz}}$$
@@ -105,7 +105,7 @@ Datos:
 * Altura de caída $h_{	ext{mesa}} = 1	ext{ m}$
 * $g = 9.8	ext{ m/s}^2$
 
-#### a) Velocidad al alcanzar el borde de la mesa
+#### a)  al alcanzar el borde de la mesa
 Aplicamos el Teorema del Trabajo y la Energía en el tramo horizontal:
 $$W_{	ext{roz}} = \Delta E_k = rac{1}{2} m \cdot v_{	ext{borde}}^2 - rac{1}{2} m \cdot v_0^2$$
 $$-\mu \cdot m \cdot g \cdot d = rac{1}{2} m \cdot v_{	ext{borde}}^2 - rac{1}{2} m \cdot v_0^2$$
@@ -116,7 +116,7 @@ $$-0.49 = rac{1}{2} v_{	ext{borde}}^2 - 2$$
 $$rac{1}{2} v_{	ext{borde}}^2 = 2 - 0.49 = 1.51$$
 $$v_{	ext{borde}}^2 = 3.02 \implies v_{	ext{borde}} = \sqrt{3.02}  pprox 1.74	ext{ m/s}$$
 
-#### b) Velocidad del objeto al golpear el suelo
+#### b)  del objeto al golpear el suelo
 En el aire no hay rozamiento con el aire, por lo que se conserva la energía mecánica total desde el borde de la mesa hasta el suelo:
 $$E_{	ext{mec, borde}} = E_{	ext{mec, suelo}}$$
 $$rac{1}{2} m \cdot v_{	ext{borde}}^2 + m \cdot g \cdot h_{	ext{mesa}} = rac{1}{2} m \cdot v_{	ext{suelo}}^2 + 0$$
@@ -127,7 +127,7 @@ $$1.51 + 9.8 = rac{1}{2} v_{	ext{suelo}}^2$$
 $$11.31 = rac{1}{2} v_{	ext{suelo}}^2 \implies v_{	ext{suelo}}^2 = 22.62$$
 $$v_{	ext{suelo}} = \sqrt{22.62}  pprox 4.76	ext{ m/s}$$
 
-#### c) Altura del objeto cuando su velocidad es $3	ext{ m/s}$
+#### c) Altura del objeto cuando su  es $3	ext{ m/s}$
 Por conservación de la energía mecánica durante la caída:
 $$rac{1}{2} m \cdot v_{	ext{borde}}^2 + m \cdot g \cdot h_{	ext{mesa}} = rac{1}{2} m \cdot v^2 + m \cdot g \cdot h$$
 
@@ -142,7 +142,7 @@ $$h = rac{6.81}{9.8}  pprox 0.695	ext{ m}$$
 ## 🎯 4. Choques y Dinámica (Bala y Bloque con Rozamiento)
 
 ### 📋 Enunciado del Problema
-Una bala de masa $m = 5	ext{ g} = 0.005	ext{ kg}$ se mueve hacia un cuerpo de masa $M = 1	ext{ kg}$ que a su vez se mueve hacia la bala. Los módulos de las velocidades de la bala y del cuerpo en el instante inmediatamente anterior al choque son $500	ext{ m/seg}$ y $10	ext{ m/seg}$ respectivamente. La bala atraviesa al cuerpo y lo abandona con una velocidad de $100	ext{ m/seg}$. Sabiendo que el coeficiente de rozamiento entre el cuerpo y el plano es $\mu = 0.2$, determinar la distancia que recorre el cuerpo después del choque hasta detenerse.
+Una bala de masa $m = 5	ext{ g} = 0.005	ext{ kg}$ se mueve hacia un cuerpo de masa $M = 1	ext{ kg}$ que a su vez se mueve hacia la bala. Los módulos de las es de la bala y del cuerpo en el instante inmediatamente anterior al choque son $500	ext{ m/seg}$ y $10	ext{ m/seg}$ respectivamente. La bala atraviesa al cuerpo y lo abandona con una  de $100	ext{ m/seg}$. Sabiendo que el coeficiente de rozamiento entre el cuerpo y el plano es $\mu = 0.2$, determinar la distancia que recorre el cuerpo después del choque hasta detenerse.
 
 
 
@@ -163,7 +163,7 @@ $$-7.5 = 0.5 + V_{1f} \implies V_{1f} = -7.5 - 0.5 = -8	ext{ m/s}$$
 *(El signo negativo indica que el bloque de 1 kg sale repelido en dirección opuesta a su movimiento original tras el impacto con la bala).*
 
 #### B. Distancia recorrida por el cuerpo tras el choque hasta detenerse
-Utilizamos el teorema del trabajo y la energía para el bloque de masa $M = 1	ext{ kg}$ desde que sale del choque con velocidad $V_{1f} = 8	ext{ m/s}$ (tomando módulo) hasta detenerse ($v_f = 0$):
+Utilizamos el teorema del trabajo y la energía para el bloque de masa $M = 1	ext{ kg}$ desde que sale del choque con  $V_{1f} = 8	ext{ m/s}$ (tomando módulo) hasta detenerse ($v_f = 0$):
 $$W_{	ext{roz}} = \Delta E_k$$
 $$-F_{	ext{roz}} \cdot d = 0 - rac{1}{2} M \cdot V_{1f}^2$$
 $$-\mu \cdot M \cdot g \cdot d = -rac{1}{2} M \cdot V_{1f}^2$$

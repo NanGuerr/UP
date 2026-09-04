@@ -1,7 +1,5 @@
 # ⚛️ Física 1 - Primer Parcial 
 
-Este documento contiene la transcripción detallada, el análisis paso a paso y la resolución explicativa de los ejercicios del primer examen parcial de **Física 1** de la Universidad de Palermo. Las expresiones matemáticas están adaptadas para una correcta visualización en GitHub Markdown.
-
 
 
 ## 📈 1. Análisis del Diagrama Velocidad-Tiempo (Cinemática)

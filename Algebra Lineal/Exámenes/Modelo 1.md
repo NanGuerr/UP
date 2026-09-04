@@ -1,11 +1,5 @@
-# 📝 Primer Parcial de Álgebra Lineal
+# 📝 Primer Parcial de Álgebra Lineal Modelo 1
 
-**Fecha:** 13 de Septiembre de 2016  
-**Documento Transcrito:** Examen Parcial resuelto (Tema 1)
-
-
-
-##  이론 🧠 TEORÍA
 
 ### 1️⃣ Demostración 1: Divisibilidad
 **Enunciado:** Demostrar que si $a \mid b + c$ y $a \mid b$, entonces $a \mid c$.
@@ -22,7 +16,7 @@
      $$c = a \cdot (k - k')$$
   5. Como la diferencia de enteros es un número entero, definimos $k'' = k - k' \in \mathbb{Z}$, por lo que:
      $$c = a \cdot k''$$
-  6. **Conclusión:** Por definición, esto implica directamente que $a \mid c$. $ lacksquare$
+  6. **Conclusión:** Por definición, esto implica directamente que $a \mid c$. $\blacksquare$
 
 
 
@@ -41,7 +35,7 @@
      $$bd - ac = m(kd + k'a)$$
   5. Dado que $kd + k'a \in \mathbb{Z}$, podemos denotar $k'' = kd + k'a$, obteniendo:
      $$bd - ac = m \cdot k'' \implies m \mid (bd - ac)$$
-  6. **Conclusión:** Por definición de congruencia, se concluye que $a \cdot c \equiv b \cdot d \pmod{m}$. $ lacksquare$
+  6. **Conclusión:** Por definición de congruencia, se concluye que $a \cdot c \equiv b \cdot d \pmod{m}$. $\blacksquare$
 
 
 
@@ -50,27 +44,17 @@
 
 * **Procedimiento detallado:**
   1. Desarrollamos la norma al cuadrado de la suma de dos vectores utilizando la propiedad de producto interno:
-     $$\|A + B\|^2 = \langle A + B, A + B 
-angle$$
+     $$\|A + B\|^2 = \langle A + B, A + B \rangle$$
   2. Aplicamos las propiedades de linealidad del producto escalar:
-     $$\|A + B\|^2 = \langle A, A 
-angle + \langle A, B 
-angle + \langle B, A 
-angle + \langle B, B 
-angle$$
-  3. Usamos la propiedad conmutativa del producto escalar ($\langle A, B 
-angle = \langle B, A 
-angle$) y la definición de norma ($\|X\|^2 = \langle X, X 
-angle$):
-     $$\|A + B\|^2 = \|A\|^2 + 2\langle A, B 
-angle + \|B\|^2$$
+     $$\|A + B\|^2 = \langle A, A \rangle + \langle A, B \rangle + \langle B, A \rangle + \langle B, B \rangle$$
+  3. Usamos la propiedad conmutativa del producto escalar ($\langle A, B \rangle = \langle B, A \rangle$) y la definición de norma ($\|X\|^2 = \langle X, X \rangle$):
+     $$\|A + B\|^2 = \|A\|^2 + 2\langle A, B \rangle + \|B\|^2$$
   4. Como la hipótesis indica que $A$ y $B$ son vectores perpendiculares (ortogonales), su producto escalar es nulo:
-     $$\langle A, B 
-angle = 0$$
+     $$\langle A, B \rangle = 0$$
   5. Sustituimos este valor:
      $$\|A + B\|^2 = \|A\|^2 + 2(0) + \|B\|^2$$
   6. **Conclusión:** Obtenemos la identidad pitagórica vectorial deseada:
-     $$\|A + B\|^2 = \|A\|^2 + \|B\|^2$$ $ lacksquare$
+     $$\|A + B\|^2 = \|A\|^2 + \|B\|^2$$ $\blacksquare$
 
 
 
@@ -104,32 +88,28 @@ angle = 0$$
 
 
 ### 📌 M2) Inducción Completa
-**Enunciado a):** Demostrar que $\sum_{i=1}^{n} i^2 = rac{n(n+1)(2n+1)}{6}$ para todo $n \in \mathbb{N}$.
+**Enunciado a):** Demostrar que $\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$ para todo $n \in \mathbb{N}$.
 
 * **Procedimiento detallado:**
   1. **Caso base ($n = 1$):**
      * Lado izquierdo: $\sum_{i=1}^{1} i^2 = 1^2 = 1$
-     * Lado derecho: $rac{1(1+1)(2(1)+1)}{6} = rac{1 \cdot 2 \cdot 3}{6} = rac{6}{6} = 1$
+     * Lado derecho: $\frac{1(1+1)(2(1)+1)}{6} = \frac{1 \cdot 2 \cdot 3}{6} = \frac{6}{6} = 1$
      * Se verifica el caso base.
   2. **Hipótesis de inducción (H.I.):** Suponemos que la fórmula es válida para un cierto $n = k$:
-     $$\sum_{i=1}^{k} i^2 = rac{k(k+1)(2k+1)}{6}$$
+     $$\sum_{i=1}^{k} i^2 = \frac{k(k+1)(2k+1)}{6}$$
   3. **Paso inductivo:** Debemos demostrar que se cumple para $n = k+1$:
-     $$\sum_{i=1}^{k+1} i^2 = rac{(k+1)((k+1)+1)(2(k+1)+1)}{6} = rac{(k+1)(k+2)(2k+3)}{6}$$
+     $$\sum_{i=1}^{k+1} i^2 = \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}$$
   4. Desarrollamos la sumatoria para $k+1$:
-     $$\sum_{i=1}^{k+1} i^2 = \left( \sum_{i=1}^{k} i^2 
-ight) + (k+1)^2$$
+     $$\sum_{i=1}^{k+1} i^2 = \left( \sum_{i=1}^{k} i^2 \right) + (k+1)^2$$
   5. Aplicamos la hipótesis de inducción:
-     $$= rac{k(k+1)(2k+1)}{6} + (k+1)^2$$
+     $$= \frac{k(k+1)(2k+1)}{6} + (k+1)^2$$
   6. Sacamos factor común $(k+1)$:
-     $$= (k+1) \left[ rac{k(2k+1)}{6} + (k+1) 
-ight] = (k+1) \left[ rac{2k^2 + k + 6k + 6}{6} 
-ight]$$
+     $$= (k+1) \left[ \frac{k(2k+1)}{6} + (k+1) \right] = (k+1) \left[ \frac{2k^2 + k + 6k + 6}{6} \right]$$
   7. Simplificamos el numerador agrupando términos semejantes:
-     $$= (k+1) \left[ rac{2k^2 + 7k + 6}{6} 
-ight]$$
+     $$= (k+1) \left[ \frac{2k^2 + 7k + 6}{6} \right]$$
   8. Factorizamos el trinomio cuadrático $2k^2 + 7k + 6 = (k+2)(2k+3)$:
-     $$= rac{(k+1)(k+2)(2k+3)}{6}$$
-  9. **Conclusión:** Se llega exactamente a la fórmula esperada para $n = k+1$, por lo que la identidad queda demostrada por inducción. $ lacksquare$
+     $$= \frac{(k+1)(k+2)(2k+3)}{6}$$
+  9. **Conclusión:** Se llega exactamente a la fórmula esperada para $n = k+1$, por lo que la identidad queda demostrada por inducción. $\blacksquare$
 
 
 
@@ -144,7 +124,7 @@ ight]$$
      * $138 = 3 \cdot 36 + 30$
      * $36 = 1 \cdot 30 + 6$
      * $30 = 5 \cdot 6 + 0$
-  2. El último residuo no nulo es el mcd: $	ext{mcd}(486, 660) = 6$.
+  2. El último residuo no nulo es el mcd: $\text{mcd}(486, 660) = 6$.
   3. Verificamos si tiene solución analizando el término independiente ($84$):
      Como $6 \mid 84$ ($84 / 6 = 14$), **la ecuación tiene solución**.
   4. Simplificamos toda la ecuación dividiendo por 6:
@@ -161,8 +141,7 @@ ight]$$
 
 * **Procedimiento detallado:**
   1. Sea $V = (x, y, z)$ un vector genérico perpendicular a $A = (1, 2, -1)$. Su producto escalar debe ser cero:
-     $$\langle (x, y, z), (1, 2, -1) 
-angle = 0 \implies x + 2y - z = 0 \implies z = x + 2y$$
+     $$\langle (x, y, z), (1, 2, -1) \rangle = 0 \implies x + 2y - z = 0 \implies z = x + 2y$$
   2. Además, para que sea unitario, su norma debe ser igual a 1:
      $$\|V\| = \sqrt{x^2 + y^2 + z^2} = 1 \implies x^2 + y^2 + z^2 = 1$$
   3. Sustituimos $z = x + 2y$ en la ecuación de la norma:
@@ -171,22 +150,19 @@ angle = 0 \implies x + 2y - z = 0 \implies z = x + 2y$$
      $$2x^2 + 4xy + 5y^2 = 1$$
   4. Como tenemos una ecuación con dos incógnitas y necesitamos encontrar 3 vectores específicos, podemos asignar valores sencillos a las variables (por ejemplo, haciendo $x = 0$ o $y = 0$):
      * **Caso 1 ($x = 0$):**
-       $$5y^2 = 1 \implies y = \pm rac{1}{\sqrt{5}}$$
-       Si $y = rac{1}{\sqrt{5}}$, entonces $z = 0 + 2\left(rac{1}{\sqrt{5}}
-ight) = rac{2}{\sqrt{5}}$.
-       * Vector 1: $V_1 = \left(0, rac{1}{\sqrt{5}}, rac{2}{\sqrt{5}}
-ight)$.
+       $$5y^2 = 1 \implies y = \pm \frac{1}{\sqrt{5}}$$
+       Si $y = \frac{1}{\sqrt{5}}$, entonces $z = 0 + 2\left(\frac{1}{\sqrt{5}}\right) = \frac{2}{\sqrt{5}}$.
+       * Vector 1: $V_1 = \left(0, \frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}}\right)$.
      * **Caso 2 ($y = 0$):**
-       $$2x^2 = 1 \implies x = \pm rac{1}{\sqrt{2}}$$
-       Si $x = rac{1}{\sqrt{2}}$, entonces $z = rac{1}{\sqrt{2}} + 0 = rac{1}{\sqrt{2}}$.
-       * Vector 2: $V_2 = \left(rac{1}{\sqrt{2}}, 0, rac{1}{\sqrt{2}}
-ight)$.
-     * **Caso 3:** Podemos tomar el simétrico del Caso 1 o asignar otro valor compatible, por ejemplo haciendo $y = -rac{1}{\sqrt{5}}$, o combinando adecuadamente las componentes para obtener un tercer vector linealmente independiente en el plano ortogonal.
+       $$2x^2 = 1 \implies x = \pm \frac{1}{\sqrt{2}}$$
+       Si $x = \frac{1}{\sqrt{2}}$, entonces $z = \frac{1}{\sqrt{2}} + 0 = \frac{1}{\sqrt{2}}$.
+       * Vector 2: $V_2 = \left(\frac{1}{\sqrt{2}}, 0, \frac{1}{\sqrt{2}}\right)$.
+     * **Caso 3:** Podemos tomar el simétrico del Caso 1 o asignar otro valor compatible, por ejemplo haciendo $y = -\frac{1}{\sqrt{5}}$, o combinando adecuadamente las componentes para obtener un tercer vector linealmente independiente en el plano ortogonal.
 
 
 
 ### 📌 M5) Vector con Ángulo y Norma Dados
-**Enunciado:** Sea $A = (-1, 0)$. Encontrar $B$ tal que $ arangle(A, B) = rac{\pi}{3}$ ($60^\circ$) y $\|B\| = 1$.
+**Enunciado:** Sea $A = (-1, 0)$. Encontrar $B$ tal que $\angle(A, B) = \frac{\pi}{3}$ ($60^\circ$) y $\|B\| = 1$.
 
 * **Procedimiento detallado:**
   1. Sea el vector $B = (x, y)$. Sabemos que su norma es 1, por lo que se encuentra sobre la circunferencia unitaria:
@@ -194,18 +170,13 @@ ight)$.
   2. La norma del vector $A = (-1, 0)$ es:
      $$\|A\| = \sqrt{(-1)^2 + 0^2} = 1$$
   3. Usamos la fórmula del producto escalar basada en el ángulo entre dos vectores:
-     $$\langle A, B 
-angle = \|A\| \cdot \|B\| \cdot \cos(	heta)$$
-  4. Sustituimos los valores conocidos ($	heta = rac{\pi}{3}$, $\cos(\pi/3) = rac{1}{2}$):
-     $$(-1)(x) + (0)(y) = (1)(1) \cdot \cos\left(rac{\pi}{3}
-ight)$$
-     $$-x = rac{1}{2} \implies x = -rac{1}{2}$$
+     $$\langle A, B \rangle = \|A\| \cdot \|B\| \cdot \cos(\theta)$$
+  4. Sustituimos los valores conocidos ($\theta = \frac{\pi}{3}$, $\cos(\pi/3) = \frac{1}{2}$):
+     $$(-1)(x) + (0)(y) = (1)(1) \cdot \cos\left(\frac{\pi}{3}\right)$$
+     $$-x = \frac{1}{2} \implies x = -\frac{1}{2}$$
   5. Sustituimos el valor de $x$ en la ecuación de la circunferencia unitaria para hallar $y$:
-     $$\left(-rac{1}{2}
-ight)^2 + y^2 = 1$$
-     $$rac{1}{4} + y^2 = 1 \implies y^2 = 1 - rac{1}{4} = rac{3}{4}$$
-     $$y = \pm rac{\sqrt{3}}{2}$$
+     $$\left(-\frac{1}{2}\right)^2 + y^2 = 1$$
+     $$\frac{1}{4} + y^2 = 1 \implies y^2 = 1 - \frac{1}{4} = \frac{3}{4}$$
+     $$y = \pm \frac{\sqrt{3}}{2}$$
   6. **Respuesta:** Existen dos vectores posibles que satisfacen las condiciones dadas:
-     $$B_1 = \left(-rac{1}{2}, rac{\sqrt{3}}{2}
-ight) \quad 	ext{o} \quad B_2 = \left(-rac{1}{2}, -rac{\sqrt{3}}{2}
-ight)$$
+     $$B_1 = \left(-\frac{1}{2}, \frac{\sqrt{3}}{2}\right) \quad \text{o} \quad B_2 = \left(-\frac{1}{2}, -\frac{\sqrt{3}}{2}\right)$$

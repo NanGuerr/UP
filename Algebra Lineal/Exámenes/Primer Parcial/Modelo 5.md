@@ -1,4 +1,4 @@
-# 📚 Parcial de Álgebra Lineal - Universidad de Palermo 🎓
+# 📚 Parcial de Álgebra Lineal
 
 Este documento contiene la transcripción detallada, con procedimientos paso a paso, explicaciones descriptivas y correcciones de notación matemática en formato Markdown (compatible con GitHub), del examen parcial de **Álgebra Lineal** de la Universidad de Palermo.
 
@@ -38,7 +38,10 @@ Para que este polinomio sea idénticamente cero para todo $x$, cada uno de sus c
 
 Evaluando mediante determinantes o reducción de matrices asociadas:
 
-$$R = \begin{pmatrix} 4 & 2 & 2 \\ 4 & 2 & 2 \\ 2 & 2 & 2 \end{pmatrix}$$
+$$R = \begin{pmatrix}
+4 & 2 & 2 \\ 
+4 & 2 & 2 \\ 
+2 & 2 & 2 \end{pmatrix}$$
 
 Calculando el determinante o analizando el rango de la matriz asociada:
 * Al obtener filas linealmente dependientes o un determinante igual a cero ($\det = 0$), el sistema posee infinitas soluciones no triviales.
@@ -57,28 +60,37 @@ $$3x_1 - 3x_2 - 3x_3 = 0$$
 $$2x_1 + 4x_2 + 4x_3 = 0$$
 
 
-
 ### ⚙️ Procedimiento y Resolución Detallada
 
 Representamos el sistema en su forma matricial aumentada:
 
-$$\left(\begin{matrix} 3 & -3 & -3 & 0 \\ 2 & 4 & 4 & 0 \end{matrix}\right)$$
+$$\begin{pmatrix}
+3 & -3 & -3 & 0 \\ 
+2 & 4 & 4 & 0 \end{pmatrix}$$
 
 Dividimos la primera fila entre $3$:
 
-$$\left(\begin{matrix} 1 & -1 & -1 & 0 \\ 2 & 4 & 4 & 0 \end{matrix}\right)$$
+$$\begin{pmatrix}
+1 & -1 & -1 & 0 \\ 
+2 & 4 & 4 & 0 \end{pmatrix}$$
 
 Aplicamos operaciones elementales de fila ($R_2 \to R_2 - 2R_1$):
 
-$$\left(\begin{matrix} 1 & -1 & -1 & 0 \\ 0 & 6 & 6 & 0 \end{matrix}\right)$$
+$$\begin{pmatrix} 
+1 & -1 & -1 & 0 \\ 
+0 & 6 & 6 & 0 \end{pmatrix}$$
 
 Multiplicamos la segunda fila por $\frac{1}{6}$:
 
-$$\left(\begin{matrix} 1 & -1 & -1 & 0 \\ 0 & 1 & 1 & 0 \end{matrix}\right)$$
+$$\begin{pmatrix} 
+1 & -1 & -1 & 0 \\ 
+0 & 1 & 1 & 0 \end{pmatrix}$$
 
 Sumamos la segunda fila a la primera ($R_1 \to R_1 + R_2$):
 
-$$\left(\begin{matrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 1 & 0 \end{matrix}\right)$$
+$$\\begin{pmatrix} 
+1 & 0 & 0 & 0 \\ 
+0 & 1 & 1 & 0 \end{pmatrix}$$
 
 De la matriz escalonada reducida obtenemos las ecuaciones equivalentes:
 * $x_1 = 0$
@@ -86,11 +98,21 @@ De la matriz escalonada reducida obtenemos las ecuaciones equivalentes:
 
 Expresamos la solución general en función del parámetro libre $x_3$:
 
-$$\begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} = x_3 \begin{pmatrix} 0 \\ -1 \\ 1 \end{pmatrix}$$
+$$\begin{pmatrix} 
+x_1 \\ 
+x_2 \\ 
+x_3 \end{pmatrix} = x_3 \begin{pmatrix} 
+0 \\ 
+-1 \\ 
+1 \end{pmatrix}$$
 
 > **Resultado Final:** 🟢 Una base para el espacio de soluciones es:
-> 
-> $$\mathcal{B} = \left\{ \begin{pmatrix} 0 \\ -1 \\ 1 \end{pmatrix} \right\}$$
+
+
+$$B = \begin{pmatrix}
+0 \\ 
+-1 \\ 
+1 \end{pmatrix}$$
 
 
 
@@ -140,7 +162,13 @@ $$= c(a_1 + a_2x) = c \cdot T(u)$$
 ### 📋 Enunciado del Problema
 Dada la transformación lineal $T: \mathbb{R}^3 \to \mathbb{R}^3$ definida por:
 
-$$T\left(\begin{pmatrix} x \\ y \\ z \end{pmatrix}\right) = \begin{pmatrix} 3x + z \\ -x + y \\ z \end{pmatrix}$$
+$$ T \begin{pmatrix} 
+x \\ 
+y \\ 
+z \end{pmatrix} = \begin{pmatrix} 
+3x + z \\ 
+-x + y \\ 
+z \end{pmatrix}$$
 
 Encuentre la matriz asociada a la transformación y determine su núcleo ($\operatorname{ker}(T)$).
 
@@ -151,18 +179,43 @@ Encuentre la matriz asociada a la transformación y determine su núcleo ($\oper
 #### A. Construcción de la Matriz Asociada $[T]$
 Evaluamos $T$ en los vectores de la base canónica de $\mathbb{R}^3$:
 
-* $T\left(\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}\right) = \begin{pmatrix} 3(1) + 0 \\ -1(1) + 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 3 \\ -1 \\ 0 \end{pmatrix}$
-* $T\left(\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}\right) = \begin{pmatrix} 3(0) + 0 \\ -0 + 1 \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$
-* $T\left(\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}\right) = \begin{pmatrix} 3(0) + 1 \\ -0 + 0 \\ 1 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$
+$$T \begin{pmatrix} 
+1 \\ 
+0 \\ 
+0 \end{pmatrix} = \begin{pmatrix} 
+3(1) + 0 \\ 
+-1(1) + 0 \\ 
+0 \end{pmatrix} = \begin{pmatrix} 
+3 \\ 
+-1 \\ 
+0 \end{pmatrix}$$
+
+$$T\begin{pmatrix}
+0 \\ 
+1 \\ 
+0 \end{pmatrix} = \begin{pmatrix} 
+3(0) + 0 \\ 
+-0 + 1 \\ 
+0 \end{pmatrix} = \begin{pmatrix} 
+0 \\ 
+1 \\ 
+0 \end{pmatrix}$$
+
+$$T\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} = \begin{pmatrix} 3(0) + 1 \\ -0 + 0 \\ 1 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$$
 
 Agrupando estos vectores columna obtenemos la matriz canónica asociada:
 
-$$[T] = \begin{pmatrix} 3 & 0 & 1 \\ -1 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$$
+$$[T] = \begin{pmatrix} 
+3 & 0 & 1 \\ 
+-1 & 1 & 0 \\ 
+0 & 0 & 1 
+\end{pmatrix}$$
 
-#### B. Cálculo del Núcleo $\operatorname{ker}(T)$
+#### B. Cálculo del Núcleo 
+${ker}(T)$
 El núcleo está formado por todos los vectores que al ser transformados dan el vector nulo:
 
-$$T\left(\begin{pmatrix} x \\ y \\ z \end{pmatrix}\right) = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \implies \begin{pmatrix} 3x + z \\ -x + y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+$$T \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \implies \begin{pmatrix} 3x + z \\ -x + y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
 
 Esto genera el sistema homogéneo:
 1. $3x + z = 0 \implies z = -3x$
@@ -173,4 +226,4 @@ Sustituyendo $z = 0$ en la primera ecuación obtenemos $3x = 0 \implies x = 0$, 
 
 > **Resultado Final:** 🔵 El núcleo de la transformación es trivial:
 > 
-> $$\operatorname{ker}(T) = \left\{ \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \right\}$$
+> $$\{ker}(T) = { \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}}$$

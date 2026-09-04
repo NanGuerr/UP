@@ -1,4 +1,4 @@
-# 📝 Examen de Física - Resolución Detallada y Procedimientos 🚀
+# 📝 Examen de Física 
 
 
 ## ⚖️ Pregunta 1: Medición Experimental y Propagación de Errores en un Prisma
@@ -159,4 +159,4 @@ Calcular:
 * **d) Trabajo del peso en CD:** $W_{peso} = -19.6 \text{ J}$ 📉
 
 ---
-*Documento generado automáticamente para estudio y práctica de Física Aplicada.* ✨
+*Documento generado automáticamente para estudio de Física I.* ✨

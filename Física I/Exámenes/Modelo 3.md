@@ -1,5 +1,4 @@
-# ⚛️ Parcial de Física 1 - Ejercicios Interactivos (Blackboard) 📝
-
+# ⚛️ Parcial de Física 1 
 
 ## 🎢 1. Energía Mecánica, Resortes y Rozamiento
 
@@ -108,8 +107,7 @@ Por conservación de la cantidad de movimiento lineal ($ ec{p}_{	ext{inicial}} =
 
 ### 📋 Enunciado del Problema
 Un caballo de $250\text{ kg}$ se mueve a una velocidad de $54\text{ km/h}$ cuando ve un tronco atravesado en su camino. El jinete logra detener el caballo en $5\text{ s}$. Durante ese tiempo, determinar la distancia que se desplazó y el módulo de la fuerza horizontal que desarrolló el jinete. 
-*(Dato: use $g = 10\text{ m/s}^2$).*
-
+(Dato: use $g = 10\text{ m/s}^2$).
 
 
 ### ⚙️ Procedimiento y Resolución Detallada
@@ -141,7 +139,7 @@ $$F = m \cdot |a| = 250\text{ kg} \times 3\text{ m/s}^2 = 750\text{ N}$$
 Un jugador de golf impacta la pelota a $10\text{ m/s}$ con un ángulo de $37^{\circ}$ respecto de la horizontal.
 * **a)** ¿La velocidad que posee cuando vuelve al piso es...?
 * **b)** ¿El tiempo que tarda en llegar a la altura máxima es...?
-*(Use $g = 10\text{ m/s}^2$).*
+(Use $g = 10\text{ m/s}^2$).
 
 
 

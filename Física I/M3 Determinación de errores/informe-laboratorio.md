@@ -5,7 +5,7 @@ El propósito de este informe es determinar de manera precisa las dimensiones f�
 Los resultados promedio obtenidos fueron: 
 *   **Altura:** $h = (13,17 \pm 0,05) \text{ mm}$
 *   **Diámetro:** $D = (25,61 \pm 0,09) \text{ mm}$
-*   **Peso:** $P = (50,03 \pm 0,13) \text{ g}$
+*   **Peso:** $P = (50,0 \pm 0,1) \text{ g}$
 
 Mediante el cálculo diferencial por derivadas parciales se estimó el volumen del cilindro en $V = (6790 \pm 50) \text{ mm}^3$ y su peso específico en $Pe = (7370 \pm 60) \text{ kg/m}^3$. A partir de la comparación del peso específico experimental con tablas físicas estándar, se identificó que el cilindro está constituido por **estaño** o por **hierro fundido**.
 
@@ -51,13 +51,9 @@ El error propagado para el volumen resulta entonces en:
 
 $$\Delta V = \sqrt{\left( \frac{\partial V}{\partial D} \Delta D \right)^2 + \left( \frac{\partial V}{\partial h} \Delta h \right)^2} \quad$$
 
-Asimismo, el peso específico se define como la relación entre el peso $P$ y el volumen $V$:
+Asimismo, el peso específico:
 
-$$Pe(P, V) = \frac{P}{V} \quad$$
-
-Su error propagado relativo se determina como:
-
-$$\frac{\Delta Pe}{Pe} = \sqrt{\left( \frac{\Delta P}{P} \right)^2 + \left( \frac{\Delta V}{V} \right)^2} \implies \Delta Pe = Pe \cdot \sqrt{\left( \frac{\Delta P}{P} \right)^2 + \left( \frac{\Delta V}{V} \right)^2} \quad$$
+$$\Delta Pe = \sqrt{\left(\frac{\partial Pe}{\partial P} \Delta P\right)^2 + \left(\frac{\partial Pe}{\partial V} \Delta V\right)^2}$$
 
 ---
 
@@ -110,7 +106,7 @@ Tras aplicar el procesamiento estadístico detallado, se obtuvieron los siguient
 | :--- | :---: | :---: | :---: | :---: |
 | **Altura $h$** | $13,175 \text{ mm}$ | $0,045 \text{ mm}$ | $0,02 \text{ mm}$ | $0,05 \text{ mm}$ |
 | **Diámetro $D$** | $25,608 \text{ mm}$ | $0,083 \text{ mm}$ | $0,02 \text{ mm}$ | $0,09 \text{ mm}$ |
-| **Peso $P$** | $50,027 \text{ g}$ | $0,080 \text{ g}$ | $0,10 \text{ g}$ | $0,13 \text{ g}$ |
+| **Peso $P$** | $50,0 \text{ g}$ | $0,1 \text{ g}$ | $0,1 \text{ g}$ | $0,1 \text{ g}$ |
 
 
 De acuerdo a las reglas de redondeo y cifras significativas (error absoluto expresado con 1 cifra significativa, o 2 si empieza con 1), los resultados de las medidas directas se expresan de la siguiente manera:
@@ -119,7 +115,7 @@ De acuerdo a las reglas de redondeo y cifras significativas (error absoluto expr
 | --- | --- | --- | --- |
 | **Altura del cilindro** | $h$ | $13,17 \pm 0,05$ | mm |
 | **Diámetro del cilindro** | $D$ | $25,61 \pm 0,09$ | mm |
-| **Peso del cilindro** | $P$ | $50,03 \pm 0,13$ | g |
+| **Peso del cilindro** | $P$ | $50,0 \pm 0,1$ | g |
 
 #### **4.1 Resultados para las Magnitudes Indirectas (Volumen y Peso Específico)**
 A partir de las medidas anteriores, se determinó el volumen experimental del cilindro y su densidad/peso específico:
@@ -170,15 +166,19 @@ Respecto a la contribución de los errores, se observa que en las magnitudes geo
 A continuación se detallan las operaciones numéricas sin redondear para la determinación del volumen $V$ y el peso específico $Pe$.
 
 *   **Cálculo del Volumen:**
+
     $$V = \frac{\pi}{4} \cdot (25,608)^2 \cdot 13,17467 \approx 6785,484 \text{ mm}^3$$
     $$\frac{\partial V}{\partial D} = \frac{\pi}{2} \cdot (25,608) \cdot (13,17467) \approx 529,950 \text{ mm}^2$$
     $$\frac{\partial V}{\partial h} = \frac{\pi}{4} \cdot (25,608)^2 \approx 515,040 \text{ mm}^2$$
     $$\Delta V = \sqrt{(529,950 \cdot 0,085318)^2 + (515,040 \cdot 0,049124)^2} \approx \sqrt{45,214^2 + 25,301^2} \approx 51,812 \text{ mm}^3$$
 
 *   **Cálculo del Peso Específico:**
-    $$Pe = \frac{50,02667 \text{ g}}{6785,484 \text{ mm}^3} \cdot 10^6 \text{ mm}^3/\text{dm}^3 \approx 7372,60 \text{ kg/m}^3$$
-    $$\frac{\Delta Pe}{Pe} = \sqrt{\left( \frac{0,128162}{50,02667} \right)^2 + \left( \frac{51,812}{6785,484} \right)^2} \approx \sqrt{0,002562^2 + 0,007636^2} \approx 0,008054$$
-    $$\Delta Pe = 7372,60 \cdot 0,008054 \approx 59,38 \text{ kg/m}^3$$
+
+$$\frac{\partial Pe}{\partial P} \cdot \Delta P = \frac{0{,}128162\text{ g}}{6785{,}484\text{ mm}^3} \cdot 10^6 \approx 18{,}89\text{ kg/m}^3$$
+$$\left\vert{} \frac{\partial Pe}{\partial V} \right\vert{} \cdot \Delta V = \frac{50{,}02667\text{ g} \cdot 51{,}812\text{ mm}^3}{(6785{,}484\text{ mm}^3)^2} \cdot 10^6 \approx 56{,}30\text{ kg/m}^3$$
+$$\Delta Pe = \sqrt{(18{,}89)^2 + (56{,}30)^2} \approx \sqrt{356{,}83 + 3169{,}69} \approx 59{,}38\text{ kg/m}^3$$
+$$\Delta Pe \approx 60\text{ kg/m}^3$$
+$$Pe = (7370 \pm 60)\text{ kg/m}^3$$
 
 #### **7.2 Apéndice B: Respuestas Detalladas a cada Consigna de la Guía**
 Se listan las respuestas puntuales a cada uno de los ítems requeridos en la consigna de trabajos prácticos:
@@ -204,7 +204,7 @@ Se listan las respuestas puntuales a cada uno de los ítems requeridos en la con
 *   **m) El error standard $\sigma_{SP}$ en el peso:** $\sigma_{SP} = 0,080 \text{ g}$.
 *   **n) El error absoluto $\sigma_{fP}$ en el peso:** $\sigma_{fP} = 0,128 \text{ g}$.
 *   **o) Expresión correcta del peso del cilindro e intervalo de confianza:**
-    $$P = (50,03 \pm 0,13) \text{ g}$$
+    $$P = (50,0 \pm 0,1) \text{ g}$$
     El intervalo de confianza se muestra gráficamente en la Figura 4.
 *   **p) El valor medio del peso específico del cilindro en $\text{kg/m}^3$:** $Pe = 7372,60 \text{ kg/m}^3$.
 *   **q) El error $\sigma_\rho$ en $\text{kg/m}^3$:** $\sigma_\rho = 59,38 \text{ kg/m}^3$.

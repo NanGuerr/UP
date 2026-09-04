@@ -182,29 +182,29 @@ Encuentre una representación matricial $A_T$ de la transformación $T$ definida
 ### Procedimiento y Resolución ✍️
 1. **Definir las bases estándar para los espacios:**
    * Para el dominio $P_2$, la base estándar es:
-     $$B_1 = \{e_1, e_2, e_3\} = \{1, x, x^2\}$$
+     $$B_1 = \{1, x, x^2\}$$
    * Para el codominio $P_3$, la base estándar es:
-     $$B_2 = \{f_1, f_2, f_3, f_4\} = \{1, x, x^2, x^3\}$$
+     $$B_2 = \{1, x, x^2, x^3\}$$
 
 2. **Evaluar la transformación $T$ en cada vector de la base $B_1$:**
 
    * **Para el primer vector $1$ (donde $a_0 = 1, a_1 = 0, a_2 = 0$):**
-     $$T(1) = 3(0) - 4(0)x + (1)x^2 + 7(0)x^3 = x^2$$
-     Coordenadas de $T(1)$ en la base $B_2$ (expresadas como vector columna):
-     $$\begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \\ \end{pmatrix}$$
+     $$T(1) = 0(1) + 0(x) + 1(x^2) + 0(x^3) = x^2$$
+     Sus coordenadas en la base $B_2$ forman la primera columna de $A_T$:
+     $$\begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \end{pmatrix}$$
 
    * **Para el segundo vector $x$ (donde $a_0 = 0, a_1 = 1, a_2 = 0$):**
-     $$T(x) = 3(1) - 4(0)x + (0)x^2 + 7(1)x^3 = 3 + 7x^3$$
-     Coordenadas de $T(x)$ en la base $B_2$:
-     $$\begin{pmatrix} 3 \\ 0 \\ 0 \\ 7 \\ \end{pmatrix}$$
+     $$T(x) = 3(1) + 0(x) + 0(x^2) + 7(x^3) = 3 + 7x^3$$
+     Sus coordenadas en la base $B_2$ forman la segunda columna de $A_T$:
+     $$\begin{pmatrix} 3 \\ 0 \\ 0 \\ 7 \end{pmatrix}$$
 
    * **Para el tercer vector $x^2$ (donde $a_0 = 0, a_1 = 0, a_2 = 1$):**
-     $$T(x^2) = 3(0) - 4(1)x + (0)x^2 + 7(0)x^3 = -4x$$
-     Coordenadas de $T(x^2)$ en la base $B_2$:
-     $$\begin{pmatrix} 0 \\ -4 \\ 0 \\ 0 \\ \end{pmatrix}$$
+     $$T(x^2) = 0(1) - 4(x) + 0(x^2) + 0(x^3) = -4x$$
+     Sus coordenadas en la base $B_2$ forman la tercera columna de $A_T$:
+     $$\begin{pmatrix} 0 \\ -4 \\ 0 \\ 0 \end{pmatrix}$$
 
 3. **Construir la matriz $A_T$:**
-   La matriz de transformación $A_T$ se forma colocando estos vectores columna obtenidos:
+   Agrupando las columnas obtenidas, la representación matricial de orden $4 \times 3$ es:
    $$A_T = \begin{pmatrix}
    0 & 3 & 0 \\
    0 & 0 & -4 \\
@@ -238,56 +238,37 @@ $$A_T = \begin{pmatrix}
 \end{pmatrix}$$
 
 #### 1. Calcular el Rango $\rho(A_T)$ y la Imagen $\text{Im}(A_T)$:
-Llevamos la matriz a su forma escalonada mediante operaciones elementales por filas:
-* Intercambiamos la fila 1 y la fila 3:
+Llevamos la matriz a su forma escalonada reducida por filas (o simplemente identificamos el número de columnas linealmente independientes):
+* Si aplicamos operaciones elementales por filas para escalonar la matriz:
   $$\begin{pmatrix}
   1 & 0 & 0 \\
+  0 & 3 & 0 \\
   0 & 0 & -4 \\
-  0 & 3 & 0 \\
   0 & 7 & 0
-  \end{pmatrix}$$
-
-* Multiplicamos la segunda fila por $-\frac{1}{4}$:
-  $$\begin{pmatrix}
+  \end{pmatrix} \to \begin{pmatrix}
   1 & 0 & 0 \\
-  0 & 0 & 1 \\
-  0 & 3 & 0 \\
-  0 & 7 & 0
-  \end{pmatrix}$$
-
-* Intercambiamos la fila 2 y la fila 3:
-  $$\begin{pmatrix}
-  1 & 0 & 0 \\
-  0 & 3 & 0 \\
-  0 & 0 & 1 \\
-  0 & 7 & 0
-  \end{pmatrix}$$
-
-* Operaciones entre filas para escalonar completamente (ej. $F_4 \to F_4 - \frac{7}{3}F_2$):
-  $$\begin{pmatrix}
-  1 & 0 & 0 \\
-  0 & 3 & 0 \\
+  0 & 1 & 0 \\
   0 & 0 & 1 \\
   0 & 0 & 0
   \end{pmatrix}$$
 
-El número de pivotes (filas no nulas) es **3**. Por lo tanto:
+El número de pivotes (columnas principales / vectores linealmente independientes) es **3**. Por lo tanto:
 * **Rango:** $\rho(A_T) = 3$
-* **Imagen:** $\text{Im}(A_T) = \text{Gen}\{(0,0,1,0)^T, (3,0,0,7)^T, (0,-4,0,0)^T\}$ o expresado en polinomios de $P_3$: el espacio generado por $\{x^2, 3 + 7x^3, -4x\}$.
+* **Imagen:** $\text{Im}(A_T) = \text{Gen}\{(0, 0, 1, 0)^T, (3, 0, 0, 7)^T, (0, -4, 0, 0)^T\}$, que corresponde en $P_3$ al subespacio generado por los polinomios $\{x^2, 3 + 7x^3, -4x\}$.
 
 #### 2. Calcular la Nulidad $\nu(A_T)$ y el Núcleo $\text{Ker}(A_T)$:
-Por el *Teorema de la Dimensión* (o del Rango-Nulidad):
+Por el *Teorema de la Dimensión* (o del Rango-Nulidad) para transformaciones lineales:
 $$\text{dim}(P_2) = \text{Rango}(A_T) + \text{Nulidad}(A_T)$$
 $$3 = 3 + \nu(A_T) \implies \nu(A_T) = 0$$
 
-Como la nulidad es 0, el núcleo contiene únicamente al vector cero (polinomio nulo):
+Como la nulidad es 0, el sistema homogéneo $A_T x = 0$ solo tiene la solución trivial, lo que significa que el núcleo contiene únicamente al polinomio nulo:
 $$\text{Ker}(A_T) = \{0\}$$
 
 ### Resultados Finales 🎯
 * **Rango $\rho(A_T)$:** $3$
 * **Nulidad $\nu(A_T)$:** $0$
-* **Imagen $\text{Im}(A_T)$:** Generada por los vectores de columnas de $A_T$ en $P_3$.
-* **Núcleo $\text{Ker}(A_T)$:** $\{0\}$ (Transformación inyectiva).
+* **Imagen $\text{Im}(A_T)$:** El subespacio de $P_3$ generado por $\{x^2, 3 + 7x^3, -4x\}$.
+* **Núcleo $\text{Ker}(A_T)$:** $\{0\}$ (lo que indica que la transformación es inyectiva).
 
 
-*Documento generado automáticamente para estudio y práctica de Álgebra Lineal.* ✨
+*Documento actualizado y corregido para estudio y práctica de Álgebra Lineal.* ✨

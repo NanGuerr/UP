@@ -1,4 +1,4 @@
-# 📝 Examen de Álgebra Lineal - Primer Parcial (Tema 5) 🚀
+# 📝 Examen de Álgebra Lineal 
 
 Este documento contiene la transcripción completa de las consignas del examen parcial de Álgebra Lineal, junto con el desarrollo analítico detallado y la resolución paso a paso de cada uno de los 9 ejercicios planteados. Las expresiones matemáticas están formateadas con notación LaTeX compatible con GitHub (`$ ... $` y `$$ ... $$`).
 

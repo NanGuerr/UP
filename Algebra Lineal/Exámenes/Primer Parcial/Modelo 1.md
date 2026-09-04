@@ -1,4 +1,4 @@
-# 📝 Primer Parcial de Álgebra Lineal Modelo 1
+# 📝 Primer Parcial de Álgebra Lineal Modelo 
 
 
 ### 1️⃣ Demostración 1: Divisibilidad

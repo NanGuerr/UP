@@ -75,9 +75,10 @@ Se utiliza la traslación de variable: $x = (x-a) + a$.
 
 
 
-## 5 c) **$\sin(5x)$**  $-\pi/2$  
+## 5 c) $\sin(5x)$  $-\pi/2$  
 
-Para desarrollar la serie de Taylor de la función **\\(f(x) = \sin(5x)\\)** centrada en **\\(a = -\frac{\pi}{2}\\)**, seguimos exactamente la metodología y sugerencias del **Apunte Teórico** y la resolución detallada en la página 12 de tu **Actividad Grupal**:
+Para desarrollar la serie de Taylor de la función sin(5x) centrada en a = $-\pi/2$, seguimos exactamente la metodología y sugerencias del **Apunte Teórico**:
+
 $\sum_{n=0}^{\infty} \frac{(-1)^{n+1} 5^{2n}}{(2n)!} (x+\pi/2)^{2n}$  $(-\infty, \infty)$ 
 
 

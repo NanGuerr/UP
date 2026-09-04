@@ -1,4 +1,4 @@
-# 📝 Examen de Álgebra Lineal - Resolución Detallada y Procedimientos 🚀
+# 📝 Examen de Álgebra Lineal 
 
 ## 🔢 Pregunta 1: Ecuación de Congruencia
 

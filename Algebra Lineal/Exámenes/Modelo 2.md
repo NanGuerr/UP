@@ -201,25 +201,30 @@ Encuentre una representación matricial $A_T$ de la transformación $T$ definida
    * **Para el tercer vector $x^2$ (donde $a_0 = 0, a_1 = 0, a_2 = 1$):**
      $$T(x^2) = 0(1) - 4(x) + 0(x^2) + 0(x^3) = -4x$$
      Sus coordenadas en la base $B_2$ forman la tercera columna de $A_T$:
-     $$\begin{pmatrix} 0 \\ -4 \\ 0 \\ 0 \end{pmatrix}$$
+
+$$\begin{pmatrix}
+0 \\
+-4 \\
+0 \\
+0 \end{pmatrix}$$
 
 3. **Construir la matriz $A_T$:**
    Agrupando las columnas obtenidas, la representación matricial de orden $4 \times 3$ es:
-   $$A_T = \begin{pmatrix}
-   0 & 3 & 0 \\
-   0 & 0 & -4 \\
-   1 & 0 & 0 \\
-   0 & 7 & 0
-   \end{pmatrix}$$
 
-### Resultado Final 🎯
-La representación matricial $A_T$ de la transformación respecto a las bases estándar es:
 $$A_T = \begin{pmatrix}
 0 & 3 & 0 \\
 0 & 0 & -4 \\
 1 & 0 & 0 \\
-0 & 7 & 0
-\end{pmatrix}$$
+0 & 7 & 0 \end{pmatrix}$$
+
+### Resultado Final 🎯
+La representación matricial $A_T$ de la transformación respecto a las bases estándar es:
+
+$$A_T = \begin{pmatrix}
+0 & 3 & 0 \\
+0 & 0 & -4 \\
+1 & 0 & 0 \\
+0 & 7 & 0 \end{pmatrix}$$
 
 
 
@@ -230,27 +235,29 @@ Calcule el núcleo $\text{Ker}(A_T)$, la nulidad $\nu(A_T)$, el rango $\rho(A_T)
 
 ### Procedimiento y Resolución ✍️
 La matriz asociada es:
+
 $$A_T = \begin{pmatrix}
 0 & 3 & 0 \\
 0 & 0 & -4 \\
 1 & 0 & 0 \\
-0 & 7 & 0
-\end{pmatrix}$$
+0 & 7 & 0 \end{pmatrix}$$
 
 #### 1. Calcular el Rango $\rho(A_T)$ y la Imagen $\text{Im}(A_T)$:
 Llevamos la matriz a su forma escalonada reducida por filas (o simplemente identificamos el número de columnas linealmente independientes):
 * Si aplicamos operaciones elementales por filas para escalonar la matriz:
-  $$\begin{pmatrix}
-  1 & 0 & 0 \\
-  0 & 3 & 0 \\
-  0 & 0 & -4 \\
-  0 & 7 & 0
-  \end{pmatrix} \to \begin{pmatrix}
-  1 & 0 & 0 \\
-  0 & 1 & 0 \\
-  0 & 0 & 1 \\
-  0 & 0 & 0
-  \end{pmatrix}$$
+
+$$\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 3 & 0 \\
+0 & 0 & -4 \\
+0 & 7 & 0 \end{pmatrix}$$
+  
+$$\begin{pmatrix}   
+1 & 0 & 0 \\   
+0 & 1 & 0 \\   
+0 & 0 & 1 \\   
+0 & 0 & 0 \end{pmatrix}$$
+
 
 El número de pivotes (columnas principales / vectores linealmente independientes) es **3**. Por lo tanto:
 * **Rango:** $\rho(A_T) = 3$

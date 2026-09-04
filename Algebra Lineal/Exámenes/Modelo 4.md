@@ -2,13 +2,13 @@
 
 Este documento contiene la transcripción completa de las consignas del examen parcial de Álgebra Lineal, junto con el desarrollo analítico detallado y la resolución paso a paso de cada uno de los 9 ejercicios planteados. Las expresiones matemáticas están formateadas con notación LaTeX compatible con GitHub (`$ ... $` y `$$ ... $$`).
 
----
+
 
 ## 📌 Condiciones Generales de Aprobación ⏱️
 * **Condición suficiente:** Resolver correctamente **5 de los nueve ejercicios**, que involucren obligatoriamente a todas las unidades evaluadas. ✅
 * **Restricción de formato:** No trabajar con lápiz (uso obligatorio de tinta). ✒️
 
----
+
 
 ## 🔢 Ejercicio 1: Divisibilidad por Inducción Completa
 
@@ -56,7 +56,7 @@ La demostración por inducción matemática consta de dos partes:
 ### Resultado Final 🎯
 Se demuestra que la expresión resultante es un múltiplo entero de 5, completando la demostración por inducción. 🚀
 
----
+
 
 ## 🧮 Ejercicio 2: Sumatoria de Cubos por Inducción
 
@@ -89,7 +89,7 @@ $$\sum_{i=1}^{n} i^3 = \left(\frac{n(n+1)}{2}\right)^2$$
 ### Resultado Final 🎯
 Se llega exactamente al lado derecho de la tesis, demostrando la identidad para todo $n \ge 1$. 🚀
 
----
+
 
 ## 🔤 Ejercicio 3: Demostración o Contraejemplo de Divisibilidad
 
@@ -116,7 +116,7 @@ Esta propiedad corresponde al *Lema de Gauss* en teoría de números enteros.
 ### Resultado Final 🎯
 La proposición es **Verdadera** y queda demostrada formalmente mediante la identidad de Bézout. 📌
 
----
+
 
 ## 🔢 Ejercicio 4: Propiedades de Enteros Impares
 
@@ -151,7 +151,7 @@ Demostrar que si $a$ es un entero impar, entonces la suma de su cuadrado más el
 ### Resultado Final 🎯
 Como toda expresión de la forma $2m + 1$ con $m \in \mathbb{Z}$ representa por definición a un número impar, queda demostrado que la suma es un entero impar. ✨
 
----
+
 
 ## 🔄 Ejercicio 5: Ecuación Lineal en Congruencia
 
@@ -208,7 +208,7 @@ Analizar si tiene solución y en caso afirmativo, hallar su solución general y 
 * **Soluciones particulares positivas menores a 546:** 
   $$\{63, 154, 245, 336, 427, 518\}$$
 
----
+
 
 ## ➗ Ejercicio 6: Resto de Potencia Modular
 
@@ -253,7 +253,7 @@ Utilizar propiedades de la congruencia para hallar el resto de dividir a $87^{15
 ### Resultado Final 🎯
 El resto de dividir $87^{1571}$ por 7 es **5**. ✅
 
----
+
 
 ## 📐 Ejercicio 7: Proyección Vectorial en $\mathbb{R}^3$
 
@@ -282,7 +282,7 @@ $$\vec{u} = (3, -2, 1) \quad \text{y} \quad \vec{v} = (-1, 3, 2)$$
 La proyección vectorial es el **vector nulo**:
 $$\text{proy} = (0, 0, 0)$$
 
----
+
 
 ## 🔲 Ejercicio 8: Área del Paralelogramo en $\mathbb{R}^3$
 
@@ -316,7 +316,7 @@ $$\vec{a} = (2, -3, 1) \quad \text{y} \quad \vec{b} = (0, -1, 1)$$
 El área del paralelogramo es:
 $$\text{Área} = 2\sqrt{3} \quad \text{unidades cuadradas}$$
 
----
+
 
 ## 📏 Ejercicio 9: Condición de Paralelismo entre Vectores
 
@@ -336,7 +336,7 @@ Dados los puntos $L = (1, -3, -2)$ y $M = (1-k, 3, -2)$, hallar los valores de $
 3. **Resolver para las incógnitas $h$ y $k$:**
    * Analizamos la tercera componente (coordenada $z$):
      $$\frac{0}{h-3} = \frac{6}{5} \implies 0 = 6(h-3) \implies h - 3 = 0 \implies \mathbf{h = 3}$$
-     *(Nota: Como el denominador no puede ser cero, $h$ no puede ser 3 a menos que el numerador sea 0, lo cual ocurre aquí. Si $h=3$, la componente z de $\vec{v}$ es 0, coincidiendo con $\vec{LM}$).*
+     (Nota: Como el denominador no puede ser cero, $h$ no puede ser 3 a menos que el numerador sea 0, lo cual ocurre aquí. Si $h=3$, la componente z de $\vec{v}$ es 0, coincidiendo con $\vec{LM}$).*
    
    * Analizamos la componente $y$ para hallar la constante de proporcionalidad $c$:
      $$c \cdot 5 = 6 \implies c = \frac{6}{5}$$

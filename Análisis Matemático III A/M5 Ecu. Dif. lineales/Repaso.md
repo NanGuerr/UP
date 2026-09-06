@@ -3,7 +3,7 @@
 > **📅 Fecha de la clase:** 04 de Septiembre, 2026
 > **📘 Tema:** Ecuaciones Diferenciales Ordinarias (EDO), Ecuaciones Homogéneas y Aplicaciones (Ley de Enfriamiento de Newton).
 
----
+
 
 ## ⚙️ 1. Ecuaciones Diferenciales Lineales de Primer Orden
 
@@ -51,7 +51,7 @@ Finalmente, despejamos $y$ para obtener la **solución general**:
 
 $$y = \frac{x^2 + K}{e^{x^2}}$$
 
----
+
 
 ## 🔄 2. Ecuaciones Diferenciales Homogéneas
 
@@ -127,7 +127,7 @@ Regresamos a la variable original sustituyendo $u = \frac{y}{x}$ para obtener la
 
 $$\left(\frac{y}{x} + 1\right)^{-3} \left(\frac{y}{x} + 2\right)^2 = x \cdot K$$
 
----
+
 
 ## 🌡️ 3. Aplicación Práctica: Ley de Enfriamiento de Newton
 

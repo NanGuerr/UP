@@ -1,6 +1,4 @@
-# 📊 Aplicaciones de Ecuaciones Diferenciales: Resumen Informativo
-
-## 📑 Resumen Ejecutivo
+# 📊 Aplicaciones de Ecuaciones Diferenciales
 
 Este documento sintetiza los conceptos fundamentales y las aplicaciones prácticas de las ecuaciones diferenciales de primer orden, basándose en el material académico de la **Universidad de Palermo** 🏛️. La premisa central es la utilidad de estas ecuaciones para modelizar y resolver problemas complejos que evolucionan en función del tiempo en áreas tan diversas como las ciencias físicas ⚛️, biológicas 🧬 y sociales 👥.
 

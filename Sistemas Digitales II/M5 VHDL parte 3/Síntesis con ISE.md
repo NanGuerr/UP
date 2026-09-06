@@ -1,45 +1,41 @@
-# 📹 Transcripción y Guía Tutorial: Ejemplo de Síntesis con ISE Navigator
-
-**Presentador:** Ariel Dalmas Di Giovanni  
-*Ingeniero en Electrónica y Docente en la Universidad de Palermo* 🎓
-
+# 📹 Guía Tutorial: Ejemplo de Síntesis con ISE Navigator
 
 
 ## 📜 Explicación
 
 En este video veremos cómo se utiliza el ISE para realizar el proceso de síntesis. En primera medida, vamos a destacar que tenemos un entorno con sintaxis coloreada que nos va a permitir editar el texto y poder hacer la descripción del módulo. En este caso, como tenemos un ejemplo ya prearmado, no vamos a editar el archivo. ✍️
 
-**[Menús]**  
+### [Menús]
 Tenemos dos menúes acá principales. Este es un menú donde se puede apreciar cuál es la relación entre los diferentes archivos. En este caso, como hay un solo archivo, no se nota esa jerarquía. A medida que se complexifican los ejemplos y se agreguen más cantidad de archivos, se va a poder empezar a observar cómo esto empieza a tener un árbol jerárquico en términos de jerarquías de bloques. Es por esto que este ícono simboliza que este archivo es el de mayor jerarquía, es decir, el *Top Module*. Si se quiere cambiar el *Top Module*, se puede hacer a través del botón derecho, *Set as Top Module*. En este caso está inhibida esta función puesto que este ya es el *Top Module*. 🌳🔝
 
-**[Testbench]**  
+### [Testbench]
 Si se quiere agregar, por ejemplo, archivos de paquetes o de *testbench* cuando se vea la simulación de comportamiento, bastará con agregar a partir del botón derecho, *Add Source*, e ir a buscar en el disco de cada máquina donde esté el archivo fuente que se quiera agregar. 📁➕
 
-**[Synthesize - XST]**  
+### [Synthesize - XST]
 Bien, tenemos este archivo y con este archivo nos interesa poder elaborar una síntesis, es decir, una interpretación de hardware de esta descripción que hemos realizado. Recordemos que es una descripción que modela una compuerta AND de 8 bits. ⚙️
 
-**[Check Syntax]**  
+### [Check Syntax]
 En este menú tenemos diferentes herramientas. Las herramientas que nos interesan en particular están anidadas bajo el nombre *Synthesize - XST* (*Xilinx Synthesis Tool*). Expandimos este menú y nos encontramos con diferentes opciones. Una de las opciones es *Check Syntax*. Este va a ser el primer estadio que siempre ejecutaremos una vez que terminamos de describir un módulo. Hacemos doble clic, nos pregunta si queremos guardar el archivo, le decimos que sí (eso tiene que ver con que antes modifiqué una línea para mostrar que se podía editar el archivo). Estos procesos demoran habitualmente y nos va a indicar a través de la consola si el chequeo de sintaxis fue correcto. Fíjense que aquí se observa diferentes niveles de información; en caso de haber error, esta cruz suele aparecer en colorado. Bien, la sintaxis está chequeada. 🔍✅
 
-**[Estado de síntesis]**  
+### [Estado de síntesis]
 Ahora tenemos que pasar al estado de síntesis, con lo cual hacemos doble clic en *Synthesize - XST*. Y aquí el proceso que hace el programa es el de interpretar lo que hemos descrito y elaborar un hardware acorde a esa descripción. 🛠️
 
-**[View Text Report]**  
+### [View Text Report]
 Bien, acá en consola nos va a informar una cantidad de cosas, pero lo más interesante es que podamos verlo desde tres enfoques diferentes. Un enfoque consiste en, a partir del botón derecho, ir a ver el reporte de síntesis (*View Text Report*). 📊
 
-**[Macros]**  
+### [Macros]
 El reporte de síntesis tiene toda una parte introductoria e incluso tiene un índice. Aquí figura qué archivo se está trabajando, una cantidad de opciones de configuración que no las modificaremos porque usamos las que son por defecto, y aquí empieza la parte interesante: cuando hace el parseo del HDL. Observamos que está parseando la entidad `comp_and8`, que es el nombre de nuestra entidad, y una arquitectura cuyo nombre es `arch`, que es nuestra arquitectura. O sea que está yendo por el camino correcto. Luego empieza el análisis de más alto nivel: va identificando la síntesis y, como esto es una compuerta sumamente básica, no ha identificado *macros*. Las *macros* van a ser, por ejemplo, en el caso de detectar un multiplexor. Acá veremos que en reportes más avanzados empiezan a aparecer bloques conocidos por nosotros que son comunes para cualquier tipo de diseño. 📝
 
-**[*Lookup Tables (LUTs)]**  
+## [Lookup Tables (LUTs)]
 Finalmente, como es un reporte sumamente simple, no hay mucha más información; sin embargo, hay algo interesante: hay información sobre lo que sería la cantidad de *Lookup Tables* (LUTs) que está utilizando. Pensemos que tenemos 8 salidas y 16 entradas en total, entonces tiene lógica que haya 8 *slices* de LUT ocupadas. Recuerden que cada *Lookup Table* tiene una única salida. Bueno, el reporte de síntesis nos va a dar una información sobre este uso a nivel recurso y sobre todo a nivel macroestadístico, que son todos estos ítems de distintos desgloses y niveles de jerarquía de análisis del sintetizador. 📈
 
-**[View RTL Schematic]**  
+### [View RTL Schematic]
 Otra opción para ver esta información es a través del *View RTL Schematic*. Esto nos va a presentar una vista... en esta pantalla siempre le damos a la segunda opción y le damos OK. En esta opción lo vemos al bloque como estamos acostumbrados: como una vista de bloque externa. Fíjense que tenemos las entradas (las dos) y la salida con las dimensiones. Esto ya nos da una idea de si hay o no coherencia entre lo que describimos y lo que ha interpretado el sintetizador. Si hacemos doble clic aquí, en este caso nos encontramos con una compuerta AND. Este ejemplo es muy simple, con lo cual la elaboración de este bloque también lo es. Esto es una buena forma también de verificar si se comprendió o no la descripción por parte del sintetizador. 📐👁️
 
-**[View Technology Schematic]**  
+### [View Technology Schematic]
 La otra opción es el *View Technology Schematic*. Aquí veremos (le damos otra vez OK) que la vista externa es muy parecida a la del *View RTL Schematic*; sin embargo, este diagrama esquemático que nos presenta está más asociado a la tecnología. Entonces, siempre utiliza para lo que son bloques de entrada o salida *buffers* internos (`ibuf` y `obuf`), y a su vez asocia las *Lookup Tables*. Fíjense que si contamos hay en total LUT 7 a LUT 0, o sea 8 *Lookup Tables*. Como anticipamos, cada *Lookup Table* tiene una salida, por ende voy a necesitar 8 LUTs puesto que tengo 8 salidas (una para cada bit de la AND de 8 bits). Lo interesante es que yo puedo hacer doble clic en esta *Lookup Table* y analizar cuál es la ecuación booleana que tiene esta LUT. En este caso todas van a tener una AND porque se hace la AND bit a bit. Nos presenta el esquemático de la ecuación booleana de la LUT, la ecuación formalmente, una tabla de verdad y hasta el mapa de Karnaugh. Esto es muy interesante porque nos puede dar una cantidad de información sobre cómo es que se está implementando finalmente una lógica combinacional. 🔬⚙️
 
-**[Repaso]**  
+### [Repaso]
 A través de estas tres formas, o sea repasemos:
 1. El Reporte de Síntesis (*Synthesis Report*) 📝
 2. El *View RTL Schematic* 📐

@@ -28,7 +28,7 @@ $$y' + P(x) \\cdot y = Q(x)$$
 * 🔍 **Criterio de identificación:**
   * La variable dependiente $y$ y su derivada $y'$ deben estar elevadas únicamente a la potencia $1$.
   * No pueden existir productos entre la variable dependiente y sus derivadas (términos como $y \\cdot y'$ o $y^2$ invalidan la linealidad).
-  * Los coeficientes de $y$ y $y'$ (representados por $P(x)$) y el término independiente ($Q(x)$) deben depender exclusivamente de la variable independiente $x$ o ser constantes. No se permiten funciones no lineales de la variable dependiente, tales como $\\operatorname{sen}(y)$, $\\cos(y)$ o $e^y$.
+  * Los coeficientes de $y$ y $y'$ (representados por $P(x)$) y el término independiente ($Q(x)$) deben depender exclusivamente de la variable independiente $x$ o ser constantes. No se permiten funciones no lineales de la variable dependiente, tales como $\{sen}(y)$, $\\cos(y)$ o $e^y$.
 
 * ⚙️ **Método de resolución:** Se resuelve de manera estándar multiplicando toda la ecuación por el factor integrante:
   $$\\mu(x) = e^{\\int P(x) \\, dx}$$
@@ -80,11 +80,7 @@ $$M(x, y) \\, dx + N(x, y) \\, dy = 0 \\quad \\text{tal que} \\quad dF(x, y) = 0
 | Tipo de Ecuación | Fórmula / Forma Estándar | Criterio de Identificación Clave | Método de Resolución Principal | Características Distintivas |
 | :--- | :--- | :--- | :--- | :--- |
 | **Derivadas Parciales (EDP)** | $\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$ | La función incógnita depende de dos o más variables independientes. | Separación de variables para EDPs, métodos de integración por coordenadas. | Es una clasificación por tipo. No confundir con el análisis ordinario de una sola variable. |
-| **Lineales (EDO de 1º orden)** | $y' + P(x) \\cdot y = Q(x)$ | Tanto $y$ como $y'$ están elevadas a la potencia 1 y no se multiplican entre sí. Coeficientes dependen solo de $x$. | Multiplicación por factor integrante: $\\mu(x) = e^{\\int P(x) \\, dx}$. | Es una clasificación por linealidad. No admite términos no lineales de la variable dependiente como $\\operatorname{sen}(y)$. |
+| **Lineales (EDO de 1º orden)** | $y' + P(x) \\cdot y = Q(x)$ | Tanto $y$ como $y'$ están elevadas a la potencia 1 y no se multiplican entre sí. Coeficientes dependen solo de $x$. | Multiplicación por factor integrante: $\\mu(x) = e^{\\int P(x) \\, dx}$. | Es una clasificación por linealidad. No admite términos no lineales de la variable dependiente como ${sen}(y)$. |
 | **Homogéneas (EDO de 1º orden)** | $y' = F\\left(\\frac{y}{x}\\right)$ o $M \\, dx + N \\, dy = 0$ | Las funciones del diferencial son homogéneas del mismo grado $n$, o la derivada depende solo del cociente $y/x$. | Sustitución matemática $y = u \\cdot x$ ($dy = u \\, dx + x \\, du$). | Transforma la ecuación original en una de variables separables en términos de $u$ y $x$. |
 | **Exactas (EDO de 1º orden)** | $M(x, y) \\, dx + N(x, y) \\, dy = 0$ | Cumplen con la condición de derivadas parciales cruzadas de simetría: $M'_y = N'_x$. | Integración parcial para reconstruir la función potencial $F(x, y) = C$. | Representa el diferencial total de una función de dos variables. Admite el uso de factores integrantes si la simetría falla. |
-
-
-
-✏️ Si te parece bien, podemos seleccionar alguna ecuación específica de tus autoevaluaciones o guías prácticas para clasificarla juntos paso a paso aplicando estos mismos criterios teóricos. ¿Te gustaría que probemos con algún ejercicio?
 

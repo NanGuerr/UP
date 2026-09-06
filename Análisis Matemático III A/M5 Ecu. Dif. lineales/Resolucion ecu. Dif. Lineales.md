@@ -1,5 +1,5 @@
 
-### 💡 Cálculo del Factor Integrante $\mu(x)$
+### 💡 Cálculo del Factor Integrante $\mu(x) de x.y'+ 2y = e^2x$
 
 Para que el lado izquierdo sea igual a la derivada del producto $\frac{d}{dx}[\mu(x) \cdot y] = \mu(x) \cdot y' + \mu'(x) \cdot y$, igualamos los coeficientes de $y$:
 

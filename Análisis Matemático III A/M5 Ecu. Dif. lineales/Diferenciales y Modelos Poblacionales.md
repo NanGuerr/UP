@@ -1,4 +1,4 @@
-# 📝 Resolución de Ecuaciones Diferenciales y Modelos Poblacionales
+# 📝 Ecuaciones Diferenciales y Modelos Poblacionales
 
 Este documento contiene la transcripción y resolución rigurosa de las ecuaciones diferenciales y modelos aplicados desarrollados en la clase del **15 de septiembre de 2025**.
 

@@ -1,4 +1,4 @@
-# 📚 Clasificación y Métodos de Resolución de Ecuaciones Diferenciales
+# 📚 Métodos de Resolución de Ecuaciones Diferenciales
 
 El estudio de las ecuaciones diferenciales requiere una comprensión rigurosa de su clasificación, ya que el tipo y la estructura algebraica de la ecuación determinan de manera unívoca el método analítico necesario para resolverla.
 

@@ -1,4 +1,4 @@
-# 📊 Análisis Exhaustivo de la Distribución de Poisson: Fundamentos y Aplicaciones
+# 📊 Distribución de Poisson: Fundamentos y Aplicaciones
 
 ## 📑 Resumen Ejecutivo
 

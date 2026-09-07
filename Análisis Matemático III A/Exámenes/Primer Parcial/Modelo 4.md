@@ -198,4 +198,4 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
 ### ✅ Respuesta Final
 * **Clasificación:** Es una ecuación diferencial **Exacta**.
 * **Solución General:**
-  $$e^{xy} - \cos x + \operatorname{sen} y = C$$
+  $$e^{xy} - \cos x + \{sen} y = C$$

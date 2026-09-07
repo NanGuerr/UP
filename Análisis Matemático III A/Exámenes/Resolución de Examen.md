@@ -1,4 +1,4 @@
-# 📝 Resolución de Examen: Cambio de Variable, Campos Conservativos e Integrales Dobles
+# 📝 Cambio de Variable, Campos Conservativos e Integrales Dobles
 
 ## 📌 Ejercicio 1: Cambio de Variables en Integrales Dobles
 
@@ -45,7 +45,7 @@ Evaluando en los límites:
 $$= \left( 0 \right) - \left( \frac{2}{3}(-2) - \frac{3}{4}(-2)^2 + \frac{1}{3}(-2)^3 \right)$$
 $$= - \left( -\frac{4}{3} - 3 - \frac{8}{3} \right) = - \left( -\frac{12}{3} - 3 \right) = - (-4 - 3) = 7$$
 
----
+
 
 ## 📌 Ejercicio 2: Campo Vectorial Conservativo y Función Potencial
 
@@ -87,7 +87,7 @@ $$\int_{C} F \cdot d\mathbf{r} = f(3,1,0) - f(1,0,0)$$
 
 $$\int_{C} F \cdot d\mathbf{r} = (4 + C) - (1 + C) = 3$$
 
----
+
 
 ## 📌 Ejercicio 3: Cambio en el Orden de Integración
 

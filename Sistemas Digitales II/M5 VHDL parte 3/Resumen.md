@@ -1,4 +1,4 @@
-# 🔌💻 Diseño de Lógica Combinacional y Estructuras Fundamentales en VHDL
+# 🔌💻 Diseño y Estructuras de Lógica en VHDL
 
 ## 📋 Resumen Ejecutivo
 Este documento técnico sintetiza los principios fundamentales para la descripción de lógica combinacional utilizando VHDL (*Hardware Description Language*). El análisis se centra en la transición de un diseño basado en ecuaciones booleanas hacia una metodología de mayor abstracción orientada a la resolución de problemas mediante procesos concurrentes y secuenciales. Se destacan como puntos críticos: la distinción entre procesos implícitos y explícitos, la importancia de la lista de sensibilidad para evitar la inferencia de memoria no deseada (*latches*), y el uso de `Generics` para crear bloques de hardware parametrizables y reutilizables. Asimismo, se detallan las implementaciones de estructuras esenciales como comparadores, multiplexores, sumadores y decodificadores, subrayando la capacidad del sintetizador para optimizar estas descripciones en arquitecturas FPGA.

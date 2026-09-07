@@ -1,4 +1,4 @@
-# 📊 Análisis de la Distribución Normal y Variables Aleatorias Continuas
+# 📊 Distribución Normal y Variables Aleatorias Continuas
 
 ## 📝 Resumen Ejecutivo
 Este documento sintetiza los fundamentos de la estadística continua, centrándose en la distribución normal como el pilar fundamental para el análisis de fenómenos aleatorios. El análisis destaca que, a diferencia de las variables discretas, las variables aleatorias continuas asumen un número infinito de valores, lo que reduce la probabilidad de un valor puntual exacto a cero y obliga al cálculo de probabilidades mediante intervalos y áreas bajo la curva de densidad.

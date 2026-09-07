@@ -1,6 +1,4 @@
-# 📊 Desarrollo Paso a Paso: Autoevaluación de Distribuciones de Probabilidad - Parte II
-
-
+# 📊 Autoevaluación de Distribuciones
 
 ## ❓ Pregunta 1
 

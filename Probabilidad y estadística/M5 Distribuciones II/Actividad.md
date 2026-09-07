@@ -58,7 +58,7 @@
     2. **Ajuste del parámetro de tasa ($\lambda$):** 
         * La tasa promedio original es de $2$ errores cada $3$ semanas.
         * Como el nuevo intervalo de análisis es de $12$ semanas, debemos adaptar la tasa promedio de manera proporcional:
-            $$\lambda = 2 	ext{ errores} 	imes \left( rac{12 	ext{ semanas}}{3 	ext{ semanas}} /right)$$
+            $$\lambda = 2 	ext{ errores} 	imes \left( rac{12 	ext{ semanas}}{3 	ext{ semanas}} \right)$$
             $$\lambda = 2 	imes 4 = 8 	ext{ errores en } 12 	ext{ semanas}$$
     3. **Modelado final:** Para calcular la probabilidad de que se produzcan exactamente 9 errores críticos en ese periodo de 12 semanas, utilizaremos la distribución de **Poisson con lambda = 8**.
 * **Correspondencia correcta:** **f. Poisson con lambda= 8**

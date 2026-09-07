@@ -44,7 +44,7 @@
 
 ### 📝 Transcripción del Enunciado
 > Sea $f(x) = 5x^2 + 8$. Desarrollar en serie de cosenos en el intervalo $(0, 3)$.   
-> *Sugerencia:* $\int x^2 \cos(ax) dx = \frac{2x}{a^2} \cos(ax) + \left(\frac{x^2}{a} - \frac{2}{a^3}\right) \operatorname{sen}(ax) + C$ 
+> *Sugerencia:* $\int x^2 \cos(ax) dx = \frac{2x}{a^2} \cos(ax) + \left(\frac{x^2}{a} - \frac{2}{a^3}\right) \{sen}(ax) + C$ 
 
 
 
@@ -67,13 +67,13 @@
    $$\int_{0}^{3} 5x^2 \cos\left(\frac{n\pi x}{3}\right) dx + \int_{0}^{3} 8 \cos\left(\frac{n\pi x}{3}\right) dx$$
    
    Aplicando la sugerencia provista para la primera integral con $a = \frac{n\pi}{3}$:
-   - $\int x^2 \cos(ax) dx = \frac{2x}{a^2}\cos(ax) + \left(\frac{x^2}{a} - \frac{2}{a^3}\right)\operatorname{sen}(ax)$
+   - $\int x^2 \cos(ax) dx = \frac{2x}{a^2}\cos(ax) + \left(\frac{x^2}{a} - \frac{2}{a^3}\right)\{sen}(ax)$
    
    Evaluando en los límites de $0$ a $3$:
-   - La parte con seno se anula tanto en $x = 0$ como en $x = 3$ (ya que $\operatorname{sen}(n\pi) = 0$).
+   - La parte con seno se anula tanto en $x = 0$ como en $x = 3$ (ya que $\{sen}(n\pi) = 0$).
    - Evaluando la parte con coseno en $x = 3$:
      $$\left[ 5 \cdot \frac{2(3)}{(n\pi/3)^2} \cos(n\pi) \right] - 0 = \frac{30}{(n\pi/3)^2} (-1)^n = \frac{270}{n^2\pi^2} (-1)^n$$
-   - La segunda integral $\int_{0}^{3} 8 \cos\left(\frac{n\pi x}{3}\right) dx = 8 \left[ \frac{3}{n\pi} \operatorname{sen}\left(\frac{n\pi x}{3}\right) \right]_0^3 = 0$.
+   - La segunda integral $\int_{0}^{3} 8 \cos\left(\frac{n\pi x}{3}\right) dx = 8 \left[ \frac{3}{n\pi} \{sen}\left(\frac{n\pi x}{3}\right) \right]_0^3 = 0$.
 
    Multiplicando por el factor externo $\frac{2}{3}$:
    $$a_n = \frac{2}{3} \left( \frac{270(-1)^n}{n^2\pi^2} \right) = \frac{180(-1)^n}{n^2\pi^2}$$

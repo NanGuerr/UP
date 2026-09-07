@@ -1,4 +1,4 @@
-# 📝 Resolución de Ecuaciones Diferenciales y Modelos Poblacionales
+# 📝 Ecuaciones Diferenciales y Modelos Poblacionales
 
 ## 📌 Ejercicio 1: Ecuación Diferencial Homogénea
 

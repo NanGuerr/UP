@@ -1,15 +1,12 @@
 # 📚 Resolución del Primer Parcial - Análisis Matemático III 📐
 
-**Estudiante:** Álvaro Joaquín Carrizo  
-**Materia:** Análisis Matemático III
-
 
 
 ## 📌 Ejercicio 1: Determinación de la Constante $m$ para Ecuación Exacta ⚖️
 
 ### 📝 Transcripción del Enunciado
 > Hallar el valor de $m$ para que la ecuación diferencial:
-> $$(4xy^3 + \operatorname{sen} x) \, dx + (m x^2 y^2 - \cos y) \, dy = 0$$
+> $$(4xy^3 + \{sen} x) \, dx + (m x^2 y^2 - \cos y) \, dy = 0$$
 > sea **exacta**.
 
 
@@ -18,7 +15,7 @@
 
 1. **Identificación de Funciones $M(x,y)$ y $N(x,y)$:**
    Comparamos la expresión dada con la forma estándar $M(x,y) \, dx + N(x,y) \, dy = 0$:
-   - $M(x,y) = 4xy^3 + \operatorname{sen} x$
+   - $M(x,y) = 4xy^3 + \{sen} x$
    - $N(x,y) = m x^2 y^2 - \cos y$
 
 2. **Cálculo de Derivadas Parciales Cruzadas:**
@@ -26,7 +23,7 @@
    $$\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$$
 
    - Derivando $M(x,y)$ con respecto a $y$:
-     $$\frac{\partial M}{\partial y} = \frac{\partial}{\partial y}(4xy^3 + \operatorname{sen} x) = 12xy^2$$
+     $$\frac{\partial M}{\partial y} = \frac{\partial}{\partial y}(4xy^3 + \{sen} x) = 12xy^2$$
 
    - Derivando $N(x,y)$ con respecto a $x$:
      $$\frac{\partial N}{\partial x} = \frac{\partial}{\partial x}(m x^2 y^2 - \cos y) = 2mxy^2$$
@@ -85,7 +82,7 @@ $$\mu(x) = x^{-\frac{2}{3}}$$
 
 ### 📝 Transcripción del Enunciado
 > Dada la ecuación diferencial:
-> $$\frac{dy}{dx} - \frac{y}{x} = x^2 \operatorname{sen} x$$
+> $$\frac{dy}{dx} - \frac{y}{x} = x^2 \{sen} x$$
 > Determine si es homogénea, exacta o lineal y encuentre la solución general empleando el método más conveniente.
 
 
@@ -95,36 +92,36 @@ $$\mu(x) = x^{-\frac{2}{3}}$$
 1. **Clasificación:**
    La ecuación tiene la forma estándar de una **ecuación diferencial lineal de primer orden**:
    $$\frac{dy}{dx} + P(x)y = f(x)$$
-   donde $P(x) = -\frac{1}{x}$ y $f(x) = x^2 \operatorname{sen} x$.
+   donde $P(x) = -\frac{1}{x}$ y $f(x) = x^2 \{sen} x$.
 
 2. **Cálculo del Factor Integrante $\mu(x)$:**
    $$\mu(x) = e^{\int P(x) \, dx} = e^{\int -\frac{1}{x} \, dx} = e^{-\ln|x|} = e^{\ln\left(x^{-1}\right)} = x^{-1} = \frac{1}{x}$$
 
 3. **Multiplicación de la Ecuación por el Factor Integrante:**
-   $$\frac{1}{x} \cdot \left(\frac{dy}{dx} - \frac{1}{x} y\right) = \frac{1}{x} \left(x^2 \operatorname{sen} x\right)$$
-   $$\frac{d}{dx}\left(\frac{y}{x}\right) = x \operatorname{sen} x$$
+   $$\frac{1}{x} \cdot \left(\frac{dy}{dx} - \frac{1}{x} y\right) = \frac{1}{x} \left(x^2 \{sen} x\right)$$
+   $$\frac{d}{dx}\left(\frac{y}{x}\right) = x \{sen} x$$
 
 4. **Integración de Ambos Lados:**
-   $$\frac{y}{x} = \int x \operatorname{sen} x \, dx$$
+   $$\frac{y}{x} = \int x \{sen} x \, dx$$
 
    * **Cálculo Auxiliar (Integración por Partes $\int u \, dv = uv - \int v \, du$):**
      - $u = x \implies du = dx$
-     - $dv = \operatorname{sen} x \, dx \implies v = -\cos x$
+     - $dv = \{sen} x \, dx \implies v = -\cos x$
 
-     $$\int x \operatorname{sen} x \, dx = -x \cos x - \int (-\cos x) \, dx = -x \cos x + \operatorname{sen} x + C$$
+     $$\int x \{sen} x \, dx = -x \cos x - \int (-\cos x) \, dx = -x \cos x + \{sen} x + C$$
 
 5. **Obtención de la Solución General:**
-   $$\frac{y}{x} = -x \cos x + \operatorname{sen} x + C$$
+   $$\frac{y}{x} = -x \cos x + \{sen} x + C$$
 
    Multiplicando por $x$:
-   $$y(x) = x(-x \cos x + \operatorname{sen} x + C)$$
-   $$y(x) = -x^2 \cos x + x \operatorname{sen} x + Cx$$
+   $$y(x) = x(-x \cos x + \{sen} x + C)$$
+   $$y(x) = -x^2 \cos x + x \{sen} x + Cx$$
 
 
 
 ### ✅ Respuesta Final
 Es una ecuación **lineal**. La solución general es:
-$$y(x) = -x^2 \cos x + x \operatorname{sen} x + Cx$$
+$$y(x) = -x^2 \cos x + x \{sen} x + Cx$$
 
 
 

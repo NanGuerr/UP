@@ -37,8 +37,7 @@ Desarrollos en serie de potencias centrados en $a = 0$:
 
 ### 📝 Criterio del Cociente / D'Alembert
 Dada la serie $\sum a_n$, calculamos el límite:
-$$L = \lim_{n 	o \infty} \left| rac{a_{n+1}}{a_n} 
-ight|$$
+$$L = \lim_{n 	o \infty} \left| rac{a_{n+1}}{a_n}\right|$$
 
 * Si $L < 1 \implies$ La serie **converge absolutamente**.
 * Si $L > 1 \implies$ La serie **diverge**.
@@ -98,14 +97,12 @@ $$f(x) = \sum_{n=0}^{\infty} rac{f^{(n)}(a)}{n!} (x-a)^n$$
 ## 📌 5. Series Trigonométricas de Fourier 🌊
 
 ### 📝 Serie Completa de Fourier en $[-L, L]$
-$$f(x) \sim rac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(rac{n\pi}{L} x ight + b_n \{sen}\left(rac{n\pi}{L} x \ right $$
+$$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n\pi}{L} x\right) + b_n \{sen}\left(\frac{n\pi}{L} x\right) \right]$$
 
 **Fórmulas de los Coeficientes:**
-* $$a_0 = rac{1}{L} \int_{-L}^{L} f(x) \, dx$$
-* $$a_n = rac{1}{L} \int_{-L}^{L} f(x) \cos\left(rac{n\pi}{L} x 
-ight dx$$
-* $$b_n = rac{1}{L} \int_{-L}^{L} f(x) \{sen}\left(rac{n\pi}{L} x 
-ight dx$$
+* $$a_0 = \frac{1}{L} \int_{-L}^{L} f(x) \, dx$$
+* $$a_n = \frac{1}{L} \int_{-L}^{L} f(x) \cos\left(\frac{n\pi}{L} x\right) dx$$
+* $$b_n = \frac{1}{L} \int_{-L}^{L} f(x) \{sen}\left(\frac{n\pi}{L} x\right) dx$$
 
 
 
@@ -113,63 +110,41 @@ ight dx$$
 Para una función definida en $[0, L]$:
 
 * **Serie de Cosenos (Extensión Par):**
-  $$f(x) \sim rac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\left(rac{n\pi}{L} x 
-ight$$
-  $$a_0 = rac{2}{L} \int_{0}^{L} f(x) \, dx, \quad a_n = rac{2}{L} \int_{0}^{L} f(x) \cos\left(rac{n\pi}{L} x 
-ight dx$$
+  $$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\left(\frac{n\pi}{L} x\right)$$
+  $$a_0 = \frac{2}{L} \int_{0}^{L} f(x) \, dx, \quad a_n = \frac{2}{L} \int_{0}^{L} f(x) \cos\left(\frac{n\pi}{L} x\right) dx$$
 
 * **Serie de Senos (Extensión Impar):**
-  $$f(x) \sim \sum_{n=1}^{\infty} b_n \{sen}\left(rac{n\pi}{L} x 
-ight$$
-  $$b_n = rac{2}{L} \int_{0}^{L} f(x) \{sen}\left(rac{n\pi}{L} x 
-ight dx$$
+  $$f(x) \sim \sum_{n=1}^{\infty} b_n \{sen}\left(\frac{n\pi}{L} x\right)$$
+  $$b_n = \frac{2}{L} \int_{0}^{L} f(x) \{sen}\left(\frac{n\pi}{L} x\right) dx$$
 
 
 
 ### 📝 Operaciones con Series de Fourier
 
 1. **Diferenciación Término a Término:**
-   $$rac{d}{dx} \left[ rac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos\left(rac{n\pi}{L} x 
-ight + b_n \{sen}\left(rac{n\pi}{L} x 
-ight  
-ight 
-ight] = \sum_{n=1}^{\infty} \left[ \left(rac{n\pi}{L} 
-ight b_n \cos\left(rac{n\pi}{L} x 
-ight - \left(rac{n\pi}{L} 
-ight a_n \{sen}\left(rac{n\pi}{L} x 
-ight 
-ight]$$
+   $$\frac{d}{dx} \left[ \frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos\left(\frac{n\pi}{L} x\right) + b_n \{sen}\left(\frac{n\pi}{L} x\right) \right) \right] = \sum_{n=1}^{\infty} \left[ \left(\frac{n\pi}{L}\right) b_n \cos\left(\frac{n\pi}{L} x\right) - \left(\frac{n\pi}{L}\right) a_n \{sen}\left(\frac{n\pi}{L} x\right) \right]$$
 
 2. **Integración Término a Término:**
-   $$\int_c^d f(x) \, dx = \sum_{n=1}^{\infty} \left[ rac{L}{n\pi} a_n \{sen}\left(rac{n\pi}{L} x 
-ight - rac{L}{n\pi} b_n \cos\left(rac{n\pi}{L} x 
-ight 
-ight]_c^d$$
+   $$\int_c^d f(x) \, dx = \sum_{n=1}^{\infty} \left[ \frac{L}{n\pi} a_n \{sen}\left(\frac{n\pi}{L} x\right) - \frac{L}{n\pi} b_n \cos\left(\frac{n\pi}{L} x\right) \right]_c^d$$
 
 
 
 ## 📌 6. Tabla de Integrales Indefinidas Útiles 📖
 
 ### 📝 Integrales con Coseno
-* $$\int \cos(ax) \, dx = rac{\{sen}(ax)}{a}$$
-* $$\int x \cos(ax) \, dx = rac{\cos(ax)}{a^2} + rac{x \{sen}(ax)}{a}$$
-* $$\int x^2 \cos(ax) \, dx = rac{2x}{a^2} \cos(ax) + \left(rac{x^2}{a} - rac{2}{a^3} 
-ight \{sen}(ax)$$
-* $$\int x^3 \cos(ax) \, dx = \left(rac{3x^2}{a^2} - rac{6}{a^4} 
-ight \cos(ax) + \left(rac{x^3}{a} - rac{6x}{a^3} 
-ight \{sen}(ax)$$
+* $$\int \cos(ax) \, dx = \frac{\{sen}(ax)}{a}$$
+* $$\int x \cos(ax) \, dx = \frac{\cos(ax)}{a^2} + \frac{x \{sen}(ax)}{a}$$
+* $$\int x^2 \cos(ax) \, dx = \frac{2x}{a^2} \cos(ax) + \left(\frac{x^2}{a} - \frac{2}{a^3}\right) \{sen}(ax)$$
+* $$\int x^3 \cos(ax) \, dx = \left(\frac{3x^2}{a^2} - \frac{6}{a^4}\right) \cos(ax) + \left(\frac{x^3}{a} - \frac{6x}{a^3}\right) \{sen}(ax)$$
 
 
 
 ### 📝 Integrales con Seno
-* $$\int \{sen}(ax) \, dx = -rac{\cos(ax)}{a}$$
-* $$\int x \{sen}(ax) \, dx = rac{\{sen}(ax)}{a^2} - rac{x \cos(ax)}{a}$$
-* $$\int x^2 \{sen}(ax) \, dx = rac{2x}{a^2} \{sen}(ax) + \left(rac{2}{a^3} - rac{x^2}{a} 
-ight \cos(ax)$$
-* $$\int x^3 \{sen}(ax) \, dx = \left(rac{3x^2}{a^2} - rac{6}{a^4} 
-ight \{sen}(ax) + \left(rac{6x}{a^3} - rac{x^3}{a} 
-ight \cos(ax)$$
-* $$\int \{sen}^2(ax) \, dx = rac{x}{2} - rac{\{sen}(2ax)}{4a}$$
-* $$\int x \{sen}^2(ax) \, dx = rac{x^2}{4} - rac{x \{sen}(2ax)}{4a} - rac{\cos(2ax)}{8a^2}$$
-* $$\int \{sen}^3(ax) \, dx = -rac{\cos(ax)}{a} + rac{\cos^3(ax)}{3a}$$
-* $$\int \{sen}^4(ax) \, dx = rac{3x}{8} - rac{\{sen}(2ax)}{4a} + rac{\{sen}(4ax)}{32a}$$
+* $$\int \{sen}(ax) \, dx = -\frac{\cos(ax)}{a}$$
+* $$\int x \{sen}(ax) \, dx = \frac{\{sen}(ax)}{a^2} - \frac{x \cos(ax)}{a}$$
+* $$\int x^2 \{sen}(ax) \, dx = \frac{2x}{a^2} \{sen}(ax) + \left(\frac{2}{a^3} - \frac{x^2}{a}\right) \cos(ax)$$
+* $$\int x^3 \{sen}(ax) \, dx = \left(\frac{3x^2}{a^2} - \frac{6}{a^4}\right) \{sen}(ax) + \left(\frac{6x}{a^3} - \frac{x^3}{a}\right) \cos(ax)$$
+* $$\int \{sen}^2(ax) \, dx = \frac{x}{2} - \frac{\{sen}(2ax)}{4a}$$
+* $$\int x \{sen}^2(ax) \, dx = \frac{x^2}{4} - \frac{x \{sen}(2ax)}{4a} - \frac{\cos(2ax)}{8a^2}$$
+* $$\int \{sen}^3(ax) \, dx = -\frac{\cos(ax)}{a} + \frac{\cos^3(ax)}{3a}$$
+* $$\int \{sen}^4(ax) \, dx = \frac{3x}{8} - \frac{\{sen}(2ax)}{4a} + \frac{\{sen}(4ax)}{32a}$$

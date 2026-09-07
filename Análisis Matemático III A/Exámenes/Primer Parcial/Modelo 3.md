@@ -91,7 +91,7 @@ El capital se habrá duplicado en aproximadamente **12,05 años** (aproximadamen
 
 ### 📝 Transcripción del Enunciado
 > La ecuación diferencial:
-> $$x^2 y^{m+1} \cdot \ln\left(\frac{x^n}{y^3}\right) dx + x^3 y^m \cdot \operatorname{sen}\left(\frac{y}{x}\right) dy = 0$$
+> $$x^2 y^{m+1} \cdot \ln\left(\frac{x^n}{y^3}\right) dx + x^3 y^m \cdot \{sen}\left(\frac{y}{x}\right) dy = 0$$
 > **Seleccione la única respuesta correcta:**
 > - **A)** Es homogénea si $n=3$ y $m=4$
 > - **B)** Es homogénea si $n=4$ y $m=3$
@@ -103,15 +103,15 @@ El capital se habrá duplicado en aproximadamente **12,05 años** (aproximadamen
 ### 🔍 Procedimiento Detallado
 
 1. **Análisis de los Argumentos Transcendentes:**
-   Para que una ecuación diferencial sea homogénea, los argumentos de las funciones trascendentes ($\ln$, $\operatorname{sen}$) deben ser adimensionales (de grado 0).
-   * En el término $\operatorname{sen}\left(\frac{y}{x}\right)$, la razón $\frac{y}{x}$ es homogénea de grado 0.
+   Para que una ecuación diferencial sea homogénea, los argumentos de las funciones trascendentes ($\ln$, $\{sen}$) deben ser adimensionales (de grado 0).
+   * En el término $\{sen}\left(\frac{y}{x}\right)$, la razón $\frac{y}{x}$ es homogénea de grado 0.
    * En el término $\ln\left(\frac{x^n}{y^3}\right)$, para que el argumento no tenga dimensiones, los grados de $x$ y $y$ en el cociente deben ser iguales:
      $$n = 3$$
 
 2. **Análisis de los Coeficientes Polinómicos:**
    Expresamos la ecuación como $M(x,y)dx + N(x,y)dy = 0$:
    * $M(x,y) = x^2 y^{m+1} \cdot \ln\left(\frac{x^n}{y^3}\right)$
-   * $N(x,y) = x^3 y^m \cdot \operatorname{sen}\left(\frac{y}{x}\right)$
+   * $N(x,y) = x^3 y^m \cdot \{sen}\left(\frac{y}{x}\right)$
 
    Calculamos el grado de homogeneidad de los factores monomiales:
    * Grado de $M$: $2 + (m + 1) = m + 3$

@@ -121,7 +121,7 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
 ## 📌 Pregunta 4: Condición de Exactitud ⚖️
 
 ### 📝 Transcripción del Enunciado
-> La ecuación diferencial $a \cdot e^{2x} \operatorname{sen}(3y) \, dx + b \cdot e^{2x} \cos(3y) \, dy = 0$ es exacta si y solo si:
+> La ecuación diferencial $a \cdot e^{2x} \{sen}(3y) \, dx + b \cdot e^{2x} \cos(3y) \, dy = 0$ es exacta si y solo si:
 > - **A)** $b = -\frac{3}{2} a$
 > - **B)** $b = \frac{3}{2} a$
 > - **C)** $a = -\frac{3}{2} b$
@@ -132,7 +132,7 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
 ### 🔍 Procedimiento Detallado
 
 1. **Identificación de Componentes:**
-   - $M(x,y) = a \cdot e^{2x} \operatorname{sen}(3y)$
+   - $M(x,y) = a \cdot e^{2x} \{sen}(3y)$
    - $N(x,y) = b \cdot e^{2x} \cos(3y)$
 
 2. **Cálculo de Derivadas Parciales:**
@@ -158,7 +158,7 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
 
 ### 📝 Transcripción del Enunciado
 > Dada la ecuación diferencial:
-> $$(y e^{xy} + \operatorname{sen} x) \, dx + (x e^{xy} + \cos y) \, dy = 0$$
+> $$(y e^{xy} + \{sen} x) \, dx + (x e^{xy} + \cos y) \, dy = 0$$
 > **Determine si es homogénea, exacta o lineal y encuentre la solución general empleando el método que considere más conveniente.**
 
 
@@ -166,7 +166,7 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
 ### 🔍 Procedimiento Detallado
 
 1. **Clasificación y Prueba de Exactitud:**
-   - $M(x,y) = y e^{xy} + \operatorname{sen} x$
+   - $M(x,y) = y e^{xy} + \{sen} x$
    - $N(x,y) = x e^{xy} + \cos y$
 
    Derivadas parciales:
@@ -179,7 +179,7 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
    Existe una función $f(x,y)$ tal que $\frac{\partial f}{\partial x} = M$ y $\frac{\partial f}{\partial y} = N$.
 
    Integrando $M$ respecto a $x$:
-   $$f(x,y) = \int (y e^{xy} + \operatorname{sen} x) \, dx = e^{xy} - \cos x + g(y)$$
+   $$f(x,y) = \int (y e^{xy} + \{sen} x) \, dx = e^{xy} - \cos x + g(y)$$
 
 3. **Determinación de $g(y)$:**
    Derivamos $f(x,y)$ respecto a $y$ e igualamos a $N(x,y)$:
@@ -187,11 +187,11 @@ Al cabo de aproximadamente **14,84 días** (o alrededor de **15 días**) habrá 
    $$x e^{xy} + g'(y) = x e^{xy} + \cos y \implies g'(y) = \cos y$$
 
    Integrando respecto a $y$:
-   $$g(y) = \operatorname{sen} y$$
+   $$g(y) = \{sen} y$$
 
 4. **Solución General:**
    Sustituyendo $g(y)$ en $f(x,y) = C$:
-   $$e^{xy} - \cos x + \operatorname{sen} y = C$$
+   $$e^{xy} - \cos x + \{sen} y = C$$
 
 
 

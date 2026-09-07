@@ -62,7 +62,7 @@ end package componentes;
 
 ```
 
-### Compo_xor
+### Comp_xor
 
 ```vhdl
 

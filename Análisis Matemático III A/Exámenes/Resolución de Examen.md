@@ -1,4 +1,4 @@
-# 📝 Cambio de Variable, Campos Conservativos e Integrales Dobles
+# 📝 Cambio de Variable y Campos Conservativos 
 
 ## 📌 Ejercicio 1: Cambio de Variables en Integrales Dobles
 

@@ -1,4 +1,4 @@
-# 📊📈 Distribución Normal: Resolución de Ejercicios Paso a Paso Usando Jamovi
+# 📊📈 Distribución Normal: Resolución Usando Jamovi
 
 ## 📋 Resumen Ejecutivo
 Este documento detalla la aplicación práctica de la **Distribución Normal** en la resolución de problemas estadísticos utilizando el software **Jamovi**. A través de un caso de estudio real en el desarrollo de software de salud mental (un chatbot terapéutico), se explican los procedimientos paso a paso para el cálculo de probabilidades y percentiles, facilitando la toma de decisiones basada en datos empíricos.

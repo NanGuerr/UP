@@ -1,4 +1,4 @@
-# 🛠️ RCómo crear tu primer proyecto en Xilinx ISE
+# 🛠️ Cómo crear tu primer proyecto en Xilinx ISE
 
 Esta guía está diseñada para principiantes que desean verificar la instalación de su software y realizar su primer diseño lógico (como una compuerta o un contador). 🎓
 

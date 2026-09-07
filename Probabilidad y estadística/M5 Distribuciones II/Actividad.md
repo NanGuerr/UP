@@ -5,12 +5,10 @@
 
 *   **💡 Paso a paso resolutivo:**
 1. **Definición de la variable:** Definimos la variable aleatoria continua $X$ como el *"tamaño en MB de un backup diario"*.
-2. **Modelo de distribución:** El problema nos indica que $X$ sigue una **distribución normal** 📊 con una media ($\mu$) de $500$ MB y desvío estándar ($\sigma$) desconocido:
-$$X \sim N(500, \sigma)$$
+2. **Modelo de distribución:** El problema nos indica que $X$ sigue una **distribución normal** 📊 con una media ($\mu$) de $500$ MB y desvío estándar ($\sigma$) desconocido: $$X \sim N(500, \sigma)$$
 3. **Propiedad de simetría:** Una de las propiedades fundamentales de la distribución normal es su simetría respecto a la media ⚖️. Esto implica que la mediana es exactamente igual a la media ($500$ MB) y que la probabilidad acumulada a cada lado de este valor central es exactamente $0,50$:
 $$P(X > 500) = 0,50$$
-4. **Comparación de intervalos:** Dado que $600$ MB es un valor mayor que la media ($600 > 500$), la probabilidad de que un backup pese *más* de $600$ MB representa solo una parte del área de la cola derecha (por encima de $500$ MB). Por lo tanto:
-$$P(X > 600) < P(X > 500) = 0,50$$
+4. **Comparación de intervalos:** Dado que $600$ MB es un valor mayor que la media ($600 > 500$), la probabilidad de que un backup pese *más* de $600$ MB representa solo una parte del área de la cola derecha (por encima de $500$ MB). Por lo tanto: $$P(X > 600) < P(X > 500) = 0,50$$
 5. **Conclusión:** La probabilidad de que un backup pese más de $600$ MB es **estrictamente menor a 0,50**. Por ende, la afirmación de que es *"mayor a 0,50"* es incorrecta ❌.
 *   **✅ Correspondencia correcta:** **c. falsa**
 
@@ -58,5 +56,5 @@ Reemplazando con nuestros datos obtenemos: **Pbi(X < 4 / n = 15, p = 0.20)**.
 *   Como el nuevo intervalo de análisis es de $12$ semanas, debemos adaptar la tasa promedio de manera proporcional:
 $$\lambda = 2 \text{ errores} \times \left( \frac{12 \text{ semanas}}{3 \text{ semanas}} \right)$$
 $$\lambda = 2 \times 4 = 8 \text{ errores en } 12 \text{ semanas}$$
-    3. **Modelado final:** Para calcular la probabilidad de que se produzcan exactamente 9 errores críticos en ese periodo de 12 semanas, utilizaremos la distribución de **Poisson con lambda = 8**.
+3. **Modelado final:** Para calcular la probabilidad de que se produzcan exactamente 9 errores críticos en ese periodo de 12 semanas, utilizaremos la distribución de **Poisson con lambda = 8**.
 *   **✅ Correspondencia correcta:** **f. Poisson con lambda= 8**

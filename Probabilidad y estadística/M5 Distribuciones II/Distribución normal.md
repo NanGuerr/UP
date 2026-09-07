@@ -18,7 +18,7 @@ Una variable aleatoria continua es aquella que puede asumir un número infinito 
 ### 🎯 1.1. La Paradoja de la Probabilidad Puntual
 En una distribución continua, es imposible tabular todos los valores posibles. Por esta razón:
 *   La probabilidad de ocurrencia de un valor puntual específico (exacto) se considera **0** (cero).
-*   Resulta más sensato y útil preguntar por la probabilidad de un intervalo (ej. $P(a < X < b)$) en lugar de un valor preciso.
+*   Resulta más sensato y útil preguntar por la probabilidad de un intervalo ej. P(a < X < b) en lugar de un valor preciso.
 
 ### 📈 1.2. Función de Densidad de Probabilidad $f(x)$
 Para que una función se considere de densidad para una variable aleatoria continua $X$, debe cumplir tres condiciones críticas:

@@ -1,8 +1,6 @@
 # 📊 Examen Parcial - Probabilidad y Estadística
 
-**Universidad de Palermo (UP)**  
-**Asignatura:** Probabilidad y Estadística  
-**Evaluación:** Examen Parcial - Primer Parcial  
+
 **Contextualización:** En la empresa *UrbanMetrics*, los equipos de análisis urbano desarrollan modelos para evaluar el tráfico, la calidad del aire y el uso de espacios públicos en ciudades inteligentes. A partir de datos recolectados en tiempo real, se analizan los resultados con herramientas estadísticas y probabilísticas.
 
 

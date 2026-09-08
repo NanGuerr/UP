@@ -58,8 +58,12 @@ El producto de una función par ($x^2$) por una función impar ($\{sen}$) genera
 1. **Análisis de Convergencia Puntual (Teorema de Dirichlet):**
 La función indicadora viene dada por tramos:
 
-$$f(x) = \begin{cases} 1 & \text{si } -5 < x < 0 \\ x & \text{si } 0 < x < 5 \end{cases}$$
 
+$$
+f(x) = \begin{cases}
+1 & \text{si } -5 < x < 0 \\ 
+x & \text{si } 0 < x < 5 
+\end{cases}$$
 
 
 Evaluamos los límites laterales alrededor del punto $x = 0$:
@@ -123,7 +127,12 @@ $$\frac{a_0}{2} = \frac{e^3 - e^{-3}}{6} = \frac{1}{6}(e^3 - e^{-3})$$
 * **Justificación y Desarrollo:** ❌
 Expresando la función por tramos en el intervalo $(-1, 1)$:
 
-$$f(x) = \begin{cases} -1 & \text{si } -1 < x < 0 \\ 1 & \text{si } 0 < x < 1 \end{cases}$$
+$$
+f(x) = \begin{cases}
+-1 & \text{si } -1 < x < 0 \\ 
+1 & \text{si } 0 < x < 1 
+\end{cases}
+$$
 
 
 
@@ -180,7 +189,13 @@ Al coincidir los valores en los extremos, la extensión periódica continua no p
 * **Justificación y Desarrollo:** 🔗
 Definimos la función a tramos en $(-1, 1)$:
 
-$$f(x) = \begin{cases} 1 & \text{si } -1 < x < 0 \\ 1 - x & \text{si } 0 \le x < 1 \end{cases}$$
+
+$$
+f(x) = \begin{cases} 
+1 & \text{si } -1 < x < 0 \\ 
+1 - x & \text{si } 0 \le x < 1 
+\end{cases}
+$$
 
 
 
@@ -205,7 +220,13 @@ Dado que $\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0) = 1$, la función
 * **Justificación y Desarrollo:** ⚠️
 Escribiendo la función por tramos:
 
-$$f(x) = \begin{cases} 1 & \text{si } -1 < x < 0 \\ x & \text{si } 0 < x < 1 \end{cases}$$
+
+$$
+f(x) = \begin{cases}
+1 & \text{si } -1 < x < 0 \\ 
+x & \text{si } 0 < x < 1 
+\end{cases}
+$$
 
 
 
@@ -317,7 +338,7 @@ Lo mismo aplica para los coeficientes $b_n$. En consecuencia, la serie de Fourie
 | Tipo de Función | Condición Matemática | Coeficientes Nulos | Coeficientes que Sobreviven |
 | --- | --- | --- | --- |
 | **Impar** (ej. $x, x^3$) | $f(-x) = -f(x)$ | $a_0 = 0$ y $a_n = 0$ | $b_n$ (Senos) |
-| **Par** (ej. $x^2, x^4, \cos(x)$) | $f(-x) = f(x)$ | $b_n = 0$ | $a_0$ y $a_n$ (Cosenos) |
+| **Par** (ej. $x^2, x^4, \cos(x)$ ) | $f(-x) = f(x)$ | $b_n = 0$ | $a_0$ y $a_n$ (Cosenos) |
 
 
 

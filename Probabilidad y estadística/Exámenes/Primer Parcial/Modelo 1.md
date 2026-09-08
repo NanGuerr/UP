@@ -1,5 +1,4 @@
-# 🥔 Transcripción y Resolución de Examen: Probabilidad y Estadística
-
+# Resolución de Examen
 Este documento detalla la transcripción completa de las imágenes del examen parcial, organizando los enunciados, las tablas de contingencia y los procedimientos matemáticos con su respectivo análisis y notación compatible con Markdown y GitHub.
 
 

@@ -37,8 +37,8 @@ Una cadena de artículos de electrónica está analizando los productos comprado
 #### b) Si un cliente compró una notebook, ¿cuál es la probabilidad de que no compre un celular?
 * **Análisis:** Se busca la probabilidad condicional de no comprar celular dado que compró notebook: $P(C^c \mid N)$.
 * **Cálculo:**
-  $$P(C^c \mid N) = 1 - P(C \mid N) = 1 - rac{P(C \cap N)}{P(N)}$$
-  $$P(C \mid N) = rac{0.26}{0.48} = rac{13}{24}  pprox 0.5417$$
+  $$P(C^c \mid N) = 1 - P(C \mid N) = 1 - \frac{P(C \cap N)}{P(N)}$$
+  $$P(C \mid N) = \frac{0.26}{0.48} = \frac{13}{24}  pprox 0.5417$$
   $$P(C^c \mid N) = 1 - 0.5417 = 0.4583$$
 
 > **Respuesta:** La probabilidad de que no compre un celular sabiendo que compró una notebook es de **$0.4583$** (o **$45.83\%$**).
@@ -70,7 +70,8 @@ $$ ar{x} = 247.4 \quad Me = 240.6 \quad Ma = 235.9 \quad s = 92.8 \quad P_{10} =
 
 #### c) ¿La cantidad promedio de notebooks vendidas es representativa?
 * **Análisis:** Para determinar la representatividad de la media ($ ar{x} = 247.4$), se calcula el Coeficiente de Variación ($CV$):
-  $$CV = \left( rac{s}{ ar{x}} \ right 	imes 100\% = \left( rac{92.8}{247.4} \ right 	imes 100\%  pprox 37.51\%$$
+  
+  $$CV = \ left( \frac{s}{\bar{x}} \ right) \times 100\% = \ left( \frac{92.8}{247.4} \ right) \times 100\% \approx 37.51\%$$
 * **Criterio de Representatividad:** Por convención estadística, una media es representativa si $CV \le 15\%$ o $CV \le 25\%$ (según el estándar exigido). Un $CV$ de $37.51\%$ superará ampliamente los límites habituales de homogeneidad.
 
 > **Respuesta:** **FALSO.** La media muestral no es representativa de los datos debido a la alta dispersión relativa ($CV = 37.51\% > 25\%$).
@@ -137,7 +138,7 @@ El tiempo de entrega $T$ de los productos comprados en *Hot Sale* tiene una medi
 * **Cálculo de Z:**
   En la tabla de la Distribución Normal Estándar, el valor $z$ correspondiente a un área acumulada de $0.80$ es $z_0  pprox 0.8416$.
 * **Despeje de $t_0$:**
-  $$z_0 = rac{t_0 - \mu}{\sigma} \implies 0.8416 = rac{t_0 - 4.7}{1.4}$$
+  $$z_0 = \frac{t_0 - \mu}{\sigma} \implies 0.8416 = \frac{t_0 - 4.7}{1.4}$$
   $$t_0 = 4.7 + 0.8416 	imes 1.4 = 4.7 + 1.1782 = 5.8782	ext{ días}$$
 
 > **Respuesta:** El $20\%$ de los envíos que más tardaron demoró como mínimo **$5.88	ext{ días}$** (aproximadamente $5	ext{ días y } 21	ext{ horas}$).
@@ -146,8 +147,10 @@ El tiempo de entrega $T$ de los productos comprados en *Hot Sale* tiene una medi
 
 #### b) En 20 entregas, ¿cuál es la probabilidad de que menos de 10 se realicen en más de 5 días?
 * **Paso 1: Probabilidad individual ($p$) de que un envío tarde más de 5 días:**
-  $$P(T > 5) = P\left(Z > rac{5 - 4.7}{1.4}\ right = P\left(Z > rac{0.3}{1.4}\ right  pprox P(Z > 0.2143)$$
-  $$\Phi(0.2143)  pprox 0.5848 \implies p = 1 - 0.5848 = 0.4152$$
+
+$$P(T > 5) = P \ left(Z > \frac{5 - 4.7}{1.4} \ right = P \ left(Z > \frac{0.3}{1.4} \ right  aprox P(Z > 0.2143)$$
+  
+  $$\Phi(0.2143)  aprox 0.5848 \implies p = 1 - 0.5848 = 0.4152$$
 
 * **Paso 2: Modelo Binomial para $n = 20$ entregas:**
   Sea $Y$: *Número de entregas que tardan más de 5 días*.  
@@ -176,7 +179,7 @@ El tiempo de entrega $T$ de los productos comprados en *Hot Sale* tiene una medi
 * **Aproximación por Distribución Normal (dado que $\lambda = 31.5 > 10$):**
   $$W  pprox N(\mu = 31.5, \sigma = \sqrt{31.5}  pprox 5.6125)$$
   Aplicando corrección por continuidad:
-  $$P(W > 30) = P(W \ge 30.5) = P\left(Z \ge rac{30.5 - 31.5}{5.6125}\ right = P\left(Z \ge rac{-1.0}{5.6125}\ right$$
+  $$P(W > 30) = P(W \ge 30.5) = P \ left(Z \ge \ frac{30.5 - 31.5}{5.6125} \r ight = P \ left(Z \ge \frac{-1.0}{5.6125} \ right$$
   $$P(Z \ge -0.1782) = \Phi(0.1782)  pprox 0.5707$$
 
 > **Respuesta:** La probabilidad de que Manuela realice más de 30 entregas en ese lapso de tiempo es aproximadamente **$0.5707$** (o **$57.07\%$**).
@@ -200,17 +203,17 @@ Completar sobre la línea punteada, justificando la respuesta y/o realizando los
   * Tamaño de la muestra ($n$): $3$
 
 * **Fórmula e Identificación:**
-  $$P(X = k) = rac{ inom{K}{k}  inom{N-K}{n-k}}{ inom{N}{n}}$$
-  $$P(X = 1) = rac{ inom{8}{1}  inom{14}{2}}{ inom{22}{3}}$$
+  $$P(X = k) = \frac{ inom{K}{k}  inom{N-K}{n-k}}{ inom{N}{n}}$$
+  $$P(X = 1) = \frac{ inom{8}{1}  inom{14}{2}}{ inom{22}{3}}$$
 
 * **Desarrollo Numérico de Combinatorias:**
   $$ inom{8}{1} = 8$$
-  $$ inom{14}{2} = rac{14 	imes 13}{2 	imes 1} = 91$$
-  $$ inom{22}{3} = rac{22 	imes 21 	imes 20}{3 	imes 2 	imes 1} = 1540$$
-  $$P(X = 1) = rac{8 	imes 91}{1540} = rac{728}{1540}  pprox 0.4727$$
+  $$ inom{14}{2} = \frac{14 	imes 13}{2 	imes 1} = 91$$
+  $$ inom{22}{3} = \frac{22 	imes 21 	imes 20}{3 	imes 2 	imes 1} = 1540$$
+  $$P(X = 1) = \frac{8 	imes 91}{1540} = \frac{728}{1540}  pprox 0.4727$$
 
 > **Resultado:**  
-> Entonces $P(X=1) =$ **$rac{728}{1540}  pprox 0.4727$** (o **$47.27\%$**).
+> Entonces $P(X=1) =$ **$\frac{728}{1540}  pprox 0.4727$** (o **$47.27\%$**).
 
 
 

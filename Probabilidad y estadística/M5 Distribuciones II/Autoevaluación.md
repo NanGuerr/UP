@@ -271,7 +271,7 @@ $$X \sim N(\mu = 50, \, \sigma = 5)$$
 
 1. **A. $P(80) = X(0{,}80)$ es mayor a $50$**
 * **Desarrollo:** Presenta inconsistencias de notación y viola la noción fundamental de que cualquier probabilidad debe estar dentro del intervalo $[0, 1]$. Adicionalmente, para variables continuas $P(X = 80) = 0$.
-* **Conclusión:** ❌ **Incorrecta.**
+* **Conclusión:** ✅ **Correcta.**
 
 
 2. **B. $P(X > 65)$ es mayor a $0{,}50$**

@@ -86,7 +86,7 @@ Debido a que los coeficientes de Fourier ($a_n, b_n$) se obtienen mediante integ
 | Tipo de Función | Condición Matemática | Coeficientes Nulos | Coeficientes que Sobreviven |
 | :--- | :--- | :--- | :--- |
 | **Impar** (ej. $x, x^3$) | $f(-x) = -f(x)$ | $a_0 = 0$ y $a_n = 0$ | $b_n$ (Senos) |
-| **Par** (ej. $x^2, \cos(x)$) | $f(-x) = f(x)$ | $b_n = 0$ | $a_0$ y $a_n$ (Cosenos) |
+| **Par** (ej. $x^2$, $\cos(x)$ ) | $f(-x) = f(x)$ | $b_n = 0$ | $a_0$ y $a_n$ (Cosenos) |
 
 ---
 

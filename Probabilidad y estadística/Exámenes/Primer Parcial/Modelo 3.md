@@ -1,4 +1,4 @@
-# 📋 Transcripción y Resolución: Recuperatorio 1er Parcial de Probabilidad y Estadística (Junio/2018)
+# 📋 Resolución: Recuperatorio 1er Parcial 
 
 Este documento presenta la transcripción detallada y la resolución paso a paso de los problemas del examen recuperatorio, organizando los procedimientos analíticos, fórmulas matemáticas compatibles con GitHub y emojis descriptivos.
 

@@ -1,7 +1,3 @@
-Aquí tienes el desarrollo completo y detallado del documento de **Autoevaluación de Series de Fourier**, con las explicaciones paso a paso, demostraciones matemáticas en LaTeX y explicaciones conceptuales para cada una de las 12 preguntas:
-
-
-
 # 📚 Autoevaluación: Series de Fourier
 
 Este documento detalla los enunciados y las soluciones correctas de la autoevaluación, analizando minuciosamente las propiedades de paridad, convergencia puntual y cálculo de coeficientes de Fourier.

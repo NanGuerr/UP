@@ -1,4 +1,4 @@
-# 📊 Cuadro Comparativo: Distribución de Poisson vs. Distribución Normal
+# 📊 Cuadros Comparativos
 
 A continuación se presenta un análisis comparativo estructurado entre la **Distribución de Poisson** y la **Distribución Normal**, detallando sus características matemáticas, parámetros y ámbitos de aplicación.
 

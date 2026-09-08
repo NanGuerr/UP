@@ -41,11 +41,11 @@ Solo sobreviven los coeficientes $b_n$, correspondiente a la serie puramente de 
 La función $f(x) = x^2$ es una función **par**, dado que $f(-x) = (-x)^2 = x^2 = f(x)$.
 Al evaluar el coeficiente de los senos $b_n$:
 
-$$b_n = \frac{1}{l} \int_{-l}^{l} x^2 \operatorname{sen}\left(\frac{n\pi x}{l}\right) dx$$
+$$b_n = \frac{1}{l} \int_{-l}^{l} x^2 \{sen}\left(\frac{n\pi x}{l}\right) dx$$
 
 
 
-El producto de una función par ($x^2$) por una función impar ($\operatorname{sen}$) genera un integrando **impar**. Toda integral de una función impar integrada sobre un intervalo simétrico $(-l, l)$ es exactamente igual a cero. Por consiguiente, $b_n = 0$ para todo $n \ge 1$.
+El producto de una función par ($x^2$) por una función impar ($\{sen}$) genera un integrando **impar**. Toda integral de una función impar integrada sobre un intervalo simétrico $(-l, l)$ es exactamente igual a cero. Por consiguiente, $b_n = 0$ para todo $n \ge 1$.
 
 
 
@@ -260,7 +260,7 @@ $$f(-x) = \cos(-x) = \cos(x) = f(x)$$
 
 Es una función **par**. Para cualquier función par en un intervalo simétrico $(-1, 1)$, el coeficiente de los senos $b_n$ se calcula como:
 
-$$b_n = \int_{-1}^{1} \underbrace{\cos(x)}_{\text{par}} \cdot \underbrace{\operatorname{sen}(n\pi x)}_{\text{impar}} dx = 0$$
+$$b_n = \int_{-1}^{1} \underbrace{\cos(x)}_{\text{par}} \cdot \underbrace{\{sen}(n\pi x)}_{\text{impar}} dx = 0$$
 
 
 

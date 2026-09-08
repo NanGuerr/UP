@@ -10,7 +10,7 @@ A continuación se presenta un análisis comparativo estructurado entre la **Dis
 | :--- | :--- | :--- |
 | **Tipo de Variable** | Discreta (conteo de eventos enteros: $0, 1, 2, 3, \dots$). | Continua (mediciones en un rango real: pesos, tiempos, estaturas). |
 | **Dominio / Soporte** | $\mathbb{N} \cup \{0\}$ (enteros no negativos) . | Todo el conjunto de los números reales ($\mathbb{R}$). |
-| **Parámetros Principales** | $\lambda$ (lambda), que representa la tasa media de ocurrencias . | $\mu$ (media) y $\sigma$ o $\sigma^2$ (desvío estándar o varianza) [cite: 1, 8]. |
+| **Parámetros Principales** | $\lambda$ (lambda), que representa la tasa media de ocurrencias . | $\mu$ (media) y $\sigma$ o $\sigma^2$ (desvío estándar o varianza) . |
 | **Esperanza Matemática $E(X)$** | $\lambda$  | $\mu$ |
 | **Varianza $Var(X)$** | $\lambda$  | $\sigma^2$ |
 | **Probabilidad Puntual** | $P(X = k) > 0$ (calculada mediante la Función de Masa de Probabilidad). | $P(X = c) = 0$ (la probabilidad puntual es siempre cero) . |

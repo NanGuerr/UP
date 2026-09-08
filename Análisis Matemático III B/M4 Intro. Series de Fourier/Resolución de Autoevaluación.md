@@ -91,12 +91,6 @@ $$\frac{a_0}{2} = \frac{7/2}{2} = \frac{7}{4}$$
 
 
 
-🧮
-
-
-
-
-
 ### 🔢 Pregunta 4
 
 **Enunciado:** La serie de Fourier en el intervalo $(-1, 1)$ de la función $f(x) = e^{3x}$ es:

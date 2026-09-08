@@ -1,11 +1,5 @@
 # 📊 Examen Parcial - Probabilidad y Estadística (Tema M2)
 
-**Universidad de Palermo (UP) — Facultad de Ingeniería**  
-**Asignatura:** Probabilidad y Estadística  
-**Evaluación:** Examen Parcial - Primer Parcial  
-**Condición de Aprobación:** El puntaje mínimo para aprobar es de 60 puntos (al menos 15 puntos deben corresponder a estadística descriptiva).
-
-
 
 ## 📱 Ejercicio 1: Probabilidad de Eventos y Conjuntos
 
@@ -76,9 +70,7 @@ $$ ar{x} = 247.4 \quad Me = 240.6 \quad Ma = 235.9 \quad s = 92.8 \quad P_{10} =
 
 #### c) ¿La cantidad promedio de notebooks vendidas es representativa?
 * **Análisis:** Para determinar la representatividad de la media ($ ar{x} = 247.4$), se calcula el Coeficiente de Variación ($CV$):
-  $$CV = \left( rac{s}{ ar{x}} 
-ight) 	imes 100\% = \left( rac{92.8}{247.4} 
-ight) 	imes 100\%  pprox 37.51\%$$
+  $$CV = \left( rac{s}{ ar{x}} \ right 	imes 100\% = \left( rac{92.8}{247.4} \ right 	imes 100\%  pprox 37.51\%$$
 * **Criterio de Representatividad:** Por convención estadística, una media es representativa si $CV \le 15\%$ o $CV \le 25\%$ (según el estándar exigido). Un $CV$ de $37.51\%$ superará ampliamente los límites habituales de homogeneidad.
 
 > **Respuesta:** **FALSO.** La media muestral no es representativa de los datos debido a la alta dispersión relativa ($CV = 37.51\% > 25\%$).
@@ -154,9 +146,7 @@ El tiempo de entrega $T$ de los productos comprados en *Hot Sale* tiene una medi
 
 #### b) En 20 entregas, ¿cuál es la probabilidad de que menos de 10 se realicen en más de 5 días?
 * **Paso 1: Probabilidad individual ($p$) de que un envío tarde más de 5 días:**
-  $$P(T > 5) = P\left(Z > rac{5 - 4.7}{1.4}
-ight) = P\left(Z > rac{0.3}{1.4}
-ight)  pprox P(Z > 0.2143)$$
+  $$P(T > 5) = P\left(Z > rac{5 - 4.7}{1.4}\ right = P\left(Z > rac{0.3}{1.4}\ right  pprox P(Z > 0.2143)$$
   $$\Phi(0.2143)  pprox 0.5848 \implies p = 1 - 0.5848 = 0.4152$$
 
 * **Paso 2: Modelo Binomial para $n = 20$ entregas:**
@@ -186,9 +176,7 @@ ight)  pprox P(Z > 0.2143)$$
 * **Aproximación por Distribución Normal (dado que $\lambda = 31.5 > 10$):**
   $$W  pprox N(\mu = 31.5, \sigma = \sqrt{31.5}  pprox 5.6125)$$
   Aplicando corrección por continuidad:
-  $$P(W > 30) = P(W \ge 30.5) = P\left(Z \ge rac{30.5 - 31.5}{5.6125}
-ight) = P\left(Z \ge rac{-1.0}{5.6125}
-ight)$$
+  $$P(W > 30) = P(W \ge 30.5) = P\left(Z \ge rac{30.5 - 31.5}{5.6125}\ right = P\left(Z \ge rac{-1.0}{5.6125}\ right$$
   $$P(Z \ge -0.1782) = \Phi(0.1782)  pprox 0.5707$$
 
 > **Respuesta:** La probabilidad de que Manuela realice más de 30 entregas en ese lapso de tiempo es aproximadamente **$0.5707$** (o **$57.07\%$**).

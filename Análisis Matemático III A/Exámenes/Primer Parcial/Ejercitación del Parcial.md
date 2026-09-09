@@ -49,7 +49,7 @@ $$t = \frac{\ln(2)}{0{,}0575} \approx \frac{0{,}693147}{0{,}0575} \approx 12{,}0
 
 
 ### ✅ Resultado
-El dinero se habrá duplicado en **12,05 años** (aproximadamente **12 años y 20 días**).
+El dinero se habrá duplicado en **12,05 años (0547*365=19.97)** (aproximadamente **12 años y 20 días**).
 
 
 

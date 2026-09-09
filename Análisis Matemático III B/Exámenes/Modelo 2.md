@@ -6,7 +6,7 @@
 
 ### 📝 Transcripción del Enunciado
 > Sea $g(x)$ tal que $g'(x)$ es suave a tramos en el intervalo $(-1, 1)$.  
-> Sea $\frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos\left(\frac{n \pi x}{L}\right) + b_n \operatorname{sen}\left(\frac{n \pi x}{L}\right) \right)$ la serie de Fourier de $g(x)$.  
+> Sea $\frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos\left(\frac{n \pi x}{L}\right) + b_n \{sen}\left(\frac{n \pi x}{L}\right) \right)$ la serie de Fourier de $g(x)$.  
 > **Calcular la serie de Fourier de $g'(x)$.**
 
 
@@ -15,38 +15,38 @@
 
 1. **Definición de la Serie de Fourier:**
    Para un período $2L$ (en este caso $L = 1$), la representación en serie de Fourier de una función suave a tramos $g(x)$ se expresa como:
-   $$g(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n \pi x}{L}\right) + b_n \operatorname{sen}\left(\frac{n \pi x}{L}\right) \right]$$
+   $$g(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n \pi x}{L}\right) + b_n \{sen}\left(\frac{n \pi x}{L}\right) \right]$$
 
 2. **Diferenciación Término a Término:**
    Bajo las condiciones de suavidad a tramos para $g'(x)$, la serie de la derivada se obtiene diferenciando la serie término a término respecto a $x$:
    - La derivada de la constante $\frac{a_0}{2}$ es $0$.
    - Derivada de $a_n \cos\left(\frac{n \pi x}{L}\right)$:
-     $$\frac{d}{dx} \left[ a_n \cos\left(\frac{n \pi x}{L}\right) \right] = - a_n \left(\frac{n \pi}{L}\right) \operatorname{sen}\left(\frac{n \pi x}{L}\right)$$
-   - Derivada de $b_n \operatorname{sen}\left(\frac{n \pi x}{L}\right)$:
-     $$\frac{d}{dx} \left[ b_n \operatorname{sen}\left(\frac{n \pi x}{L}\right) \right] = b_n \left(\frac{n \pi}{L}\right) \cos\left(\frac{n \pi x}{L}\right)$$
+     $$\frac{d}{dx} \left[ a_n \cos\left(\frac{n \pi x}{L}\right) \right] = - a_n \left(\frac{n \pi}{L}\right) \{sen}\left(\frac{n \pi x}{L}\right)$$
+   - Derivada de $b_n \{sen}\left(\frac{n \pi x}{L}\right)$:
+     $$\frac{d}{dx} \left[ b_n \{sen}\left(\frac{n \pi x}{L}\right) \right] = b_n \left(\frac{n \pi}{L}\right) \cos\left(\frac{n \pi x}{L}\right)$$
 
 3. **Reorganización de los Coeficientes:**
-   $$g'(x) \sim \sum_{n=1}^{\infty} \left[ b_n \left(\frac{n \pi}{L}\right) \cos\left(\frac{n \pi x}{L}\right) - a_n \left(\frac{n \pi}{L}\right) \operatorname{sen}\left(\frac{n \pi x}{L}\right) \right]$$
+   $$g'(x) \sim \sum_{n=1}^{\infty} \left[ b_n \left(\frac{n \pi}{L}\right) \cos\left(\frac{n \pi x}{L}\right) - a_n \left(\frac{n \pi}{L}\right) \{sen}\left(\frac{n \pi x}{L}\right) \right]$$
 
    Para $L = 1$:
-   $$g'(x) \sim \sum_{n=1}^{\infty} \left[ n \pi b_n \cos(n \pi x) - n \pi a_n \operatorname{sen}(n \pi x) \right]$$
+   $$g'(x) \sim \sum_{n=1}^{\infty} \left[ n \pi b_n \cos(n \pi x) - n \pi a_n \{sen}(n \pi x) \right]$$
 
 
 
 ### ✅ Respuesta Final
 La serie de Fourier de la derivada $g'(x)$ es:
-$$g'(x) = \sum_{n=1}^{\infty} \left[ \frac{n \pi}{L} b_n \cos\left(\frac{n \pi x}{L}\right) - \frac{n \pi}{L} a_n \operatorname{sen}\left(\frac{n \pi x}{L}\right) \right]$$
+$$g'(x) = \sum_{n=1}^{\infty} \left[ \frac{n \pi}{L} b_n \cos\left(\frac{n \pi x}{L}\right) - \frac{n \pi}{L} a_n \{sen}\left(\frac{n \pi x}{L}\right) \right]$$
 
 
 
 ## 📌 Ejercicio 2: Serie de Taylor Centrada en $a = 3$ 🎯
 
 ### 📝 Transcripción del Enunciado
-> A partir de las series de Maclaurin de $\operatorname{sen}(x)$, $\cos(x)$ y la serie geométrica, hallar la serie de Taylor de $F(x)$ centrada en $a = 3$:
+> A partir de las series de Maclaurin de $\{sen}(x)$, $\cos(x)$ y la serie geométrica, hallar la serie de Taylor de $F(x)$ centrada en $a = 3$:
 > $$F(x) = \cos(x) - \frac{3}{4+x}$$
 > *Sugerencia:* Escribir $x = (x-3) + 3$ y utilizar las identidades trigonométricas:
-> - $\operatorname{sen}(a+b) = \operatorname{sen}(a)\cos(b) + \cos(a)\operatorname{sen}(b)$
-> - $\cos(a+b) = \cos(a)\cos(b) - \operatorname{sen}(a)\operatorname{sen}(b)$
+> - $\{sen}(a+b) = \{sen}(a)\cos(b) + \cos(a)\{sen}(b)$
+> - $\cos(a+b) = \cos(a)\cos(b) - \{sen}(a)\{sen}(b)$
 
 
 
@@ -56,14 +56,14 @@ $$g'(x) = \sum_{n=1}^{\infty} \left[ \frac{n \pi}{L} b_n \cos\left(\frac{n \pi x
    Hacemos el cambio $x = (x-3) + 3$:
    $$\cos(x) = \cos((x-3) + 3)$$
    Aplicando la identidad del coseno de una suma con $a = x-3$ y $b = 3$:
-   $$\cos(x) = \cos(x-3)\cos(3) - \operatorname{sen}(x-3)\operatorname{sen}(3)$$
+   $$\cos(x) = \cos(x-3)\cos(3) - \{sen}(x-3)\{sen}(3)$$
 
    Sustituyendo las series de Maclaurin evaluadas en $(x-3)$:
    $$\cos(x-3) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} (x-3)^{2n}$$
-   $$\operatorname{sen}(x-3) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1}$$
+   $$\{sen}(x-3) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1}$$
 
    Por lo tanto:
-   $$\cos(x) = \cos(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} (x-3)^{2n} - \operatorname{sen}(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1}$$
+   $$\cos(x) = \cos(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} (x-3)^{2n} - \{sen}(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1}$$
 
 2. **Desarrollo del Término Racional $-\frac{3}{4+x}$:**
    Expresamos el denominador en términos de $(x-3)$:
@@ -73,12 +73,12 @@ $$g'(x) = \sum_{n=1}^{\infty} \left[ \frac{n \pi}{L} b_n \cos\left(\frac{n \pi x
    $$\frac{3}{4+x} = \frac{3}{7 \left(1 + \frac{x-3}{7}\right)} = \frac{3}{7} \sum_{n=0}^{\infty} \left(-\frac{x-3}{7}\right)^n = \frac{3}{7} \sum_{n=0}^{\infty} \frac{(-1)^n}{7^n} (x-3)^n$$
 
 3. **Ensamblaje de la Serie de Taylor Completa para $F(x)$:**
-   $$F(x) = \cos(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} (x-3)^{2n} - \operatorname{sen}(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1} - \sum_{n=0}^{\infty} \frac{3(-1)^n}{7^{n+1}} (x-3)^n$$
+   $$F(x) = \cos(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} (x-3)^{2n} - \{sen}(3) \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1} - \sum_{n=0}^{\infty} \frac{3(-1)^n}{7^{n+1}} (x-3)^n$$
 
 
 
 ### ✅ Respuesta Final
-$$F(x) = \sum_{n=0}^{\infty} \left[ \cos(3) \frac{(-1)^n}{(2n)!} (x-3)^{2n} - \operatorname{sen}(3) \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1} - \frac{3(-1)^n}{7^{n+1}} (x-3)^n \right]$$
+$$F(x) = \sum_{n=0}^{\infty} \left[ \cos(3) \frac{(-1)^n}{(2n)!} (x-3)^{2n} - \{sen}(3) \frac{(-1)^n}{(2n+1)!} (x-3)^{2n+1} - \frac{3(-1)^n}{7^{n+1}} (x-3)^n \right]$$
 
 
 
@@ -179,12 +179,12 @@ $$\int_{0}^{2} e^{-x^2} \, dx = \sum_{n=0}^{\infty} \frac{(-1)^n 2^{2n+1}}{n!(2n
 
    Aplicando integración por partes tabular:
    - $u = 3x^2 - 5x \implies u' = 6x - 5 \implies u'' = 6 \implies u''' = 0$
-   - $dv = \cos\left(\frac{n \pi x}{4}\right) dx \implies v = \frac{4}{n \pi} \operatorname{sen}\left(\frac{n \pi x}{4}\right) \implies v_2 = -\frac{16}{n^2 \pi^2} \cos\left(\frac{n \pi x}{4}\right) \implies v_3 = -\frac{64}{n^3 \pi^3} \operatorname{sen}\left(\frac{n \pi x}{4}\right)$
+   - $dv = \cos\left(\frac{n \pi x}{4}\right) dx \implies v = \frac{4}{n \pi} \{sen}\left(\frac{n \pi x}{4}\right) \implies v_2 = -\frac{16}{n^2 \pi^2} \cos\left(\frac{n \pi x}{4}\right) \implies v_3 = -\frac{64}{n^3 \pi^3} \{sen}\left(\frac{n \pi x}{4}\right)$
 
-   $$\int_0^4 (3x^2 - 5x) \cos\left(\frac{n \pi x}{4}\right) dx = \left[ (3x^2 - 5x) \frac{4}{n\pi} \operatorname{sen}\left(\frac{n\pi x}{4}\right) + (6x-5) \frac{16}{n^2\pi^2} \cos\left(\frac{n\pi x}{4}\right) - 6 \frac{64}{n^3\pi^3} \operatorname{sen}\left(\frac{n\pi x}{4}\right) \right]_0^4$$
+   $$\int_0^4 (3x^2 - 5x) \cos\left(\frac{n \pi x}{4}\right) dx = \left[ (3x^2 - 5x) \frac{4}{n\pi} \{sen}\left(\frac{n\pi x}{4}\right) + (6x-5) \frac{16}{n^2\pi^2} \cos\left(\frac{n\pi x}{4}\right) - 6 \frac{64}{n^3\pi^3} \{sen}\left(\frac{n\pi x}{4}\right) \right]_0^4$$
 
    Evaluando en los límites $0$ y $4$:
-   - Términos en $\operatorname{sen}$ se anulan en $x=0$ y $x=4$.
+   - Términos en $\{sen}$ se anulan en $x=0$ y $x=4$.
    - Para $x=4$: $(6(4)-5) \frac{16}{n^2 \pi^2} \cos(n \pi) = 19 \cdot \frac{16}{n^2 \pi^2} (-1)^n = \frac{304(-1)^n}{n^2 \pi^2}$
    - Para $x=0$: $(6(0)-5) \frac{16}{n^2 \pi^2} \cos(0) = -\frac{80}{n^2 \pi^2}$
 

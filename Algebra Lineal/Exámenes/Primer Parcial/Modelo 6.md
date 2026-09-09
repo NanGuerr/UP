@@ -1,36 +1,26 @@
 # 📚 ÁLGEBRA LINEAL - PRIMER PARCIAL
 
-🗓️ **Fecha:** 22/09/2014  
-📌 **Tema:** 5  
-
-> **Condición suficiente de aprobación:** Resolver correctamente al menos **5 de los 9 ejercicios**, asegurando la inclusión de todas las unidades temáticas evaluadas.  
-> ⚠️ **Nota:** No trabajar en lápiz.
-
-
-
 ## 🔢 UNIDAD 1: Inducción Matemática y Divisibilidad
 
 ### 1️⃣ Ejercicio 1: Divisibilidad e Inducción
 **Consigna:**  
 Demostrar, utilizando el principio de **inducción matemática completa**, que para todo número natural $n \in \mathbb{N}$ se verifica que la siguiente expresión es divisible por $5$:
 
-$$6^{3n+1} + 6^{6n+2} + 3 \quad 	ext{es divisible por } 5$$
-
+$$6^{3n+1} + 6^{6n+2} + 3 \quad \text{es divisible por } 5$$
 
 
 ### 2️⃣ Ejercicio 2: Sumatoria de Cubos
 **Consigna:**  
 Demostrar mediante **inducción matemática completa** la identidad de la suma de los primeros $n$ cubos de números naturales:
 
-$$\sum_{i=1}^{n} i^{3} = \left( frac{n(n+1)}{2} \right)^{2}$$
-
+$$\sum_{i=1}^{n} i^{3} = \left( \frac{n(n+1)}{2} \right)^{2}$$
 
 
 ### 3️⃣ Ejercicio 3: Propiedades de la Divisibilidad
 **Consigna:**  
 Analizar el valor de verdad (Verdadero o Falso) de la siguiente afirmación:
 
-$$	ext{"Si } a \mid bc 	ext{ y } (a,b) = 1 \implies a \mid c	ext{"}$$
+$$		\text{"Si } a \mid bc 		\text{ y } (a,b) = 1 \implies a \mid c	\text{"}$$
 
 * **Si es Falsa:** Presentar un contraejemplo claro y justificativo.
 * **Si es Verdadera:** Realizar la demostración formal paso a paso utilizando las definiciones y teoremas de divisibilidad (Teorema de Bézout / Lema de Gauss).
@@ -41,7 +31,7 @@ $$	ext{"Si } a \mid bc 	ext{ y } (a,b) = 1 \implies a \mid c	ext{"}$$
 **Consigna:**  
 Demostrar que si $a$ es un número entero impar ($a = 2k + 1, k \in \mathbb{Z}$), entonces la suma de su cuadrado más el triple de su entero consecutivo resulta siempre en un entero impar.
 
-$$	ext{Expresión a evaluar: } a^2 + 3(a + 1) \quad 	ext{es impar}$$
+$$	\text{Expresión a evaluar: } a^2 + 3(a + 1) \quad 	\text{es impar}$$
 
 
 
@@ -75,7 +65,7 @@ $$87^{1571} \pmod 7$$
 **Consigna:**  
 Dados los vectores en $\mathbb{R}^3$:
 
-$$ ec{u} = (3, -2, 1) \quad 	ext{y} \quad  ec{v} = (-1, 3, 2)$$
+$$ ec{u} = (3, -2, 1) \quad 	\text{y} \quad  ec{v} = (-1, 3, 2)$$
 
 Hallar la **proyección vectorial** del vector $( ec{v} -  ec{u})$ sobre el vector $( ec{u} +  ec{v})$.
 
@@ -89,16 +79,17 @@ $$\mathbf{Proy}_{( ec{u}+ ec{v})} ( ec{v} -  ec{u})$$
 **Consigna:**  
 Hallar el área del paralelogramo determinado por los vectores que forman sus lados consecutivos:
 
-$$ ec{a} = (2, -3, 1) \quad 	ext{y} \quad  ec{b} = (0, -1, 1)$$
+$$\vec{a} = (2, -3, 1) \quad \text{y} \quad \vec{b} = (0, -1, 1)$$
 
 Utilizar la propiedad del módulo del producto vectorial:
 
-$$	ext{'{A}rea} = \| ec{a} 	imes  ec{b}\|$$
 
+$$\text{Área} = \Vert{}\vec{a} \times \vec{b}\Vert{}$$
 
 
 ### 9️⃣ Ejercicio 9: Paralelismo y Componentes Desconocidas
-**Consigna:**  
-Dados los puntos en el espacio $L = (1, -3, -2)$ y $M = (1-k, 3, -2)$, determinar los valores numéricos de los parámetros $h, k \in \mathbb{R}$ para que el vector determinado por $ ec{LM}$ sea paralelo al vector $ ec{v} = (2, 5, h-3)$.
+**Consigna:**
 
-$$ ec{LM} \parallel  ec{v} \iff  ec{LM} = \lambda  ec{v}, \quad \lambda \in \mathbb{R}$$
+Dados los puntos en el espacio $L = (1, -3, -2)$ y $M = (1-k, 3, -2)$, determinar los valores numéricos de los parámetros $h, k \in \mathbb{R}$ para que el vector determinado por $\vec{LM}$ sea paralelo al vector $\vec{v} = (2, 5, h-3)$.
+
+$$ \vec{LM} \parallel  \vec{v} \iff  \vec{LM} = \lambda  \vec{v}, \quad \lambda \in \mathbb{R}$$

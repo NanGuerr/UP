@@ -65,10 +65,23 @@ Un sistema de ecuaciones lineales es homogéneo cuando todos los términos indep
 
 
 ## ❓ Pregunta 4: Rectas en $\mathbb{R}^3$ 📏
+
 **Decidir si la recta**
-$$L_1: \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 3 \\ -1 \\ 2 \end{pmatrix} + t \begin{pmatrix} 3 \\ 6 \\ 2 \end{pmatrix}$$
+
+
+$$
+L_1: \begin{pmatrix} x & y & z \end{pmatrix} = \begin{pmatrix} 3 & 1 & 2 \end{pmatrix} + t \begin{pmatrix} 3 & 6 & 2 \end{pmatrix}
+$$
+
 **y la recta**
-$$L_2: \begin{cases} x = 2 + 6t \\ y = -1 - 3t \\ z = 2 \end{cases}$$
+
+$$
+L_2: \begin{cases} 
+x = 2 + 6t \\ 
+y = -1 - 3t \\ 
+z = 2 \end{cases}
+$$
+
 **son:**
 *   [x] A. Ortogonales.
 *   [ ] B. Ninguna de las dos opciones.

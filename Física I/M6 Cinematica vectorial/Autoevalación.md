@@ -1,4 +1,4 @@
-# 📐 Resolución de Problemas de Cinemática Vectorial y Unidimensional
+# 📐 Resolución Cinemática Vectorial y Unidimensional
 
 Este documento recopila la resolución detallada, paso a paso, de un conjunto de problemas evaluativos de cinemática (movimiento 2D, caída libre, MRU y MRUV), estructurados con rigor académico para estudiantes de ingeniería.
 

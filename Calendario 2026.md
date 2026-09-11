@@ -35,7 +35,7 @@
 | **18/11** | 09:00 | ❗**11/011 (2do)** | Algebra_Lineal |
 | **18/11** | 09:00 | Recup. (RDC) | Analisis_Matematico_III_B |
 | **18/11** | 13:00 | Recup. (RDC) | Fisica_I |
-| **MÁX** | 00:00 | Límite | Cierre de cursada |
+| **MÁX** | 00:00 | ❗Límite❗ | ❗Cierre de cursada❗ |
 | **23/11** | --:-- | Examen Oral (RDC) | Analisis_Matematico_III_A |
 | **24/11** | 08:00 | Recup. (RFC) | Probabilidad_y_Estadistica |
 | **24/11** | 09:00 | Recup. (RFC) | Algebra_Lineal |

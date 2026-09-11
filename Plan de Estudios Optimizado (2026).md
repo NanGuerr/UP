@@ -11,8 +11,8 @@
 
 ### ☀️ Verano — Enero - Febrero 2027 💙
 
-💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
-📻 `(021436)` Conatel Taller de Radio
+* 💰 `(026532)` **Fundamentos de Economía y Finanzas** 🌞
+* 📻 `(021436)` Conatel Taller de Radio
 
 ### 🚀 Semestre 4 (Sistemas Complejos) — Marzo - Julio 2027 🟢
 

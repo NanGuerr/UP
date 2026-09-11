@@ -1,7 +1,5 @@
 # 📄 Resolución del Parcial de Análisis Matemático IIIb 🎓
 
-He generado la resolución completa, detallada y con rigor académico de cada uno de los ejercicios del examen parcial en un documento PDF de alta calidad titulado `resolucion_parcial.pdf`, el cual ya está disponible en tu panel de Studio. 📁
-
 A continuación, te presento una síntesis explicativa del paso a paso resolutivo para cada uno de los seis ejercicios de la evaluación:
 
 

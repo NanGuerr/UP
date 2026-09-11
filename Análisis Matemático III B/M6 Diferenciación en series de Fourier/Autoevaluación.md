@@ -1,8 +1,4 @@
-# 📚 Resolución Paso a Paso: Autoevaluación de Diferenciación e Integración de Series de Fourier
-
-He analizado y verificado cada una de las 10 preguntas de la **Autoevaluación de Diferenciación e Integración de Series de Fourier** en función de los teoremas, hipótesis y desarrollos explicados en el apunte teórico de la materia.
-
-Además, he generado el documento PDF con la resolución formal de este examen práctico titulado `resolucion_autoevaluacion_diferenciacion_integracion_fourier.pdf`, el cual ya se encuentra disponible para visualizar y descargar en tu panel de Studio.
+# 📚 Diferenciación e Integración de Series de Fourier
 
 A continuación, se presenta la explicación analítica detallada para cada una de las preguntas:
 

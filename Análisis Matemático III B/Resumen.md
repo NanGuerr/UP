@@ -4,13 +4,13 @@
 
 Una serie alternada es aquella cuyos términos van cambiando de signo alternativamente (positivo, negativo, positivo, negativo...). Su forma general es:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=1}^{\infty} (-1)^{n-1} a_n = a_1 - a_2 + a_3 - a_4 + \dots
 \end{equation*}$$
 
 o bien comenzando con signo negativo:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=1}^{\infty} (-1)^{n} a_n = -a_1 + a_2 - a_3 + a_4 - \dots
 \end{equation*}$$
 
@@ -49,7 +49,7 @@ Una de las grandes ventajas del Criterio de Leibniz es que nos permite estimar q
 
 El error cometido al aproximar la suma de la serie por su suma parcial $S_n$ es en valor absoluto menor o igual que el primer término que se omite, es decir:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 |S - S_n| \le a_{n+1}
 \end{equation*}$$
 
@@ -63,7 +63,7 @@ Para determinar el Radio de Convergencia ($R$) de una serie de potencias, tienes
 
 ### A. Criterio del Cociente (o de la Razón) ➗
 
-$$ egin{equation*}
+$$ \begin{equation*}
 R = \lim_{n	o\infty} \left| rac{a_n}{a_{n+1}} 
 ight|
 \end{equation*}$$
@@ -74,7 +74,7 @@ Debes inclinarte por el criterio del cociente cuando el término general de la s
 * **Potencias puras combinadas con factoriales o polinomios:** Términos como $3^n$, $n^2$, o combinaciones del estilo $rac{n!}{2^n}$.
 
 *Ejemplo típico donde conviene:*
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum rac{n!}{2^n} x^n
 \end{equation*}$$
 Al aplicar el cociente, el factorial y la potencia de $2$ se reducen algebraicamente de forma muy rápida.
@@ -83,7 +83,7 @@ Al aplicar el cociente, el factorial y la potencia de $2$ se reducen algebraicam
 
 ### B. Criterio de la Raíz 🌱
 
-$$ egin{equation*}
+$$ \begin{equation*}
 R = rac{1}{\lim_{n	o\infty} \sqrt[n]{|a_n|}}
 \end{equation*}$$
 
@@ -96,7 +96,7 @@ ight)^n$.
 **¿Por qué?** Porque aplicar la raíz enésima $\sqrt[n]{|a_n|}$ cancela directamente el exponente $n$, transformando un límite complejo en uno de cálculo básico.
 
 *Ejemplo típico donde conviene:*
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum \left(rac{2n+1}{3n-1}
 ight)^n x^n
 \end{equation*}$$
@@ -144,7 +144,7 @@ A veces, para simplificar o expresar solo los términos que no se anulan, los li
 
 Esta es una excelente pregunta conceptual. La serie general de Fourier se escribe así:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 f(x) = rac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos\left(rac{n\pi x}{L}
 ight) + b_n \sin\left(rac{n\pi x}{L}
 ight) 
@@ -167,8 +167,8 @@ Como se trata de una función impar, los coeficientes $a_0$ y $a_n$ se anulan po
 ### Paso 1: Definir la función
 Imagina la función periódica de período $T = 2\pi$ definida en un período como:
 
-$$ egin{equation*}
-f(x) =  egin{cases} -1 & 	ext{si } -\pi < x < 0 \ 1 & 	ext{si } 0 < x < \pi \end{cases}
+$$ \begin{equation*}
+f(x) =  \begin{cases} -1 & 	ext{si } -\pi < x < 0 \ 1 & 	ext{si } 0 < x < \pi \end{cases}
 \end{equation*}$$
 
 Esta función es claramente impar porque cumple que $f(-x) = -f(x)$ (es simétrica respecto al origen).
@@ -176,19 +176,19 @@ Esta función es claramente impar porque cumple que $f(-x) = -f(x)$ (es simétri
 ### Paso 2: Calcular los coeficientes $b_n$
 La fórmula para los coeficientes de una función impar en un intervalo simétrico es:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 b_n = rac{2}{\pi} \int_{0}^{\pi} f(x) \sin(nx) \, dx
 \end{equation*}$$
 
 Como en el intervalo $(0, \pi)$ la función vale $1$, sustituimos:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 b_n = rac{2}{\pi} \int_{0}^{\pi} 1 \cdot \sin(nx) \, dx
 \end{equation*}$$
 
 Resolvemos la integral:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 b_n = rac{2}{\pi} \left[ -rac{\cos(nx)}{n} 
 ight]_0^\pi = rac{2}{n\pi} \left( -\cos(n\pi) + \cos(0) 
 ight)
@@ -196,7 +196,7 @@ ight)
 
 Sabiendo que $\cos(0) = 1$ y que $\cos(n\pi) = (-1)^n$, la expresión queda:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 b_n = rac{2}{n\pi} \left(1 - (-1)^n
 ight)
 \end{equation*}$$
@@ -206,7 +206,7 @@ Aquí es donde evaluamos el comportamiento de $(-1)^n$:
 * Si $n$ es par ($n = 2, 4, 6, \dots$): $(-1)^n = 1$, por lo tanto $1 - 1 = 0 \implies \mathbf{b_n = 0}$. (¡Todos los términos pares desaparecen!).
 * Si $n$ es impar ($n = 1, 3, 5, \dots$): $(-1)^n = -1$, por lo tanto $1 - (-1) = 2$. El coeficiente se convierte en:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 b_n = rac{2}{n\pi} (2) = rac{4}{n\pi}
 \end{equation*}$$
 
@@ -215,7 +215,7 @@ Como los únicos términos que aportan valor a la serie son los índices impares
 
 Para solucionar esto y barrer únicamente los armónicos impares ($1, 3, 5, 7, \dots$), definimos un nuevo índice auxiliar $k$ (donde $k = 1, 2, 3, \dots$) y hacemos el cambio de variable:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 n = 2k - 1
 \end{equation*}$$
 
@@ -227,21 +227,21 @@ ight)$
 ### Paso 5: Escribir la Serie de Fourier final
 En lugar de usar la sumatoria tradicional con $n$, expresamos la serie utilizando la variable auxiliar $k$:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 f(x) = \sum_{k=1}^{\infty} b_{2k-1} \sin\left((2k-1)x
 ight)
 \end{equation*}$$
 
 Sustituyendo el coeficiente obtenido:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 f(x) = rac{4}{\pi} \sum_{k=1}^{\infty} rac{\sin\left((2k-1)x
 ight)}{2k-1}
 \end{equation*}$$
 
 Si expandes los primeros valores de $k$ ($k=1, 2, 3$), verás cómo queda la famosa serie de la onda cuadrada utilizando solo senos impares:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 f(x) = rac{4}{\pi} \left( \sin(x) + rac{\sin(3x)}{3} + rac{\sin(5x)}{5} + rac{\sin(7x)}{7} + \dots 
 ight)
 \end{equation*}$$
@@ -252,7 +252,7 @@ ight)
 
 Cuando te enfrentas a una serie de potencias que no tiene la forma tradicional $\sum a_n x^n$, sino una potencia compuesta de la forma:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=0}^{\infty} a_n x^{kn}
 \end{equation*}$$
 
@@ -261,14 +261,14 @@ $$ egin{equation*}
 * **El cambio de variable:** Haces una sustitución simple llamando a una nueva variable $y = x^k$.
 * **La serie transformada:** La expresión se convierte en una serie de potencias estándar en función de $y$:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=0}^{\infty} a_n y^n
 \end{equation*}$$
 
 * **El Radio de Convergencia:** Calculas el radio de convergencia de esta nueva serie respecto a $y$ (lo llamaremos $R_y$) utilizando los criterios habituales (como D'Alembert o Cauchy-Hadamard) aplicados sobre los coeficientes $a_n$.
 * **La relación con $x$:** La serie transformada en $y$ converge si se cumple que $|y| < R_y$. Sustituyendo de regreso $y = x^k$, tenemos:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 |x^k| < R_y \implies |x|^k < R_y \implies |x| < \sqrt[k]{R_y} = R_y^{1/k}
 \end{equation*}$$
 
@@ -299,14 +299,14 @@ Una vez que calculas el radio de convergencia $R$ (lo que te da un intervalo abi
 
 Tomemos la clásica serie logarítmica:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=1}^{\infty} rac{x^n}{n}
 \end{equation*}$$
 
 1. **Hallar el radio de convergencia:** Aplicando el criterio del cociente, encuentras que el radio es $R = 1$, lo que nos deja inicialmente con el intervalo abierto $(-1, 1)$.
 2. **Análisis del borde derecho ($x = 1$):** Sustituimos $x = 1$ en la serie:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=1}^{\infty} rac{1^n}{n} = \sum_{n=1}^{\infty} rac{1}{n}
 \end{equation*}$$
 
@@ -314,7 +314,7 @@ Esta es la famosa serie armónica, la cual sabemos que diverge. Por lo tanto, el
 
 3. **Análisis del borde izquierdo ($x = -1$):** Sustituimos $x = -1$ en la serie:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=1}^{\infty} rac{(-1)^n}{n} = -1 + rac{1}{2} - rac{1}{3} + rac{1}{4} - \dots
 \end{equation*}$$
 
@@ -322,7 +322,7 @@ Esta es la serie armónica alternada. Por el Criterio de Leibniz (sus términos 
 
 4. **Dominio de convergencia final:** Combinando el intervalo abierto con el análisis de ambos bordes, el dominio de convergencia definitivo es:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \mathbf{[-1, 1)}
 \end{equation*}$$
 
@@ -337,7 +337,7 @@ Su utilidad principal es la siguiente: **nos permiten encontrar la serie de pote
 ### El "Punto de Partida": La Serie Geométrica
 Casi siempre que uses derivación e integración en series, arrancarás de esta fórmula básica que es válida para $|x| < 1$:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 rac{1}{1-x} = \sum_{n=0}^{\infty} x^n = 1 + x + x^2 + x^3 + x^4 + \dots
 \end{equation*}$$
 
@@ -357,7 +357,7 @@ Se usa cuando en el término general de la serie te aparece **una letra $n$ mult
 
 Imaginemos un ejercicio típico de parcial: **Calcular la suma de la serie numérica:**
 
-$$ egin{equation*}
+$$ \begin{equation*}
 S = \sum_{n=1}^{\infty} rac{n}{2^n}
 \end{equation*}$$
 
@@ -366,7 +366,7 @@ A simple vista, sumar esto parece imposible. Pero mira cómo la teoría de serie
 * **Paso 1: Plantear la función generadora**
 Imagina una serie de potencias general donde aparezca una $x^n$ en lugar de $(1/2)^n$:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 f(x) = \sum_{n=1}^{\infty} n x^n
 \end{equation*}$$
 
@@ -375,7 +375,7 @@ Nuestro objetivo es hallar a qué función equivale esto y luego evaluar $x = r
 * **Paso 2: Relacionarla con la serie geométrica**
 Sabemos que la serie geométrica es:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=0}^{\infty} x^n = rac{1}{1-x} \quad (	ext{para } |x| < 1)
 \end{equation*}$$
 
@@ -385,14 +385,14 @@ Pero nuestra serie empieza en $n=1$ y tiene una $n$ multiplicando: $\sum_{n=1}^{
 Derivamos ambos lados de la serie geométrica respecto a $x$:
 1. Derivamos el lado derecho (la función):
 
-$$ egin{equation*}
+$$ \begin{equation*}
 rac{d}{dx}\left( rac{1}{1-x} 
 ight) = rac{1}{(1-x)^2}
 \end{equation*}$$
 
 2. Derivamos el lado izquierdo (la serie):
 
-$$ egin{equation*}
+$$ \begin{equation*}
 rac{d}{dx}\left( \sum_{n=0}^{\infty} x^n 
 ight) = \sum_{n=1}^{\infty} n x^{n-1}
 \end{equation*}$$
@@ -401,14 +401,14 @@ ight) = \sum_{n=1}^{\infty} n x^{n-1}
 
 Igualando ambos resultados, nos queda:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 \sum_{n=1}^{\infty} n x^{n-1} = rac{1}{(1-x)^2}
 \end{equation*}$$
 
 * **Paso 4: Ajustar el exponente (un pequeño truco algebraico)**
 Nuestra serie original tiene $x^n$, pero aquí tenemos $x^{n-1}$. Para arreglarlo, **multiplicamos toda la ecuación por $x$**:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 x \cdot \sum_{n=1}^{\infty} n x^{n-1} = x \cdot rac{1}{(1-x)^2} \implies \sum_{n=1}^{\infty} n x^n = rac{x}{(1-x)^2}
 \end{equation*}$$
 
@@ -418,7 +418,7 @@ x \cdot \sum_{n=1}^{\infty} n x^{n-1} = x \cdot rac{1}{(1-x)^2} \implies \sum_{
 El ejercicio original nos pedía calcular la suma cuando $x = rac{1}{2}$ (porque teníamos $rac{n}{2^n} = n \left(rac{1}{2}
 ight)^n$). Sustituimos $x = rac{1}{2}$ en nuestra función resultante:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 S = \sum_{n=1}^{\infty} n \left(rac{1}{2}
 ight)^n = rac{rac{1}{2}}{\left(1 - rac{1}{2}
 ight)^2}
@@ -426,7 +426,7 @@ ight)^2}
 
 Resolvemos la aritmética:
 
-$$ egin{equation*}
+$$ \begin{equation*}
 S = rac{rac{1}{2}}{\left(rac{1}{2}
 ight)^2} = rac{rac{1}{2}}{rac{1}{4}} = rac{1}{2} \cdot 4 = 2
 \end{equation*}$$

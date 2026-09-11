@@ -1,4 +1,4 @@
-# 🚗 Apunte Académico: Cinemática - Velocidad, Rapidez y Aceleración
+# 🚗 Cinemática - Velocidad, Rapidez y Aceleración
 
 Este documento detalla los conceptos fundamentales de la cinemática física en comparación con el sentido cotidiano, abarcando las diferencias entre rapidez y velocidad, velocidad media e instantánea, y el cálculo de la aceleración a partir de tablas de posición y tiempo.
 

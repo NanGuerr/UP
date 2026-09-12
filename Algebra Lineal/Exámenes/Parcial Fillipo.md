@@ -99,7 +99,10 @@ $$\vec{p} \cdot \vec{q} = (1)(0) + (1)(0) + (3)(3) = 0 + 0 + 9 = 9$$
 
 2. **Producto vectorial $\vec{p} \times \vec{q}$:**
 
-$$\vec{p} \times \vec{q} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 1 & 1 & 3 \\ 0 & 0 & 3 \end{vmatrix} = \mathbf{i}(3 - 0) - \mathbf{j}(3 - 0) + \mathbf{k}(0 - 0) = (3, -3, 0)$$
+$$\vec{p} \times \vec{q} = 
+\begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 
+1 & 1 & 3 \\ 
+0 & 0 & 3 \end{vmatrix} = \mathbf{i}(3 - 0) - \mathbf{j}(3 - 0) + \mathbf{k}(0 - 0) = (3, -3, 0)$$
 
 
 

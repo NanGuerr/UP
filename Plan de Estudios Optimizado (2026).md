@@ -50,12 +50,12 @@
 
 ### 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028 🩵
 
-1. 📊 `(025920)` Modelos y Simulación (Electiva Probabilidad y Estadística) **ELECTIVA**
+1. 📊 `(025920)` Diseños y Simulación de Antenas **ELECTIVA**
 2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
 3. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
 4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción de Ondas y Sist. de Comu. Digitales y Analógicos)
 5. 📋 `(027515)` **Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)**
-6. 🔄 `(027130)` Sensores y Acond. de Señal (Circuitos Electrónicos) **ELECTIVA**
+6. 🔄 `(027130)` Seguridad Ofensiva **ELECTIVA**
    
 ### ☀️ Verano — Enero - Febrero 2029 🩵
 
@@ -66,9 +66,9 @@
 1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
 3. 🖧  `(026214)` Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
-4. 🖥️ `(025418)` Sistemas Operativos (Arquitectura de Computadores)  **ELECTIVA**
+4. 🖥️ `(025418)` Ingeniería Reversa  **ELECTIVA**
 5. 📜 `(027513)` **Trabajo Final de Grado** (Formulación de Proyectos y autorización del Director de Departamento) ❓
-6. ☁️ `(027221)` DevOps (**ELECTIVA**) 
+6. ☁️ `(027221)` Computación Cuántica (**ELECTIVA**) 
 
 ### 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029 🧡
 

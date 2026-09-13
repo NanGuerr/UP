@@ -30,7 +30,7 @@ La varianza de una combinación lineal de variables aleatorias independientes $w
 $$\text{Var}(w) = a^2 \cdot \text{Var}(x) + b^2 \cdot \text{Var}(y)$$
 
 
-*(Nota: Las constantes sumadas, como el $+7$, no afectan la dispersión/varianza).*
+*(Nota: Las constantes sumadas, como el $+7$ , no afectan la dispersión/varianza).*
 3. **Sustituir los valores correspondientes ($a = 1$ y $b = -3$):**
 
 $$\sigma^2(w) = (1)^2 \cdot 64 + (-3)^2 \cdot 4$$
@@ -276,13 +276,13 @@ Determinar la media y el desvío estándar (DE) del costo total de administrar e
 3. **Calcular los parámetros para el costo total de los 22 aspirantes ($W = \sum_{i=1}^{22} C_i$):**
    Asumiendo que las evaluaciones de los aspirantes son independientes:
    - **Media del costo total ($n = 22$):**
-     $$\mu(W) = 22 \cdot \mu(C_i) = 22 \cdot 15500 = \$341000$$
+     $$\mu(W) = 22 \cdot \mu\left(C_i\right) = 22 \cdot 15500 = 341000$$
      *(Esto valida la opción A)*
    - **Varianza del costo total:**
-     $$V(W) = 22 \cdot V(C_i) = 22 \cdot 20250000 = 445500000$$
+     $$\text{Var}(W) = 22 \cdot \text{Var}\left(C_i\right) = 22 \cdot 20250000 = 445500000$$
    - **Desvío estándar del costo total:**
-     $$\sigma(W) = \sqrt{445500000} \approx 21106,8714 \approx \$21106,87$$
+     $$\sigma(W) = \sqrt{445500000} \approx 21106,8714 \approx 21106,87$$
      *(Esto valida la opción E)*
 
 4. **Conclusión de opciones correctas:**
-   Las opciones correctas son la **A** (Media: $\$341000$) y la **E** (DE: $21106,87$).
+   Las opciones correctas son la **A** (Media: $341000$) y la **E** (DE: $21106,87$).

@@ -30,7 +30,7 @@ La varianza de una combinación lineal de variables aleatorias independientes $w
 $$\text{Var}(w) = a^2 \cdot \text{Var}(x) + b^2 \cdot \text{Var}(y)$$
 
 
-*(Nota: Las constantes sumadas, como el $+7$ , no afectan la dispersión/varianza).*
+(Nota: Las constantes sumadas, como el $+7$ , no afectan la dispersión/varianza).
 3. **Sustituir los valores correspondientes ($a = 1$ y $b = -3$):**
 
 $$\sigma^2(w) = (1)^2 \cdot 64 + (-3)^2 \cdot 4$$
@@ -42,7 +42,7 @@ $$\sigma^2(w) = 1 \cdot 64 + 9 \cdot 4$$
 $$\sigma^2(w) = 64 + 36 = 100$$
 
 
-4. **Calcular la desviación estándar ($\sigma(w)$):**
+4. **Calcular la desviación estándar** $\sigma(w)$
 La desviación estándar es la raíz cuadrada de la varianza:
 
 $$\sigma(w) = \sqrt{100} = 10$$

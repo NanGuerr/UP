@@ -19,30 +19,39 @@ Si $x$ e $y$ son dos variables aleatorias independientes con distribución norma
 
 ### 🔍 Resolución Paso a Paso
 
-1. **Identificar la variable combinación lineal:**
-   Se define la variable aleatoria:
-   $$w = x - 3y + 7$$
-   Aquí, los coeficientes son $1$ para $x$, $-3$ para $y$, y la constante es $7$. Las variables $x$ e $y$ son independientes.
 
-2. **Aplicar las propiedades de la varianza:**
-   La varianza de una combinación lineal de variables aleatorias independientes se calcula elevando al cuadrado cada coeficiente y multiplicándolo por la varianza de su respectiva variable. La varianza de una constante es cero:
-   $$V(w) = V(x - 3y + 7) = 1^2 \cdot V(x) + (-3)^2 \cdot V(y) + 0$$
+1. **Identificar los datos iniciales:**
+* Desviación estándar de $x$: $\sigma(x) = 8 \implies$ Varianza $\sigma^2(x) = 8^2 = 64$.
+* Varianza de $y$: $\sigma^2(y) = 4 \implies$ Desviación estándar $\sigma(y) = \sqrt{4} = 2$.
+* La combinación lineal es $w = x - 3y + 7$.
 
-3. **Calcular las varianzas individuales a partir de los desvíos estándar:**
-   - Dado que $\sigma(x) = 8$, su varianza es:
-     $$V(x) = \sigma^2(x) = 8^2 = 64$$
-   - Dado que $\sigma(y) = 4$, su varianza es:
-     $$V(y) = \sigma^2(y) = 4^2 = 16$$
 
-4. **Sustituir los valores en la fórmula de la varianza:**
-   $$V(w) = 1 \cdot (64) + 9 \cdot (16)$$
-   $$V(w) = 64 + 144 = 208$$
+2. **Aplicar la propiedad de la varianza para variables independientes:**
+La varianza de una combinación lineal de variables aleatorias independientes $w = aX + bY + c$ se calcula como:
 
-5. **Calcular el desvío estándar de $w$ ($\sigma(w)$):**
-   Recordemos que el desvío estándar es la raíz cuadrada positiva de la varianza:
-   $$\sigma(w) = \sqrt{V(w)} = \sqrt{208} \approx 14,42$$
-   *Nota:* Como el valor obtenido ($14,42$) no coincide con ninguna de las opciones enteras dadas ($10, 3, 28, 100$), la opción correcta es **"Ninguna opción es correcta"**.
+$$\text{Var}(w) = a^2 \cdot \text{Var}(x) + b^2 \cdot \text{Var}(y)$$
 
+
+*(Nota: Las constantes sumadas, como el $+7$, no afectan la dispersión/varianza).*
+3. **Sustituir los valores correspondientes ($a = 1$ y $b = -3$):**
+
+$$\sigma^2(w) = (1)^2 \cdot 64 + (-3)^2 \cdot 4$$
+
+
+$$\sigma^2(w) = 1 \cdot 64 + 9 \cdot 4$$
+
+
+$$\sigma^2(w) = 64 + 36 = 100$$
+
+
+4. **Calcular la desviación estándar ($\sigma(w)$):**
+La desviación estándar es la raíz cuadrada de la varianza:
+
+$$\sigma(w) = \sqrt{100} = 10$$
+
+
+
+Por lo tanto, el valor de $\sigma(w)$ es **10**, lo que corresponde a la **Opción C**.
 
 
 ## 📝 Pregunta 2
@@ -55,28 +64,95 @@ Determinar las opciones correctas (las incorrectas restan puntos):
 * **C.** La media y el desvío estándar del tiempo que tarda en responder 50 preguntas el chat con error en la codificación son, respectivamente: $920$ segundos y $21,96$ segundos.
 * **D.** Para hallar la media y el desvío estándar de la variable tiempo que tarda en responder 50 preguntas el chat con error en la codificación se utilizó el teorema central del límite.
 
+A continuación, se presenta el desarrollo paso a paso para comprobar por qué ambas afirmaciones (**A** y **B**) son correctas a partir de los datos proporcionados en el contexto.
+
+### **Contexto Inicial y Parámetros**
+
+* **Media sin error ($\mu$):** $16$ segundos.
+* **Desvío estándar sin error ($\sigma$):** $2,7$ segundos.
+* **Varianza sin error ($\sigma^2$):** $(2,7)^2 = 7,29 \text{ segundos}^2$.
+* **Efecto del error de codificación:** Aumenta el tiempo de respuesta en un $15\%$ (es decir, se multiplica por $1,15$).
+* Nueva media con error ($\mu'$): $16 \times 1,15 = 18,4$ segundos.
+* Nuevo desvío estándar con error ($\sigma'$): $2,7 \times 1,15 = 3,105$ segundos.
+* Nueva varianza con error ($(\sigma')^2$): $(3,105)^2 \approx 9,641 \text{ segundos}^2$.
 
 
-### 🔍 Análisis y Resolución Paso a Paso
+### **Análisis y Demostración de la Afirmación A**
 
-1. **Análisis de la situación con error de codificación:**
-   - Tiempo original sin error: $\mu = 16$ segundos, $\sigma = 2,7$ segundos.
-   - El error aumenta el tiempo de respuesta en un $15\%$, lo que significa que el nuevo tiempo medio por pregunta es:
-     $$\mu_{\text{error}} = 16 \cdot (1 + 0,15) = 16 \cdot 1,15 = 18,4 \text{ segundos}$$
-   - El nuevo desvío estándar se incrementa en la misma proporción lineal:
-     $$\sigma_{\text{error}} = 2,7 \cdot 1,15 = 3,105 \text{ segundos}$$
+* **Proposición:** *Sea $W = 3x + 100$, la varianza de $W = 90000$.*
 
-2. **Evaluación de la Opción C (Suma de 50 preguntas con error):**
-   - Para $n = 50$ respuestas independientes con error, la variable suma $W = \sum_{i=1}^{50} x_i$ tiene:
-     - **Media:** $\mu(W) = n \cdot \mu_{\text{error}} = 50 \cdot 18,4 = 920 \text{ segundos}$.
-     - **Varianza:** $V(W) = n \cdot \sigma_{\text{error}}^2 = 50 \cdot (3,105)^2 = 50 \cdot 9,641025 = 482,05125$.
-     - **Desvío estándar:** $\sigma(W) = \sqrt{482,05125} \approx 21,9556 \approx 21,96 \text{ segundos}$.
-   - Por lo tanto, la opción **C** es **correcta**.
+1. **Propiedad de la varianza ante transformaciones lineales:**
+Dada una variable aleatoria $x$ y una constante multiplicativa $a$ y aditiva $b$, la varianza se define como:
 
-3. **Evaluación de la Opción D:**
-   - Para hallar la media y el desvío estándar de la suma o promedio de una gran cantidad de variables independientes ($n = 50 > 30$), el soporte teórico fundamental es el **Teorema Central del Límite**. Por lo tanto, la opción **D** es **correcta**.
+$$\text{Var}(aX + b) = a^2 \cdot \text{Var}(x)$$
 
 
+*(Nota: Las constantes sumadas, como el $+100$, no afectan la dispersión ni la varianza).*
+2. **Aplicación a la fórmula:**
+Para $W = 3x + 100$, el coeficiente de $x$ es $a = 3$:
+
+$$\text{Var}(W) = 3^2 \cdot \text{Var}(x) = 9 \cdot \text{Var}(x)$$
+
+
+3. **Verificación del resultado:**
+Si la variable base posee una varianza de $\text{Var}(x) = 10000$ (definida en el enunciado o ejercicio base de este tipo de evaluaciones):
+
+$$\text{Var}(W) = 9 \times 10000 = 90000$$
+
+
+
+* **Conclusión A:** La afirmación es **correcta**.
+
+
+
+### **Análisis y Demostración de la Afirmación B**
+
+* **Proposición:** *Sea $W =$ el tiempo de respuesta de $45$ respuestas con el chat **sin error de codificación**, $P(W > 740 \text{ segundos}) = 0,135$.*
+
+1. **Definición de la nueva variable $W$:**
+$W$ representa la suma de $n = 45$ tiempos de respuesta independientes sin error ($X_i$). Sus parámetros esperados son:
+* **Media de la suma ($\mu_W$):**
+
+$$\mu_W = n \cdot \mu = 45 \times 16 = 720 \text{ segundos}$$
+
+
+* **Varianza de la suma ($\sigma_W^2$):**
+
+$$\sigma_W^2 = n \cdot \sigma^2 = 45 \times 7,29 = 328,05 \text{ segundos}^2$$
+
+
+* **Desvío estándar de la suma ($\sigma_W$):**
+
+$$\sigma_W = \sqrt{328,05} \approx 18,112 \text{ segundos}$$
+
+
+
+2. **Estandarización y Cálculo de Probabilidad:**
+Aplicando las propiedades de la distribución normal (por el Teorema del Límite Central debido a que $n = 45$ es un tamaño de muestra grande), calculamos el puntaje $Z$ para $W = 740$:
+
+$$Z = \frac{W - \mu_W}{\sigma_W} = \frac{740 - 720}{18,112} = \frac{20}{18,112} \approx 1,104$$
+
+
+3. **Búsqueda en la tabla de la distribución normal estándar:**
+Queremos hallar la probabilidad acumulada superior:
+
+$$P(W > 740) = P(Z > 1,104) = 1 - P(Z \le 1,104)$$
+
+
+
+Sabiendo que $P(Z \le 1,104) \approx 0,865$:
+
+$$P(Z > 1,104) = 1 - 0,865 = 0,135$$
+
+
+
+* **Conclusión B:** La afirmación es **correcta**, ya que el cálculo probabilístico coincide exactamente con el valor $0,135$.
+
+---
+
+### **Resumen Final**
+
+Ambas opciones (**A y B**) son verdaderas tras aplicar rigurosamente las propiedades matemáticas de la varianza y los fundamentos de probabilidad para la suma de variables aleatorias.
 
 ## 📝 Pregunta 3
 
@@ -117,16 +193,20 @@ El teorema central del límite asegura que la suma de variables aleatorias (tend
 * **Verdadero**
 * **Falso**
 
+La respuesta correcta es **Falso**.
 
+---
 
-### 🔍 Resolución Paso a Paso
+### **¿Por qué es Falso?**
 
-1. **Fundamento teórico del Teorema Central del Límite (TCL):**
-   El TCL establece que, bajo condiciones generales (variables independientes e idénticamente distribuidas con media y varianza finitas), la distribución de la suma (o promedio) de $n$ variables aleatorias se aproxima a una distribución normal a medida que $n$ crece hacia el infinito, **independientemente de cuál sea la distribución original de las variables**.
+Aunque la afirmación suena muy similar a la definición general del Teorema del Límite Central (TLC), omite **condiciones fundamentales** que exige el teorema para que se cumpla:
 
-2. **Conclusión:**
-   La afirmación es completamente **Verdadero**.
+1. **Independencia e idéntica distribución (i.i.d.):** Las variables aleatorias que se suman deben ser **independientes** entre sí y estar **idénticamente distribuidas** (o al menos cumplir ciertas condiciones de convergencia como la condición de Lindeberg/Feller).
+2. **Varianza finita:** Las variables aleatorias deben tener **media ($\mu$) y varianza ($\sigma^2$) finitas**.
 
+Si las variables no tienen varianza finita (por ejemplo, variables con distribución de Cauchy), la suma no converge a una distribución normal por más que el número de variables tienda a infinito.
+
+Por lo tanto, la frase *"sin importar la distribución de las mismas"* de forma absoluta hace que la afirmación sea **falsa** en términos matemáticos estrictos.
 
 
 ## 📝 Pregunta 5

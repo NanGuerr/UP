@@ -1,8 +1,6 @@
-# 📚 Paso a Paso Resolutivo: Autoevaluación - Propiedades de la Media y la Varianza. Teorema Central del Límite
+# 📚 Media y la Varianza. Teorema Central del Límite
 
-Este documento presenta la resolución detallada, paso a paso, de cada uno de los ejercicios de la **Autoevaluación sobre Propiedades de la Media y la Varianza, y el Teorema Central del Límite**. Las expresiones matemáticas han sido rigurosamente formateadas utilizando código LaTeX estándar (empleando correctamente comandos como `\frac`, delimitadores simétricos como `\left` y `\right`, y sin incluir referencias ni citas bibliográficas).
-
-
+Este documento presenta la resolución detallada, paso a paso, de cada uno de los ejercicios de la **Autoevaluación sobre Propiedades de la Media y la Varianza, y el Teorema Central del Límite**. 
 
 ## 📝 Pregunta 1
 
@@ -79,7 +77,7 @@ A continuación, se presenta el desarrollo paso a paso para comprobar por qué a
 
 ### **Análisis y Demostración de la Afirmación A**
 
-* **Proposición:** *Sea $W = 3x + 100$, la varianza de $W = 90000$.*
+* **Proposición:** Sea $W = 3x + 100$, la varianza de $W = 90000$.
 
 1. **Propiedad de la varianza ante transformaciones lineales:**
 Dada una variable aleatoria $x$ y una constante multiplicativa $a$ y aditiva $b$, la varianza se define como:
@@ -107,7 +105,7 @@ $$\text{Var}(W) = 9 \times 10000 = 90000$$
 
 ### **Análisis y Demostración de la Afirmación B**
 
-* **Proposición:** *Sea $W =$ el tiempo de respuesta de $45$ respuestas con el chat **sin error de codificación**, $P(W > 740 \text{ segundos}) = 0,135$.*
+* **Proposición:** Sea $W =$ el tiempo de respuesta de $45$ respuestas con el chat **sin error de codificación**, $P(W > 740 \text{ segundos}) = 0,135$.
 
 1. **Definición de la nueva variable $W$:**
 $W$ representa la suma de $n = 45$ tiempos de respuesta independientes sin error ($X_i$). Sus parámetros esperados son:
@@ -244,14 +242,14 @@ Sean $x_1, \dots, x_n$ variables aleatorias independientes con idéntica distrib
 
 ### Enunciado
 A los aspirantes para ingresar en una empresa de informática se les toma un test para determinar la diferencia entre la edad biológica y la edad mental. 
-- Costo fijo de administrar el test: $\$2000$ por aspirante.
-- Costo del evaluador: $\$18000$ la hora ($\$300$ por minuto).
+- Costo fijo de administrar el test: $2000$ por aspirante.
+- Costo del evaluador: $18000$ la hora ( $300$ por minuto).
 - El tiempo de evaluación de cada aspirante tiene distribución normal con media $\mu = 45$ minutos y desvío estándar $\sigma = 15$ minutos.
 Determinar la media y el desvío estándar (DE) del costo total de administrar el test a los 22 aspirantes que tiene la empresa (el test se toma en forma individual):
-* **A.** Media: $\$341000$
-* **B.** DE: $\$99000$
+* **A.** Media: $341000$
+* **B.** DE: $99000$
 * **C.** DE: $211068,71$
-* **D.** Media: $\$17864000$
+* **D.** Media: $17864000$
 * **E.** DE: $21106,87$
 
 
@@ -262,17 +260,18 @@ Determinar la media y el desvío estándar (DE) del costo total de administrar e
    - Sea $t_i$ el tiempo que dura la evaluación del aspirante $i$ (en minutos).
    - El costo por cada aspirante es la suma del costo fijo más el costo variable dependiente del tiempo:
      $$C_i = 2000 + 300 \cdot t_i$$
-     *(Nota: $\$18000 \text{ la hora} = \frac{18000}{60} = \$300 \text{ por minuto}$)*
+     
+     (Nota: $\frac{18000}{60} = 300 \text{ por minuto}$)
 
 2. **Calcular la media y varianza del costo de un aspirante individual:**
    - **Media del costo por aspirante:**
-     $$\mu(C_i) = 2000 + 300 \cdot \mu(t_i) = 2000 + 300 \cdot 45 = 2000 + 13500 = \$15500$$
+     $$\mu\left(C_i\right) = 2000 + 300 \cdot \mu\left(t_i\right) = 2000 + 300 \cdot 45 = 2000 + 13500 = 15500$$
    - **Varianza del costo por aspirante:**
      $$V(C_i) = V(2000 + 300 \cdot t_i) = 0 + 300^2 \cdot V(t_i) = 90000 \cdot 15^2$$
      Sabemos que $\sigma(t_i) = 15 \implies \sigma^2(t_i) = 225$.
      $$V(C_i) = 90000 \cdot 225 = 20250000$$
    - **Desvío estándar del costo por aspirante:**
-     $$\sigma(C_i) = \sqrt{20250000} = \$4500$$
+     $$\sigma(C_i) = \sqrt{20250000} = 4500$$
 
 3. **Calcular los parámetros para el costo total de los 22 aspirantes ($W = \sum_{i=1}^{22} C_i$):**
    Asumiendo que las evaluaciones de los aspirantes son independientes:

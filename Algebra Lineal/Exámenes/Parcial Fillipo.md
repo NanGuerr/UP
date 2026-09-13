@@ -50,7 +50,10 @@ $$\vec{v} = C - A = (0 - (-1), 0 - 3, 3 - 2) = (1, -3, 1)$$
 
 3. Calculamos el vector normal $\vec{n}$ del plano mediante el producto vectorial $\vec{u} \times \vec{v}$:
 
-$$\vec{n} = \vec{u} \times \vec{v} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 7 & -2 & -2 \\ 1 & -3 & 1 \end{vmatrix}$$
+$$\vec{n} = \vec{u} \times \vec{v} = 
+\begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 
+7 & -2 & -2 \\ 
+1 & -3 & 1 \end{vmatrix}$$
 
 
 $$\vec{n} = \mathbf{i}((-2)(1) - (-2)(-3)) - \mathbf{j}((7)(1) - (-2)(1)) + \mathbf{k}((7)(-3) - (-2)(1))$$
@@ -238,7 +241,17 @@ $$\begin{cases} 2x_1 - 2x_2 - 2x_3 = 0 \\ x_1 + 2x_2 + 2x_3 = 0 \end{cases}$$
 
 1. Restamos la segunda ecuación multiplicada por 2 a la primera, o resolvemos por matriz aumentada:
 
-$$\begin{pmatrix} 2 & -2 & -2 \\ 1 & 2 & 2 \end{pmatrix} \sim \begin{pmatrix} 1 & -1 & -1 \\ 1 & 2 & 2 \end{pmatrix} \sim \begin{pmatrix} 1 & -1 & -1 \\ 0 & 3 & 3 \end{pmatrix} \sim \begin{pmatrix} 1 & -1 & -1 \\ 0 & 1 & 1 \end{pmatrix} \sim \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 1 \end{pmatrix}$$
+$$\begin{pmatrix} 
+2 & -2 & -2 \\ 
+1 & 2 & 2 \end{pmatrix} 
+\sim \begin{pmatrix} 
+1 & -1 & -1 \\ 
+1 & 2 & 2 \end{pmatrix} 
+\sim \begin{pmatrix} 1 & -1 & -1 \\ 
+0 & 3 & 3 \end{pmatrix} \sim \begin{pmatrix} 1 & -1 & -1 \\ 
+0 & 1 & 1 \end{pmatrix} 
+\sim \begin{pmatrix} 1 & 0 & 0 \\ 
+0 & 1 & 1 \end{pmatrix}$$
 
 
 2. De la matriz reducida obtenemos:
@@ -270,7 +283,10 @@ Encuentre la representación matricial de las transformaciones lineales dadas y 
 
 * Matriz asociada $A$:
 
-$$A = \begin{pmatrix} 1 & 3 \\ 1 & -3 \\ 1 & 1 \end{pmatrix}$$
+$$A = \begin{pmatrix}
+1 & 3 \\ 
+1 & -3 \\ 
+1 & 1 \end{pmatrix}$$
 
 
 * **Núcleo ($\text{ker}(T)$):** Resolvemos $A \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \implies x = 0, y = 0$. Núcleo = $\{(0, 0)\}$, Nulidad = $0$.
@@ -290,7 +306,10 @@ Determine si el conjunto dado de vectores es linealmente dependiente o independi
 
 1. Para el conjunto en $\mathbb{R}^3$, formamos la matriz con los vectores como filas o columnas y calculamos su determinante:
 
-$$\begin{vmatrix} 1 & 0 & 1 \\ 2 & 0 & 2 \\ 1 & 2 & 2 \end{vmatrix}$$
+$$\begin{vmatrix} 
+1 & 0 & 1 \\ 
+2 & 0 & 2 \\ 
+1 & 2 & 2 \end{vmatrix}$$
 
 
 
@@ -305,13 +324,17 @@ Como la primera y segunda fila son proporcionales (la segunda es el doble de la 
 Calcule los autovalores y los autovectores de la siguiente matriz:
 
 
-$$A = \begin{pmatrix} 0 & 2 \\ 2 & 0 \end{pmatrix}$$
+$$A = \begin{pmatrix} 
+0 & 2 \\ 
+2 & 0 \end{pmatrix}$$
 
 **🔍 Análisis y Procedimiento:**
 
 1. Planteamos el polinomio característico $\det(A - \lambda I) = 0$:
 
-$$\begin{vmatrix} -\lambda & 2 \\ 2 & -\lambda \end{vmatrix} = (-\lambda)(-\lambda) - (2)(2) = \lambda^2 - 4 = 0$$
+$$\begin{vmatrix} 
+-\lambda & 2 \\ 
+2 & -\lambda \end{vmatrix} = (-\lambda)(-\lambda) - (2)(2) = \lambda^2 - 4 = 0$$
 
 
 $$\lambda^2 = 4 \implies \lambda_1 = 2, \lambda_2 = -2$$
@@ -320,14 +343,29 @@ $$\lambda^2 = 4 \implies \lambda_1 = 2, \lambda_2 = -2$$
 2. **Cálculo de Autovectores:**
 * Para $\lambda_1 = 2$:
 
-$$\begin{pmatrix} -2 & 2 \\ 2 & -2 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies -2x + 2y = 0 \implies x = y$$
+$$\begin{pmatrix} 
+-2 & 2 \\ 
+2 & -2 \end{pmatrix} 
+\begin{pmatrix} 
+x \\ 
+y \end{pmatrix} = 
+\begin{pmatrix} 
+0 \\ 
+0 \end{pmatrix} \implies -2x + 2y = 0 \implies x = y$$
 
 
 
 Autovector asociado: $\vec{v}_1 = (1, 1)$.
 * Para $\lambda_2 = -2$:
 
-$$\begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies 2x + 2y = 0 \implies x = -y$$
+$$\begin{pmatrix} 
+2 & 2 \\ 
+2 & 2 \end{pmatrix} 
+\begin{pmatrix}
+x \\ 
+y \end{pmatrix} = \begin{pmatrix} 
+0 \\ 
+0 \end{pmatrix} \implies 2x + 2y = 0 \implies x = -y$$
 
 
 
@@ -345,7 +383,13 @@ Determine si la transformación dada es lineal:
 
 $$T: \mathbb{R}^3 \to \mathbb{R}^3$$
 
-$$T\left(\begin{pmatrix} x \\ y \\ z \end{pmatrix}\right) = \begin{pmatrix} x - y - z \\ -x - y - z \\ z & x & y \end{pmatrix} \quad (\text{representación matricial})$$
+$$T\left(\begin{pmatrix} 
+x \\ 
+y \\ 
+z \end{pmatrix}\right) = \begin{pmatrix} 
+x - y - z \\ 
+-x - y - z \\ 
+z & x & y \end{pmatrix} \quad (\text{representación matricial})$$
 
 **🔍 Análisis y Procedimiento:**
 

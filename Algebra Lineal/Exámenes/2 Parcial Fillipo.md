@@ -60,7 +60,15 @@ $$A = \begin{pmatrix}
 1 & 1 \end{pmatrix}$$
 
 
-* **Núcleo ($\text{ker}(T)$):** Resolvemos $A \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \implies x = 0, y = 0$. Núcleo = $\{(0, 0)\}$, Nulidad = $0$.
+* **Núcleo ($\text{ker}(T)$):** Resolvemos
+$A \begin{pmatrix}
+x \\
+y \end{pmatrix} = \begin{pmatrix}
+0 \\
+0 \\
+0 \end{pmatrix} \implies x = 0, y = 0$.
+Núcleo = $\{(0, 0)\}$, Nulidad = $0$.
+  
 * **Imagen e Identificación de Rango:** Por el teorema de la dimensión, $\text{Rango} = \text{Dim}(\mathbb{R}^2) - \text{Nulidad} = 2 - 0 = 2$. Los vectores columna generan la imagen, abarcando los puntos indicados.
 
 

@@ -29,9 +29,9 @@ tiende asintóticamente a una distribución normal estándar a medida que $n$ ti
 
 A continuación, se presentan ejemplos gráficos que muestran cómo diversas distribuciones convergen hacia la forma acampanada de la distribución normal al incrementar el tamaño muestral o el parámetro de agregación:
 
-* **Distribución Binomial ($X \sim \text{Bin}(n, p)$):** A medida que aumenta $n$ (por ejemplo, de $n = 5$ a $n = 50$), la asimetría se reduce y el histograma adquiere una forma simétrica normal.
-* **Distribución de Poisson ($X \sim \text{Pois}(\lambda)$):** Conforme el parámetro $\lambda$ crece (de $\lambda = 1$ a $\lambda = 10$), la distribución discreta de Poisson se aproxima suavemente a una curva normal continua.
-* **Distribución Chi-Cuadrado ($X \sim \text{ChiSq}(\nu)$):** Al aumentar los grados de libertad $\nu$ (desde $\nu = 2$ hasta $\nu = 40$), la distribución sesgada hacia la derecha se transforma en una campana simétrica.
+* **Distribución Binomial ( $X \sim \text{Bin}(n, p)$ ):** A medida que aumenta $n$ (por ejemplo, de $n = 5$ a $n = 50$), la asimetría se reduce y el histograma adquiere una forma simétrica normal.
+* **Distribución de Poisson ( $X \sim \text{Pois}(\lambda)$ ):** Conforme el parámetro $\lambda$ crece (de $\lambda = 1$ a $\lambda = 10$), la distribución discreta de Poisson se aproxima suavemente a una curva normal continua.
+* **Distribución Chi-Cuadrado ( $X \sim \text{ChiSq}(\nu)$ ):** Al aumentar los grados de libertad $\nu$ (desde $\nu = 2$ hasta $\nu = 40$), la distribución sesgada hacia la derecha se transforma en una campana simétrica.
 
 
 

@@ -1,4 +1,4 @@
-# 📈 Aplicación del Teorema Central del Límite en Tráfico de Datos
+# 📈 Aplicación del Teorema Central del Límite
 
 **Docente:** Beatriz Fuertes (Universidad de Palermo) 🎓  
 **Materia:** Estadística / Probabilidad  

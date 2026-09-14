@@ -1,6 +1,6 @@
 # 📚 Guía Resolutiva para el Primer Examen Parcial
 
-Este documento presenta la resolución completa, detallada y descriptiva de la guía de **Ejercicios Prácticos de Repaso para el Primer Examen Parcial** (Universidad de Palermo). Todas las expresiones y fórmulas matemáticas han sido rigurosamente formateadas utilizando código LaTeX estándar, aplicando adecuadamente comandos como `\frac{...}{...}`, `\text{...}` para unidades/moneda en entornos matemáticos, operadores tipográficos estándar (`\cdot` o `\times`), delimitadores simétricos `\left` y `\right`, y eliminando cualquier símbolo `$` internamente en los bloques para asegurar una renderización limpia.
+Este documento presenta la resolución completa, detallada y descriptiva de la guía de **Ejercicios Prácticos de Repaso para el Primer Examen Parcial**.
 
 
 
@@ -226,12 +226,16 @@ Un servidor web recibe en promedio $\lambda = 12 \text{ peticiones por minuto}$.
 ✅ **Resultado:** **$0{,}409$** (o **$40{,}9\%$**).
 
 
-
 ## 🚨 Ejercicio 6: Aplicación Integral (Normal, TCL, Binomial y Poisson)
 
 ### 📝 Enunciado
+
 El costo de recuperación ante incidentes por evento individual ($X$) sigue una distribución normal:
-$$X \sim N(\mu = 12500 \text{ \$}, \sigma = 2000 \text{ \$})$$
+
+
+$$X \sim N(\mu = 12500 \text{ USD}, \sigma = 2000 \text{ USD})$$
+
+
 La empresa enfrentó $n = 120$ eventos durante el año.
 
 
@@ -239,73 +243,126 @@ La empresa enfrentó $n = 120$ eventos durante el año.
 ### 🔍 Resolución Paso a Paso
 
 #### **a) Media y desvío estándar del costo total anual ($W = \sum_{i=1}^{120} X_i$):**
+
 1. **Media del costo total ($\mu_W$):**
-   $$\mu_W = n \cdot \mu_X = 120 \times 12500 = 1500000 \text{ \$} \quad (1{,}5 \text{ millones})$$
+
+$$\mu_W = n \cdot \mu_X = 120 \times 12500 = 1500000 \text{ USD} \quad (1,5 \text{ millones})$$
+
+
 2. **Varianza del costo total ($\sigma_W^2$):**
-   $$\sigma_W^2 = n \cdot \sigma_X^2 = 120 \times 2000^2 = 120 \times 4000000 = 480000000 \text{ \$}^2$$
+
+$$\sigma_W^2 = n \cdot \sigma_X^2 = 120 \times 2000^2 = 120 \times 4000000 = 480000000 \text{ USD}^2$$
+
+
 3. **Desviación estándar del costo total ($\sigma_W$):**
-   $$\sigma_W = \sqrt{\sigma_W^2} = \sqrt{480000000} \approx 21908{,}90 \text{ \$}$$
 
-✅ **Resultado:** Media $\mu_W = 1500000 \text{ \$}$; Desvío $\sigma_W = 21908{,}90 \text{ \$}$.
-
+$$\sigma_W = \sqrt{\sigma_W^2} = \sqrt{480000000} \approx 21908,90 \text{ USD}$$
 
 
-#### **b) Probabilidad de que el costo total anual esté entre $1480000 \text{ \$}$ y $1550000 \text{ \$}$:**
-Dado que $W \sim N(\mu_W = 1500000, \sigma_W = 21908{,}90)$:
+
+✅ **Resultado:** Media $\mu_W = 1500000 \text{ USD}$; Desvío $\sigma_W = 21908,90 \text{ USD}$.
+
+
+
+#### **b) Probabilidad de que el costo total anual esté entre 1480000 USD y 1550000 USD:**
+
+Dado que $W \sim N(\mu_W = 1500000, \sigma_W = 21908,90)$:
 
 1. **Estandarizar ambos límites:**
-   $$Z_1 = \frac{1480000 - 1500000}{21908{,}90} = \frac{-20000}{21908{,}90} \approx -0{,}9128 \approx -0{,}91$$
-   $$Z_2 = \frac{1550000 - 1500000}{21908{,}90} = \frac{50000}{21908{,}90} \approx 2{,}2821 \approx 2{,}28$$
+
+$$Z_1 = \frac{1480000 - 1500000}{21908,90} = \frac{-20000}{21908,90} \approx -0,9128 \approx -0,91$$
+
+
+$$Z_2 = \frac{1550000 - 1500000}{21908,90} = \frac{50000}{21908,90} \approx 2,2821 \approx 2,28$$
+
 
 2. **Calcular la probabilidad:**
-   $$P(1480000 < W < 1550000) = P(-0{,}91 < Z < 2{,}28)$$
-   $$P(Z < 2{,}28) - P(Z < -0{,}91) = 0{,}9887 - 0{,}1814 = 0{,}8073 \approx 0{,}8081$$
 
-✅ **Resultado:** **$0{,}8081$** (o **$80{,}81\%$**).
+$$P(1480000 < W < 1550000) = P(-0,91 < Z < 2,28)$$
 
 
+$$P(Z < 2,28) - P(Z < -0,91) = 0,9887 - 0,1814 = 0,8073 \approx 0,8081$$
 
-#### **c) Para un incidente al azar, probabilidad de que el costo sea superior a $13600 \text{ \$}$:**
+
+
+✅ **Resultado:** **$0,8081$** (o **$80,81\%$**).
+
+
+
+#### **c) Para un incidente al azar, probabilidad de que el costo sea superior a 13600 USD:**
+
 1. **Estandarizar para una variable individual $X$:**
-   $$Z = \frac{13600 - 12500}{2000} = \frac{1100}{2000} = 0{,}55$$
+
+$$Z = \frac{13600 - 12500}{2000} = \frac{1100}{2000} = 0,55$$
+
+
 2. **Calcular la probabilidad acumulada superior:**
-   $$P(X > 13600) = P(Z > 0{,}55) = 1 - P(Z \le 0{,}55) = 1 - 0{,}7088 = 0{,}2912$$
 
-✅ **Resultado:** **$0{,}2912$** (o **$29{,}12\%$**).
-
-
-
-#### **d) Muestra de 10 incidentes; probabilidad de que a lo sumo 3 tengan un costo inferior a $12000 \text{ \$}$:**
-1. **Calcular la probabilidad individual de que un incidente cueste menos de $12000 \text{ \$}$ ($p$):**
-   $$Z = \frac{12000 - 12500}{2000} = \frac{-500}{2000} = -0{,}25$$
-   $$p = P(X < 12000) = P(Z < -0{,}25) \approx 0{,}4013 \approx 0{,}401$$
-
-2. **Modelar como una distribución Binomial $Y \sim \text{Bin}(n = 10, p = 0{,}401)$:**
-   Queremos la probabilidad de que $Y \le 3$:
-   $$P(Y \le 3) = \sum_{k=0}^{3} \binom{10}{k} (0{,}401)^k (1 - 0{,}401)^{10-k}$$
-   Calculando cada término acumulado:
-   * $P(Y = 0) = (0{,}599)^{10} \approx 0{,}0060$
-   * $P(Y = 1) = 10 \cdot (0{,}401)^1 \cdot (0{,}599)^9 \approx 0{,}0403$
-   * $P(Y = 2) = 45 \cdot (0{,}401)^2 \cdot (0{,}599)^8 \approx 0{,}1215$
-   * $P(Y = 3) = 120 \cdot (0{,}401)^3 \cdot (0{,}599)^7 \approx 0{,}2169$
-   $$P(Y \le 3) = 0{,}0060 + 0{,}0403 + 0{,}1215 + 0{,}2169 = 0{,}3847 \approx 0{,}38$$
-
-✅ **Resultado:** **$0{,}38$** (o **$38\%$**).
+$$P(X > 13600) = P(Z > 0,55) = 1 - P(Z \le 0,55) = 1 - 0,7088 = 0,2912$$
 
 
 
-#### **e) Un sistema SIEM detecta promedio $0{,}25 \text{ eventos/minuto}$. Probabilidad de detectar entre 15 y 18 eventos (inclusive) en una hora:**
+✅ **Resultado:** **$0,2912$** (o **$29,12\%$**).
+
+
+
+#### **d) Muestra de 10 incidentes; probabilidad de que a lo sumo 3 tengan un costo inferior a 12000 USD:**
+
+1. **Calcular la probabilidad individual de que un incidente cueste menos de 12000 USD ($p$):**
+
+$$Z = \frac{12000 - 12500}{2000} = \frac{-500}{2000} = -0,25$$
+
+
+$$p = P(X < 12000) = P(Z < -0,25) \approx 0,4013 \approx 0,401$$
+
+
+2. **Modelar como una distribución Binomial $Y \sim \text{Bin}(n = 10, p = 0,401)$:**
+Queremos la probabilidad de que $Y \le 3$:
+
+$$P(Y \le 3) = \sum_{k=0}^{3} \binom{10}{k} (0,401)^k (1 - 0,401)^{10-k}$$
+
+
+
+Calculando cada término acumulado:
+* $P(Y = 0) = (0,599)^{10} \approx 0,0060$
+* $P(Y = 1) = 10 \cdot (0,401)^1 \cdot (0,599)^9 \approx 0,0403$
+* $P(Y = 2) = 45 \cdot (0,401)^2 \cdot (0,599)^8 \approx 0,1215$
+* $P(Y = 3) = 120 \cdot (0,401)^3 \cdot (0,599)^7 \approx 0,2169$
+
+$$P(Y \le 3) = 0,0060 + 0,0403 + 0,1215 + 0,2169 = 0,3847 \approx 0,38$$
+
+
+
+
+
+✅ **Resultado:** **$0,38$** (o **$38\%$**).
+
+
+#### **e) Un sistema SIEM detecta promedio $0,25 \text{ eventos/minuto}$. Probabilidad de detectar entre 15 y 18 eventos (inclusive) en una hora:**
+
 1. **Ajustar el parámetro $\lambda$ para el intervalo de $t = 1 \text{ hora} = 60 \text{ minutos}$:**
-   $$\lambda_{60} = 0{,}25 \times 60 = 15 \text{ eventos}$$
-   Sea $K \sim \text{Poisson}(\lambda = 15)$.
 
+$$\lambda_{60} = 0,25 \times 60 = 15 \text{ eventos}$$
+
+
+
+Sea $K \sim \text{Poisson}(\lambda = 15)$.
 2. **Calcular la probabilidad evaluada en el rango $[15, 18]$:**
-   $$P(15 \le K \le 18) = P(K = 15) + P(K = 16) + P(K = 17) + P(K = 18)$$
-   Aplicando la fórmula de Poisson $P(K = k) = \frac{e^{-\lambda} \cdot \lambda^k}{k!}$:
-   * $P(K = 15) = \frac{e^{-15} \cdot 15^{15}}{15!} \approx 0{,}1024$
-   * $P(K = 16) = \frac{e^{-15} \cdot 15^{16}}{16!} \approx 0{,}0960$
-   * $P(K = 17) = \frac{e^{-15} \cdot 15^{17}}{17!} \approx 0{,}0847$
-   * $P(K = 18) = \frac{e^{-15} \cdot 15^{18}}{18!} \approx 0{,}0706$
-   $$P(15 \le K \le 18) = 0{,}1024 + 0{,}0960 + 0{,}0847 + 0{,}0706 = 0{,}3537 \approx 0{,}3538$$
 
-✅ **Resultado:** **$0{,}3538$** (o **$35{,}38\%$**).
+$$P(15 \le K \le 18) = P(K = 15) + P(K = 16) + P(K = 17) + P(K = 18)$$
+
+
+
+Aplicando la fórmula de Poisson $P(K = k) = \frac{e^{-\lambda} \cdot \lambda^k}{k!}$:
+* $P(K = 15) = \frac{e^{-15} \cdot 15^{15}}{15!} \approx 0,1024$
+* $P(K = 16) = \frac{e^{-15} \cdot 15^{16}}{16!} \approx 0,0960$
+* $P(K = 17) = \frac{e^{-15} \cdot 15^{17}}{17!} \approx 0,0847$
+* $P(K = 18) = \frac{e^{-15} \cdot 15^{18}}{18!} \approx 0,0706$
+
+$$P(15 \le K \le 18) = 0,1024 + 0,0960 + 0,0847 + 0,0706 = 0,3537 \approx 0,3538$$
+
+
+
+
+
+✅ **Resultado:** **$0,3538$** (o **$35,38\%$**).

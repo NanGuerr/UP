@@ -1,4 +1,4 @@
-# 📐 Clase: Análisis Matemático III (Pizarrón 11-09-26)
+# 📐 Clase: Análisis Matemático III B
 
 
 

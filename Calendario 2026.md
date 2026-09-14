@@ -10,7 +10,8 @@
 | **16/09** | 08:00 | Primer Parcial | Algebra_Lineal |
 | **16/09** | 09:00 | ❗ **12/11 (1er)** | Analisis_Matematico_III_A |
 | **16/09** | 10:00 | Primer Parcial | Analisis_Matematico_III_B |
-| **16/09** | 12:00 | **Reunión** | Probabilidad_y_Estadistica |
+| **16/09** | 12:00 | Zoom 2 | Probabilidad_y_Estadistica |
+| **18/09** | 19:00 | Zoom 2 | Sistemas_Digitales_II |
 | **22/09** | 09:00 | Primer Parcial | Probabilidad_y_Estadistica |
 | **23/09** | 09:00 | Consigna de TP | Sistemas_Digitales_II |
 | **30/09** | 09:00 | Primer Parcial | Sistemas_Digitales_II |

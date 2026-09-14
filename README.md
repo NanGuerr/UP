@@ -102,6 +102,11 @@ Además de las materias troncales, el repositorio incluye apuntes sobre:
 
 
 ---
+<p align="center">
+    <a href="https://www.youtube.com/watch?v=0O1uk82fsSk" target="_blank">
+         <img src="https://img.youtube.com/vi/Nt68FPL8evk/0.jpg" alt="Miniatura del video" width="33%">
+    </a>
+</p>
 
-> [!NOTE]
+
 > *Este repositorio es una iniciativa estudiantil. Para información oficial sobre correlatividades y actas, consultar siempre al Departamento de Alumnos de la UP.*

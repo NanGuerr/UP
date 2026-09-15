@@ -2,7 +2,7 @@
 
 Esta guía resume las herramientas fundamentales para trabajar con **Series de Fourier, Taylor y Maclaurin**, enfocándose en la **linealización**, **descomposición** y **desplazamiento de centros**. 🚀
 
----
+
 
 ## 1. Identidades de Reducción de Potencia (Linealización) 📉
 Vitales para convertir potencias de $\sin$ o $\cos$ en términos lineales. Indispensables para integrar potencias pares en **Fourier** y simplificar derivadas en **Taylor**.
@@ -12,7 +12,7 @@ Vitales para convertir potencias de $\sin$ o $\cos$ en términos lineales. Indis
 * **Seno cubo:** 🟦 $\sin^3(x) = \frac{3 \sin x - \sin(3x)}{4}$
 * **Coseno cubo:** 🟥 $\cos^3(x) = \frac{3 \cos x + \cos(3x)}{4}$
 
----
+
 
 ## 2. Identidades de Producto a Suma (Ortogonalidad) 🎼
 Fundamentales para calcular los coeficientes de Fourier ($a_n$ y $b_n$). Estas identidades explican la **ortogonalidad** en intervalos simétricos. 🛠️
@@ -21,7 +21,7 @@ Fundamentales para calcular los coeficientes de Fourier ($a_n$ y $b_n$). Estas i
 * $\cos(mx)\cos(nx) = \frac{1}{2} [\cos((m+n)x) + \cos((m-n)x)]$
 * $\sin(mx)\sin(nx) = \frac{1}{2} [\cos((m-n)x) - \cos((m+n)x)]$
 
----
+
 
 ## 3. Identidades de Euler y Formas Exponenciales ⚡
 El puente hacia las **Series de Fourier Complejas** y la manipulación avanzada de series de potencias. 🌐
@@ -31,7 +31,7 @@ $$e^{ix} = \cos(x) + i\sin(x)$$
 * 🟥 **Coseno:** $\cos(x) = \frac{e^{ix} + e^{-ix}}{2}$
 * 🟦 **Seno:** $\sin(x) = \frac{e^{ix} - e^{-ix}}{2i}$
 
----
+
 
 ## 4. Identidades de Suma y Resta ➕➖
 Esenciales para expandir términos cuando el argumento presenta **desfases** o desplazamientos de fase en señales. 📡
@@ -39,7 +39,7 @@ Esenciales para expandir términos cuando el argumento presenta **desfases** o d
 * $\cos(A \pm B) = \cos A \cos B \mp \sin A \sin B$
 * $\sin(A \pm B) = \sin A \cos B \pm \cos A \sin B$
   
----
+
 
 ## 5. Desplazamiento de Centro (Truco de Taylor) 🎯
 Utilizadas para expandir funciones en **Series de Taylor centradas en $x = a$** mediante el ajuste $x = (x-a) + a$.
@@ -55,7 +55,7 @@ Utilizadas para expandir funciones en **Series de Taylor centradas en $x = a$** 
 ### 🟩 Tangente
 * $\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}$
 
----
+
 
 ## 6. Series de Potencias Fundamentales (Maclaurin) 📚
 Series de referencia centradas en $a=0$:
@@ -69,7 +69,7 @@ Series de referencia centradas en $a=0$:
 
 > **💡 Aplicación Práctica:** Para hallar Taylor de $\cos(x)$ en $a = \pi/4$, aplica la identidad de suma y luego sustituye $u = (x - \pi/4)$ en las series de Maclaurin de $\cos(u)$ y $\sin(u)$.
 
----
+
 
 ## 7. Definición General: Serie de Taylor 🖋️
 Para una función $f(x)$ derivable infinitamente en un punto $a$:
@@ -78,5 +78,5 @@ $$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n$$
 
 > **⚠️ Nota de paridad:** En Maclaurin ($a=0$), $\cos(x)$ solo tiene potencias **pares** (función par) y $\sin(x)$ solo potencias **impares** (función impar). 🌓
 
----
+
 _Documento técnico para Ingeniería de Telecomunicaciones_ 🎓🛰️

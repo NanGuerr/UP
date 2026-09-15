@@ -26,7 +26,7 @@ Para el desarrollo de la teoría de Fourier, se define una función suave a tram
 ### 📝 Representación General
 Una función derivable a tramos se representa mediante la serie de Fourier:
 
-$$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n\pi}{\ell}x\right) + b_n \operatorname{sen}\left(\frac{n\pi}{\ell}x\right) \right]$$
+$$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n\pi}{\ell}x\right) + b_n \{sen}\left(\frac{n\pi}{\ell}x\right) \right]$$
 
 
 
@@ -42,7 +42,7 @@ Para aplicar la derivada término a término, se establece el siguiente criterio
 
 **Fórmula de la derivada:**
 
-$$\frac{d}{dx} \text{Serie}(f) = \sum_{n=1}^{\infty} \left[ a_n \left(-\frac{n\pi}{\ell}\right) \operatorname{sen}\left(\frac{n\pi}{\ell}x\right) + b_n \left(\frac{n\pi}{\ell}\right) \cos\left(\frac{n\pi}{\ell}x\right) \right]$$
+$$\frac{d}{dx} \text{Serie}(f) = \sum_{n=1}^{\infty} \left[ a_n \left(-\frac{n\pi}{\ell}\right) \{sen}\left(\frac{n\pi}{\ell}x\right) + b_n \left(\frac{n\pi}{\ell}\right) \cos\left(\frac{n\pi}{\ell}x\right) \right]$$
 
 
 
@@ -53,7 +53,7 @@ La integración es, por naturaleza, una operación más flexible que la diferenc
 
 **Fórmula de la integral (en el intervalo $[c, d]$):**
 
-$$\int_{c}^{d} f(x) \, dx = \frac{a_0(d-c)}{2} + \sum_{n=1}^{\infty} \left[ a_n \int_{c}^{d} \cos\left(\frac{n\pi}{\ell}x\right) dx + b_n \int_{c}^{d} \operatorname{sen}\left(\frac{n\pi}{\ell}x\right) dx \right]$$
+$$\int_{c}^{d} f(x) \, dx = \frac{a_0(d-c)}{2} + \sum_{n=1}^{\infty} \left[ a_n \int_{c}^{d} \cos\left(\frac{n\pi}{\ell}x\right) dx + b_n \int_{c}^{d} \{sen}\left(\frac{n\pi}{\ell}x\right) dx \right]$$
 
 
 

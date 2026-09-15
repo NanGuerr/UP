@@ -1,4 +1,4 @@
-# 📘 Análisis Matemático: Series de Potencias, Series $p$ e Integración de Series de Fourier
+# 📘 Series de Potencias, Series $p$ e Integración de Fourier
 
 El cambio en el índice inicial de una sumatoria ($n=0$, $n=1$ o $n=2$) responde a dos motivos fundamentales: la **existencia de un término independiente o constante** en el desarrollo y la necesidad de **evitar indeterminaciones o divisiones por cero**.
 

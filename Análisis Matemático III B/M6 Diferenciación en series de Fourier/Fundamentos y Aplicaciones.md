@@ -1,5 +1,4 @@
-# 📑 Diferenciación e Integración de Series de Fourier: Fundamentos y Aplicaciones
-
+# 📑 Diferenciación e Integración de Series de Fourier
 Este documento técnico sintetiza los principios, teoremas y aplicaciones prácticas de la diferenciación e integración término a término de las series de Fourier, basándose en el análisis de funciones suaves a tramos y su representación matemática.
 
 

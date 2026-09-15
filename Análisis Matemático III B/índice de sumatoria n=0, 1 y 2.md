@@ -13,7 +13,7 @@ El índice $n=0$ es la norma en las series de potencias generales de la forma $\
 * **Presencia del término independiente**: Para $n=0$, el término $a_0 x^0 = a_0$ representa la constante o el valor que toma la función cuando $x=0$.
 * **Serie geométrica**: Se define como $\sum_{n=0}^{\infty} x^n = 1 + x + x^2 + \dots = \frac{1}{1-x}$. El índice debe empezar en $n=0$ para incluir el término inicial $x^0 = 1$.
 * **Exponencial, Seno y Coseno**: Provienen de la serie de Maclaurin $\sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!} x^n$, la cual comienza en la derivada de orden cero $f^{(0)}(0) = f(0)$. Como $e^0 = 1$ y $\cos(0) = 1$, estas funciones tienen un término constante no nulo en $n=0$.
-* **Racionales y Arcotangente**: La serie de $\frac{1}{1+x^2} = \sum_{n=0}^{\infty} (-1)^n x^{2n}$ se obtiene sustituyendo en la serie geométrica y comienza en $n=0$. Al integrar término a término para obtener la serie de $\operatorname{arctan}(x)$, el término $n=0$ genera la primera potencia $x^1$.
+* **Racionales y Arcotangente**: La serie de $\frac{1}{1+x^2} = \sum_{n=0}^{\infty} (-1)^n x^{2n}$ se obtiene sustituyendo en la serie geométrica y comienza en $n=0$. Al integrar término a término para obtener la serie de $\{arctan}(x)$, el término $n=0$ genera la primera potencia $x^1$.
 
 
 
@@ -100,7 +100,7 @@ Para calcular el valor exacto de la suma de una serie numérica trigonométrica 
 Para poder integrar término a término una serie de Fourier en un intervalo $[c, d]$ contenido dentro de $(-\ell, \ell)$, se requiere únicamente que la función $g(x)$ sea suave a tramos (es decir, continua en el intervalo cerrado salvo quizás en un número finito de puntos de salto finito). Bajo esta condición, el intercambio de límites permite intercambiar el signo de integración con la sumatoria infinita.
 
 La fórmula de integración término a término entre $c$ y $d$ queda expresada de la siguiente forma:
-$$\int_{c}^{d} g(x) \, dx = \frac{a_0 (d - c)}{2} + \sum_{n=1}^{\infty} \left[ a_n \left( \frac{\ell}{n\pi} \right) \operatorname{sen}\left(\frac{n\pi}{\ell} x\right)\Bigg|_{c}^{d} + b_n \left( -\frac{\ell}{n\pi} \right) \cos\left(\frac{n\pi}{\ell} x\right)\Bigg|_{c}^{d} \right]$$
+$$\int_{c}^{d} g(x) \, dx = \frac{a_0 (d - c)}{2} + \sum_{n=1}^{\infty} \left[ a_n \left( \frac{\ell}{n\pi} \right) \{sen}\left(\frac{n\pi}{\ell} x\right)\Bigg|_{c}^{d} + b_n \left( -\frac{\ell}{n\pi} \right) \cos\left(\frac{n\pi}{\ell} x\right)\Bigg|_{c}^{d} \right]$$
 
 
 
@@ -109,7 +109,7 @@ $$\int_{c}^{d} g(x) \, dx = \frac{a_0 (d - c)}{2} + \sum_{n=1}^{\infty} \left[ a
 Consideremos la función $g(x) = -3x \mathbb{I}_{(-3,0)}(x) + x \mathbb{I}_{(0,3)}(x)$ definida en el intervalo $(-\ell, \ell) = (-3, 3)$.
 
 #### 🔹 Paso 1: Serie de Fourier de la función
-La función es continua en $(-3, 3)$ y resulta suave a tramos. Su representación en serie de Fourier $g(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n\pi}{3}x\right) + b_n \operatorname{sen}\left(\frac{n\pi}{3}x\right) \right]$ cuenta con los coeficientes:
+La función es continua en $(-3, 3)$ y resulta suave a tramos. Su representación en serie de Fourier $g(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left(\frac{n\pi}{3}x\right) + b_n \{sen}\left(\frac{n\pi}{3}x\right) \right]$ cuenta con los coeficientes:
 
 * $a_0 = 6$
 * $a_n = \frac{12}{n^2\pi^2} ((-1)^n - 1)$
@@ -122,17 +122,17 @@ $$\int_{0}^{2} g(x) \, dx = \int_{0}^{2} x \, dx = \left[ \frac{x^2}{2} \right]_
 
 #### 🔹 Paso 3: Integración de la serie término a término
 Aplicamos la fórmula de integración término a término a la representación en serie de Fourier:
-$$\int_{0}^{2} g(x) \, dx = \frac{6 \cdot (2 - 0)}{2} + \sum_{n=1}^{\infty} \left[ a_n \left( \frac{3}{n\pi} \right) \operatorname{sen}\left(\frac{n\pi}{3} x\right)\Bigg|_{0}^{2} + b_n \left( -\frac{3}{n\pi} \right) \cos\left(\frac{n\pi}{3} x\right)\Bigg|_{0}^{2} \right]$$
+$$\int_{0}^{2} g(x) \, dx = \frac{6 \cdot (2 - 0)}{2} + \sum_{n=1}^{\infty} \left[ a_n \left( \frac{3}{n\pi} \right) \{sen}\left(\frac{n\pi}{3} x\right)\Bigg|_{0}^{2} + b_n \left( -\frac{3}{n\pi} \right) \cos\left(\frac{n\pi}{3} x\right)\Bigg|_{0}^{2} \right]$$
 
 Sustituyendo los coeficientes $a_n$ y $b_n$ y evaluando en los límites $0$ y $2$, la expresión toma la forma:
-$$\int_{0}^{2} g(x) \, dx = 6 + \sum_{n=1}^{\infty} \left[ ((-1)^n - 1) \left(\frac{36}{(n\pi)^3}\right) \operatorname{sen}\left(\frac{2n\pi}{3}\right) + \left(\frac{36 (-1)^{n+1}}{(n\pi)^2}\right) \left(\cos\left(\frac{2n\pi}{3}\right) - 1\right) \right]$$
+$$\int_{0}^{2} g(x) \, dx = 6 + \sum_{n=1}^{\infty} \left[ ((-1)^n - 1) \left(\frac{36}{(n\pi)^3}\right) \{sen}\left(\frac{2n\pi}{3}\right) + \left(\frac{36 (-1)^{n+1}}{(n\pi)^2}\right) \left(\cos\left(\frac{2n\pi}{3}\right) - 1\right) \right]$$
 
 #### 🔹 Paso 4: Obtención de la suma exacta de la serie numérica
 Igualamos el resultado del cálculo directo de la integral ($2$) con la expresión obtenida al integrar la serie:
-$$2 = 6 + \sum_{n=1}^{\infty} \left[ ((-1)^n - 1) \left(\frac{36}{(n\pi)^3}\right) \operatorname{sen}\left(\frac{2n\pi}{3}\right) + \left(\frac{36 (-1)^{n+1}}{(n\pi)^2}\right) \left(\cos\left(\frac{2n\pi}{3}\right) - 1\right) \right]$$
+$$2 = 6 + \sum_{n=1}^{\infty} \left[ ((-1)^n - 1) \left(\frac{36}{(n\pi)^3}\right) \{sen}\left(\frac{2n\pi}{3}\right) + \left(\frac{36 (-1)^{n+1}}{(n\pi)^2}\right) \left(\cos\left(\frac{2n\pi}{3}\right) - 1\right) \right]$$
 
 Despejando la sumatoria infinita, hallamos el valor exacto de la suma de la serie numérica:
-$$\sum_{n=1}^{\infty} \left[ ((-1)^n - 1) \left(\frac{36}{(n\pi)^3}\right) \operatorname{sen}\left(\frac{2n\pi}{3}\right) + \left(\frac{36 (-1)^{n+1}}{(n\pi)^2}\right) \left(\cos\left(\frac{2n\pi}{3}\right) - 1\right) \right] = 2 - 6 = -4$$
+$$\sum_{n=1}^{\infty} \left[ ((-1)^n - 1) \left(\frac{36}{(n\pi)^3}\right) \{sen}\left(\frac{2n\pi}{3}\right) + \left(\frac{36 (-1)^{n+1}}{(n\pi)^2}\right) \left(\cos\left(\frac{2n\pi}{3}\right) - 1\right) \right] = 2 - 6 = -4$$
 
 
 

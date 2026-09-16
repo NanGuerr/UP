@@ -1,6 +1,6 @@
 # 📡 Plan de Estudios 2026 🎓
 
-### 📐 Semestre 3 (Foco en Matemáticas y Física) — Agosto - Diciembre 2026 🔵
+### 📐 Semestre 3 (Foco en Matemáticas y Física) — Agosto - Diciembre 2026 🔵 
 
 1. 📚 `(026318)` Análisis Matemático IIIa (Matemática Avanzada)
 2. ⚛️ `(026095)` Física I 1er (Físicas IIa y IIb)
@@ -23,6 +23,7 @@
 5. 🧮 `(026435)` Matemática Avanzada (Electromagnetismo)
 6. 🧲 `(026204)` Física IIb (Dispositivos Electrónicos y Lab. de Electrónica)
 
+   
 ### 🔌 Semestre 5 (Señales y Arquitectura) — Agosto - Diciembre 2027 🟠
 
 1. 💡 `(026439)` Dispositivos Electrónicos (Física IIb) 🛰️
@@ -32,6 +33,7 @@
 5. 📐 `(026177)` Sistemas de Representación para Electrónica 1er 🛰️
 6. 🌐 `(026213)` TCP/IP 🛰️
 
+
 ### ☀️ Verano — Enero - Febrero 2028 🧡
 
 👔 `(026009)` **Organización, Gestión y Entrepreneurship (Fundamentos de Economía y Autorización del Dir. de Departamento)**
@@ -39,14 +41,13 @@
 ### 📡 Semestre 6 (Electrónica y Sistemas Embebidos) — Marzo - Julio 2028 🔴
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos) 🛰️
-2. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
-3. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
-
+2. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal)
+3. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
+4. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
+5. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
+   
 ## TÉCNICO UNIVERSITARIO EN TELECOMUNICACIONES 🛰️ 🏁 ARGENTINA
 
-4. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
-5. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
-6. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal)
 
 ### 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028 🩵
 
@@ -76,8 +77,7 @@
 2. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) **PRESENCIAL**
 3. ⚖️ `(025701)` **Ingeniería Legal** 🆓 
 4. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) **PRESENCIAL**
-
-
+5. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**
 
 
 > 💡 ***Nota de Cursada:*** *Recuerda verificar los requerimientos de presencialidad obligatoria en la sede CABA de la Universidad de Palermo para materias específicas como Laboratorio de Electrónica, Circuitos Electrónicos II, Conducción y Radiación de Ondas, Circuitos de Radiofrecuencia, Laboratorio de Microprocesadores y Laboratorio de Comunicaciones.*

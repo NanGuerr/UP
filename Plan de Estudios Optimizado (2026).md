@@ -42,9 +42,10 @@
 
 1. 🔌 `(026442)` Circuitos Electrónicos (Dispositivos Electrónicos + Teoría de Circuitos) 🛰️
 2. 📶 `(026447)` Procesamiento de Señales (Procesos Estocásticos + Álgebra Lineal)
-3. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
-4. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
-5. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
+3. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
+4. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
+5. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción de Ondas y Sist. de Comu. Digitales y Analógicos)
+6. 🤖 `(027129)` Introducción a los Sistemas Embebidos (Arquitectura del Computador) 🛰️
    
 ## TÉCNICO UNIVERSITARIO EN TELECOMUNICACIONES 🛰️ 🏁 ARGENTINA
 
@@ -52,9 +53,9 @@
 ### 🌐 Semestre 7 (Comunicaciones e Infraestructura) — Agosto - Diciembre 2028 🩵
 
 1. 📊 `(025920)` Diseños y Simulación de Antenas **ELECTIVA**
-2. 🛰️ `(023962)` Dispositivos de Comunicaciones (Electromagnetismo y Circuitos Electrónicos)
-3. 📞 `(026450)` Sistemas de Comunicaciones Digitales y Analógicos (Procesos Estocásticos)
-4. 📡 `(026684)` Comunicaciones Ópticas e Inalámbricas (Conducción de Ondas y Sist. de Comu. Digitales y Analógicos)
+2. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
+3. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
+4. 🖧  `(026214)` Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
 5. 📋 `(027515)` **Formulación de Proyectos y del Trabajo Final (Fundamentos de Economía y Finanzas)**
 6. 🔄 `(027130)` Seguridad Ofensiva **ELECTIVA**
    
@@ -64,12 +65,11 @@
 
 ### 🛠️ Semestre 8 (Redes y Gestión) — Marzo - Julio 2029 💚
 
-1. 🌐 `(026535)` Redes de Acceso (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
-2. 🏢 `(027510)` Práctica Profesional Supervisada (Autorización del Director de Departamento) ❓
-3. 🖧  `(026214)` Redes de Backbone (Comunicaciones ópticas e inalámbricas y Circuitos electrónicos)
-4. 🖥️ `(025418)` Ingeniería Reversa  **ELECTIVA**
-5. 📜 `(027513)` **Trabajo Final de Grado** (Formulación de Proyectos y autorización del Director de Departamento) ❓
-6. ☁️ `(027221)` Computación Cuántica (**ELECTIVA**) 
+1. 🖥️ `(025418)` Ingeniería Reversa  **ELECTIVA**
+2. 📜 `(027513)` **Trabajo Final de Grado** (Formulación de Proyectos y autorización del Director de Departamento) ❓
+3. ☁️ `(027221)` Computación Cuántica (**ELECTIVA**)
+4. 📻 `(023968)` Conducción e Irradiación de Ondas (Electromagnetismo) **PRESENCIAL**
+5. 🔬 `(023959)` Laboratorio de Electrónica (Física IIb) ❓**PRESENCIAL** 🛰️
 
 ### 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029 🧡
 

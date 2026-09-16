@@ -25,9 +25,9 @@ Los aranceles se determinarán en función de la cantidad de asignaturas en las 
 
 ### Esquema de Cobro
 
-* **2 o menos asignaturas:** Se abona el valor individual por cada asignatura.
-* **3 a 5 asignaturas:** Se abona el importe de la **cuota completa**.
-* **6 asignaturas o más (límite máximo de 7):** Se abona el importe de la cuota completa **más** el valor individual por cada asignatura adicional.
+* **2 o menos asignaturas:** Se abona el valor individual ($180.000) por cada asignatura.($360.000)
+* **3 a 5 asignaturas:** Se abona el importe de la **cuota completa**. ($720.000)
+* **6 asignaturas o más (límite máximo de 7):** Se abona el importe de la cuota completa **más** el valor individual por cada asignatura adicional. ($900.000) ($1180.000)
   
 ### 💳 Modalidades de Cobro según Cantidad de Materias:
 * 🟢 **Cuota Completa:** Aplica al inscribirse en 4 materias estándar.

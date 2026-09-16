@@ -27,10 +27,10 @@ Los aranceles se determinarán en función de la cantidad de asignaturas en las 
 
 * **2 o menos asignaturas:** Se abona el valor individual ($180.000) por cada asignatura.($360.000)
 * **3 a 5 asignaturas:** Se abona el importe de la **cuota completa**. ($720.000)
-* **6 asignaturas o más (límite máximo de 7):** Se abona el importe de la cuota completa **más** el valor individual por cada asignatura adicional. ($900.000) ($1180.000)
+* **6 asignaturas o más (límite máximo de 7):** Se abona el importe de la cuota completa **más** el valor individual por cada asignatura adicional. ($900.000) ($1080.000)
   
 ### 💳 Modalidades de Cobro según Cantidad de Materias:
-* 🟢 **Cuota Completa:** Aplica al inscribirse en 4 materias estándar.
+* 🟢 **Cuota Completa:** Aplica al inscribirse en 5 materias estándar.
 * 🟡 **Cursar menos del mínimo:** Se abona un costo proporcional por cada UV inscripta.
 * 🔵 **Cursar más del número regular:** Se abona el equivalente a la cuota completa **más un adicional extra** por cada UV excedente.
 
@@ -95,7 +95,6 @@ Para consultas puramente académicas antes o después de rendir un examen:
 * 💬 **Canal de contacto:** WhatsApp Oficial (+54 9 11 2163-2028).
 * 📜 **Trámite requerido:** Presentación del **título original** en formato físico.
 * 📍 **Ubicación de entrega:** Sede Mario Bravo 1302, 6to piso.
-* 📆 **Fecha límite:** 31/12/2025.
 
 
 

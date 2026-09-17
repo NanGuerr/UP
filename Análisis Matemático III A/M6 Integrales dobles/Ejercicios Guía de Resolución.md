@@ -1,16 +1,9 @@
-# 📘 Resolución Paso a Paso: Análisis Matemático III
-## 📐 Integrales Dobles sobre Rectángulos
-
-**UNIVERSIDAD DE PALERMO**  
-**ANÁLISIS MATEMÁTICO III**  
-*Guía de Ejercicios: Integrales Dobles sobre Rectángulos*  
-*Desarrollo Matemático Paso a Paso y Verificación de Respuestas Oficiales*
-
+# 📐 Integrales Dobles sobre Rectángulos
 
 
 ## 📚 Marco Teórico: Integrales Dobles y Teorema de Fubini
 
-Sea $R = [a,b] \times [c,d] = \left\{ (x,y) \in \mathbb{R}^{2} : a \le x \le b, \, c \le y \le d \right\}$ una región rectangular en el plano $xy$.
+Sea $$R = [a,b] \times [c,d] = { (x,y) \in \mathbb{R}^{2}} :a x \le b, \ c \le y \le d $$ una región rectangular en el plano $xy$.
 
 Si $f(x,y)$ es continua sobre $R$, la integral doble de $f$ sobre $R$ se evalúa mediante integrales iteradas aplicando el **Teorema de Fubini**:
 
@@ -82,11 +75,14 @@ $$I = \int_{0}^{\ln 5} \int_{0}^{\ln 2} e^{2x - y} \, \text{d}x \, \text{d}y$$
 
 * **Paso 1: Factorización por separabilidad de variables**  
   Como $e^{2x - y} = e^{2x} \cdot e^{-y}$, la integral se factoriza en dos integrales independientes:
+
   $$I = \left( \int_{0}^{\ln 2} e^{2x} \, \text{d}x \right) \cdot \left( \int_{0}^{\ln 5} e^{-y} \, \text{d}y \right)$$
 
 * **Paso 2: Evaluación de cada integral simple**
-  $$\int_{0}^{\ln 2} e^{2x} \, \text{d}x = \left[ \frac{e^{2x}}{2} \right]_{0}^{\ln 2} = \frac{e^{2 \ln 2} - 1}{2} = \frac{e^{\ln 4} - 1}{2} = \frac{4 - 1}{2} = \frac{3}{2}$$
-  $$\int_{0}^{\ln 5} e^{-y} \, \text{d}y = \left[ -e^{-y} \right]_{0}^{\ln 5} = -e^{-\ln 5} - \left( -e^{0} \right) = -\frac{1}{5} + 1 = \frac{4}{5}$$
+
+$$\int_{0}^{\ln 2} e^{2x} \, \text{d}x = \left[ \frac{e^{2x}}{2} \right]_{0}^{\ln 2} = \frac{e^{2 \ln 2} - 1}{2} = \frac{e^{\ln 4} - 1}{2} = \frac{4 - 1}{2} = \frac{3}{2}$$
+
+$$\int_{0}^{\ln 5} e^{-y} \, \text{d}y = \left[ -e^{-y} \right]_{0}^{\ln 5} = -e^{-\ln 5} - \left( -e^{0} \right) = -\frac{1}{5} + 1 = \frac{4}{5}$$
 
 * **Paso 3: Producto de los resultados**
   $$I = \frac{3}{2} \cdot \frac{4}{5} = \frac{12}{10} = \frac{6}{5}$$
@@ -116,15 +112,16 @@ $$I = \int_{0}^{1} \int_{1}^{2} (x + y)^{-2} \, \text{d}x \, \text{d}y$$
 ## 2. 🔲 Integrales Dobles sobre Regiones Rectangulares
 
 ### 🔸 Ejercicio 2.a
-Calcular $\iint_{R} 6x^{2}y^{3} \, \text{d}A$ sobre la región $R = \left\{ (x,y) : 0 \le x \le 3, \, 0 \le y \le 1 \right\}$.
+Calcular $$\iint_{R} 6x^{2}y^{3} \, \text{d}A$$ sobre la región $$R = \{ (x,y) : 0 \le x \le 3, \ 0 \le y \le 1 \}$$
 
 * **Paso 1: Planteo por separabilidad de variables**
   $$\iint_{R} 6x^{2}y^{3} \, \text{d}A = \left( \int_{0}^{3} 6x^{2} \, \text{d}x \right) \cdot \left( \int_{0}^{1} y^{3} \, \text{d}y \right)$$
 
 * **Paso 2: Integración y producto**
-  $$\int_{0}^{3} 6x^{2} \, \text{d}x = \left[ 2x^{3} \right]_{0}^{3} = 2(27) = 54$$
-  $$\int_{0}^{1} y^{3} \, \text{d}y = \left[ \frac{y^{4}}{4} \right]_{0}^{1} = \frac{1}{4}$$
-  $$I = 54 \cdot \frac{1}{4} = \frac{27}{2}$$
+  
+$$\int_{0}^{3} 6x^{2} \, \text{d}x = \left[ 2x^{3} \right]_{0}^{3} = 2(27) = 54$$
+$$\int_{0}^{1} y^{3} \, \text{d}y = \left[ \frac{y^{4}}{4} \right]_{0}^{1} = \frac{1}{4}$$
+$$I = 54 \cdot \frac{1}{4} = \frac{27}{2}$$
 
 > **Resultado:** Coincidente con la respuesta oficial del PDF ($\frac{27}{2}$).
 
@@ -137,9 +134,11 @@ Calcular $\iint_{R} x y e^{y} \, \text{d}A$ sobre la región $R = [0,2] \times [
   $$\iint_{R} x y e^{y} \, \text{d}A = \left( \int_{0}^{2} x \, \text{d}x \right) \cdot \left( \int_{0}^{1} y e^{y} \, \text{d}y \right)$$
 
 * **Paso 2: Evaluación de las integrales**
-  $$\int_{0}^{2} x \, \text{d}x = \left[ \frac{x^{2}}{2} \right]_{0}^{2} = 2$$
-  Para la integral de $y e^{y}$, aplicamos integración por partes ($u = y \implies \text{d}u = \text{d}y$; $dv = e^{y} \, \text{d}y \implies v = e^{y}$):
-  $$\int_{0}^{1} y e^{y} \, \text{d}y = \left[ y e^{y} - e^{y} \right]_{0}^{1} = \left( 1e^{1} - e^{1} \right) - \left( 0 - e^{0} \right) = 0 - (-1) = 1$$
+
+$$\int_{0}^{2} x \, \text{d}x = \left[ \frac{x^{2}}{2} \right]_{0}^{2} = 2$$
+Para la integral de $y e^{y}$, aplicamos integración por partes ($u = y \implies \text{d}u = \text{d}y$; $dv = e^{y} \, \text{d}y \implies v = e^{y}$):
+
+$$\int_{0}^{1} y e^{y} \, \text{d}y = \left[ y e^{y} - e^{y} \right]_{0}^{1} = \left( 1e^{1} - e^{1} \right) - \left( 0 - e^{0} \right) = 0 - (-1) = 1$$
 
 * **Paso 3: Producto final**
   $$I = 2 \cdot 1 = 2$$
@@ -155,8 +154,10 @@ Calcular $\iint_{R} \frac{x y^{2}}{x^{2} + 1} \, \text{d}A$ sobre la región $R 
   $$\iint_{R} \frac{x y^{2}}{x^{2} + 1} \, \text{d}A = \left( \int_{0}^{1} \frac{x}{x^{2} + 1} \, \text{d}x \right) \cdot \left( \int_{-3}^{3} y^{2} \, \text{d}y \right)$$
 
 * **Paso 2: Integración**
-  $$\int_{0}^{1} \frac{x}{x^{2} + 1} \, \text{d}x = \left[ \frac{1}{2} \ln(x^{2} + 1) \right]_{0}^{1} = \frac{1}{2} \ln 2 - 0 = \frac{1}{2} \ln 2$$
-  $$\int_{-3}^{3} y^{2} \, \text{d}y = \left[ \frac{y^{3}}{3} \right]_{-3}^{3} = \frac{27}{3} - \left( -\frac{27}{3} \right) = 9 + 9 = 18$$
+
+$$\int_{0}^{1} \frac{x}{x^{2} + 1} \, \text{d}x = \left[ \frac{1}{2} \ln(x^{2} + 1) \right]_{0}^{1} = \frac{1}{2} \ln 2 - 0 = \frac{1}{2} \ln 2$$
+
+$$\int_{-3}^{3} y^{2} \, \text{d}y = \left[ \frac{y^{3}}{3} \right]_{-3}^{3} = \frac{27}{3} - \left( -\frac{27}{3} \right) = 9 + 9 = 18$$
 
 * **Paso 3: Producto final**
   $$I = \left( \frac{1}{2} \ln 2 \right) \cdot 18 = 9 \ln 2$$

@@ -6,7 +6,7 @@
 
 | Característica / Criterio | 🎲 Distribución de Poisson | 📏 Distribución Chi-Cuadrado ($\chi^2$) |
 | :--- | :--- | :--- |
-| **🔢 Tipo de Variable** | Discreta (conteo de eventos enteros: $0, 1, 2, 3, \dots$) | Continua (medición de valores reales no negativos: $[0, \infty)$) |
+| **🔢 Tipo de Variable** | Discreta (conteo de eventos enteros: $0, 1, 2, 3, \dots$) | Continua (medición de valores reales no negativos: $[0, \infty)$ ) |
 | **⚙️ Parámetro Principal** | $\lambda$ (tasa media de ocurrencias por intervalo) | $\nu$ o $k$ (grados de libertad) |
 | **🎯 Esperanza Matemática $E(X)$** | $\lambda$ | $\nu$ |
 | **📈 Varianza $\text{Var}(X)$** | $\lambda$ | $2\nu$ |

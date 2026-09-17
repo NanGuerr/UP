@@ -1,5 +1,4 @@
-# 📘 Integrales Dobles sobre Rectángulos Guía de Resolución Paso a Paso
-
+# 📘 Integrales Dobles sobre Rectángulos Guía de Resolución
 
 
 
@@ -59,11 +58,13 @@ $$\int_{0}^{2} \int_{1}^{3} (x+2y)^{3} \, \text{d}x \, \text{d}y = \dots$$
 
 1. **Paso 1: Resolución de la integral interior (respecto a $x$):**  
    Mantenemos la variable $y$ constante e integramos el término $(x+2y)^{3}$ con respecto a $x$:
+   
    $$\int_{1}^{3} (x+2y)^{3} \, \text{d}x = \left[ \frac{(x+2y)^{4}}{4} \right]_{x=1}^{x=3}$$
    Evaluamos mediante la Regla de Barrow en los límites $x=3$ y $x=1$:
+   
    $$\left[ \frac{(x+2y)^{4}}{4} \right]_{x=1}^{x=3} = \frac{(3+2y)^{4} - (1+2y)^{4}}{4}$$
 
-2. **Paso 2: Integración del resultado (respecto a $y$):**  
+3. **Paso 2: Integración del resultado (respecto a $y$):**  
    Sustituimos la función obtenida en la integral exterior respecto a $y$ desde $y=0$ hasta $y=2$:
    $$I = \int_{0}^{2} \frac{(3+2y)^{4} - (1+2y)^{4}}{4} \, \text{d}y = \frac{1}{4} \int_{0}^{2} (3+2y)^{4} \, \text{d}y - \frac{1}{4} \int_{0}^{2} (1+2y)^{4} \, \text{d}y$$
    Aplicamos la primitiva para un término de la forma $(a+2y)^{4}$, cuya integral respecto a $y$ es $\frac{(a+2y)^{5}}{5 \cdot 2} = \frac{(a+2y)^{5}}{10}$:
@@ -72,7 +73,7 @@ $$\int_{0}^{2} \int_{1}^{3} (x+2y)^{3} \, \text{d}x \, \text{d}y = \dots$$
    * **Segunda integral:**
      $$\int_{0}^{2} (1+2y)^{4} \, \text{d}y = \left[ \frac{(1+2y)^{5}}{10} \right]_{0}^{2} = \frac{(1+4)^{5} - (1+0)^{5}}{10} = \frac{5^{5} - 1^{5}}{10} = \frac{3125 - 1}{10} = \frac{3124}{10}$$
 
-3. **Paso 3: Resta y simplificación final:**  
+4. **Paso 3: Resta y simplificación final:**  
    Uniendo ambas partes divididas por $4$:
    $$I = \frac{1}{4} \left( \frac{16564}{10} - \frac{3124}{10} \right) = \frac{1}{4} \left( \frac{13440}{10} \right) = \frac{1}{4} (1344) = 336$$
 
@@ -93,7 +94,7 @@ La integral doble debajo de una superficie dada por una función continua $z=f(x
 ### 💡 Desarrollo Teórico y Justificación Paso a Paso
 
 1. **Revisión del Teorema en el Apunte Teórico:** En la sección "Teorema de Fubini - Interpretación intuitiva" del apunte oficial se expresa textualmente:
-   > *"Si $f(x,y) \ge 0$ podemos interpretar $\iint_{R} f(x,y) \, \text{d}A$ como el volumen del sólido que se encuentra arriba de $R$ y debajo de la superficie $z=f(x,y)$."*
+   > "Si $f(x,y) \ge 0$ podemos interpretar $\iint_{R} f(x,y) \, \text{d}A$ como el volumen del sólido que se encuentra arriba de $R$ y debajo de la superficie $z=f(x,y)$."
 
 2. **Análisis de la restricción $f(x,y) \ge 0$:** La integral doble calcula el volumen físico geométrico en el sentido estricto únicamente si la función es no negativa en todo el dominio $R$. Si la función adopta valores negativos en alguna región de $R$, las regiones por debajo del plano $xy$ aportan un valor de integración negativo, resultando en un "volumen neto con signo" y no en el volumen geométrico total.
 
@@ -119,9 +120,11 @@ El volumen debajo de la superficie $z = x \cdot y$ sobre el rectángulo $R = [-1
    * Para la subregión $x \in [-1,0)$ y $y \in (0,1]$, el producto $z = x \cdot y < 0$ (la superficie está por debajo del plano $xy$).
    * Para la subregión $x \in (0,1]$ y $y \in (0,1]$, el producto $z = x \cdot y > 0$.
 
-   Al tomar valores negativos en la mitad izquierda del rectángulo, la integral directa de $x \cdot y$ produce la cancelación por simetría de ambas regiones:
-   $$\int_{0}^{1} \int_{-1}^{1} x \cdot y \, \text{d}x \, \text{d}y = \int_{0}^{1} y \left[ \frac{x^{2}}{2} \right]_{-1}^{1} \text{d}y = \int_{0}^{1} y \cdot (0) \, \text{d}y = 0$$
-   Un volumen geométrico real no puede ser $0$.
+Al tomar valores negativos en la mitad izquierda del rectángulo, la integral directa de $x \cdot y$ produce la cancelación por simetría de ambas regiones:
+
+$$\int_{0}^{1} \int_{-1}^{1} x \cdot y \, \text{d}x \, \text{d}y = \int_{0}^{1} y \left[ \frac{x^{2}}{2} \right]_{-1}^{1} \text{d}y = \int_{0}^{1} y \cdot (0) \, \text{d}y = 0$$
+
+Un volumen geométrico real no puede ser $0$.
 
 2. **Incoherencia en los límites expuestos en la fórmula planteada:**  
    Además, la expresión propuesta en la consigna es $V = \int_{-1}^{1} \int_{0}^{1} x \cdot y \, \text{d}x \, \text{d}y$. En esta integral iterada, los límites interiores son de $0$ a $1$ para la variable $x$, y los exteriores de $-1$ a $1$ para la variable $y$. Esto correspondería al rectángulo $[0,1] \times [-1,1]$, lo cual distorsiona los ejes del dominio original $R = [-1,1] \times [0,1]$.
@@ -146,14 +149,14 @@ Si se quiere calcular $\int_{a}^{b} \int_{c}^{d} f(x,y) \, \text{d}y \, \text{d}
 ### 💡 Desarrollo Teórico y Justificación Paso a Paso
 
 1. **Análisis de la definición de Integral Iterada:** En las páginas 2 y 3 del apunte de la cátedra se define textualmente:
-   > *"Empleamos la notación $\int_{c}^{d} f(x,y) \, \text{d}y$ para indicar que $x$ se mantiene fija y que $f(x,y)$ se integra con respecto a $y$ desde $y=c$ hasta $y=d$. Entonces $\int_{c}^{d} f(x,y) \, \text{d}y$ es un número que depende de $x$, de modo que define una función de $x$. Llamamos $A(x) = \int_{c}^{d} f(x,y) \, \text{d}y$."*
+   > "Empleamos la notación $\int_{c}^{d} f(x,y) \, \text{d}y$ para indicar que $x$ se mantiene fija y que $f(x,y)$ se integra con respecto a $y$ desde $y=c$ hasta $y=d$. Entonces $\int_{c}^{d} f(x,y) \, \text{d}y$ es un número que depende de $x$, de modo que define una función de $x$. Llamamos $A(x) = \int_{c}^{d} f(x,y) \, \text{d}y$."
 
 2. **Proceso del cálculo:** Al realizar la evaluación respecto de $y$ usando la Regla de Barrow en los límites $y=c$ e $y=d$, la variable $y$ queda completamente reemplazada por constantes. El resultado parcial es una expresión $A(x)$ que depende únicamente de la variable libre $x$.
 
 3. **Siguiente paso:** Dicha función $A(x)$ es la que posteriormente se integra en la integral exterior respecto de $x$ en el intervalo $[a,b]$:
    $$\int_{a}^{b} A(x) \, \text{d}x$$
 
-**✅ Respuesta Correcta:** Opción **C** (*Es una función que depende de $x$ que luego se debe integrar respecto de $x$*).
+**✅ Respuesta Correcta:** Opción **C** (Es una función que depende de $x$ que luego se debe integrar respecto de $x$ ).
 
 
 

@@ -1,6 +1,4 @@
-# 📘 Síntesis de Cinemática Bidimensional y Fundamentos de la Dinámica
-
-## 📝 Resumen Ejecutivo
+# 📘 Cinemática Bidimensional y Fundamentos de la Dinámica
 
 Este documento sintetiza los principios fundamentales de la cinemática en dos dimensiones y las leyes del movimiento que rigen la dinámica 🚀. El análisis se centra en dos tipos de desplazamiento complejo: el tiro oblicuo 🎯, caracterizado por una trayectoria parabólica resultante de la combinación de movimientos rectilíneos en los ejes horizontal y vertical; y el movimiento circular uniforme (MCU) 🔄, donde la partícula mantiene un radio constante y una velocidad angular uniforme. Finalmente, se exponen las Leyes de Newton 🍎, que proporcionan el marco teórico para comprender las causas del movimiento, introduciendo conceptos críticos como la masa (resistencia al cambio de velocidad) y la interacción de fuerzas 💥.
 
@@ -13,7 +11,7 @@ El tiro oblicuo, o movimiento parabólico, ocurre cuando un objeto es lanzado co
 El TO es el resultado de la combinación simultánea de dos movimientos independientes en cada eje:
 
 * **Eje Horizontal (x):** Se comporta como un Movimiento Rectilíneo Uniforme (MRU) ➡️. La velocidad permanece constante ($a_x = 0$).
-* **Eje Vertical (y):** Se comporta como un tiro vertical y caída libre (MRUV) ⬇️. La velocidad varía por la acción de la gravedad ($g$).
+* **Eje Vertical (y):** Como un tiro vertical y caída libre (MRUV) ⬇️. La velocidad varía por la acción de la gravedad ($g$).
 
 ### 📊 Ecuaciones Horarias Fundamentales
 
@@ -21,20 +19,8 @@ Asumiendo el eje $y$ positivo hacia arriba y un valor de gravedad ajustado a 10 
 
 | Eje | Posición | Velocidad | Aceleración |
 | --- | --- | --- | --- |
-| **Horizontal (x)** | $$x(t) = x_0 + v_0 \cos(\theta) (t - t_0)$$
-
- | $$v_x(t) = v_0 \cos(\theta)$$
-
- | $$a_x(t) = 0$$
-
- |
-| **Vertical (y)** | $$y(t) = y_0 + v_0 \sin(\theta) (t - t_0) - 5 \frac{\text{m}}{\text{s}^2} (t - t_0)^2$$
-
- | $$v_y(t) = v_0 \sin(\theta) - 10 \frac{\text{m}}{\text{s}^2} (t - t_0)$$
-
- | $$a_y(t) = -10 \frac{\text{m}}{\text{s}^2}$$
-
- |
+| **Horizontal (x)** | $$x(t) = x_0 + v_0 \cos(\theta) (t - t_0)$$ | $$v_x(t) = v_0 \cos(\theta)$$ | $$a_x(t) = 0$$|
+| **Vertical (y)** | $$y(t) = y_0 + v_0 \sin(\theta) (t - t_0) - 5 \frac{\text{m}}{\text{s}^2} (t - t_0)^2$$ | $$v_y(t) = v_0 \sin(\theta) - 10 \frac{\text{m}}{\text{s}^2} (t - t_0)$$ | $$a_y(t) = -10 \frac{\text{m}}{\text{s}^2}$$ |
 
 ### 📍 Puntos Críticos de la Trayectoria
 

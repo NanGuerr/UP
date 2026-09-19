@@ -31,7 +31,7 @@ Las cuatro respuestas de las probabilidades resultantes coinciden plenamente con
 
 * ✍️ **Simbología pedida:** El PDF utiliza la notación específica del editor:
   $$P_{bi}(x \ge 13 / n=27; p=0,43)$$
-  💡 *(Observa que al pedir $x > 12$, equivale a expresar $x \ge 13$ en una variable discreta).*
+  💡 (Observa que al pedir $x > 12$, equivale a expresar $x \ge 13$ en una variable discreta).
 
 * 🎯 **Valor redondeado:** $0,362$ (o $0,3647$ si se toma sin redondear con más decimales).
 

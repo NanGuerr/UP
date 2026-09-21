@@ -21,7 +21,7 @@ $$P(\emptyset) = 0$$
 ### 3️⃣ Regla de la Suma (Unión de Eventos)
 Para calcular la probabilidad de que ocurra el evento $A$, el evento $B$, o ambos a la vez:
 $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
-*(Se resta la intersección $P(A \cap B)$ para evitar duplicar el conteo de los casos compartidos).*
+(Se resta la intersección $P(A \cap B)$ para evitar duplicar el conteo de los casos compartidos).
 
 
 

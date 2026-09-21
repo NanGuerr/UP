@@ -1,4 +1,4 @@
-# 📊 Propiedades de la Media, Esperanza Matemática y Varianza en Variables Aleatorias 🎲
+# 📊 Propiedades en Variables Aleatorias 🎲
 
 Este documento recopila la teoría, demostraciones y ejemplos prácticos detallados sobre el cálculo de la **media (esperanza matemática)** y la **varianza/desvío estándar** de variables aleatorias utilizando sus propiedades algebraicas. Todas las expresiones matemáticas han sido corregidas y formateadas en código LaTeX estándar (`\frac`, delimitadores correctos con `\left` y `\right`, etc.).
 

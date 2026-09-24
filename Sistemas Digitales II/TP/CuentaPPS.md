@@ -1,13 +1,13 @@
 #  Memoria Descriptiva Técnica
 
-Módulo principal del Trabajo Práctico Final (CuentaPPS), redactada con la terminología formal para acompañar el informe o la presentación oral:
+Módulo principal del Trabajo Práctico Final (CuentaPPS), redactada con la terminología formal para acompañar el informe o la presentación oral.
 
 ---
 
 # Memoria Descriptiva Técnica: Sistema de Conteo y Procesamiento de Pulsos GPS (CuentaPPS)
 
 ### 1. Resumen Ejecutivo y Objetivos del Sistema
-El módulo de nivel superior **`PF_SS2`** constituye la arquitectura jerárquica en VHDL diseñada para la recepción, sincronización, conteo y procesamiento de pulsos de un segundo (**1PPS**) procedentes de un receptor GPS.
+El módulo de nivel superior **`TP_CuentaPPS`** constituye la arquitectura jerárquica en VHDL diseñada para la recepción, sincronización, conteo y procesamiento de pulsos de un segundo (**1PPS**) procedentes de un receptor GPS.
 
 El objetivo central del sistema es procesar señales asíncronas externas de manera segura, eliminando riesgos de **metaestabilidad**, e integrar funciones de conteo BCD (0 a 9), decodificación para display de 7 segmentos, generación de patrones temporales de 2 segundos, comparación de coincidencia programable y señalización visual de estado.
 

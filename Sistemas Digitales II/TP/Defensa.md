@@ -1,4 +1,6 @@
-Aquí tienes una **guía completa y detallada para la preparación de tu defensa oral** del proyecto **`PF_SS2` (CuentaPPS)**. Está estructurada con las preguntas más probables que suelen realizar los docentes de Sistemas Digitales II, junto con la fundamentación técnica que debes responder.
+## Guía completa para defensa oral
+
+**`PF_SS2` (CuentaPPS)**. Está estructurada con las preguntas más probables que suelen realizar los docentes de Sistemas Digitales II, junto con la fundamentación técnica que debes responder.
 
 ---
 
@@ -91,4 +93,3 @@ Aquí tienes una **guía completa y detallada para la preparación de tu defensa
 * **Apóyate en el esquema visual:** Ten a mano el diagrama de bloques (`diagrama_bloques_PF_SS2.png`) y señala los módulos mientras explicas el flujo de datos.
 * **Destaca la verificación:** Menciona que cada componente individual fue verificado mediante su respectivo *testbench* unitario (`TestComponents`) antes de realizar la integración jerárquica en el módulo superior `PF_SS2`.
 
-💡 Si deseas repasar el análisis de algún testbench específico o las formas de onda en ISim para la simulación, dímelo y lo revisamos en detalle.

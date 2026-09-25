@@ -72,4 +72,3 @@ También he generado y publicado la representación gráfica esquemática en alt
   Se distribuye a todos los bloques secuenciales (Acondicionador, ContBCD, 
   DetectorOverflow, SalidaPatron, Comparador y Testigo_Out) para garantizar 
   el diseño sincrónico del sistema.
-=========================================================================================

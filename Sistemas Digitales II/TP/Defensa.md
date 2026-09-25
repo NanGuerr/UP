@@ -2,7 +2,7 @@
 
 **`PF_SS2` (CuentaPPS)**. Está estructurada con las preguntas más probables que suelen realizar los docentes de Sistemas Digitales II, junto con la fundamentación técnica que debes responder.
 
----
+
 
 ## 1. Presentación General del Sistema (Resumen de Introducción)
 
@@ -11,7 +11,7 @@
 * **Respuesta clave:** 
   > *"El `PF_SS2` es un módulo de nivel superior que integra un sistema síncrono para procesar pulsos de un segundo (1PPS) procedentes de un GPS. El sistema acondiciona la señal asíncrona de entrada para eliminar la metaestabilidad, incrementa un contador BCD de 0 a 9, decodifica el valor para un display de 7 segmentos, detecta el desbordamiento, genera una señal patrón de 2 segundos, compara la cuenta con una consigna externa memorizada y hace parpadear un LED testigo a 2 Hz para indicar que el sistema está activo. Todo el diseño utiliza un único dominio de reloj de 100 MHz."*
 
----
+
 
 ## 2. Preguntas Específicas Módulo por Módulo
 
@@ -23,7 +23,7 @@
 * **Respuesta técnica:** 
   Implementa un **sincronizador de doble etapa de Flip-Flops D** en cascada (`ff1` y `ff2`). Luego, un tercer Flip-Flop (`ff3`) detecta el flanco ascendente mediante la condición lógica `(ff2 and not ff3)`. Esto garantiza un pulso limpio en `gps_acondicionado` que dura **exactamente un ciclo de reloj (10 ns)** por cada segundo.
 
----
+
 
 ### Módulo U1: `ContBCD.vhd`
 * **Pregunta:** *¿Por qué usaron un contador BCD en lugar de un contador binario natural de 4 bits?*
@@ -33,7 +33,7 @@
 * **Respuesta técnica:** 
   Es **100% síncrono**. No utiliza la señal del GPS como un reloj secundario (*gated clock*), sino como una **señal de habilitación de cuenta (`en`)**. El incremento ocurre únicamente en el flanco ascendente de `clk_in` cuando `en = '1'`.
 
----
+
 
 ### Módulo U2: `BCDa7Seg.vhd`
 * **Pregunta:** *¿Por qué este módulo no recibe la señal de reloj `clk_in` en su lista de puertos?*
@@ -43,28 +43,28 @@
 * **Respuesta técnica:** 
   Se utilizó la sentencia secuencial `case-when` asegurando una cobertura completa de todos los casos posibles mediante la cláusula **`when others => "0000000"`**. Esto le indica al sintetizador que la salida está totalmente definida para las 16 combinaciones posibles del bus de 4 bits.
 
----
+
 
 ### Módulo U3: `DetectorOverflow.vhd`
 * **Pregunta:** *¿Cuándo se activa la salida `cuenta_final` y cuánto tiempo permanece en alto?*
 * **Respuesta técnica:** 
   Se activa exactamente cuando el contador BCD realiza el salto de 9 (`1001`) a 0 (`0000`) bajo la presencia del pulso `gps_acondicionado`. Permanece en nivel alto durante **un único ciclo de reloj (10 ns)**, notificando al sistema la finalización del ciclo de conteo.
 
----
+
 
 ### Módulo U4: `SalidaPatron.vhd`
 * **Pregunta:** *Si el pulso del GPS dura solo 10 ns, ¿cómo logra este bloque generar una señal que dura 1 segundo en alto y 1 segundo en bajo?*
 * **Respuesta técnica:** 
   Funciona como un **Flip-Flop T (toggle)** o conmutador de estado. El bloque mantiene su salida retenida en un registro. Cada vez que recibe el pulso `gps_acondicionado` (1 vez por segundo), invierte el estado lógico de ese registro (`patron_reg <= not patron_reg`). Así, la salida se mantiene 1 s en `'1'`, conmuta y dura 1 s en `'0'`, completando una onda cuadrada limpia de **período de 2 segundos (0.5 Hz)**.
 
----
+
 
 ### Módulo U5: `Comparador.vhd`
 * **Pregunta:** *¿Cómo funciona la retención del valor de consigna `cmp_in`?*
 * **Respuesta técnica:** 
   El comparador posee un registro interno (`cmp_val_reg`). Cuando el puerto de habilitación externa `cmp_en` se pone en `'1'`, se captura y memoriza el dato presentado en `cmp_in`. En cada ciclo de reloj, el circuito compara este valor memorizado contra el valor actual del contador BCD (`bcd_actual`). Al detectar la coincidencia, conmuta la salida `cmp_out`.
 
----
+
 
 ### Módulo U6: `Testigo_Out.vhd`
 * **Pregunta:** *¿Cómo calcularon la cuenta interna para lograr el parpadeo de 250 ms?*
@@ -73,7 +73,7 @@
   \\[\frac{250\text{ ms}}{10\text{ ns}} = 25.000.000\text{ ciclos de reloj}\\]
   Al alcanzar ese valor, se invierte el estado del LED y se reinicia el contador interno, generando una frecuencia de parpadeo de 2 Hz (período completo de 500 ms).
 
----
+
 
 ## 3. Preguntas de Metodología y Buenas Prácticas en VHDL
 
@@ -86,7 +86,7 @@
 4. **¿Por qué se creó un paquete de componentes (`componentes_pkg.vhd`)?**
    * *Respuesta:* Para organizar de manera modular todas las declaraciones de entidades, permitiendo que cualquier módulo de nivel superior (como `PF_SS2.vhd` o los testbenches) pueda instanciarlos simplemente invocando `use work.componentes.all;`.
 
----
+
 
 ## 4. Consejos Prácticos para la Exposición
 

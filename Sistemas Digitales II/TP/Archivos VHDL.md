@@ -1,4 +1,4 @@
-# 1. TComponentes (Componentes Individuales)
+# 1. Componentes (Componentes Individuales)
 
 ### `Acondicionador.vhd`
 ```vhdl
@@ -10,7 +10,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity Acondicionador is
     Port ( 
         clk_in        : in  std_logic;
-        PPS_en        : in  std_logic;
+        S_en        : in  std_logic;
         pulso_digital : out std_logic
     );
 end Acondicionador;
@@ -992,9 +992,9 @@ begin
 
 ### 3. TopModule (Módulo Superior e Integración)
 
-1. **`TP_CuentaPPS.vhd`** (o `PF_SS2.vhd`):
+1. **`TP_CuentaPPS.vhd`**:
    * Instancia e interconecta de forma jerárquica los componentes `U0` a `U6`.
    * Conecta las señales `gps`, `clk_in`, `cmp_in`, `cmp_en`, `ss_out`, `cuenta_final`, `salida_patron`, `cmp_out` y `testigo_led`.
-2. **`TP_CuentaPPS_tb.vhd`** (o `PF_SS2_tb.vhd`):
+2. **`TP_CuentaPPS_tb.vhd`**:
    * Banco de pruebas integral que simula el sistema completo en ISim / ISE 14.7.
 

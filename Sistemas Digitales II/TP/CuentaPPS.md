@@ -57,9 +57,11 @@ El objetivo central del sistema es procesar señales asíncronas externas de man
 ---
 
 ### 4. Criterios de Síntesis y Calidad de Diseño
+
 * **Dominio Único de Reloj:** Todos los bloques secuenciales se sincronizan al flanco de subida de `clk_in`, asegurando un sistema puramente síncrono libre de carreras lógicas (*glitches*).
 * **Prevención de Latches Involuntarios:** Todos los bloques combinacionales poseen coberturas de estado completas mediante cláusulas `when others` o asignaciones previas por defecto.
 * **Modularidad:** Diseño 100% modular mediante instanciación de componentes y paso de parámetros, optimizado para la familia de FPGAs Xilinx en ISE 14.7.
 
----
-
+1. **Generación de Reloj Síncrono:** Define una señal de reloj de **100 MHz** (`clk_period = 10 ns`).
+2. **Inyección de Pulsos Asíncronos:** Inyecta variaciones en la señal `PPS_en` con duraciones mayores a un ciclo de reloj (200 ns, 50 ns, 100 ns).
+3. **Verificación de Salida:** Permite comprobar en el visor temporal de **ISim** que, independientemente de cuánto tiempo permanezca en alto la entrada `PPS_en`, la salida `pulso_digital` se activa únicamente durante **un solo ciclo de reloj (10 ns)** ante cada flanco ascendente.

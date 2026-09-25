@@ -93,7 +93,7 @@
 * **Apóyate en el esquema visual:** Ten a mano el diagrama de bloques (`diagrama_bloques_TP_CuentaPPS.png`) y señala los módulos mientras explicas el flujo de datos.
 * **Destaca la verificación:** Menciona que cada componente individual fue verificado mediante su respectivo *testbench* unitario (`TestComponents`) antes de realizar la integración jerárquica en el módulo superior `TP_CuentaPPS`.
 
-## 5. Eestructuras condicionales
+## 5. Estructuras condicionales
 
 Sí, el código VHDL en los componentes que hemos trabajado **sí utiliza estructuras condicionales** para implementar la lógica sincrónica.
 

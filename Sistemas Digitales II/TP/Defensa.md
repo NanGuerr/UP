@@ -1,15 +1,15 @@
 ## Guía completa para defensa oral
 
-**`PF_SS2` (CuentaPPS)**. Está estructurada con las preguntas más probables que suelen realizar los docentes de Sistemas Digitales II, junto con la fundamentación técnica que debes responder.
+**`TP_CuentaPPS2` (CuentaPPS)**. Está estructurada con las preguntas más probables que suelen realizar los docentes de Sistemas Digitales II, junto con la fundamentación técnica que debes responder.
 
 
 
 ## 1. Presentación General del Sistema (Resumen de Introducción)
 
-> **Si el profesor te dice:** *"Explícame en un minuto qué hace el módulo `PF_SS2` y cómo está estructurado."*
+> **Si el profesor te dice:** *"Explícame en un minuto qué hace el módulo `TP_CuentaPPS2` y cómo está estructurado."*
 
 * **Respuesta clave:** 
-  > *"El `PF_SS2` es un módulo de nivel superior que integra un sistema síncrono para procesar pulsos de un segundo (1PPS) procedentes de un GPS. El sistema acondiciona la señal asíncrona de entrada para eliminar la metaestabilidad, incrementa un contador BCD de 0 a 9, decodifica el valor para un display de 7 segmentos, detecta el desbordamiento, genera una señal patrón de 2 segundos, compara la cuenta con una consigna externa memorizada y hace parpadear un LED testigo a 2 Hz para indicar que el sistema está activo. Todo el diseño utiliza un único dominio de reloj de 100 MHz."*
+  > *"El `TP_CuentaPPS2` es un módulo de nivel superior que integra un sistema síncrono para procesar pulsos de un segundo (1PPS) procedentes de un GPS. El sistema acondiciona la señal asíncrona de entrada para eliminar la metaestabilidad, incrementa un contador BCD de 0 a 9, decodifica el valor para un display de 7 segmentos, detecta el desbordamiento, genera una señal patrón de 2 segundos, compara la cuenta con una consigna externa memorizada y hace parpadear un LED testigo a 2 Hz para indicar que el sistema está activo. Todo el diseño utiliza un único dominio de reloj de 100 MHz."*
 
 
 
@@ -84,14 +84,14 @@
 3. **¿Cuál es la diferencia entre la asignación de señal (`<=`) y la asignación de variable (`:=`) en VHDL?**
    * *Respuesta:* La asignación de señal (`<=`) programa un evento que se actualiza al finalizar el ciclo delta actual de simulación (comportamiento de registro paralelo). La variable (`:=`) se actualiza de forma inmediata dentro del bloque secuencial.
 4. **¿Por qué se creó un paquete de componentes (`componentes_pkg.vhd`)?**
-   * *Respuesta:* Para organizar de manera modular todas las declaraciones de entidades, permitiendo que cualquier módulo de nivel superior (como `PF_SS2.vhd` o los testbenches) pueda instanciarlos simplemente invocando `use work.componentes.all;`.
+   * *Respuesta:* Para organizar de manera modular todas las declaraciones de entidades, permitiendo que cualquier módulo de nivel superior (como `TP_CuentaPPS2.vhd` o los testbenches) pueda instanciarlos simplemente invocando `use work.componentes.all;`.
 
 
 
 ## 4. Consejos Prácticos para la Exposición
 
-* **Apóyate en el esquema visual:** Ten a mano el diagrama de bloques (`diagrama_bloques_PF_SS2.png`) y señala los módulos mientras explicas el flujo de datos.
-* **Destaca la verificación:** Menciona que cada componente individual fue verificado mediante su respectivo *testbench* unitario (`TestComponents`) antes de realizar la integración jerárquica en el módulo superior `PF_SS2`.
+* **Apóyate en el esquema visual:** Ten a mano el diagrama de bloques (`diagrama_bloques_TP_CuentaPPS2.png`) y señala los módulos mientras explicas el flujo de datos.
+* **Destaca la verificación:** Menciona que cada componente individual fue verificado mediante su respectivo *testbench* unitario (`TestComponents`) antes de realizar la integración jerárquica en el módulo superior `TP_CuentaPPS2`.
 
 ## 5. Eestructuras condicionales
 

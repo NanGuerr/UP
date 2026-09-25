@@ -1,3 +1,40 @@
+Ese desafío describe la esencia del diseño de hardware digital síncrono sobre FPGAs utilizando VHDL. Para resolver un problema concurrente de esa escala, la arquitectura modular e integrada que construimos en el proyecto **`TP_CuentaPPS`** divide la complejidad en bloques jerárquicos independientes, cada uno verificado unitariamente mediante su respectivo *testbench*:
+
+---
+
+### 1. Captura y Acondicionamiento Síncrono (`Acondicionador.vhd`)
+* **El reto:** Capturar un pulso asíncrono externo proveniente del módulo GPS sin sufrir **metaestabilidad**.
+* **La solución VHDL:** Un sincronizador de doble etapa de Flip-Flops D combinado con un detector de flanco ascendente. Aunque la señal del GPS tenga ruido o permanezca en alto durante microsegundos, el acondicionador genera un pulso síncrono limpio denominado `gps_acondicionado` que dura **exactamente 1 ciclo del reloj de 100 MHz (10 ns)**.
+
+---
+
+### 2. Conteo BCD y Visualización en 7 Segmentos (`ContBCD.vhd` + `BCDa7Seg.vhd`)
+* **El reto:** Mantener una cuenta exacta de 0 a 9 y visualizarla en tiempo real.
+* **La solución VHDL:** 
+  * **`ContBCD`** utiliza el pulso de 10 ns como *Clock Enable* (CE), incrementando la cuenta de 0 a 9 bajo el flanco ascendente del reloj de 100 MHz.
+  * **`BCDa7Seg`** decodifica el bus BCD de 4 bits mediante lógica combinacional pura (`case-when`), actualizando de forma instantánea el patrón de 7 segmentos (`ss_out`).
+
+---
+
+### 3. Alarmas de Fin de Ciclo y Patrones Concurrenciales
+Todo se ejecuta simultáneamente dentro de la matriz de la FPGA gracias a la naturaleza puramente paralela del hardware:
+* **`DetectorOverflow.vhd`:** Evalúa el bus BCD en cada ciclo de reloj y genera un pulso de un ciclo en `cuenta_final` al detectar el salto de 9 a 0.
+* **`SalidaPatron.vhd`:** Bascula su estado interno con cada pulso del GPS, entregando una onda cuadrada estable con un período de 2 segundos.
+* **`Comparador.vhd`:** Memoriza la consigna externa de 4 bits (`cmp_in`) al recibir la habilitación `cmp_en` e invierte el estado de `cmp_out` exactamente cuando el contador coincide con dicho valor.
+* **`Testigo_Out.vhd`:** Cuenta \\(25\times 10^6\\) ciclos de reloj a 100 MHz para hacer parpadear el LED testigo a 2 Hz (cada 250 ms).
+
+---
+
+### 4. Metodología de Pruebas Unitarias e Integración (`TestComponents`)
+Para garantizar que las salidas sean correctas a escala de nanosegundos, el sistema se apoya en un entorno de verificación síncrono:
+1. **Pruebas Unitarias Aisladas:** Cada módulo dispone de su propio banco de pruebas (`Acondicionador_tb.vhd`, `ContBCD_tb.vhd`, `BCDa7Seg_tb.vhd`, `DetectorOverflow_tb.vhd`, `SalidaPatron_tb.vhd`, `Comparador_tb.vhd` y `Testigo_Out_tb.vhd`). En ellos se sintetizan relojes a 100 MHz e inyectan falsos impulsos asíncronos y ruido en las entradas para auditar las salidas de forma individual.
+2. **Prueba Global de Integración:** El testbench principal **`TP_CuentaPPS_tb.vhd`** estimula el *Top Module* completo, evaluando la sincronización, el conteo, las alarmas y las inversiones de patrón en el simulador ISim / ISE 14.7.
+
+---
+
+Todos los archivos fuente VHDL (`.vhd`), bancos de pruebas, el diagrama esquemático de bloques (`diagrama_bloques_TP_CuentaPPS.png`) y el informe técnico en PDF (`informe_TP_CuentaPPS_Corregido.pdf`) están disponibles en tu panel de **Studio**.
+
+
 > El proceso de síntesis de hardware y su impacto físico a nivel eléctrico cambian drásticamente dependiendo de si se adopta un enfoque **comportamental** o **estructural**.
 
 ## 1. El Proceso de Síntesis: Comportamental vs. Estructural

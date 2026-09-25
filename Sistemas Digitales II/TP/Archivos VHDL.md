@@ -485,6 +485,19 @@ BEGIN
 
     clk_process : process
     begin
+        if rising_edge(clk) then
+            if contador = 2499999 then
+                contador <= (others =>; '0);
+                estado_led <= not estado_led;
+            else
+                contador <= contador + 1;
+            end if;
+        end if;
+    end process;
+
+    testigo_led <= estado_led;
+end Behavioral;
+
 ```
 
 ### 1. Componentes (Componentes Individuales)

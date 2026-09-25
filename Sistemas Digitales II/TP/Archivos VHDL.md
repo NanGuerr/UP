@@ -270,6 +270,88 @@ end Behavioral;
 
 # 2. TestComponents (Bancos de Prueba Unitarios)
 
+### **`Acondicionador_tb.vhd`**
+
+```vhdl
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+-- Testbench para la verificación del módulo Acondicionador (1PPS GPS)
+ENTITY Acondicionador_tb IS
+END Acondicionador_tb;
+
+ARCHITECTURE behavior OF Acondicionador_tb IS
+
+    -- Componente a probar (UUT)
+    COMPONENT Acondicionador
+    PORT(
+        clk_in        : IN  std_logic;
+        PPS_en        : IN  std_logic;
+        pulso_digital : OUT std_logic
+    );
+    END COMPONENT;
+
+    -- Señales de prueba
+    signal clk_in        : std_logic := '0';
+    signal PPS_en        : std_logic := '0';
+    signal pulso_digital : std_logic;
+
+    -- Período de reloj de 10 ns (100 MHz)
+    constant clk_period : time := 10 ns;
+
+BEGIN
+
+    -- Instanciación del dispositivo bajo prueba (UUT)
+    uut: Acondicionador PORT MAP (
+        clk_in        => clk_in,
+        PPS_en        => PPS_en,
+        pulso_digital => pulso_digital
+    );
+
+    -- Proceso generador del reloj principal (100 MHz)
+    clk_process : process
+    begin
+        while true loop
+            clk_in <= '0';
+            wait for clk_period / 2;
+            clk_in <= '1';
+            wait for clk_period / 2;
+        end loop;
+    end process;
+
+    -- Proceso de estímulos para la señal asíncrona de entrada PPS_en
+    stim_proc: process
+    begin
+        -- Espera inicial
+        wait for 50 ns;
+
+        -- Primer pulso de GPS de 200 ns (simula la llegada de la señal de 1PPS)
+        PPS_en <= '1';
+        wait for 200 ns;
+        PPS_en <= '0';
+        wait for 300 ns;
+
+        -- Segundo pulso de GPS más corto de 50 ns
+        PPS_en <= '1';
+        wait for 50 ns;
+        PPS_en <= '0';
+        wait for 200 ns;
+
+        -- Tercer pulso de prueba
+        PPS_en <= '1';
+        wait for 100 ns;
+        PPS_en <= '0';
+
+        wait for 200 ns;
+        assert false report "Simulación del Acondicionador finalizada con éxito." severity note;
+        wait;
+    end process;
+
+END behavior;
+```
+
+---
+
 ### `BCDa7Seg_tb.vhd`
 ```vhdl
 LIBRARY ieee;
@@ -514,12 +596,13 @@ end Behavioral;
 
 ### 2. TestComponents (Bancos de Prueba Unitarios)
 
-1. **`BCDa7Seg_tb.vhd`**: Estimula la entrada BCD de 0 a 9 para comprobar la conversión a los 7 segmentos.
-2. **`ContBCD_tb.vhd`**: Genera pulsos de reloj y simula la llegada de impulsos GPS para validar el conteo cíclico.
-3. **`DetectorOverflow_tb.vhd`**: Evalúa el comportamiento del pulso de desbordamiento en la transición `1001` (9) \\(\rightarrow\\) `0000` (0).
-4. **`SalidaPatron_tb.vhd`**: Verifica la conmutación de estado ante flancos del GPS.
-5. **`Comparador_tb.vhd`**: Inyecta habilitaciones `cmp_en` y valores `cmp_in` para verificar la conmutación de `cmp_out`.
-6. **`Testigo_Out_tb.vhd`**: Simula el reloj del sistema para comprobar la oscilación del LED testigo.
+1. **`Acondicionador`**: Comprueba la sincronización y el filtrado de la señal de entrada para eliminar ruido o rebotes antes de su procesamiento digital.
+2. **`BCDa7Seg_tb.vhd`**: Estimula la entrada BCD de 0 a 9 para comprobar la conversión a los 7 segmentos.
+3. **`ContBCD_tb.vhd`**: Genera pulsos de reloj y simula la llegada de impulsos GPS para validar el conteo cíclico.
+4. **`DetectorOverflow_tb.vhd`**: Evalúa el comportamiento del pulso de desbordamiento en la transición `1001` (9) \\(\rightarrow\\) `0000` (0).
+5. **`SalidaPatron_tb.vhd`**: Verifica la conmutación de estado ante flancos del GPS.
+6. **`Comparador_tb.vhd`**: Inyecta habilitaciones `cmp_en` y valores `cmp_in` para verificar la conmutación de `cmp_out`.
+7. **`Testigo_Out_tb.vhd`**: Simula el reloj del sistema para comprobar la oscilación del LED testigo.
 
 ---
 
@@ -531,3 +614,4 @@ end Behavioral;
 2. **`TP_CuentaPPS_tb.vhd`**:
    * Banco de pruebas integral que simula el sistema completo en ISim / ISE 14.7.
 
+---

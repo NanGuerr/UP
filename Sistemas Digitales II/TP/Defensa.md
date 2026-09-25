@@ -93,3 +93,20 @@
 * **Apóyate en el esquema visual:** Ten a mano el diagrama de bloques (`diagrama_bloques_PF_SS2.png`) y señala los módulos mientras explicas el flujo de datos.
 * **Destaca la verificación:** Menciona que cada componente individual fue verificado mediante su respectivo *testbench* unitario (`TestComponents`) antes de realizar la integración jerárquica en el módulo superior `PF_SS2`.
 
+## 5. Eestructuras condicionales
+
+Sí, el código VHDL en los componentes que hemos trabajado **sí utiliza estructuras condicionales** para implementar la lógica sincrónica.
+
+Los diseños desarrollados incorporan elementos condicionales de las siguientes maneras:
+
+* **Evaluación de flancos de reloj:** Todos los procesos síncronos emplean la estructura condicional `if rising_edge(clk) then` para garantizar que los cambios de estado ocurran únicamente de manera sincronizada con el reloj del sistema.
+
+
+* **Condicionales de control y flujo (`if-then-else`):** Dentro de los procesos secuenciales, se utilizan sentencias `if` anidadas para evaluar señales de habilitación, límites de conteo (como reiniciar el contador al llegar a 9) o la detección de desbordamientos y condiciones lógicas específicas.
+
+
+* **Estructuras de selección (`case-when`):** Se emplean bloques condicionales de selección múltiple para decodificar estados, como en el caso del conversor de BCD a 7 segmentos.
+
+
+
+Por lo tanto, las estructuras condicionales son la base principal para gobernar el comportamiento secuencial y síncrono de los circuitos en los códigos VHDL revisados.

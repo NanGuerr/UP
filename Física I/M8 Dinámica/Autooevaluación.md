@@ -93,17 +93,25 @@ La respuesta correcta es la **Opción B**.
 1. La balanza mide la fuerza normal ($N$) que ejerce la superficie sobre el pasajero, la cual representa su **peso aparente**.
 2. Aplicando la **Segunda Ley de Newton** sobre el pasajero en el eje vertical (tomando como sentido positivo el sentido del movimiento, es decir, hacia abajo):
 
-$$\sum F = P_{\text{real}} - N = m \cdot a$$
+Para resolver esta pregunta, analizamos las fuerzas que actúan sobre el pasajero mediante la segunda ley de Newton:
+
+1. **Con el ascensor detenido** (o en reposo), la fuerza normal que ejerce la balanza sobre el pasajero equilibra exactamente su peso real ($P = m \cdot g$).
+2. **Con el ascensor bajando con una aceleración $a$**, la ecuación de movimiento vertical es:
+
+$$m \cdot g - N = m \cdot a$$
+
+
+Donde $N$ es la fuerza normal que registra la balanza (el peso aparente).
+Despejando $N$:
+
+$$N = m \cdot g - m \cdot a = P - m \cdot a$$
+
+Como al peso real $P$ se le resta el término $m \cdot a$, el valor que marca la balanza es menor. Por lo tanto, el pasajero experimenta un peso aparente inferior al que tendría en reposo.
+
+La respuesta correcta es la **Opción B**.
 
 
 
-donde el peso real es $P_{\text{real}} = m \cdot g$.
-3. Despejamos la fuerza normal $N$ (el valor que registrará la balanza):
-
-$$N = P_{\text{real}} - m \cdot a = m \cdot \left(g - a\right)$$
-
-
-4. Dado que el término $\left(g - a\right)$ es menor que la gravedad $g$ (porque el ascensor acelera hacia abajo), el valor marcado por la balanza será estrictamente menor que el peso real $P$.
-
-
+[Ejercicio de dinámica de un ascensor](https://www.youtube.com/watch?v=gmrjJdKXp7c&utm_source=gemini)
+Este video repasa un ejercicio práctico sobre cómo cambia el peso medido por una báscula cuando un objeto se desplaza con aceleración vertical en un elevador.
 * **Respuesta Correcta:** **Opción B (Menos que P)**.

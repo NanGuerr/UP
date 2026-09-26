@@ -1,3 +1,45 @@
+## ¿Para qué se usa un FPGA?
+
+Una **FPGA** (*Field Programmable Gate Array*) se utiliza principalmente en aplicaciones que exigen **procesamiento masivo en paralelo, velocidad extrema de hardware y baja latencia determinista**, combinando la flexibilidad de la programación con la potencia de los circuitos físicos.
+
+A diferencia de un procesador tradicional (CPU) que ejecuta tareas de forma secuencial, una FPGA permite configurar compuertas lógicas a medida para que múltiples operaciones ocurran al mismo tiempo de forma nativa.
+
+Sus aplicaciones industriales y tecnológicas más destacadas incluyen:
+
+### 1. Telecomunicaciones y Redes de Alta Velocidad
+
+* **Infraestructura 5G y redes ópticas:** Gestionan flujos gigantescos de datos y protocolos de comunicación complejos a velocidades de gigabits y terabits por segundo.
+* **SmartNICs y ciberseguridad:** Se emplean para inspeccionar, enrutar y filtrar paquetes de red al vuelo, reduciendo al mínimo el tiempo de respuesta (*latencia*).
+
+### 2. Inteligencia Artificial en el Borde (*Edge AI*)
+
+* **Inferencia de redes neuronales:** Permiten ejecutar modelos de IA (como visión artificial y procesamiento de lenguaje) directamente en dispositivos locales. Ofrecen una eficiencia energética excelente en comparación con las GPUs cuando se trata de tareas de IA específicas.
+
+### 3. Procesamiento Digital de Señales (DSP) e Imágenes Médicas
+
+* **Equipos de diagnóstico:** Se utilizan en equipos de resonancia magnética, ultrasonido y tomografía para procesar señales analógicas complejas y reconstruir imágenes médicas de alta definición en tiempo real.
+* **Radio definida por software (SDR):** Modulación, demodulación y filtrado de ondas de radiofrecuencia para sistemas de comunicación y radares.
+
+### 4. Industria Automotriz (Sistemas ADAS y Vehículos Autónomos)
+
+* **Fusión de sensores:** Los automóviles modernos procesan de forma simultánea e inmediata los datos provenientes de cámaras, radares y sensores LiDAR para asistir en la conducción o habilitar funciones autónomas.
+
+### 5. Aeroespacial y Defensa
+
+* **Sistemas de misión crítica:** Debido a su estabilidad, confiabilidad y variantes resistentes a la radiación espacial, se usan en satélites, cohetes, aviónica y sistemas de guía militar.
+
+### 6. Automatización Industrial y Robótica
+
+* **Control de motores y CNC:** Se encargan de bucles de control ultraprecisos para servomotores y brazos robóticos donde un retraso mínimo de milisegundos podría causar un fallo operativo.
+
+### 7. Prototipado y Diseño de Chips (ASICs)
+
+* **Validación de hardware:** Antes de gastar millones de dólares fabricando un microchip comercial desde cero (ASIC), los ingenieros cargan el diseño en una FPGA para probarlo, depurarlo y verificar que funcione a la perfección.
+
+---
+
+> **En resumen:** Se recurre a una FPGA siempre que el software convencional (en una CPU o microcontrolador) es demasiado lento o impreciso para cumplir con los tiempos requeridos, y cuando fabricar un chip personalizado no es viable por costos.
+
 ### 1. El cambio de mentalidad: De lo secuencial a lo concurrente
 
 En el software tradicional, si escribes tres líneas de código, la computadora las ejecuta una detrás de otra (secuencialmente). En una FPGA, **todo ocurre al mismo tiempo**.

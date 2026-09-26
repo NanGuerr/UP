@@ -100,7 +100,6 @@ Al requerir un valor que acumule únicamente un área de $0,30$ ($30\%$ ), como 
 * **Respuesta:** El valor del percentil 30 ($P_{30} = x_{0,30}$) debe ser **MENOR** a la media ($\mu = 2,8$ segundos).
 * **Fundamentación:** Por simetría de la distribución normal, la media $\mu$ deja acumulado a su izquierda el $50\%$ del área total ($P(X < \mu) = 0,50$). Dado que el percentil $30$ acumula un área del $30\%$ ($0,30$), la cual es menor al $50\%$, el valor $x_{0,30}$ se sitúa obligatoriamente a la izquierda de la media en la variable aleatoria continua.
 
-=============================
 # Pregunta 2
 
 ## 2. Identificación del tema

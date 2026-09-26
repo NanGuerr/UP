@@ -1,12 +1,12 @@
 # 📊 Resolución de Problemas de Probabilidad y Estadística
 
----
+
 
 ## 🤖 Contexto y Datos Iniciales
 * **Empresa:** Implementación de asistencia con IA para usuarios.
 * **Uso esperado:** Se espera que el **35%** de los usuarios utilice las sugerencias de la IA.
 
----
+
 # Prgunta 1
 ## Inciso A: Modelo Binomial 📈
 
@@ -36,10 +36,10 @@ $$P(X \ge 10) = 1 - 0,00224 = 0,99776$$
 
 ### Paso 3. Resultado final
 * **Qué se debe calcular:** $P(X \ge 10)$ donde $X$ se define sobre los usuarios que no usan la asistencia.
-* **Parámetros usados:** $n = 26$ y $p = 0,65$ ($X \sim \text{Bi}(26; 0,65)$).
+* **Parámetros usados:** $n = 26$ y $p = 0,65$ $X \sim \text{Bi}(26; 0,65)$ .
 * **Resultado numérico:** $P(X \ge 10) = 0,9978$ (equivalente al **99,78%**).
 
----
+
 
 ## ⏱️ Inciso B: Modelo de Poisson
 
@@ -78,7 +78,7 @@ $$P(5 \le X \le 8) = 0,06073 + 0,09109 + 0,11712 + 0,13176 = 0,40070$$
 * **Parámetros usados:** $\lambda = 9$ usos por cada intervalo de 2 horas.
 * **Resultado numérico:** $P(5 \le X \le 8) = 0,4007$ (equivalente al **40,07%**).
 
----
+
 
 ## 📉 Inciso C: Distribución Normal y Percentiles
 
@@ -111,7 +111,7 @@ El ejercicio requiere representar un espacio muestral dividido por un método de
 * **Probabilidad Condicional y Teorema de Bayes** para calcular la probabilidad a posteriori de un medio de pago dado el monto de la compra.   
 * **Evaluación de Sucesos Exhaustivos y Mutuamente Excluyentes** aplicando la regla de la suma y los axiomas de Kolmogorov.   
 
----
+
 
 ## 📝 Paso 2. Desarrollo paso a paso
 
@@ -138,7 +138,7 @@ Probabilidades condicionadas del monto según el medio de pago:
 * En transferencia bancaria, el $12\%$ ($0,12$) supera los $\$250.000$: $P(S \mid TR) = 0,12 \implies P(\bar{S} \mid TR) = 1 - 0,12 = 0,88$.   
 * En billetera virtual, el $60\%$ no superó los $\$250.000$: $P(\bar{S} \mid BV) = 0,60 \implies P(S \mid BV) = 1 - 0,60 = 0,40$.   
 
----
+
 
 ### 📊 Inciso A) Realización de la tabla de contingencia de probabilidades
 Para construir la tabla de contingencia, calculamos las probabilidades conjuntas (intersecciones) mediante la Regla del Producto: $\left( P(A \cap B) = P(A) \cdot P(B \mid A) \right)$.   
@@ -167,7 +167,7 @@ Para construir la tabla de contingencia, calculamos las probabilidades conjuntas
 | **No supera $\$250.000$ ($\bar{S}$)** | $0,270$ | $0,176$ | $0,210$ | **$0,656$** |
 | **Total** | **$0,450$** | **$0,200$** | **$0,350$** | **$1,000$** |
 
----
+
 
 ### 💳 Inciso B) Probabilidad de que la compra se haya abonado con TDC si el monto supera los $\$250.000$
 Se pide la probabilidad condicional inversa: $P(TDC \mid S)$.   
@@ -183,7 +183,7 @@ $$P(TDC \mid S) = \frac{0,180}{0,344} = \frac{45}{86} \approx 0,523256$$
 
 Es decir, aproximadamente un **$52,33\%$**.
 
----
+
 
 ### 🧮 Inciso C) Evaluación de si los sucesos "pagar con Transferencia Bancaria" ($TR$) y "que el monto no supere los $\$250.000$" ($\bar{S}$) son exhaustivos y cálculo correspondiente
 
@@ -204,7 +204,7 @@ $$P(TR \cup \bar{S}) = 0,200 + 0,656 - 0,176 = 0,680$$
 **Conclusión analítica:**
 Dado que $P(TR \cup \bar{S}) = 0,680 \neq 1$, **los sucesos no son mutuamente exhaustivos**, pues su unión no cubre la totalidad del espacio muestral (existen compras con $TDC$ o $BV$ que superan los $\$250.000$, las cuales no pertenecen ni a $TR$ ni a $\bar{S}$).   
 
----
+
 
 ## ✅ Paso 3. Resultado final
 
@@ -220,13 +220,13 @@ Dado que $P(TR \cup \bar{S}) = 0,680 \neq 1$, **los sucesos no son mutuamente ex
 
 Aquí tienes un completamiento y resolución detallada de un ejercicio completo basado en el contexto de rendimiento de conexiones para copias de seguridad en la nube, modelado mediante una **Distribución Normal**.
 
----
+
 
 # ☁️ Análisis de Rendimiento de Conexión para Copias de Seguridad en la Nube
 
 Se analiza el rendimiento de una conexión para copias de seguridad de grandes volúmenes de información hacia un servidor en la nube. Tras registrar múltiples muestras, se determina que la velocidad de transferencia obtenida $X$ (medida en $\text{MB/s}$) sigue una **Distribución Normal** con una velocidad media $\mu = 50\text{ MB/s}$ y una desviación estándar $\sigma = 8\text{ MB/s}$.
 
----
+
 
 ## Pregunta 3
 
@@ -234,7 +234,7 @@ Se analiza el rendimiento de una conexión para copias de seguridad de grandes v
 * **B)** ¿Cuál es la probabilidad de que la velocidad de transferencia se encuentre entre $40\text{ MB/s}$ y $55\text{ MB/s}$?
 * **C)** ¿Cuál debe ser la velocidad mínima de transferencia para pertenecer al $10\%$ de las conexiones más rápidas (es decir, el percentil $90$)?
 
----
+
 
 ## 📝 Desarrollo y Resolución Paso a Paso
 
@@ -242,7 +242,7 @@ Para resolver este ejercicio utilizando variables aleatorias continuas con distr
 
 $$Z = \frac{X - \mu}{\sigma} = \frac{X - 50}{8}$$
 
----
+
 
 ### 🚀 Inciso A) Probabilidad de que la velocidad supere los $60\text{ MB/s}$
 
@@ -266,7 +266,7 @@ $$P(X > 60) = 1 - 0,8944 = 0,1056$$
 
 * **Resultado A:** La probabilidad de que una copia de seguridad supere los $60\text{ MB/s}$ es de **$0,1056$** (aproximadamente **$10,56\%$**).
 
----
+
 
 ### 📊 Inciso B) Probabilidad de que la velocidad esté entre $40\text{ MB/s}$ y $55\text{ MB/s}$
 
@@ -303,7 +303,7 @@ $$P(40 < X < 55) = 0,7357 - 0,1056 = 0,6301$$
 
 * **Resultado B:** La probabilidad de que la velocidad de transferencia se mantenga en ese rango es de **$0,6301$** (aproximadamente **$63,01\%$**).
 
----
+
 
 ### ⚡ Inciso C) Velocidad mínima para pertenecer al $10\%$ de las conexiones más rápidas
 

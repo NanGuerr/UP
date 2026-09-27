@@ -153,3 +153,10 @@ En el banco de pruebas disparamos la señal `nrst <= '0'` desfasada (por ejemplo
 2. **Que no hay latencia de reinicio:** Muestra en el visor de ondas de ISim que las salidas (`ss_out`, `cuenta_final`, etc.) caen a cero en el nanosegundo exacto en que se presiona el reset, garantizando la seguridad del hardware ante situaciones de emergencia.
 
 💡 En resumen: se le llama "intempestiva" porque simula un reset "sorpresa" a mitad de ciclo para comprobar que la FPGA responde de forma **inmediata** y no diferida.
+Caso 1 (Reset de Encendido / Power-On Reset): Evalúa el estado inicial del sistema justo en el momento en que se enciende o arranca la simulación, comprobando que los registros se inicialicen correctamente.
+
+Caso 2 (Operación Normal - Conteo BCD): Verifica que el sistema realice el conteo en código decimal binario (BCD) de forma adecuada bajo condiciones normales de operación, una vez liberado el reset.
+
+Caso 3 (Inyección de Reset Asíncrono a Mitad de Operación): Introduce una señal de reinicio de forma abrupta mientras el sistema está contando activamente. Su propósito es comprobar que el circuito reacciona de inmediato, sin necesidad de esperar a que ocurra un flanco de reloj.
+
+Caso 4 (Recuperación y Continuidad post-Reset): Envía un nuevo pulso de GPS tras haber aplicado el reset, verificando que la secuencia de conteo se reinicie correctamente desde cero y que el sistema continúe operando de manera estable.

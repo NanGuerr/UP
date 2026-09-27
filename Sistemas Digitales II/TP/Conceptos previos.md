@@ -108,3 +108,55 @@ Para garantizar que un sistema que opera a escala de nanosegundos funcione sin f
 ---
 
 > 📌 **Nota:** Este documento resume la arquitectura de hardware concurrente, la gestión de señales asíncronas y el control de calidad mediante simulación avanzada para sistemas digitales basados en FPGA.
+En la estructura interna de una FPGA (como la Spartan-6 o Artix-7 de Xilinx), los **Flip-Flops** dentro de los bloques de lógica configurable (Slices) poseen conexiones físicas independientes para datos y para control. 
+
+La diferencia en el esquemático interno según cómo escribas el código VHDL es la siguiente:
+
+---
+
+### 1. Reset Asíncrono (`nrst`): Conexión Directa al Pin de Control `CLR`
+
+Cuando en VHDL incluyes el reset en la lista de sensibilidad (`process(clk_in, nrst)`) y fuera del flanco de reloj (`if nrst = '0' then`):
+
+* **En el Esquemático RTL/Tecnológico:** El sintetizador (ISE XST / Vivado) conecta la señal `nrst` directamente a la **línea física dedicada `CLR` (Clear)** del Flip-Flop.
+* **Recursos Utilizados:** No consume tablas de búsqueda combinacional (**LUTs**). Utiliza la red de distribución global de control de la FPGA.
+* **Comportamiento:** La señal `CLR` fuerza el borrado inmediato del silicio del Flip-Flop en el instante en que la tensión cae a `'0'`, sin pasar por la entrada de datos \\(D\\).
+
+```text
+                  +-------------------------+
+Entrada D --------| D                     Q |-----> Salida
+                  |                         |
+Reloj (clk) ----->| C                       |
+                  |                         |
+nrst (Asíncrono)->| CLR (Pin dedicado)      |
+                  +-------------------------+
+```
+
+---
+
+### 2. Reset Síncrono (`rst`): Conexión a través de la Lógica Combinacional (LUT)
+
+Si escribes el reset dentro del bloque síncrono del reloj (`if rising_edge(clk_in) then if rst = '1' then`):
+
+* **En el Esquemático RTL/Tecnológico:** La señal de reset no ataca el pin de borrado físico del Flip-Flop. En su lugar, el sintetizador la mezcla dentro de la **LUT (Look-Up Table)** combinacional junto con los datos de entrada.
+* **Recursos Utilizados:** Consume capacidad en las LUTs previas al Flip-Flop para conmutar la línea \\(D\\) a `'0'` cuando `rst` está activo.
+* **Comportamiento:** El Flip-Flop no se entera inmediatamente del reset. Simplemente en el siguiente flanco de subida del reloj, lee que la LUT le presenta un `'0'` en la entrada \\(D\\).
+
+```text
+                    +-------+
+Entrada Datos ----->|       |    +-------------------+
+                    |  LUT  |--->| D               Q |-----> Salida
+rst (Síncrono) ----->|       |    |                   |
+                    +-------+    |                   |
+Reloj (clk) -------------------->| C                 |
+                                 +-------------------+
+```
+
+---
+
+### 3. Consideración de Ingeniería: El riesgo de "Recovery" y "Removal"
+
+Aunque el reset asíncrono borra el circuito de forma inmediata ante una emergencia, tiene un aspecto crítico a cuidar al momento de **desactivarlo (liberarlo)**:
+
+* Si la señal `nrst` pasa de `'0'` a `'1'` (liberación) **exactamente al mismo tiempo** que llega un flanco ascendente de `clk_in`, el Flip-Flop puede entrar en **metaestabilidad** (no sabe si arrancar a contar en ese ciclo o en el siguiente).
+* Para evitar esto en diseños industriales, se utiliza un **Sincronizador de Reset (Reset Bridge)**: el reset se activa de forma asíncrona inmediata, pero su desactivación se sincroniza con el reloj.

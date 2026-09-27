@@ -1,14 +1,14 @@
-# 📊 Autoevaluación de Inferencia Estadística: Respuestas y Explicaciones Teóricas
+# 📊 Autoevaluación Respuestas y Explicaciones Teóricas
 
 A continuación, se presentan las respuestas correctas y explicaciones detalladas para cada una de las preguntas de la autoevaluación de inferencia estadística, basadas en el material teórico de la cátedra.
 
----
+
 
 ## 📝 Pregunta 1
 * **Respuesta correcta:** B. $t = t(0.95, n-1)$
 * **Explicación:** Cuando se calcula un intervalo con un nivel de confianza del $90\%$ ($1 - \alpha = 0.90$), se obtiene que $\alpha = 0.10$, por lo que $\alpha / 2 = 0.05$ y el valor acumulado necesario es $1 - \alpha / 2 = 0.95$. Los grados de libertad corresponden a $\nu = n - 1$.
 
----
+
 
 ## 🎯 Pregunta 2: Interpretación del Intervalo de Confianza para la Media
 * **¿Cómo se interpreta el siguiente intervalo de confianza para la media: $IC (0.90) = (11, 13)$?**
@@ -20,7 +20,7 @@ A continuación, se presentan las respuestas correctas y explicaciones detallada
 * **Opción B (Incorrecta):** *La probabilidad de que $\mu$ asuma valores comprendidos entre 11 y 13 es de 0.90.* En la estadística clásica, $\mu$ es un valor fijo (aunque desconocido), no una variable aleatoria. No tiene una distribución de probabilidad; o está dentro del intervalo (probabilidad 1) o no está (probabilidad 0). El $90\%$ de confianza se refiere al método o procedimiento, no al parámetro en sí.
 * **Opción C (Incorrecta):** *La probabilidad de que $\mu$ pertenezca al intervalo es de 0.90.* Por la misma razón que la Opción B, una vez calculado el intervalo numérico $(11, 13)$, este es fijo y el parámetro $\mu$ también lo es, por lo que la probabilidad de que pertenezca a este intervalo específico es 1 o 0.
 
----
+
 
 ## 📈 Teoría Complementaria: Intervalo de Confianza para la Proporción Poblacional ($p$)
 
@@ -47,7 +47,7 @@ El intervalo de confianza para una proporción poblacional ($p$) proporciona un 
 | **Fórmula del Error Muestral ($EM$)** | $EM = t_{\left(\nu, 1 - \frac{\alpha}{2}\right)} \cdot \frac{s}{\sqrt{n}}$ (emplea el desvío estándar muestral $s$). | $EM = z_{\left(1 - \frac{\alpha}{2}\right)} \cdot \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$ (emplea la proporción muestral $\hat{p}$). |
 | **Estimador puntual base** | La media muestral ($\overline{x}$). | La proporción muestral ($\hat{p}$). |
 
----
+
 
 ## 🚫 Errores Conceptuales Comunes en Intervalos de Confianza
 
@@ -57,7 +57,7 @@ El intervalo de confianza para una proporción poblacional ($p$) proporciona un 
 * **Opción C (Incorrecta):** *"La probabilidad de que $p$ asuma valores comprendidos entre 0,15 y 0,21 es de 0,95".* -> Confunde un intervalo de confianza con un intervalo probabilístico.
 * **Opción D (Correcta):** **"95 de cada 100 intervalos construidos a partir de distintas muestras contienen a $p$."** -> Única opción que respeta la interpretación frecuentista correcta aplicada a proporciones.
 
----
+
 
 ## 🧮 Pregunta 3: Parámetros vs. Estimadores Puntuales
 * **Opciones correctas:** A. $\overline{x}$, D. $p$ y E. $S^2$
@@ -66,7 +66,7 @@ El intervalo de confianza para una proporción poblacional ($p$) proporciona un 
   * $S^2$ estima la varianza poblacional ($\sigma^2$).
   * $p$ (o $\hat{p}$) representa la proporción muestral.
 
----
+
 
 ## 📉 Pregunta 5: Comportamiento del Error Muestral ($EM$)
 * **Opciones correctas:** B, C y D
@@ -75,7 +75,7 @@ El intervalo de confianza para una proporción poblacional ($p$) proporciona un 
   * **D. Si aumenta la confianza del intervalo, el $EM$ aumenta.** (Un nivel de confianza mayor requiere un valor crítico más alto, incrementando el error).
   * *(Nota: La opción A es incorrecta porque si $\alpha$ aumenta, disminuye el nivel de confianza y se reduce el error muestral).*
 
----
+
 
 ## 🎯 Pregunta 6: Insesgadez de la Media Muestral
 * **Respuesta correcta:** A. $\mu(\overline{x}) = \mu(x) = \mu$

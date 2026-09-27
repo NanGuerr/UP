@@ -58,6 +58,45 @@ CORRECCIÓN APLICADA:
 | **Sintaxis VHDL habitual** | ```vhdl if nrst = '0' then <registros> <= '0'; elsif rising_edge(clk) then ... end if; ``` | ```vhdl if rising_edge(clk) then if rst = '1' then <registros> <= '0'; else ... end if; end if; ``` |
 | **Ventajas** | Garantiza la inicialización aunque la red de distribución de reloj esté inactiva; no agrega lógica combinacional a la entrada \\(D\\) del Flip-Flop. | Inmune a picos de ruido en la línea de reset (*glitches*); facilita el análisis de tiempos (*Static Timing Analysis*). |
 
+**Sí, absolutamente.** El reloj (`clk_in`) y la señal de reset (`nrst`) cumplen funciones completamente distintas y complementarias en un circuito digital.
+
 ---
 
-💡 ¿Te gustaría ajustar el informe técnico en PDF (`informe_TP_CuentaPPS_Corregido.pdf`) para incluir formalmente el diagrama v2 y la fe de erratas del reset?
+### 1. ¿Qué hace cada señal?
+
+* **`clk_in` (Reloj Principal):** Es el **marcapasos síncrono** del sistema. En cada flanco de subida (`rising_edge(clk_in)`), ordena a todos los Flip-Flops evaluar sus entradas y avanzar al **siguiente paso** de la secuencia. Sin embargo, el reloj por sí solo **no sabe ni decide cuál es el punto de partida inicial**.
+* **`nrst` (Reset Global):** Es la **orden explícita de reinicio**. Fuerza a todos los contadores y registros internos a volver inmediatamente a un **estado inicial conocido** (por ejemplo, la cuenta a `"0000"`).
+
+---
+
+### 2. ¿Por qué el `clk_in` no reemplaza al reset?
+
+1. **Estados indeterminados al encender (Power-Up):**
+   Al energizar la FPGA o sufrir una pequeña fluctuación de tensión, los Flip-Flops físicos pueden encender en cualquier estado aleatorio (por ejemplo, en un contador de 0 a 9, arrancar en `1110` o 14). Si solo hay `clk_in`, el reloj comenzará a hacer avanzar el sistema, pero **cometiendo errores desde un estado inicial incorrecto**.
+2. **Reinicio en tiempo de ejecución:**
+   El reloj `clk_in` late de forma continua e ininterrumpida a 100 MHz. Si el usuario o el sistema necesitan reiniciar la cuenta a cero durante el funcionamiento normal sin cortar la energía de la placa, el `clk_in` no puede hacerlo por sí solo; se requiere la entrada `nrst` para forzar la puesta a cero.
+3. **Recuperación ante fallos de ruido:**
+   Si un pico de ruido altera el contenido de un registro, la señal de reset permite restablecer el comportamiento correcto del chip inmediatamente.
+
+---
+
+### 3. ¿Cómo trabajan juntos en el código VHDL?
+
+Dentro de los submódulos secuenciales (como el contador BCD o la salida patrón), la señal `clk_in` ingresa al pin de reloj de los Flip-Flops (\\(C\\)), mientras que la señal `nrst` ataca la entrada de borrado inicial:
+
+```vhdl
+process(clk_in, nrst)
+begin
+    if nrst = '0' then
+        -- El reset determina DÓNDE EMPEZAR
+        count <= (others => '0');
+    elsif rising_edge(clk_in) then
+        -- El reloj determina CÓMO AVANZAR en cada ciclo
+        if gps = '1' then
+            count <= count + 1;
+        end if;
+    end if;
+end process;
+```
+
+En síntesis: **el `clk_in` hace que el sistema funcione en el tiempo, pero el `nrst` garantiza que comience a funcionar desde el lugar correcto**.

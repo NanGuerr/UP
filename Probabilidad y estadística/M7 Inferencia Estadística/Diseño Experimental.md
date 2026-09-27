@@ -1,4 +1,4 @@
-# 📊  Fundamentos de Inferencia Estadística y Diseño Experimental
+# 📊  Inferencia Estadística y Diseño Experimental
 
 ## 📋 Resumen Ejecutivo
 

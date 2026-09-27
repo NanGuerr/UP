@@ -45,7 +45,82 @@ CORRECCIÓN APLICADA:
    lista de sensibilidad, forzando la puesta a cero inmediata de Flip-Flops, registros 
    de consigna y contadores del sistema ante la presencia de un nivel bajo en dicho pin.
 ```
+**Sí, es fundamental incluir una señal de reset** en diseños digitales para FPGA. En un sistema secuencial, el reset garantiza que todos los Flip-Flops y contadores inicien en un **estado inicial conocido** al energizar la placa o reiniciar el sistema, evitando estados indeterminados o no deseados.
 
+---
+
+### 1. Dónde colocarlo en la jerarquía (Top Module)
+
+En el módulo principal (**`TP_CuentaPPS`**), la señal de reset debe colocarse como un **puerto de entrada global** y conectarse en paralelo a todos los submódulos secuenciales:
+
+* **En la entidad principal (`TP_CuentaPPS.vhd`):**
+  ```vhdl
+  entity TP_CuentaPPS is
+      Port ( 
+          clk_in        : in  std_logic;                    -- Reloj principal (100 MHz)
+          nrst          : in  std_logic;                    -- Reset global activo en bajo ('0' = reset)
+          gps           : in  std_logic;                    -- Entrada 1PPS
+          cmp_in        : in  std_logic_vector(3 downto 0);
+          cmp_en        : in  std_logic;
+          ss_out        : out std_logic_vector(6 downto 0);
+          cuenta_final  : out std_logic;
+          salida_patron : out std_logic;
+          cmp_out       : out std_logic;
+          testigo_led   : out std_logic
+      );
+  end TP_CuentaPPS;
+  ```
+
+* **Distribución a submódulos:**
+  Debes llevar la señal `nrst` a las entradas de reset de los **6 módulos secuenciales**:
+  * **U0** (`Acondicionador`)
+  * **U1** (`ContBCD`)
+  * **U3** (`DetectorOverflow`)
+  * **U4** (`SalidaPatron`)
+  * **U5** (`Comparador`)
+  * **U6** (`Testigo_Out`)
+
+  *(Nota: El módulo **U2** `BCDa7Seg` es combinacional puro, por lo que **no lleva reloj ni reset**).*
+
+---
+
+### 2. Cómo escribirlo dentro de los procesos VHDL
+
+Para un **reset asíncrono activo en bajo** (`nrst`), debes incluir el pin en la **lista de sensibilidad** (`sensitivity list`) de cada proceso secuencial:
+
+```vhdl
+process(clk_in, nrst)
+begin
+    if nrst = '0' then
+        -- Estado de reinicio inicial
+        count <= (others => '0');
+    elsif rising_edge(clk_in) then
+        -- Lógica síncrona normal del módulo
+        if gps = '1' then
+            if count = 9 then
+                count <= (others => '0');
+            else
+                count <= count + 1;
+            end if;
+        end if;
+    end if;
+end process;
+```
+
+---
+
+### 3. Valores de reinicio recomendados por bloque
+
+| Submódulo | Variable/Registro a reiniciar | Valor al activar el reset (`nrst = '0'`) |
+| :--- | :--- | :--- |
+| **U0 – Acondicionador** | `pulso_reg`, `pulso_anterior` | `'0'` |
+| **U1 – ContBCD** | `count` | `"0000"` (0 decimal) |
+| **U3 – DetectorOverflow** | `bcd_anterior`, `cuenta_final` | `"0000"` y `'0'` |
+| **U4 – SalidaPatron** | `estado` | `'0'` (o `'1'`) |
+| **U5 – Comparador** | `cmp_val_reg`, `cmp_reg` | `"0000"` y `'0'` |
+| **U6 – Testigo_Out** | `contador`, `estado_led` | `0` y `'0'` |
+
+💡 ¿Quieres que actualicemos los archivos VHDL y sus testbenches para incluir el puerto `nrst` en todas las entidades?
 ---
 
 ### 4. Diferencia entre Reset Asíncrono y Reset Síncrono

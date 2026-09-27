@@ -131,3 +131,25 @@ Para garantizar que un sistema que opera a escala de nanosegundos funcione sin f
 
 
 * **Comprobación Automática (Assertions):** Los archivos de simulación integran sentencias de validación automática (`assert`) que evalúan las salidas ciclo a ciclo en cada nanosegundo, reportando advertencias o errores en la consola del simulador (como Xilinx ISE) si alguna señal difiere del comportamiento matemático esperado.
+El término **"respuesta asíncrona intempestiva"** se refiere a probar cómo reacciona el circuito cuando el reset ocurre en un momento completamente aleatorio e imprevisto respecto al reloj del sistema.
+
+Te explico el porqué de esta prueba en el diseño de hardware:
+
+---
+
+### 1. El problema en el mundo real
+En un chip o FPGA real, un evento de reset (como presionar un botón físico, una caída de tensión o una señal de falla de un sensor) **nunca avisa ni se alinea con el reloj interno de 100 MHz**. Puede ocurrir en cualquier nanosegundo, incluso justo a la mitad de un período de reloj.
+
+### 2. ¿Qué significa que "no espera al flanco de subida"?
+* **Si el reset fuera síncrono:** Cuando la señal de reset se activa a la mitad de un ciclo (por ejemplo, en el nanosegundo 3 de un período de 10 ns), los Flip-Flops ignorarían esa orden hasta que llegue el nanosegundo 10 (el siguiente flanco de subida de `clk_in`).
+* **Como el reset es asíncrono (`nrst`):** Al activarse en el nanosegundo 3, la lógica ataca directamente los pines de borrado físico (*CLR*) de los Flip-Flops. El sistema **se limpia al instante en el nanosegundo 3**, sin esperar los 7 nanosegundos restantes para que el reloj vuelva a conmutar.
+
+---
+
+### 3. ¿Por qué se simula esto en el testbench (`nrst_tb.vhd`)?
+En el banco de pruebas disparamos la señal `nrst <= '0'` desfasada (por ejemplo, con un `wait for 3 ns;`) para **demostrar y verificar**:
+
+1. **Que el código VHDL está bien escrito:** Confirma que la lista de sensibilidad del proceso incluye al reset (`process(clk_in, nrst)`) y que el `if nrst = '0'` se evalúa fuera del `rising_edge(clk_in)`.
+2. **Que no hay latencia de reinicio:** Muestra en el visor de ondas de ISim que las salidas (`ss_out`, `cuenta_final`, etc.) caen a cero en el nanosegundo exacto en que se presiona el reset, garantizando la seguridad del hardware ante situaciones de emergencia.
+
+💡 En resumen: se le llama "intempestiva" porque simula un reset "sorpresa" a mitad de ciclo para comprobar que la FPGA responde de forma **inmediata** y no diferida.

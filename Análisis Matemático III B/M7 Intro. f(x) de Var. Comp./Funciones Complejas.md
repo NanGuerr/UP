@@ -6,7 +6,6 @@
 
 ## 🎙️ Transcripción Audio / Visual del Video
 
-*  🎬 *[Pantalla de título]*: **Geometría de funciones complejas elementales** (Universidad de Palermo).
 *  ❓ ¿Qué pasa al tratar de calcular la raíz cuadrada de $-1$? Parece que la calculadora tira `ERROR!`.
 *  🔢 En el mundo de los números reales, sabemos que ningún número elevado al cuadrado puede ser $-1$:
   $$x^2 \neq -1 \quad \text{para } x \in \mathbb{R}$$

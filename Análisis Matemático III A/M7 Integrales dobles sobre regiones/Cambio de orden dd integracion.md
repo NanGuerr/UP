@@ -1,9 +1,3 @@
-# 🔄 Cambio del Orden de Integración
-
-Este documento detalla los procedimientos explicados en el video por la docente María Gabriela Esperón (Universidad de Palermo) sobre cómo realizar el cambio de orden de integración en integrales dobles. 🎓📐
-
-
-
 ## 🗺️ 1. Definición de Regiones Planas
 
 Antes de resolver el problema, es fundamental recordar los dos tipos principales de regiones de integración.

@@ -1,4 +1,4 @@
-# 📝 Integrales Dobles y Cambio de Orden de Integración
+# 📝 Cambio de Orden de Integración
 
 ## 📌 1. Definición de Regiones de Integración en el Plano
 

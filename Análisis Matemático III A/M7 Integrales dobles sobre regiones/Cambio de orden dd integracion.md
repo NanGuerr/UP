@@ -1,4 +1,4 @@
-# 🔄 Transcripción y Análisis: Cambio del Orden de Integración
+# 🔄 Cambio del Orden de Integración
 
 Este documento detalla los procedimientos explicados en el video por la docente María Gabriela Esperón (Universidad de Palermo) sobre cómo realizar el cambio de orden de integración en integrales dobles. 🎓📐
 
@@ -87,7 +87,7 @@ Para resolver esta integral, aplicamos el método de sustitución:
 **Cambio de límites de integración:**
 *   Si $y = 0 \implies t = 0^2 = 0$
 *   Si $y = 1 \implies t = 1^2 = 1$
-*(En este caso particular, los límites numéricos de $t$ resultan ser iguales a los de $y$).*
+(En este caso particular, los límites numéricos de $t$ resultan ser iguales a los de $y$).
 
 Sustituimos en la integral:
 

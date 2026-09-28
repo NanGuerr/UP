@@ -15,9 +15,9 @@ $$y^2 \int_{\frac{1}{2}y^2}^{y^2} \frac{1}{x} \, dx$$
 
 La antiderivada de $\frac{1}{x}$ es $\ln\vert{}x\vert{}$. Evaluamos desde el límite inferior $\frac{1}{2}y^2$ hasta el límite superior $y^2$:
 
-$$y^2 \left[ \ln\vert{}x\vert{} \right]_{\frac{1}{2}y^2}^{y^2} = y^2 \left( \ln(y^2) - \ln\left(\frac{1}{2}y^2\right) \dutch \right)$$
+$$y^2 \left[ \ln\vert{}x\vert{} \right]_{\frac{1}{2}y^2}^{y^2} = y^2 \left( \ln(y^2) - \ln\left(\frac{1}{2}y^2\right)  \right)$$
 
-Usando las propiedades de los logaritmos ($\ln(A) - \ln(B) = \ln\left(\frac{A}{B}\right)$):
+Usando las propiedades de los logaritmos ($$\ln(A) - \ln(B) = \ln\left(\frac{A}{B}\right)$$):
 
 $$\ln\left(\frac{y^2}{\frac{1}{2}y^2}\right) = \ln(2)$$
 

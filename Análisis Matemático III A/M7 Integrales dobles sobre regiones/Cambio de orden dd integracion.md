@@ -2,7 +2,7 @@
 
 Este documento detalla los procedimientos explicados en el video por la docente María Gabriela Esperón (Universidad de Palermo) sobre cómo realizar el cambio de orden de integración en integrales dobles. 🎓📐
 
----
+
 
 ## 🗺️ 1. Definición de Regiones Planas
 
@@ -14,6 +14,7 @@ Una región plana $D$ es de **tipo I** si se encuentra acotada entre las gráfic
 *   La variable $y$ varía entre dos funciones de $x$: $g_1(x) \le y \le g_2(x)$.
 
 La integral doble sobre esta región se plantea integrando primero respecto a $y$ y luego respecto a $x$:
+
 $$ \iint_{D} f(x,y) \, dA = \int_{a}^{b} \int_{g_1(x)}^{g_2(x)} f(x,y) \, dy \, dx $$
 
 ### 📍 Región de Tipo II
@@ -22,9 +23,10 @@ Una región plana $D$ es de **tipo II** si se encuentra acotada entre las gráfi
 *   La variable $x$ varía entre dos funciones de $y$: $h_1(y) \le x \le h_2(y)$.
 
 La integral doble sobre esta región se plantea integrando primero respecto a $x$ y luego respecto a $y$:
+
 $$ \iint_{D} f(x,y) \, dA = \int_{c}^{d} \int_{h_1(y)}^{h_2(y)} f(x,y) \, dx \, dy $$
 
----
+
 
 ## ⚠️ 2. El Problema Propuesto
 
@@ -37,7 +39,7 @@ El problema que se presenta es que **no podemos hallar en términos finitos la p
 
 Por lo tanto, **es obligatorio hacer un cambio en el orden de integración** transformando la región a Tipo II. 🔄
 
----
+
 
 ## 🛠️ 3. Cambio de Orden de Integración
 
@@ -56,7 +58,7 @@ Escribimos la integral con el orden $dx \, dy$:
 
 $$ \int_{0}^{1} \int_{0}^{\sqrt{y}} x \cdot e^{y^2} \, dx \, dy $$
 
----
+
 
 ## 🧮 4. Resolución de la Nueva Integral
 
@@ -68,10 +70,12 @@ Calculamos la primitiva de $x$, que es $\frac{x^2}{2}$:
 $$ \int_{0}^{\sqrt{y}} x \cdot e^{y^2} \, dx = \left[ \frac{x^2}{2} \right]_{0}^{\sqrt{y}} \cdot e^{y^2} $$
 
 Evaluamos aplicando la Regla de Barrow (límite superior menos inferior):
+
 $$ = \left( \frac{(\sqrt{y})^2}{2} - \frac{0^2}{2} \right) \cdot e^{y^2} = \frac{y}{2} \cdot e^{y^2} $$
 
 ### Paso B: Integración exterior (respecto a $y$) 🔢
 Reemplazamos este resultado en la integral exterior. Podemos sacar la constante $\frac{1}{2}$ fuera de la integral:
+
 
 $$ \frac{1}{2} \int_{0}^{1} y \cdot e^{y^2} \, dy $$
 
@@ -86,13 +90,16 @@ Para resolver esta integral, aplicamos el método de sustitución:
 *(En este caso particular, los límites numéricos de $t$ resultan ser iguales a los de $y$).*
 
 Sustituimos en la integral:
+
 $$ \frac{1}{2} \int_{0}^{1} y \cdot e^{t} \cdot \frac{dt}{2y} $$
 
 Simplificamos la variable $y$ y extraemos el divisor $2$ multiplicando a la fracción externa:
+
 $$ = \frac{1}{4} \int_{0}^{1} e^{t} \, dt $$
 
 ### Paso D: Resultado Final 🎉
 La integral de $e^t$ es $e^t$. Evaluamos entre los nuevos límites $0$ y $1$:
+
 
 $$ = \frac{1}{4} \left[ e^t \right]_{0}^{1} = \frac{1}{4} (e^1 - e^0) $$
 

@@ -1,5 +1,5 @@
 
-> ### *"Diseña con lógica y la certeza de que estás construyendo una versión del hardware de tu futuro."*
+> ### *"Diseña con lógica y la certeza de que estás construyendo una versión del hardware del futuro."*
 
 <p align="center">
   <a href="#-1-objetivos-y-competencias-centrales">

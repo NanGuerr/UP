@@ -29,14 +29,14 @@
 
 # 📊 Programa Académico: Sistemas Digitales II
 
----
+
 
 ## 📝 Resumen Ejecutivo
 La asignatura **Sistemas Digitales II**, correspondiente al plan de Ingeniería en Telecomunicaciones (ITC2022) de la Facultad de Ingeniería, se centra en el diseño, modelización e implementación de sistemas digitales avanzados mediante el uso de lenguajes de descripción de hardware (**HDL**), específicamente **VHDL**. El núcleo del curso es la aplicación de esta tecnología en dispositivos **FPGA** (*Field Programmable Gate Array*), orientados a soluciones en equipos de radiocomunicaciones y procesamiento digital de señales. 📡
 
 El programa se estructura en una carga horaria total de **68 horas**, complementadas con **102 horas de estudio autónomo**. La metodología pedagógica es a distancia, mediada por la plataforma **Blackboard**, y prioriza un enfoque práctico y colaborativo donde la evaluación recae principalmente en la resolución de problemas reales, el diseño de circuitos y la defensa oral de un proyecto integrador final. 🎓
 
----
+
 
 ## 🎯 1. Objetivos y Competencias Centrales
 
@@ -47,7 +47,7 @@ El curso está diseñado para que los estudiantes desarrollen capacidades técni
 * 💡 **Innovación Tecnológica:** Capacidad para generar desarrollos innovadores, como subsistemas para procesamiento digital de señales y protocolos de comunicación.
 * 🔍 **Resolución de Problemas:** Identificación y formulación de soluciones a problemas de ingeniería mediante circuitos reconfigurables.
 
----
+
 
 ## 🗂️ 2. Estructura Analítica del Contenido
 
@@ -76,7 +76,7 @@ El contenido se divide en cinco unidades fundamentales que llevan al estudiante 
 * ✔️ **Validación:** Modelado de simulación y creación de vectores de verificación (*testbenches*).
 * 🛠️ **Herramientas:** Uso del simulador **ISIM** para la verificación de circuitos combinatorios y secuenciales.
 
----
+
 
 ## 🌐 3. Metodología de Enseñanza y Herramientas
 
@@ -87,7 +87,7 @@ El modelo pedagógico es centrado en el estudiante, fomentando el aprendizaje au
 * 📊 **Simulación Avanzada:** Prácticas orientadas a *testbenches* generalizados y análisis de retardos de conexión.
 * ☁️ **Implementación:** Prácticas en placas de desarrollo FPGA físicas, o entornos en la nube (**AWS**).
 
----
+
 
 ## 📊 4. Sistema de Evaluación y Requisitos de Aprobación
 
@@ -105,7 +105,7 @@ La evaluación es continua y se basa en evidencias de aprendizaje que demuestran
 * 🎤 **Trabajo Práctico Integrador (Semana 15):** Defensa oral sincrónica donde el alumno debe justificar su diseño, la descripción en VHDL y los resultados de síntesis.
 * 🎓 **Examen Final:** Consta de una instancia asincrónica filmada y una evaluación oral sincrónica frente al profesor. La nota mínima de aprobación es **4 (cuatro)**.
 
----
+
 
 ## 📚 5. Recursos Bibliográficos
 

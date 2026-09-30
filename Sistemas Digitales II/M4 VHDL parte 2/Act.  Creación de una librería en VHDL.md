@@ -1,53 +1,53 @@
-```vhdl
+# 📦 Paquete de Componentes Estándar en VHDL (`componentes`)
 
+Este documento recopila la transcripción de un paquete VHDL que declara componentes lógicos fundamentales, tales como compuertas lógicas básicas, multiplexores y decodificadores para su reutilización en diseños jerárquicos[cite: 26].
+
+---
+
+```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
 
+
 package componentes is
 
-    -- Componente base existente
-    component comp_and is
-       port ( a : in std_logic;
-              b : in std_logic;
-              c : out std_logic
-            );
-    end component comp_and;
-
-    -- 1. Multiplexor de 2 a 1
-    component mux2a1 is
-        port (
-            in0    : in std_logic;
-            in1    : in std_logic;
-            sel    : in std_logic;
-            salida : out std_logic
+component comp_and is
+   port ( a : in std_logic;
+          b : in std_logic;
+          c : out std_logic
         );
-    end component mux2a1;
+end component comp_and;
 
-    -- 2. Multiplexor de 4 a 1 (con entradas en vector)
-    component multiplexor4a1 is
-        port (
-            entrada_i : in std_logic_vector(3 downto 0);
-            sel_i     : in std_logic_vector(1 downto 0);
-            salida_o  : out std_logic
-        );
-    end component multiplexor4a1;
+component mux2a1 is
+	port (
+				in0     : in std_logic;
+        in1     : in std_logic;
+				sel			: in std_logic;
+				salida		: out std_logic
+			);
+end component mux2a1;
 
-    -- 3. Compuerta OR entre dos buses de 8 bits
-    component or_bus8 is
-        port (
-            a_bus : in std_logic_vector(7 downto 0);
-            b_bus : in std_logic_vector(7 downto 0);
-            s_bus : out std_logic_vector(7 downto 0)
-        );
-    end component or_bus8;
+component mux4a1 is
+	port (
+				bus_in	: in std_logic_vector(4-1 downto 0);
+				sel			: in std_logic_vector(2-1 downto 0);
+				salida	: out std_logic
+			);
+end component mux4a1;
 
-    -- 4. Decodificador de 2 a 4
-    component dec2a4 is
-        port (
-            sel : in std_logic_vector(1 downto 0);
-            sal : out std_logic_vector(3 downto 0)
-        );
-    end component dec2a4;
+component comp_or is
+	port (
+				a	: in std_logic_vector(8-1 downto 0);
+				b	: in std_logic_vector(8-1 downto 0);
+				c	: out std_logic_vector(8-1 downto 0)
+			);
+end component comp_or;
+
+component deco2a4 is
+	port (
+				entrada	: in std_logic_vector(2-1 downto 0);
+				salida	: in std_logic_vector(4-1 downto 0)				
+			);
+end component deco2a4;
 
 end package componentes;
-```

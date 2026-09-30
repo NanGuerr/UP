@@ -1,4 +1,4 @@
-# 🧪 Guía de Verificación Funcional y Bancos de Pruebas (Testbenches) en VHDL
+# 🧪 Verificación Funcional y Bancos de Pruebas
 
 La verificación del comportamiento funcional de descripciones de hardware en VHDL es una etapa crítica del flujo de diseño de sistemas digitales. Este documento proporciona una síntesis exhaustiva sobre la metodología de simulación, la arquitectura de los bancos de pruebas (*testbenches*), la gestión interna del tiempo por parte del núcleo del simulador y las sentencias del lenguaje VHDL aplicadas a la verificación automática.
 
@@ -15,7 +15,7 @@ La entidad de un testbench típico es una entidad autocontenida: no posee puerto
 ```
 
 +-------------------------------------------------------------------+
-| Testbench (Entidad Autocontenida sin puertos)                      |
+| Testbench (Entidad Autocontenida sin puertos)                     |
 |                                                                   |
 |   +------------------+                    +-------------------+   |
 |   | Generador de     |--- estímulos ----->| Dispositivo Bajo  |   |

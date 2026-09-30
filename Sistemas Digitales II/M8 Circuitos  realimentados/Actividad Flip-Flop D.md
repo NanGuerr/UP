@@ -1,4 +1,4 @@
-# 📦 Biblioteca de Componentes Secuenciales en VHDL
+# 📦Componentes Secuenciales en VHDL
 
 Este documento recopila las transcripciones de diversos códigos fuente en VHDL enfocados en la implementación de flip-flops, registros de múltiples bits, celdas parametrizables y estructuras en cascada.
 

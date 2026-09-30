@@ -1,4 +1,4 @@
-# 📊 Conceptos Generales de Pruebas de Hipótesis y Contrastes Estadísticos
+# 📊 Conceptos Hipótesis y Contrastes Estadísticos
 
 ## 🔍 ¿Qué es una prueba de hipótesis?
 La técnica estadística conocida como prueba, test o ensayo de hipótesis se utiliza en investigaciones científicas con el objetivo de poner a prueba teorías de los más diversos campos de estudio. Su importancia radica en que, a partir de datos muestrales o experimentales, es posible generalizar o inferir las conclusiones a la población, mensurando los posibles errores de decisión a través de probabilidades.

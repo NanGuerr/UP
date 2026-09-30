@@ -1,4 +1,4 @@
-# 🏗️ Resolución de la Actividad Grupal: Prueba de Hipótesis para una Población
+# 🏗️ Actividad Grupal: Prueba de Hipótesis para una Población
 
 ## 📊 1. Identificación de Datos, Parámetros y Estadísticos
 A partir de la consigna del ejercicio sobre el cumplimiento de plazos en proyectos de construcción, se identifican los siguientes elementos metodológicos:

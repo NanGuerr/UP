@@ -1,6 +1,6 @@
-# Resolución de Cuestionario: VHDL y Lógica Digital 🧠⚡
+# VHDL y Lógica Digital 🧠⚡
 
-Este documento contiene la resolución detallada de cada uno de los puntos planteados sobre diseño digital, VHDL y arquitectura de FPGAs.
+Resolución detallada de cada uno de los puntos planteados sobre diseño digital, VHDL y arquitectura de FPGAs.
 
 ---
 

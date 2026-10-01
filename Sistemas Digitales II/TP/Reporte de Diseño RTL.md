@@ -23,6 +23,39 @@ La plataforma de implementación objetivo para este sistema es la FPGA **AMD/Xil
 
 El módulo `TP_CuentaPPS` se desempeña como la entidad de nivel superior (*Top-Level*) dentro de la estructura jerárquica del proyecto. Su función principal es interconectar y coordinar funcionalmente siete submódulos especializados (U0 a U6), aislando las señales del dominio interno mediante vectores de interconexión local y distribuyendo las señales de control de reloj (`clk_in`) y reset síncrono (`rst`).
 
+```vhd
++-----------------------------------------------------------------------------------+
+|                                   TP_CuentaPPS                                    |
+|                                                                                   |
+|                   +------------------+     gps_acondicionado     +------------+   |
+|  gps ------------>| U0:Acondicionador|-------------------------->| U1:ContBCD |   |
+|                   +------------------+                           +------------+   |
+|                                                                        |          |
+|                                                                     bcd_out       |
+|                                                                        |          |
+|                   +------------------+                       +---------+-------+  |
+|  ss_out <---------|    U2:BCDa7Seg   |<----------------------|                 |  |
+|                   +------------------+                       |                 |  |
+|                                                              |                 |  |
+|                   +------------------+                       |                 |  |
+|  cuenta_final <---| U3:DetectorOverflw|<---------------------|                 |  |
+|                   +------------------+                       |                 |  |
+|                                                              |                 |  |
+|                   +------------------+                       |                 |  |
+|  salida_patron <--|  U4:SalidaPatron |                       |                 |  |
+|                   +------------------+                       |                 |  |
+|                                                              |                 |  |
+|  cmp_in, cmp_en ->|   U5:Comparador  |<----------------------+                 |  |
+|  cmp_out <--------|                  |                       +-----------------+  |
+|                   +------------------+                                            |
+|                                                                                   |
+|                   +------------------+                                            |
+|  testigo_led <----|  U6:Testigo_Out  |                                            |
+|                   +------------------+                                            |
++-----------------------------------------------------------------------------------+
+
+```
+
 ### Estructura de Salidas y Señales Interconectadas 🔌
 
 El mapeo explícito de los submódulos instanciados (U0 a U6), sus parámetros genéricos redefinidos y las señales de puerto asociadas se documenta detalladamente en la siguiente tabla de interconexiones:

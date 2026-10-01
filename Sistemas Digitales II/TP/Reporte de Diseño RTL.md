@@ -153,9 +153,21 @@ En todos los bloques secuenciales (U0, U1, U3, U4, U5 y U6) se ha implementado d
 
 * **Mapeo Óptimo en Elementos de Almacenamiento (`FDRE / FDR`)**: Los flip-flops de la Spartan-6 integran de forma nativa entradas de limpieza síncrona (*Synchronous Clear / SCLR*).
 
-
-
-
+```vhd
+Reloj (clk_in)     __/                    \________/                    \________
+                   |                               |
+Timestamps         t = 0 ns                        t = 10 ns (Flanco Activo)
+                   |                               |
+Inyección rst      ________/-----------------------------------------------------
+                   |       ^ (Inyección Asíncrona desfasada a t = 3 ns)
+                   |       |
+Ventana Inmune     [======= Ventana de Inmunidad Síncrona =======]
+(t = 3 ns a 10 ns)  Las salidas y registros retienen su estado
+                   |                               |
+Ejecución SCLR     |                               ^ En t = 10 ns, se ejecuta SCLR:
+                   |                                 ss_out <= "1000000"
+                   |                                 registros <= '0'
+```
 
 ---
 

@@ -8,28 +8,14 @@ La plataforma de implementación objetivo para este sistema es la FPGA **AMD/Xil
 
 | Parámetro | Valor / Especificación | 📝 |
 | --- | --- | --- |
-| **FPGA Objetivo** | AMD/Xilinx Spartan-6 (`xc6slx45-2csg324`)
-
- | 🔲 |
-| **Entorno de Desarrollo y Síntesis** | Xilinx ISE Design Suite 14.7
-
- | 💻 |
-| **Frecuencia de Reloj del Sistema (`clk_in`)** | 100 MHz
-
- | ⏱️ |
-| **Período de Reloj del Sistema (`clk_period`)** | 10 ns
-
- | ⏳ |
+| **FPGA Objetivo** | AMD/Xilinx Spartan-6 (`xc6slx45-2csg324`)| 🔲 |
+| **Entorno de Desarrollo y Síntesis** | Xilinx ISE Design Suite 14.7| 💻 |
+| **Frecuencia de Reloj del Sistema (`clk_in`)** | 100 MHz| ⏱️ |
+| **Período de Reloj del Sistema (`clk_period`)** | 10 ns| ⏳ |
 | **Librerías y Paquetes VHDL** | `IEEE.STD_LOGIC_1164.ALL`, `IEEE.NUMERIC_STD.ALL`<br> | 📚 |
-| **Estrategia de Reset del Sistema** | Síncrono estricto, activo en alto (`rst = '1'`)
-
- | 🔄 |
-| **Unidad de Conteo Principal** | BCD de 4 bits (0 a 9) parametrizado
-
- | 🔢 |
-| **Divisor de Reloj Testigo (Hardware)** | Contador de 25 bits (`COUNT_MAX = 24999999`)
-
- | 💡 |
+| **Estrategia de Reset del Sistema** | Síncrono estricto, activo en alto (`rst = '1'`)| 🔄 |
+| **Unidad de Conteo Principal** | BCD de 4 bits (0 a 9) parametrizado| 🔢 |
+| **Divisor de Reloj Testigo (Hardware)** | Contador de 25 bits (`COUNT_MAX = 24999999`)| 💡 |
 
 ---
 
@@ -43,49 +29,13 @@ El mapeo explícito de los submódulos instanciados (U0 a U6), sus parámetros g
 
 | Instancia | Nombre de Módulo | Generics Mapeados | Señales de Entrada | Señales de Salida Vinculadas | 📌 |
 | --- | --- | --- | --- | --- | --- |
-| **U0** | `Acondicionador`<br> | `SYNC_STAGES => 2`<br> | `clk_in` => `clk_in`<br>
-
-<br>`rst` => `rst`<br>
-
-<br>`PPS_en` => `gps`<br> | `pulso_digital` => `gps_acondicionado`<br> | 🔌 |
-| **U1** | `ContBCD`<br> | `BIT_WIDTH => BIT_WIDTH`<br>
-
-<br>`MAX_COUNT => MAX_COUNT`<br> | `clk_in` => `clk_in`<br>
-
-<br>`rst` => `rst`<br>
-
-<br>`gps` => `gps_acondicionado`<br> | `bcd` => `bcd_out`<br> | 🔢 |
-| **U2** | `BCDa7Seg`<br> | `INPUT_WIDTH => BIT_WIDTH`<br>
-
-<br>`OUTPUT_WIDTH => 7`<br> | `bcd_in` => `bcd_out`<br> | `seg_out` => `ss_out`<br> | 🔠 |
-| **U3** | `DetectorOverflow`<br> | `BIT_WIDTH => BIT_WIDTH`<br>
-
-<br>`MAX_COUNT => MAX_COUNT`<br> | `clk` => `clk_in`<br>
-
-<br>`rst` => `rst`<br>
-
-<br>`bcd_actual` => `bcd_out`<br> | `cuenta_final` => `cuenta_final_sig`<br> | 📈 |
-| **U4** | `SalidaPatron`<br> | `INIT_STATE => '0'`<br> | `clk` => `clk_in`<br>
-
-<br>`rst` => `rst`<br>
-
-<br>`gps` => `gps_acondicionado`<br> | `salida_patron` => `salidapatron_sig`<br> | 🌊 |
-| **U5** | `Comparador`<br> | `BIT_WIDTH => BIT_WIDTH`<br>
-
-<br>`MAX_COUNT => MAX_COUNT`<br> | `clk` => `clk_in`<br>
-
-<br>`rst` => `rst`<br>
-
-<br>`cmp_in` => `cmp_in`<br>
-
-<br>`cmp_en` => `cmp_en`<br>
-
-<br>`bcd_actual` => `bcd_out`<br> | `cmp_out` => `cmp_out_sig`<br> | ⚖️ |
-| **U6** | `Testigo_Out`<br> | `COUNT_MAX => COUNT_TESTIGO`<br>
-
-<br>`COUNTER_BITS => BITS_TESTIGO`<br> | `clk` => `clk_in`<br>
-
-<br>`rst` => `rst`<br> | `testigo_led` => `testigo_led_sig`<br> | 💡 |
+| **U0** | `Acondicionador`<br> | `SYNC_STAGES => 2`<br> | `clk_in` => `clk_in`<br><br>`rst` => `rst`<br><br>`PPS_en` => `gps`<br> | `pulso_digital` => `gps_acondicionado`<br> | 🔌 |
+| **U1** | `ContBCD`<br> | `BIT_WIDTH => BIT_WIDTH`<br><br>`MAX_COUNT => MAX_COUNT`<br> | `clk_in` => `clk_in`<br><br>`rst` => `rst`<br><br>`gps` => `gps_acondicionado`<br> | `bcd` => `bcd_out`<br> | 🔢 |
+| **U2** | `BCDa7Seg`<br> | `INPUT_WIDTH => BIT_WIDTH`<br><br>`OUTPUT_WIDTH => 7`<br> | `bcd_in` => `bcd_out`<br> | `seg_out` => `ss_out`<br> | 🔠 |
+| **U3** | `DetectorOverflow`<br> | `BIT_WIDTH => BIT_WIDTH`<br><br>`MAX_COUNT => MAX_COUNT`<br> | `clk` => `clk_in`<br><br>`rst` => `rst`<br><br>`bcd_actual` => `bcd_out`<br> | `cuenta_final` => `cuenta_final_sig`<br> | 📈 |
+| **U4** | `SalidaPatron`<br> | `INIT_STATE => '0'`<br> | `clk` => `clk_in`<br><br>`rst` => `rst`<br><br>`gps` => `gps_acondicionado`<br> | `salida_patron` => `salidapatron_sig`<br> | 🌊 |
+| **U5** | `Comparador`<br> | `BIT_WIDTH => BIT_WIDTH`<br><br>`MAX_COUNT => MAX_COUNT`<br> | `clk` => `clk_in`<br><br>`rst` => `rst`<br><br>`cmp_in` => `cmp_in`<br><br>`cmp_en` => `cmp_en`<br><br>`bcd_actual` => `bcd_out`<br> | `cmp_out` => `cmp_out_sig`<br> | ⚖️ |
+| **U6** | `Testigo_Out`<br> | `COUNT_MAX => COUNT_TESTIGO`<br><br>`COUNTER_BITS => BITS_TESTIGO`<br> | `clk` => `clk_in`<br><br>`rst` => `rst`<br> | `testigo_led` => `testigo_led_sig`<br> | 💡 |
 
 ### Mapeo de Salidas Principales y Buffers Concurrentes 📋
 
@@ -123,71 +73,19 @@ El submódulo `ContBCD` implementa un contador síncrono incremental BCD paramet
 
 `BCDa7Seg` es un bloque puramente combinacional diseñado para mapear el bus BCD de 4 bits (`bcd_in`) en una codificación para displays de 7 segmentos en configuración de ánodo común (salidas activas en bajo).
 
-| bcd_in (BCD)
-
- | seg_out / ss_out (g f e d c b a)
-
- | Dígito Representado
-
- | Estado de los Segmentos
-
- | 🔎 |
+| bcd_in (BCD)| seg_out / ss_out (g f e d c b a)| Dígito Representado| Estado de los Segmentos| 🔎 |
 | --- | --- | --- | --- | --- |
-| `"0000"`<br> | `"1000000"`<br> | 0
-
- | 'a','b','c','d','e','f' encendidos
-
- | 0️⃣ |
-| `"0001"`<br> | `"1111001"`<br> | 1
-
- | 'b','c' encendidos
-
- | 1️⃣ |
-| `"0010"`<br> | `"0100100"`<br> | 2
-
- | 'a','b','d','e','g' encendidos
-
- | 2️⃣ |
-| `"0011"`<br> | `"0110000"`<br> | 3
-
- | 'a','b','c','d','g' encendidos
-
- | 3️⃣ |
-| `"0100"`<br> | `"0011001"`<br> | 4
-
- | 'b','c','f','g' encendidos
-
- | 4️⃣ |
-| `"0101"`<br> | `"0010010"`<br> | 5
-
- | 'a','c','d','f','g' encendidos
-
- | 5️⃣ |
-| `"0110"`<br> | `"0000010"`<br> | 6
-
- | 'a','c','d','e','f','g' encendidos
-
- | 6️⃣ |
-| `"0111"`<br> | `"1111000"`<br> | 7
-
- | 'a','b','c' encendidos
-
- | 7️⃣ |
-| `"1000"`<br> | `"0000000"`<br> | 8
-
- | Todos los segmentos encendidos
-
- | 8️⃣ |
-| `"1001"`<br> | `"0010000"`<br> | 9
-
- | 'a','b','c','d','f','g' encendidos
-
- | 9️⃣ |
-| `"1010"` a `"1111"`<br> | `"1111111"`<br> | Inválido / Blanking
-
- | Todos los segmentos apagados
-
- | ❌ |
+| `"0000"`<br> | `"1000000"`<br> | 0 | 'a','b','c','d','e','f' encendidos | 0️⃣ |
+| `"0001"`<br> | `"1111001"`<br> | 1 | 'b','c' encendidos | 1️⃣ |
+| `"0010"`<br> | `"0100100"`<br> | 2 | 'a','b','d','e','g' encendidos | 2️⃣ |
+| `"0011"`<br> | `"0110000"`<br> | 3 | 'a','b','c','d','g' encendidos | 3️⃣ |
+| `"0100"`<br> | `"0011001"`<br> | 4 | 'b','c','f','g' encendidos | 4️⃣ |
+| `"0101"`<br> | `"0010010"`<br> | 5 | 'a','c','d','f','g' encendidos | 5️⃣ |
+| `"0110"`<br> | `"0000010"`<br> | 6 | 'a','c','d','e','f','g' encendidos | 6️⃣ |
+| `"0111"`<br> | `"1111000"`<br> | 7 | 'a','b','c' encendidos | 7️⃣ |
+| `"1000"`<br> | `"0000000"`<br> | 8 | Todos los segmentos encendidos | 8️⃣ |
+| `"1001"`<br> | `"0010000"`<br> | 9 | 'a','b','c','d','f','g' encendidos | 9️⃣ |
+| `"1010"` a `"1111"`<br> | `"1111111"`<br> | Inválido / Blanking | Todos los segmentos apagados | ❌ |
 
 ### 3.4. U3: Detector de Overflow (`DetectorOverflow`) 📈
 
@@ -238,58 +136,14 @@ A continuación se presenta la cobertura de prueba ejecutada por la suite de ver
 
 | Testbench | Módulo Evaluado | Estrategia de Prueba y Cobertura Funcional | Generics Sobreescritos | 🎯 |
 | --- | --- | --- | --- | --- |
-| `Acondicionador_tb`<br> | `Acondicionador` (U0)
-
- | Comprueba la sincronización de `PPS_en`, la emisión del pulso de exactamente 1 ciclo de reloj y el borrado inmediato por `rst` síncrono.
-
- | `SYNC_STAGES => 2`<br> | 📥 |
-| `ContBCD_tb`<br> | `ContBCD` (U1)
-
- | Evalúa la secuencia BCD incremental (0 a 9), la retención de estado ante `gps = '0'` y el rollover a cero tras el décimo pulso.
-
- | `BIT_WIDTH => 4`<br>
-
-<br>`MAX_COUNT => 9`<br> | 🔢 |
-| `DetectorOverflow_tb`<br> | `DetectorOverflow` (U3)
-
- | Verifica la generación de la bandera monoestable `cuenta_final = '1'` durante 1 ciclo en la transición estricta de 9 al 0.
-
- | `BIT_WIDTH => 4`<br>
-
-<br>`MAX_COUNT => 9`<br> | 📈 |
-| `SalidaPatron_tb`<br> | `SalidaPatron` (U4)
-
- | Valida el basculamiento alternado de `salida_patron` con cada pulso `gps` y la restauración al valor inicial `INIT_STATE`.
-
- | `INIT_STATE => '0'`<br> | 🌊 |
-| `Comparador_tb`<br> | `Comparador` (U5)
-
- | Carga la consigna `"0011"` (3) vía `cmp_en`, simula el conteo y verifica la inversión de `cmp_out` sin múltiples disparos en el mismo ciclo.
-
- | `BIT_WIDTH => 4`<br>
-
-<br>`MAX_COUNT => 9`<br> | ⚖️ |
-| `Testigo_Out_tb`<br> | `Testigo_Out` (U6)
-
- | Comprueba el reinicio del acumulador y la conmutación periódica de `testigo_led` bajo escala comprimida.
-
- | `COUNT_MAX => 5`<br>
-
-<br>`COUNTER_BITS => 4`<br> | 💡 |
-| `TP_CuentaPPS_tb`<br> | `TP_CuentaPPS` (Top)
-
- | Simulación de la integración jerárquica total. Aplica consigna en 3, inyecta 10 pulsos GPS, verifica `ss_out`, `cuenta_final`, `salida_patron`, `cmp_out` y el reinicio a cero del display.
-
- | `COUNT_TESTIGO => 5`<br>
-
-<br>`BITS_TESTIGO => 4`<br> | 🏛️ |
-| `rst_tb`<br> | `TP_CuentaPPS` (Reset)
-
- | Inyecta la señal `rst` de manera asíncrona a los 3 ns del ciclo para validar la inmunidad fuera de flanco y la ejecución correcta en el flanco ascendente (7 ns después).
-
- | `COUNT_TESTIGO => 5`<br>
-
-<br>`BITS_TESTIGO => 4`<br> | 🔄 |
+| `Acondicionador_tb`<br> | `Acondicionador` (U0) | Comprueba la sincronización de `PPS_en`, la emisión del pulso de exactamente 1 ciclo de reloj y el borrado inmediato por `rst` síncrono. | `SYNC_STAGES => 2`<br> | 📥 |
+| `ContBCD_tb`<br> | `ContBCD` (U1) | Evalúa la secuencia BCD incremental (0 a 9), la retención de estado ante `gps = '0'` y el rollover a cero tras el décimo pulso. | `BIT_WIDTH => 4`<br><br>`MAX_COUNT => 9`<br> | 🔢 |
+| `DetectorOverflow_tb`<br> | `DetectorOverflow` (U3) | Verifica la generación de la bandera monoestable `cuenta_final = '1'` durante 1 ciclo en la transición estricta de 9 al 0. | `BIT_WIDTH => 4`<br><br>`MAX_COUNT => 9`<br> | 📈 |
+| `SalidaPatron_tb`<br> | `SalidaPatron` (U4) | Valida el basculamiento alternado de `salida_patron` con cada pulso `gps` y la restauración al valor inicial `INIT_STATE`. | `INIT_STATE => '0'`<br> | 🌊 |
+| `Comparador_tb`<br> | `Comparador` (U5) | Carga la consigna `"0011"` (3) vía `cmp_en`, simula el conteo y verifica la inversión de `cmp_out` sin múltiples disparos en el mismo ciclo. | `BIT_WIDTH => 4`<br><br>`MAX_COUNT => 9`<br> | ⚖️ |
+| `Testigo_Out_tb`<br> | `Testigo_Out` (U6) | Comprueba el reinicio del acumulador y la conmutación periódica de `testigo_led` bajo escala comprimida. | `COUNT_MAX => 5`<br><br>`COUNTER_BITS => 4`<br> | 💡 |
+| `TP_CuentaPPS_tb`<br> | `TP_CuentaPPS` (Top) | Simulación de la integración jerárquica total. Aplica consigna en 3, inyecta 10 pulsos GPS, verifica `ss_out`, `cuenta_final`, `salida_patron`, `cmp_out` y el reinicio a cero del display. | `COUNT_TESTIGO => 5`<br><br>`BITS_TESTIGO => 4`<br> | 🏛️ |
+| `rst_tb`<br> | `TP_CuentaPPS` (Reset) | Inyecta la señal `rst` de manera asíncrona a los 3 ns del ciclo para validar la inmunidad fuera de flanco y la ejecución correcta en el flanco ascendente (7 ns después). | `COUNT_TESTIGO => 5`<br><br>`BITS_TESTIGO => 4`<br> | 🔄 |
 
 ---
 

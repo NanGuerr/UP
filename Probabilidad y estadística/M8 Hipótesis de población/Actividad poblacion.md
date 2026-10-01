@@ -20,10 +20,10 @@ A partir de la consigna del ejercicio sobre el cumplimiento de plazos en proyect
 * **Hipótesis de investigación ($H_i$):** Si el tiempo medio de retraso en la entrega de los proyectos es inferior a $14$ días, entonces los proyectos gestionados por la empresa tienen un retraso razonable.
 * **Hipótesis nula ($H_0$):** 
   $$H_0: \mu \ge 14$$
-  *(El retraso medio es igual o superior a $14$ días; los proyectos no tienen un retraso razonable).*
+  (El retraso medio es igual o superior a $14$ días; los proyectos no tienen un retraso razonable).
 * **Hipótesis alternativa ($H_1$):** 
   $$H_1: \mu < 14$$
-  *(El retraso medio es estrictamente menor a $14$ días; los proyectos tienen un retraso razonable).*
+(El retraso medio es estrictamente menor a $14$ días; los proyectos tienen un retraso razonable).
 
 ---
 

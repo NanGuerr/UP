@@ -1,4 +1,4 @@
-# 🛠️ Guía Práctica y Recomendaciones para el Trabajo Práctico con FPGAs e ISE 💻
+# 🛠️ Guía Práctica con FPGAs e ISE 💻
 
 Este documento recopila la transcripción detallada y una guía descriptiva basada en la experiencia para encarar el trabajo práctico (TP) utilizando herramientas de diseño electrónico (EDA) y máquinas virtuales.
 

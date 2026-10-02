@@ -66,4 +66,4 @@ Si cuentas con una placa física (FPGA):
 
 * **⚠️ Cuidado con los nombres:** Xilinx ISE es antiguo; evita rutas largas, espacios o caracteres especiales (ñ, acentos) en las carpetas.
 * **🧹 Limpieza:** Si el proyecto falla sin razón aparente, usa la opción `Project` -> `Cleanup Project Files`.
-printf "INCREMENT WebPack xilinxd 2030.12 permanent uncounted VENDOR_STRING=license_type=WebPack HOSTID=08002768c935 SIGN=\"000000000000\"\n" > /home/ise/Xilinx/Xilinx.lic
+* **License:** printf "INCREMENT WebPack xilinxd 2030.12 permanent uncounted VENDOR_STRING=license_type=WebPack HOSTID=08002768c935 SIGN=\"000000000000\"\n" > /home/ise/Xilinx/Xilinx.lic

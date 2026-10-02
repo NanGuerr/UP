@@ -74,7 +74,7 @@
 ### 🎓 Semestre 9 (Final de Carrera) — Agosto - Diciembre 2029 🧡
 
 1. 📡 `(024829)` Circuitos para Radiofrecuencias (Dispositivos de Comunicaciones) **PRESENCIAL**
-2. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica) **PRESENCIAL**
+2. 💻 `(026437)` Laboratorio de Microprocesadores (Sistemas Digitales II y Lab. Electrónica)
 3. ⚖️ `(025701)` **Ingeniería Legal** 🆓 
 4. 🔬 `(023965)` Laboratorio de Comunicaciones (Lab. Electrónica y Dispositivos de Comunicaciones) **PRESENCIAL**
 5. ⚡ `(023961)` Circuitos Electrónicos II (Circuitos Electrónicos) **PRESENCIAL**

@@ -1,4 +1,4 @@
-# ⚽ Resoluciones de Física: Cinemática y Dinámica 🚀
+# ⚽ Resoluciones Cinemática y Dinámica 🚀
 
 ## 🎯 Problema 1: Tiro Oblicuo (El Penal)
 
@@ -13,7 +13,7 @@ $$v_{0x} = v_0 \cdot \cos\left(45^\circ\right) = 13 \cdot \cos\left(45^\circ\rig
 
 
 
-*(Valor exacto: $13 \cdot \left(\frac{\sqrt{2}}{2}\right)\text{ m/s}$)*
+(Valor exacto: $13 \cdot \left(\frac{\sqrt{2}}{2}\right)\text{ m/s}$)
 2. **Cálculo del tiempo de recorrido horizontal:**
 Como el movimiento horizontal es un Movimiento Rectilíneo Uniforme (MRU):
 

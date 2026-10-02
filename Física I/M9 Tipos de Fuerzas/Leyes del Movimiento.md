@@ -18,10 +18,14 @@ Las Leyes de Newton constituyen la base axiomática de la mecánica clásica. De
 ### 1.1. 🌐 Marcos de Referencia e Interacciones ⚛️
 * **Primera Ley de Newton (Ley de Inercia):** Un cuerpo permanece en reposo o mantiene un movimiento rectilíneo a velocidad constante a menos que actúe sobre él una fuerza externa neta. Esta ley es válida exclusivamente en sistemas de referencia inerciales.
 * **Segunda Ley de Newton:** La aceleración $\vec{a}$ que adquiere un objeto es directamente proporcional a la fuerza neta $\vec{F}_{\text{neta}}$ que actúa sobre él e inversamente proporcional a su masa $m$: 
-  $$\vec{F}_{\text{neta}} = \sum \vec{F} = m \cdot \vec{a}$$
-  Una fuerza de $1\text{ Newton (N)}$ se define como la fuerza necesaria para impartir una aceleración de $1\text{ m/s}^2$ a una masa de $1\text{ kg}$.
+
+$$\vec{F}_{\text{neta}} = \sum \vec{F} = m \cdot \vec{a}$$
+
+Una fuerza de $1\text{ Newton (N)}$ se define como la fuerza necesaria para impartir una aceleración de $1\text{ m/s}^2$ a una masa de $1\text{ kg}$.
+
 * **Tercera Ley de Newton (Pares de Acción y Reacción / 3LN):** Cuando dos objetos interaccionan, la fuerza $\vec{F}_{BA}$ ejercida por el objeto B sobre el objeto A es igual en módulo y opuesta en dirección a la fuerza $\vec{F}_{AB}$ ejercida por el objeto A sobre el B: 
-  $$\vec{F}_{BA} = -\vec{F}_{AB}$$
+
+$$\vec{F}_{BA} = -\vec{F}_{AB}$$
 
 **Principios Críticos de los Pares 3LN:**
 * **Simultaneidad:** Las fuerzas de acción y reacción ocurren al mismo tiempo; ninguna es consecuencia temporal de la otra. ⏱️

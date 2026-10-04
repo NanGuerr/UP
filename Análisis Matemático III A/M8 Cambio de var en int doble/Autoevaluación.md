@@ -29,11 +29,11 @@ Esto define exactamente el rectángulo $[1; 4] \times [1; 5]$ en el plano $u-v$.
 
 **Enunciado:** Si $D$ es la región del primer cuadrante limitada por la recta $y = 0$, la recta $y = x$ y la circunferencia $x^2 + y^2 = 9$, entonces...
 
-**Respuesta correcta:** **Opción B** ($\iint_D f(x; y) \, dA = \int_0^{\frac{\pi}{4}} \int_0^3 f(r \cos\theta, r \operatorname{sen}\theta) r \, dr \, d\theta$).
+**Respuesta correcta:** **Opción B** ($\iint_D f(x; y) \, dA = \int_0^{\frac{\pi}{4}} \int_0^3 f(r \cos\theta, r \{sen}\theta) r \, dr \, d\theta$).
 
 ### 🔍 Paso a paso resolutivo:
 
-1. **Transformación a coordenadas polares:** Recordamos las ecuaciones de transformación $x = r \cos\theta$ e $y = r \operatorname{sen}\theta$, cuyo Jacobiano es $\frac{\partial(x,y)}{\partial(r,\theta)} = r$.
+1. **Transformación a coordenadas polares:** Recordamos las ecuaciones de transformación $x = r \cos\theta$ e $y = r \{sen}\theta$, cuyo Jacobiano es $\frac{\partial(x,y)}{\partial(r,\theta)} = r$.
 2. **Análisis de los límites de integración:**
    * La región se encuentra en el primer cuadrante, por lo que el ángulo $\theta$ parte del eje $x$ positivo ($y = 0 \implies \theta = 0$) hasta la recta $y = x$ (donde $\tan\theta = \frac{y}{x} = 1 \implies \theta = \frac{\pi}{4}$). Por lo tanto, $0 \le \theta \le \frac{\pi}{4}$.
    * La circunferencia tiene por ecuación $x^2 + y^2 = 9$, lo que en coordenadas polares se traduce en $r^2 = 9 \implies r = 3$. Por lo tanto, el radio varía de $0$ a $3$ ($0 \le r \le 3$).
@@ -56,10 +56,14 @@ Esto define exactamente el rectángulo $[1; 4] \times [1; 5]$ en el plano $u-v$.
    * Así, el integrando se transforma en $u \cdot e^{uv}$.
 3. **Cálculo del Jacobiano:**
    Calculamos la matriz jacobiana de la transformación $(u, v)$ respecto a $(x, y)$:
-   $$J(u,v) = \begin{vmatrix} u_x & u_y \\ v_x & v_y \end{vmatrix} = \begin{vmatrix} -2 & 1 \\ 2 & 1 \end{vmatrix} = (-2)(1) - (1)(2) = -4$$
-   El Jacobiano de la transformación inversa $\frac{\partial(x,y)}{\partial(u,v)}$ es el recíproco del valor absoluto del determinante:
-   $$\frac{\partial(x,y)}{\partial(u,v)} = \left| \frac{\partial(u,v)}{\partial(x,y)} \right|^{-1} = \frac{1}{|-4|} = \frac{1}{4}$$
-4. **Armado de la integral:** Combinando los límites, el integrando y el Jacobiano, la expresión resultante coincide con la **Opción A**.
+
+ $$J(u,v) = \begin{vmatrix} u_x & u_y \\ v_x & v_y \end{vmatrix} = \begin{vmatrix} -2 & 1 \\ 2 & 1 \end{vmatrix} = (-2)(1) - (1)(2) = -4$$
+
+El Jacobiano de la transformación inversa $\frac{\partial(x,y)}{\partial(u,v)}$ es el recíproco del valor absoluto del determinante:
+
+$$\frac{\partial(x,y)}{\partial(u,v)} = \left| \frac{\partial(u,v)}{\partial(x,y)} \right|^{-1} = \frac{1}{|-4|} = \frac{1}{4}$$
+
+5. **Armado de la integral:** Combinando los límites, el integrando y el Jacobiano, la expresión resultante coincide con la **Opción A**.
 
 ---
 
@@ -94,7 +98,8 @@ Esto define exactamente el rectángulo $[1; 4] \times [1; 5]$ en el plano $u-v$.
    * $\frac{\partial v}{\partial y} = \frac{1}{x^2}$
 
 2. **Planteo del determinante Jacobiano de $(u, v)$ respecto a $(x, y)$:**
-   $$\frac{\partial(u,v)}{\partial(x,y)} = \begin{vmatrix} \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} \\ \frac{\partial v}{\partial x} & \frac{\partial v}{\partial y} \end{vmatrix} = \left(\frac{1}{y^2}\right)\left(\frac{1}{x^2}\right) - \left(-\frac{2x}{y^3}\right)\left(-\frac{2y}{x^3}\right)$$
+
+$$\frac{\partial(u,v)}{\partial(x,y)} = \begin{vmatrix} \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} \\ \frac{\partial v}{\partial x} & \frac{\partial v}{\partial y} \end{vmatrix} = \left(\frac{1}{y^2}\right)\left(\frac{1}{x^2}\right) - \left(-\frac{2x}{y^3}\right)\left(-\frac{2y}{x^3}\right)$$
 
 3. **Simplificación algebraica:**
    $$\frac{\partial(u,v)}{\partial(x,y)} = \frac{1}{x^2 y^2} - \frac{4}{x^2 y^2} = -\frac{3}{x^2 y^2}$$

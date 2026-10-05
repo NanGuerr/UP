@@ -1,3 +1,10 @@
+Aquí tienes el diagrama y la estructura formateados profesionalmente para un archivo Markdown (`.md`), utilizando bloques de código para preservar el diseño ASCII y secciones claras para facilitar su lectura:
+
+---
+
+## Arquitectura Alternativa: FSM + Datapath Integrado
+
+```text
 ========================================================================================================================
 ARQUITECTURA ALTERNATIVA: FSM + DATAPATH INTEGRADO
 ========================================================================================================================
@@ -32,3 +39,23 @@ ARQUITECTURA ALTERNATIVA: FSM + DATAPATH INTEGRADO
 |   | cmp_in (4-bit) -+----+                                                         |                    |
 |   +--------------------------------------------------------------+ |
 +--------------------------------------------------------------------+
+
+```
+
+---
+
+### Descripción de Componentes
+
+#### 1. Unidad de Control Central (FSM)
+
+* **Sincronizador de entrada 1PPS:** Implementado mediante un doble *Flip-Flop* para evitar metaestabilidad.
+* **Detector de flanco ascendente:** Captura las transiciones de la señal de sincronización externa.
+* **Decodificador de estados globales:** Genera los buses de control internos (`ce_bcd`, `toggle_patron`, etc.).
+
+#### 2. Datapath Integrado
+
+* **Timer Maestro (25-bit):** Recibe el reloj principal de `clk_in` (100MHz) para generar el *tick* de 250ms destinado al *heartbeat* del LED (`led`).
+* **Registro BCD (4-bit):** Gestiona el contador de 0 a 9 vinculado al display de 7 segmentos (`7seg` / `ss_out`).
+* **Lógica de Overflow (9->0):** Al recibir la señal `1PPS` (GPS 10us), genera un pulso de 1 ciclo (10ns) hacia `cuenta_final`.
+* **Toggle Register:** Invierte su estado cada 1 segundo para controlar la señal `patron`.
+* **Registro de Consigna (`cmp_val`) y Coincidencia:** Almacena el valor de `cmp_in` (4-bit) cuando se activa `cmp_en`, invirtiendo `cmp_out` una vez por ciclo al haber coincidencia.

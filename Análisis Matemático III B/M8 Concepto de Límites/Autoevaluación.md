@@ -43,11 +43,11 @@ $$f(it) = \frac{it + t^2}{-it} = \frac{t^2 + it}{-it} = \frac{t(t + i)}{-it} = \
 * **Paso 3:** Como los límites obtenidos al acercarnos por las dos curvas son distintos ($1 \neq -1$), el límite $\lim_{z \to 0} f(z)$ **no existe**. Por lo tanto, la función no es continua en el origen y presenta una discontinuidad de tipo esencial.
 
 
-* **Respuesta Verificada:** Opción **D** f(z) es continua en todo el plano complejo, salvo en el origen. Con las curvas* 
+* **Respuesta Verificada:** Opción **D** f(z) es continua en todo el plano complejo, salvo en el origen. Con las curvas
 
 $z_1(t) = t$ y $z_2(t) = i \cdot t$
 
-*se demuestra que tiene una discontinuidad esencial en el origen*).
+se demuestra que tiene una discontinuidad esencial en el origen.
 
 ---
 

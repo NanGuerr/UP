@@ -43,7 +43,11 @@ $$f(it) = \frac{it + t^2}{-it} = \frac{t^2 + it}{-it} = \frac{t(t + i)}{-it} = \
 * **Paso 3:** Como los límites obtenidos al acercarnos por las dos curvas son distintos ($1 \neq -1$), el límite $\lim_{z \to 0} f(z)$ **no existe**. Por lo tanto, la función no es continua en el origen y presenta una discontinuidad de tipo esencial.
 
 
-* **Respuesta Verificada:** Opción **D** (*$f(z)$ es continua en todo el plano complejo, salvo en el origen. Con las curvas $z_1(t) = t$ y $z_2(t) = i \cdot t$, se demuestra que tiene una discontinuidad esencial en el origen*).
+* **Respuesta Verificada:** Opción **D** f(z) es continua en todo el plano complejo, salvo en el origen. Con las curvas* 
+
+$z_1(t) = t$ y $z_2(t) = i \cdot t$
+
+*se demuestra que tiene una discontinuidad esencial en el origen*).
 
 ---
 
@@ -86,7 +90,7 @@ $$f(x+iy) = \begin{cases} \frac{3y^4 - 7y^2 x^2}{x^2 + y^2} + i \left(\frac{2x^3
 * **Paso 4:** Concluir que $\lim_{z \to 0} f(z) = 0 + i0 = 0 = f(0)$, por lo que la función es continua en todo el plano.
 
 
-* **Respuesta Verificada:** Opción **B** (*$f(x+iy)$ es continua en todo el plano complejo. En el origen, se demuestra que es continua con la propiedad de "0 por acotada"*).
+* **Respuesta Verificada:** Opción **B** f(x+iy) *es continua en todo el plano complejo. En el origen, se demuestra que es continua con la propiedad de "0 por acotada"*).
 
 ---
 
@@ -112,7 +116,11 @@ $$u(x, mx) = \frac{5x^2 + 9(mx)^2}{8x^2 + 2(mx)^2} = \frac{5 + 9m^2}{8 + 2m^2}$$
 * **Paso 3:** Como el valor del límite depende de la dirección (la pendiente $m$) con la que nos acercamos al origen, el límite no existe, lo que indica una discontinuidad esencial en el origen.
 
 
-* **Respuesta Verificada:** Opción **C** (*$f(x+iy)$ es continua en todo el plano complejo, salvo en el origen. Con las curvas $z_1(t) = t$ y $z_2(t) = i \cdot t$, se demuestra que tiene una discontinuidad esencial en el origen*).
+* **Respuesta Verificada:** Opción **C** f(x+iy) *es continua en todo el plano complejo, salvo en el origen. Con las curvas*
+
+$z_1(t) = t$ y $z_2(t) = i \cdot t$
+
+*se demuestra que tiene una discontinuidad esencial en el origen*).
 
 ---
 
@@ -145,22 +153,28 @@ $$\lim_{z \to 0} f(z) = \lim_{z \to 0} \left[ z \cdot \left(\frac{z}{\bar{z}} + 
 * **Paso 4:** Como $\lim_{z \to 0} f(z) = 0 = f(0)$, la función es continua en todo el plano complejo.
 
 
-* **Respuesta Verificada:** Opción **B** (*$f(z)$ es continua en todo el plano complejo. En el origen se demuestra que es continua con la propiedad de "0 por acotada"*).
+* **Respuesta Verificada:** Opción **B** f(z) *es continua en todo el plano complejo. En el origen se demuestra que es continua con la propiedad de "0 por acotada"*).
 
 ---
 
 ### **Verificación de Preguntas Teóricas Adicionales (Autoevaluación)**
 
-* **Pregunta 2:** *$f(x+iy) = u(x,y) + i\,v(x,y)$ es continua en $z = z_0$ si y sólo si $u(x,y)$ y $v(x,y)$ son continuas en $(x_0, y_0)$* $\rightarrow$ **Verdadero** (Consecuencia directa del teorema de continuidad por componentes).
+* **Pregunta 2:** $$f(x+iy) = u(x,y) + i\,v(x,y)$$ es continua en $$z = z_0$$ si y sólo si $$u(x,y)$$ y $$v(x,y)$$ son continuas en $$(x_0, y_0)$$ 
+
+**Verdadero** (Consecuencia directa del teorema de continuidad por componentes).
 
 
-* **Pregunta 3:** *Si $\vert{}g(z)\vert{} \le M$ y $\lim_{z \to z_0} f(z) = L \neq 0$, entonces $\lim_{z \to z_0} [g(z) \cdot f(z)] = L$* $\rightarrow$ **Falso** (La propiedad de "0 por acotada" requiere estrictamente que el límite de $f(z)$ sea $0$, no un valor distinto de cero $L$).
+* **Pregunta 3:** Si $$\vert{}g(z)\vert{} \le M$$ y $$\lim_{z \to z_0} f(z) = L \neq 0$$, entonces $$\lim_{z \to z_0} [g(z) \cdot f(z)] = L$$* 
+**Falso** (La propiedad de "0 por acotada" requiere estrictamente que el límite de $f(z)$ sea $0$, no un valor distinto de cero $L$).
 
 
-* **Pregunta 4:** *Si al acercarse por dos curvas distintas $z_1(t)$ y $z_2(t)$ que pasan por el origen, los límites son distintos, entonces no existe $\lim_{z \to 0} f(z)$* $\rightarrow$ **Verdadero** (Principio fundamental de unicidad del límite y restricciones por trayectorias).
+* **Pregunta 4:** Si al acercarse por dos curvas distintas $$z_1(t)$$ y $$z_2(t)$$ que pasan por el origen, los límites son distintos, entonces no existe $$\lim_{z \to 0} f(z)$$ 
+**Verdadero** (Principio fundamental de unicidad del límite y restricciones por trayectorias).
 
 
-* **Pregunta 6:** *Una función $f(z) = p(z) + \vert{}z\vert{}$ es continua en todo el plano complejo, donde $p(z)$ es un polinomio* $\rightarrow$ **Verdadero** (Los polinomios y la función módulo son continuas en todo $\mathbb{C}$, y la suma de funciones continuas es continua).
+* **Pregunta 6:** Una función $$f(z) = p(z) + \vert{}z\vert{}$$ es continua en todo el plano complejo, donde $$p(z)$$ es un polinomio.
+**Verdadero** (Los polinomios y la función módulo son continuas en todo $$\mathbb{C}$$, y la suma de funciones continuas es continua).
 
 
-* **Pregunta 8:** *Si al acercarse por todas las rectas posibles $z(t) = at + i(bt)$ el límite es $0$, entonces $\lim_{z \to 0} f(z) = 0$* $\rightarrow$ **Falso** (Que el límite coincida a lo largo de todas las rectas no garantiza la existencia del límite doble en el plano, ya que trayectorias no rectilíneas —como parábolas— pueden arrojar resultados diferentes).
+* **Pregunta 8:** Si al acercarse por todas las rectas posibles $$z(t) = at + i(bt)$$ el límite es 0 , entonces $$\lim_{z \to 0} f(z) = 0$$
+**Falso** (Que el límite coincida a lo largo de todas las rectas no garantiza la existencia del límite doble en el plano, ya que trayectorias no rectilíneas —como parábolas— pueden arrojar resultados diferentes).

@@ -1,4 +1,4 @@
-# 📚 Guía de Ejercicios: Límite y Continuidad de Funciones de Variable Compleja 🌀
+# 📚 Límite y Continuidad de Funciones de Variable Compleja 🌀
 
 Este documento presenta la resolución paso a paso de la guía de ejercicios de límite y continuidad de funciones de variable compleja, aplicando la metodología y teoremas del apunte teórico y verificando cada resultado con las respuestas oficiales.
 

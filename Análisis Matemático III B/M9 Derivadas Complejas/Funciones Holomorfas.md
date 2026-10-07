@@ -88,25 +88,7 @@ $$f'(z_0) = u_x(x_0, y_0) + i v_x(x_0, y_0) = v_y(x_0, y_0) - i u_y(x_0, y_0)$$
 
 | Función $f(z)$ | Partes $u(x,y)$ y $v(x,y)$ | Derivadas Parciales de Primer Orden | Análisis de Cauchy-Riemann y Continuidad | Conclusión / Dominio de Analiticidad |
 | --- | --- | --- | --- | --- |
-| $f(z) = z^2$ | $u = x^2 - y^2$<br>
-
-<br>$v = 2xy$ | $u_x = 2x, u_y = -2y$<br>
-
-<br>$v_x = 2y, v_y = 2x$ | $u_x = v_y = 2x$<br>
-
-<br>$u_y = -v_x = -2y$<br>
-
-<br>Satisfechas en todo $\mathbb{C}$. | Analítica en todo el plano complejo $\mathbb{C}$. $f'(z) = 2z$. |
-| $f(z) = \bar{z}$ | $u = x$<br>
-
-<br>$v = -y$ | $u_x = 1, u_y = 0$<br>
-
-<br>$v_x = 0, v_y = -1$ | $u_x = 1 \neq -1 = v_y$. C-R 1 falla en todas partes. | No es analítica en ninguna región. Continua en todo $\mathbb{C}$. |
-| $f(z) = \text{Re } z$ | $u = x$<br>
-
-<br>$v = 0$ | $u_x = 1, u_y = 0$<br>
-
-<br>$v_x = 0, v_y = 0$ | $u_x = 1 \neq 0 = v_y$. Falla C-R 1 en todo punto. | No es analítica en ninguna región. Tampoco es derivable en punto alguno. |
-| $f(z) = \frac{1}{z}$ | $u = \frac{x}{x^2+y^2}$<br>
-
-<br>$v = \frac{-y}{x^2+y^2}$ | $u, v \in C^1$ para todo $(x,y) \neq (0,0)$. | Se satisfacen las ecuaciones de C-R fuera del origen. | Analítica en $\mathbb{C} \setminus \{0\}$. |
+| $f(z) = z^2$ | $u = x^2 - y^2$<br><br>$v = 2xy$ | $u_x = 2x, u_y = -2y$<br><br>$v_x = 2y, v_y = 2x$ | $u_x = v_y = 2x$<br><br>$u_y = -v_x = -2y$<br><br>Satisfechas en todo $\mathbb{C}$. | Analítica en todo el plano complejo $\mathbb{C}$. | 
+| $f'(z) = 2z$. | $f(z) = \bar{z}$ | $u = x$<br> <br>$v = -y$ | $u_x = 1, u_y = 0$<br> <br>$v_x = 0, v_y = -1$ | $u_x = 1 \neq -1 = v_y$. C-R 1 falla en todas partes. | No es analítica en ninguna región. Continua en todo $\mathbb{C}$. |
+| $f(z) = \text{Re } z$ | $u = x$<br><br>$v = 0$ | $u_x = 1, u_y = 0$<br><br>$v_x = 0, v_y = 0$ | $u_x = 1 \neq 0 = v_y$. Falla C-R 1 en todo punto. | No es analítica en ninguna región. Tampoco es derivable en punto alguno. |
+| $f(z) = \frac{1}{z}$ | $u = \frac{x}{x^2+y^2}$<br><br>$v = \frac{-y}{x^2+y^2}$ | $u, v \in C^1$ para todo $(x,y) \neq (0,0)$. | Se satisfacen las ecuaciones de C-R fuera del origen. | Analítica en $\mathbb{C} \setminus \{0\}$. |

@@ -1,4 +1,4 @@
-# Análisis Complejo: Funciones Holomorfas y Ecuaciones de Cauchy-Riemann
+# Funciones Holomorfas y Ecuaciones de Cauchy-Riemann
 
 
 

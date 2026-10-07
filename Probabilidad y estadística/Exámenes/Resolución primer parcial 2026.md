@@ -1,5 +1,3 @@
----
-
 ### 💳 **Pregunta 1**
 
 #### 📝 **Enunciado y definición de sucesos**
@@ -21,7 +19,6 @@ Definimos los sucesos según el monto:
 4.  $P(\bar{S} \mid V) = 0,60 \implies P(\bar{S} \cap V) = P(V) \cdot P(\bar{S} \mid V) = 0,35 \times 0,60 = 0,21$.
 5.  $P(S \cap V) = P(V) - P(\bar{S} \cap V) = 0,35 - 0,21 = 0,14$.
 
----
 
 #### 📊 **a) Tabla de contingencia (Probabilidades Conjuntas y Marginales)**
 
@@ -40,9 +37,8 @@ Definimos los sucesos según el monto:
 
 #### 📉 **b) Probabilidad de que se haya abonado con tarjeta de crédito dado que el monto superó los $\$250.000$**
 
-$$P(T \mid S) = \frac{P(T \cap S)}{P(S)} = \frac{0,18}{0,44} = \frac{18}{44} = \frac{9}{22} \approx \mathbf{0,4091} \quad \left(40,91\%\right)$$
+$$P(T \mid S) = \frac{P(T \cap S)}{P(S)} = \frac{0,18}{0,44} = \frac{18}{44} = \frac{9}{22} \approx \mathbf{0,4091} \quad (40,91\)$$ %
 
----
 
 #### 🔍 **c) ¿Son los sucesos "pagar con transferencia bancaria" ($B$) y "no superar los $\$250.000$" ($\bar{S}$) exhaustivos?**
 

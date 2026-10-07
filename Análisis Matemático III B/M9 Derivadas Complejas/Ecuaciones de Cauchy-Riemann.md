@@ -1,12 +1,12 @@
 # 📐 Derivadas Complejas y Ecuaciones de Cauchy-Riemann 🚀
 
----
+
 
 ## 🧭 Introducción y Motivación
 
 En el estudio de las funciones de variable compleja, el concepto de **límite doble** es fundamental. A diferencia del cálculo en una variable real, en el plano complejo $\mathbb{C}$, al analizar el entorno de un punto $z_0 = x_0 + i y_0$, existen **infinitas trayectorias o direcciones** posibles para aproximarse a dicho punto.
 
----
+
 
 ## ⚡ 1. Definición de Derivada Compleja
 
@@ -16,7 +16,7 @@ $$f'(z_0) = \lim_{z \to z_0} \frac{f(z) - f(z_0)}{z - z_0}$$
 
 Al expresar la función en términos de sus partes real e imaginaria, $f(z) = u(x,y) + i v(x,y)$, y el número complejo como $z = x + iy$, la definición de derivada involucra directamente un **límite doble** en el plano cartesiano real $\mathbb{R}^2$.
 
----
+
 
 ## 🔄 2. Teorema Fundamental de Límites Dobles
 
@@ -24,7 +24,7 @@ Un límite doble en un punto $(x_0, y_0)$ existe y es igual a $L$ si y solo si a
 
 Basándose en este principio, para que una función sea **derivable compleja** en $z_0 = x_0 + i y_0$, el valor del límite incremental debe ser único, sin importar la trayectoria geométrica utilizada para la aproximación.
 
----
+
 
 ## 📉 3. Deducción de las Ecuaciones de Cauchy-Riemann por Trayectorias
 
@@ -48,13 +48,13 @@ Al igualar las partes reales e imaginarias de ambas expresiones obtenidas por lo
 
 $$\begin{cases} u_x = v_y \\ u_y = -v_x \end{cases}$$
 
----
+
 
 ## 🔍 4. Condición Necesaria de Analiticidad
 
 **Teorema:** Si una función $f(z)$ es analítica (es decir, derivable compleja) en una región $W$, entonces **satisface obligatoriamente las ecuaciones de Cauchy-Riemann** en todos los puntos de dicha región.
 
----
+
 
 ## ⚠️ 5. ¿Es Suficiente el Cumplimiento de Cauchy-Riemann?
 
@@ -62,7 +62,7 @@ De la demostración anterior se concluye un aspecto crítico: **el mero cumplimi
 
 > 💡 **Nota conceptual:** ¡Acercarse únicamente por dos curvas (horizontales y verticales) no alcanza para demostrar que un límite complejo bidimensional exista en todo su rigor analítico!
 
----
+
 
 ## ✅ 6. Condición Suficiente para la Derivabilidad Compleja
 

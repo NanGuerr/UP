@@ -1,8 +1,6 @@
 # Análisis Complejo: Funciones Holomorfas y Ecuaciones de Cauchy-Riemann
 
----
 
-## 📌 Resumen Ejecutivo
 
 El estudio del análisis complejo de una variable abarca desde la topología del plano complejo hasta el comportamiento diferencial de las funciones holomorfas y analíticas. El presente documento sintetiza los principios teóricos fundamentales, teoremas de caracterización y métodos analíticos expuestos en la literatura teórica y práctica provista.
 
@@ -17,7 +15,7 @@ Los hallazgos y conceptos clave vertidos en este informe incluyen:
 * **Rigurosidad en Límites y Trayectorias:** El límite complejo en un punto $z_0$ exige convergencia hacia un único valor de $w_0$ de manera completamente independiente de la dirección o curva de aproximación en el plano $xy$.
 * **Diferencia entre Continuidad y Derivabilidad:** A diferencia del cálculo real, la continuidad de las partes real e imaginaria no basta para asegurar la derivabilidad compleja.
 
----
+
 
 ## 🌐 1. Topología del Plano Complejo y Esfera de Riemann
 
@@ -37,7 +35,7 @@ El módulo de un número complejo $z = x + iy$ coincide con la norma euclídea e
 * $\vert{}z_1 z_2\vert{} = \vert{}z_1\vert{} \vert{}z_2\vert{}$
 * **Desigualdad Triangular:** $\vert{}z_1 + z_2\vert{} \le \vert{}z_1\vert{} + \vert{}z_2\vert{}$
 
----
+
 
 ## 📈 2. Límites y Continuidad de Funciones Complejas
 
@@ -55,7 +53,7 @@ Una función $f(z)$ es continua en $z_0$ si y solo si:
 
 $$\lim_{z \to z_0} f(z) = f(z_0)$$
 
----
+
 
 ## ✍️ 3. Derivada Compleja, Holomorfía y Analiticidad
 
@@ -71,7 +69,7 @@ $$f'(z_0) = \lim_{z \to z_0} \frac{f(z) - f(z_0)}{z - z_0} = \lim_{\Delta z \to 
 * **Constantes y potencias:** $\frac{d}{dz}(c) = 0$, $\frac{d}{dz}(z) = 1$, $\frac{d}{dz}(z^n) = n z^{n-1}$
 * **Cociente:** $\frac{d}{dz}\left[\frac{f(z)}{g(z)}\right] = \frac{g(z)f'(z) - f(z)g'(z)}{[g(z)]^2}$ si $g(z) \neq 0$.
 
----
+
 
 ## 🧮 4. Las Ecuaciones de Cauchy-Riemann
 
@@ -84,7 +82,7 @@ Cuando existe la derivada, la expresión funcional de $f'(z_0)$ en términos de 
 
 $$f'(z_0) = u_x(x_0, y_0) + i v_x(x_0, y_0) = v_y(x_0, y_0) - i u_y(x_0, y_0)$$
 
----
+
 
 ## 📊 5. Casos de Estudio y Análisis Ejemplar
 

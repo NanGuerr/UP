@@ -1,4 +1,4 @@
-# 📝 Resolución de Autoevaluación: Derivadas Complejas y Ecuaciones de Cauchy-Riemann
+# 📝 Derivadas Complejas y Ecuaciones de Cauchy-Riemann
 
 
 

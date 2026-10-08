@@ -28,36 +28,14 @@ A partir del análisis del diagrama esquemático a nivel de transferencia de reg
 
 | Señal / Puerto | Tipo / Ancho | Origen (Source) | Destino (Destination) | Descripción |
 | --- | --- | --- | --- | --- |
-| **`clk_in`** | Entrada (1 bit) | Puerto Externo | `U_SYNC`, `U_DATAPATH_FSM` | Reloj principal del sistema (100 MHz) distribuido a todos los bloques síncronos.
-
- |
-| **`rst`** | Entrada (1 bit) | Puerto Externo | `U_SYNC`, `U_DATAPATH_FSM` | Señal de reinicio global síncrono para el acondicionador y el datapath.
-
- |
-| **`pps_in`** | Entrada (1 bit) | Puerto Externo | `U_SYNC` (como `pps_raw`) | Señal asíncrona proveniente del GPS (1PPS) ingresando al sincronizador.
-
- |
-| **`cmp_in[3:0]`** | Entrada (4 bits) | Puerto Externo | `U_DATAPATH_FSM` | Bus paralelo que ingresa el valor BCD de consigna al submódulo comparador.
-
- |
-| **`cmp_en`** | Entrada (1 bit) | Puerto Externo | `U_DATAPATH_FSM` | Señal de habilitación de captura para el comparador de consignas.
-
- |
-| **`pps_tick`** | Señal Interna (1 bit) | `U_SYNC` (Salida) | `U_DATAPATH_FSM` (Entrada) | Cable de interconexión interna: Pulso síncrono de duración de un ciclo de reloj generado tras detectar el flanco de subida del GPS.
-
- |
-| **`ss_out[6:0]`** | Salida (7 bits) | `U_DATAPATH_FSM` | Puerto Externo | Bus de salida decodificado dirigido al display de siete segmentos.
-
- |
-| **`cuenta_final`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Indicador activo en alto (durante 1 ciclo) que señaliza el desborde (overflow) de 9 a 0.
-
- |
-| **`cmp_out`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Salida del comparador que invierte su estado al coincidir la cuenta activa con la consigna almacenada.
-
- |
-| **`led`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Salida testigo acoplada al timer interno de 25 bits para generar el parpadeo cada 250 ms.
-
- |
-| **`patron`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Señal de temporización basculante (toggle) que conmuta con cada nuevo pulso 1PPS.
-
- |
+| **`clk_in`** | Entrada (1 bit) | Puerto Externo | `U_SYNC`, `U_DATAPATH_FSM` | Reloj principal del sistema (100 MHz) distribuido a todos los bloques síncronos.|
+| **`rst`** | Entrada (1 bit) | Puerto Externo | `U_SYNC`, `U_DATAPATH_FSM` | Señal de reinicio global síncrono para el acondicionador y el datapath. |
+| **`pps_in`** | Entrada (1 bit) | Puerto Externo | `U_SYNC` (como `pps_raw`) | Señal asíncrona proveniente del GPS (1PPS) ingresando al sincronizador. |
+| **`cmp_in[3:0]`** | Entrada (4 bits) | Puerto Externo | `U_DATAPATH_FSM` | Bus paralelo que ingresa el valor BCD de consigna al submódulo comparador. |
+| **`cmp_en`** | Entrada (1 bit) | Puerto Externo | `U_DATAPATH_FSM` | Señal de habilitación de captura para el comparador de consignas. |
+| **`pps_tick`** | Señal Interna (1 bit) | `U_SYNC` (Salida) | `U_DATAPATH_FSM` (Entrada) | Cable de interconexión interna: Pulso síncrono de duración de un ciclo de reloj generado tras detectar el flanco de subida del GPS.|
+| **`ss_out[6:0]`** | Salida (7 bits) | `U_DATAPATH_FSM` | Puerto Externo | Bus de salida decodificado dirigido al display de siete segmentos. |
+| **`cuenta_final`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Indicador activo en alto (durante 1 ciclo) que señaliza el desborde (overflow) de 9 a 0. |
+| **`cmp_out`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Salida del comparador que invierte su estado al coincidir la cuenta activa con la consigna almacenada. |
+| **`led`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Salida testigo acoplada al timer interno de 25 bits para generar el parpadeo cada 250 ms. |
+| **`patron`** | Salida (1 bit) | `U_DATAPATH_FSM` | Puerto Externo | Señal de temporización basculante (toggle) que conmuta con cada nuevo pulso 1PPS. |

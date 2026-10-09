@@ -225,7 +225,8 @@ end architecture comportamiento;
 
 Para garantizar de manera síncrona un ciclo de trabajo (*duty cycle*) del $50\%$ exacto, se calcula la mitad del período del módulo deseado:
 
-$$\text{SEMI\_PERIODO} = \frac{F_{\text{entrada}}}{2 \cdot F_{\text{salida}}} - 1$$
+$$\text{SEMI-PERIODO} = \frac{F-{\text{entrada}}}{2 \cdot F-{\text{salida-}}}-1$$
+
 
 Cada vez que el contador alcanza dicho valor, se reinicia la cuenta interna y se conmuta (*toggle*) el estado de un Flip-Flop T de salida. 💡
 

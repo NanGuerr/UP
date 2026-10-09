@@ -10,15 +10,9 @@ A partir del análisis de los paneles de datos y la ejecución de la simulación
 
 | Parámetro evaluado | Valor obtenido | Fuente / Evidencia |
 | --- | --- | --- |
-| **Aceleración total ($a_{\text{tot}}$)** | $3.571 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-1.786 \text{ m/s}^2$ en la componente radial.
-
- |
-| **Velocidad final ($v_{\text{tot}}$)** | $18.90 \text{ m/s}$ | Panel de datos y gráfica de velocidad máxima al final de la rampa.
-
- |
-| **Tiempo total ($t$)** | $5.16 \text{ s}$ / $5.18 \text{ s}$ | Eje temporal final de las gráficas cartesianas ($y = 0$) indica $5.16 \text{ s}$, mientras que el registro exacto en coordenadas polares indica $5.18 \text{ s}$.
-
- |
+| **Aceleración total ($a_{\text{tot}}$)** | $3.571 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-1.786 \text{ m/s}^2$ en la componente radial.|
+| **Velocidad final ($v_{\text{tot}}$)** | $18.90 \text{ m/s}$ | Panel de datos y gráfica de velocidad máxima al final de la rampa.|
+| **Tiempo total ($t$)** | $5.16 \text{ s}$ / $5.18 \text{ s}$ | Eje temporal final de las gráficas cartesianas ($y = 0$) indica $5.16 \text{ s}$, mientras que el registro exacto en coordenadas polares indica $5.18 \text{ s}$.|
 
 ---
 
@@ -66,7 +60,7 @@ Sustituyendo los valores de la experiencia:
 $$a = \frac{5}{7} \cdot (10 \text{ m/s}^2) \cdot \sin(30^\circ) = \frac{5}{7} \cdot 10 \cdot 0.5 = \frac{25}{7} \approx 3.571 \text{ m/s}^2$$
 
 
-*Nota: Este cálculo teórico coincide de forma exacta con el parámetro $a_{\text{tot}}$ registrado por la simulación*.
+Nota: Este cálculo teórico coincide de forma exacta con el parámetro $a_{\text{tot}}$ registrado por la simulación.
 
 ### 3.3. Cálculo de la Velocidad Final al Llegar a la Base ($v_f$)
 
@@ -76,7 +70,7 @@ Aplicando la ecuación cinemática del MRUV para un objeto que parte del reposo 
 $$v_f = \sqrt{v_0^2 + 2aL} = \sqrt{0 + 2 \cdot (3.571 \text{ m/s}^2) \cdot (50 \text{ m})} = \sqrt{357.1} \approx 18.90 \text{ m/s}$$
 
 
-*Nota: Este valor es idéntico al registrado en la variable $v_{\text{tot}}$ del simulador*.
+Nota: Este valor es idéntico al registrado en la variable $v_{\text{tot}}$ del simulador.
 
 ### 3.4. Cálculo del Tiempo de Descenso ($t$)
 
@@ -86,4 +80,4 @@ A partir de la ecuación de velocidad en función del tiempo ($v_f = v_0 + a \cd
 $$t = \frac{v_f - v_0}{a} = \frac{18.90 \text{ m/s}}{3.571 \text{ m/s}^2} \approx 5.29 \text{ s}$$
 
 
-*Nota: El valor analítico difiere levemente del obtenido en las gráficas de la simulación ($5.16 \text{ s}$ o $5.18 \text{ s}$), lo cual es atribuible a la discretización numérica de los intervalos de muestreo del software*.
+Nota: El valor analítico difiere levemente del obtenido en las gráficas de la simulación ($5.16 \text{ s}$ o $5.18 \text{ s}$), lo cual es atribuible a la discretización numérica de los intervalos de muestreo del software.

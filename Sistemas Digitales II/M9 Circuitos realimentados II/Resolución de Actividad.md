@@ -1,4 +1,4 @@
-# 📘 Resolución Completa Actividad: Circuitos Realimentados II
+# 📘 Actividad: Circuitos Realimentados II
 
 A continuación se presenta la resolución completa de la actividad de circuitos realimentados, respetando rigurosamente las reglas de diseño síncrono (inclusión obligatoria de reloj, reset y habilitación), reutilizando el código base del contador BCD y aplicando los criterios de síntesis descritos en el apunte de cátedra. ⚙️
 

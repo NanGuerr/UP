@@ -1,4 +1,4 @@
-# 📘 Diseños Lógicos Secuenciales, Contadores y Síntesis en VHDL
+# 📘 Diseños Lógicos Secuenciales Contadores
 
 Este documento sintetiza las bases teóricas, las técnicas de modelado hardware en VHDL, los procesos de síntesis y las metodologías de verificación para sistemas digitales secuenciales, con especial énfasis en el diseño de contadores y máquinas de estados finitos (FSM).
 

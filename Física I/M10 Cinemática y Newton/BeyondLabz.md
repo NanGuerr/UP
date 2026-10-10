@@ -10,7 +10,7 @@ A partir del análisis de los paneles de datos y la ejecución de la simulación
 
 | Parámetro evaluado | Valor obtenido | Fuente / Evidencia |
 | --- | --- | --- |
-| **Aceleración ($a$)** | $3.57 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-2.500 \text{ m/s}$ en la componente radial.|
+| **Aceleración ($a$)** | $5 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-2.500 \text{ m/s}$ en la componente radial.|
 | **V. final ($v_{\text{f}})$** | $22.36 \text{ m/s}$ | Panel de datos y gráfica de velocidad máxima al final de la rampa.|
 | **Tiempo total ($t$)** | $4.47 \text{ s}$ | Eje temporal final de las gráficas cartesianas y el registro exacto en coordenadas polares indica $4.47 \text{ s}$.|
 
@@ -165,7 +165,7 @@ $$t = \frac{29.49 \text{ m/s} - 22.64 \text{ m/s}}{3.571 \text{ m/s}^2} = \frac{
 
 | Parámetro evaluado | Valor obtenido | Fuente / Evidencia |
 | --- | --- | --- |
-| **Aceleración ($a$)** | $3,27 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-1.786 \text{ m/s}$ en la componente radial.|
+| **Aceleración ($a$)** | $3,57 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-1.786 \text{ m/s}$ en la componente radial.|
 | **V. final ($v_{\text{f}})$** | $18,90 \text{ m/s}$ | Panel de datos y gráfica de velocidad máxima al final de la rampa.|
 | **Tiempo total ($t$)** | $5,29 \text{ s}$ | Eje temporal final de las gráficas cartesianas y el registro exacto en coordenadas polares indica $5,29 \text{ s}$.|
 

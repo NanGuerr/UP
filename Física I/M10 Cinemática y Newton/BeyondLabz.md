@@ -10,7 +10,7 @@ A partir del análisis de los paneles de datos y la ejecución de la simulación
 
 | Parámetro evaluado | Valor obtenido | Fuente / Evidencia |
 | --- | --- | --- |
-| **Aceleración ($a$)** | $3.27 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-2.500 \text{ m/s}$ en la componente radial.|
+| **Aceleración ($a$)** | $3.57 \text{ m/s}^2$ | Panel de datos y gráfica de aceleración constante. Equivalente direccional de $-2.500 \text{ m/s}$ en la componente radial.|
 | **V. final ($v_{\text{f}})$** | $22.36 \text{ m/s}$ | Panel de datos y gráfica de velocidad máxima al final de la rampa.|
 | **Tiempo total ($t$)** | $4.47 \text{ s}$ | Eje temporal final de las gráficas cartesianas y el registro exacto en coordenadas polares indica $4.47 \text{ s}$.|
 
@@ -31,38 +31,44 @@ Durante la ejecución del experimento virtual, el software traza el movimiento d
 
 * **Aceleración y Velocidad Angular ($\alpha$ y $\omega$):** Se muestran en los paneles para registrar la rotación de la masa esférica durante el desplazamiento.
 
-
+A continuación, se presentan los resultados completados a partir de las capturas de pantalla de la simulación en Beyond Labz y el desarrollo paso a paso basado en los fundamentos teóricos del archivo adjunto y la dinámica de cuerpos rígidos (esfera rodando sin deslizar).
 
 ---
 
-## 📝 3. Verificación Teórica y Paso a Paso de los Cálculos
+### 📊 Resultados de la 1era Experiencia
 
-Para validar la precisión del simulador, se detalla la justificación matemática de los resultados utilizando los parámetros de configuración (gravedad $g = 10 \text{ m/s}^2$, inclinación $\beta = 30^\circ$, coeficiente de fricción estática $\mu = 0.520$).
+* **a. Valor de la aceleración:** **$3.571 \text{ m/s}^2$**
+* **b. Velocidad con que llega a la base del plano:** **$18.90 \text{ m/s}$**
+* **c. Tiempo empleado por el objeto:** **$5.16 \text{ s}$**
 
-### 3.1. Determinación de la Longitud del Plano ($L$)
+---
 
-A partir de las coordenadas de posición inicial mostradas en la interfaz cartesiana ($x = -43.30 \text{ m}$, $y = 25.00 \text{ m}$), se calcula la longitud de la rampa mediante el teorema de Pitágoras:
+### 📝 Paso a Paso de los Cálculos
+
+#### 1. Determinación de la Longitud del Plano ($L$)
+
+A partir de las coordenadas de posición inicial mostradas en la interfaz ($\text{x} = -43.30 \text{ m}$, $\text{y} = 25.00 \text{ m}$), calculamos la longitud de la rampa mediante el teorema de Pitágoras:
 
 
 $$L = \sqrt{x^2 + y^2} = \sqrt{(-43.30)^2 + (25.00)^2} = \sqrt{1874.89 + 625} = \sqrt{2499.89} \approx 50.00 \text{ m}$$
 
-### 3.2. Cálculo de la Aceleración ($a$)
+#### 2. Cálculo de la Aceleración ($a$)
 
-Tratándose de un objeto esférico con masa uniformemente distribuida (esfera maciza, con momento de inercia $I = \frac{2}{5}mR^2$) que desciende por un plano inclinado, el movimiento combina traslación y rotación (rodadura sin deslizamiento). Dado que el coeficiente de fricción es superior al mínimo requerido para evitar que la esfera patine, la aceleración lineal efectiva se obtiene mediante la ecuación dinámica de rotación:
+Tratándose de un **objeto esférico con masa uniformemente distribuida** (esfera maciza, con momento de inercia $I = \frac{2}{5}mR^2$) que desciende por un plano inclinado, el movimiento combina traslación y rotación (rodadura sin deslizamiento).
+Dado que el coeficiente de fricción estática del acero ($\mu = 0.520$) es superior al mínimo requerido para evitar que la esfera patine, la aceleración lineal efectiva se obtiene mediante la ecuación dinámica de rotación:
 
 
 $$a = \frac{5}{7} g \sin \beta$$
 
-
-Sustituyendo los valores de la experiencia:
+Sustituyendo los valores de la experiencia ($g = 10 \text{ m/s}^2$ y $\beta = 30^\circ$):
 
 
 $$a = \frac{5}{7} \cdot (10 \text{ m/s}^2) \cdot \sin(30^\circ) = \frac{5}{7} \cdot 10 \cdot 0.5 = \frac{25}{7} \approx 3.571 \text{ m/s}^2$$
 
 
-Nota: Este cálculo teórico coincide de forma exacta con el parámetro $a_{\text{tot}}$ registrado por la simulación.
+*(Este valor coincide exactamente con el parámetro $\text{atot}$ de la simulación).*
 
-### 3.3. Cálculo de la Velocidad Final al Llegar a la Base ($v_f$)
+#### 3. Cálculo de la Velocidad Final al Llegar a la Base ($v_f$)
 
 Aplicando la ecuación cinemática del MRUV para un objeto que parte del reposo ($v_0 = 0$):
 
@@ -70,9 +76,9 @@ Aplicando la ecuación cinemática del MRUV para un objeto que parte del reposo 
 $$v_f = \sqrt{v_0^2 + 2aL} = \sqrt{0 + 2 \cdot (3.571 \text{ m/s}^2) \cdot (50 \text{ m})} = \sqrt{357.1} \approx 18.90 \text{ m/s}$$
 
 
-Nota: Este valor es idéntico al registrado en la variable $v_{\text{tot}}$ del simulador.
+*(Valor idéntico al registrado en la variable $\text{Vtot}$ de la captura).*
 
-### 3.4. Cálculo del Tiempo de Descenso ($t$)
+#### 4. Cálculo del Tiempo de Descenso ($t$)
 
 A partir de la ecuación de velocidad en función del tiempo ($v_f = v_0 + a \cdot t$):
 
@@ -80,8 +86,11 @@ A partir de la ecuación de velocidad en función del tiempo ($v_f = v_0 + a \cd
 $$t = \frac{v_f - v_0}{a} = \frac{18.90 \text{ m/s}}{3.571 \text{ m/s}^2} \approx 5.29 \text{ s}$$
 
 
-Nota: El valor analítico difiere levemente del obtenido en las gráficas de la simulación ($5.16 \text{ s}$ o $5.18 \text{ s}$), lo cual es atribuible a la discretización numérica de los intervalos de muestreo del software.
-A partir de los parámetros establecidos y las gráficas generadas en la simulación para esta segunda experiencia, aquí tienes los resultados para completar los espacios en blanco, seguidos de su demostración analítica y comparación.
+*(En la gráfica de la simulación, el punto exacto donde la posición vertical $y$ llega a $0 \text{ m}$ marca un tiempo de **$5.16 \text{ s}$**, debido a la discretización numérica de los intervalos de muestreo del software).*
+
+---
+
+
 
 
 ### 📊 Resultados de la 2da Experiencia
@@ -163,40 +172,53 @@ $$t = \frac{29.49 \text{ m/s} - 22.64 \text{ m/s}}{3.571 \text{ m/s}^2} = \frac{
 
 ---
 
-### 📝 Paso a Paso de los Cálculos (Según el PDF Adjunto)
+## 📝 3. Verificación Teórica y Paso a Paso de los Cálculos
 
-De acuerdo con el archivo `resolucion-tp-cinematica-leyes-newton.pdf`, para la Experiencia 3 con rozamiento ($\mu = 0.200$) partiendo del reposo, las ecuaciones se formulan asumiendo deslizamiento disipativo:
+Para validar la precisión del simulador, se detalla la justificación matemática de los resultados utilizando los parámetros de configuración (gravedad $g = 10 \text{ m/s}^2$, inclinación $\beta = 30^\circ$, coeficiente de fricción estática $\mu = 0.520$).
 
-**1. Cálculo de las Fuerzas de Contacto:**
-La fuerza normal ($N$) sobre el plano inclinado a $30^\circ$ es:
+### 3.1. Determinación de la Longitud del Plano ($L$)
 
-
-$$N = mg \cos(30^\circ) = (1 \text{ kg}) \cdot (10 \text{ m/s}^2) \cdot (0.866) = 8.66 \text{ N}$$
+A partir de las coordenadas de posición inicial mostradas en la interfaz cartesiana ($x = -43.30 \text{ m}$, $y = 25.00 \text{ m}$), se calcula la longitud de la rampa mediante el teorema de Pitágoras:
 
 
-La fuerza de rozamiento cinético opuesta al descenso es:
+$$L = \sqrt{x^2 + y^2} = \sqrt{(-43.30)^2 + (25.00)^2} = \sqrt{1874.89 + 625} = \sqrt{2499.89} \approx 50.00 \text{ m}$$
+
+### 3.2. Cálculo de la Aceleración ($a$)
+
+Tratándose de un objeto esférico con masa uniformemente distribuida (esfera maciza, con momento de inercia $I = \frac{2}{5}mR^2$) que desciende por un plano inclinado, el movimiento combina traslación y rotación (rodadura sin deslizamiento). Dado que el coeficiente de fricción es superior al mínimo requerido para evitar que la esfera patine, la aceleración lineal efectiva se obtiene mediante la ecuación dinámica de rotación:
 
 
-$$F_{\text{roz}} = \mu \cdot N = 0.20 \cdot 8.66 \text{ N} = 1.73 \text{ N}$$
-
-**2. Cálculo de la Aceleración Efectiva de Descenso ($a$):**
-Aplicando la segunda ley de Newton ($P_x - F_{\text{roz}} = ma$):
+$$a = \frac{5}{7} g \sin \beta$$
 
 
-$$a = g(\sin 30^\circ - \mu \cos 30^\circ) = 10 \cdot (0.5 - 0.20 \cdot 0.866)$$
-
-$$a = 10 \cdot (0.5 - 0.1732) = 3.268 \approx 3.27 \text{ m/s}^2$$
-
-**3. Cálculo de la Velocidad final en la base ($v_f$):**
-Con una rampa de longitud teórica asumida de $L = 50 \text{ m}$:
+Sustituyendo los valores de la experiencia:
 
 
-$$v_f = \sqrt{2 \cdot a \cdot L} = \sqrt{2 \cdot (3.27 \text{ m/s}^2) \cdot (50 \text{ m})} = \sqrt{327} \approx 18.08 \text{ m/s}$$
-
-**4. Cálculo del Tiempo empleado ($t$):**
+$$a = \frac{5}{7} \cdot (10 \text{ m/s}^2) \cdot \sin(30^\circ) = \frac{5}{7} \cdot 10 \cdot 0.5 = \frac{25}{7} \approx 3.571 \text{ m/s}^2$$
 
 
-$$t = \sqrt{\frac{2L}{a}} = \sqrt{\frac{100 \text{ m}}{3.27 \text{ m/s}^2}} = \sqrt{30.58} \approx 5.53 \text{ s}$$
+Nota: Este cálculo teórico coincide de forma exacta con el parámetro $a_{\text{tot}}$ registrado por la simulación.
+
+### 3.3. Cálculo de la Velocidad Final al Llegar a la Base ($v_f$)
+
+Aplicando la ecuación cinemática del MRUV para un objeto que parte del reposo ($v_0 = 0$):
+
+
+$$v_f = \sqrt{v_0^2 + 2aL} = \sqrt{0 + 2 \cdot (3.571 \text{ m/s}^2) \cdot (50 \text{ m})} = \sqrt{357.1} \approx 18.90 \text{ m/s}$$
+
+
+Nota: Este valor es idéntico al registrado en la variable $v_{\text{tot}}$ del simulador.
+
+### 3.4. Cálculo del Tiempo de Descenso ($t$)
+
+A partir de la ecuación de velocidad en función del tiempo ($v_f = v_0 + a \cdot t$):
+
+
+$$t = \frac{v_f - v_0}{a} = \frac{18.90 \text{ m/s}}{3.571 \text{ m/s}^2} \approx 5.29 \text{ s}$$
+
+
+Nota: El valor analítico difiere levemente del obtenido en las gráficas de la simulación ($5.16 \text{ s}$ o $5.18 \text{ s}$), lo cual es atribuible a la discretización numérica de los intervalos de muestreo del software.
+A partir de los parámetros establecidos y las gráficas generadas en la simulación para esta segunda experiencia, aquí tienes los resultados para completar los espacios en blanco, seguidos de su demostración analítica y comparación.
 
 ---
 

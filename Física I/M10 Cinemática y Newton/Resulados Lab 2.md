@@ -5,7 +5,7 @@ A continuación, se detallan las mediciones consolidadas de las cuatro experienc
 | Experiencia | Vel. Inicial $v_0$ | Gravedad $g$ | Fricción $\mu$ | Aceleración $a$ | Vel. Final $v_f$ | Tiempo $t$ |
 | :---------: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Exp. 1 (Tierra)** | $0 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.520$ | $3.571 \text{ m/s}^2$ | $18.90 \text{ m/s}$ | $5.16 \text{ s}$ |
-| **Exp. 2 (Tierra)** | $22.64 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.520$ | $3.571 \text{ m/s}^2$ | $29.49 \text{ m/s}$ | $1.92 \text{ s}$ |
+| **Exp. 2 (Tierra)** | $22.64 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.520$ | $3.571 \text{ m/s}^2$ | $19.90 \text{ m/s}$ | $3.61 \text{ s}$ |
 | **Exp. 3 (Tierra)** | $0 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.200$ | $3.270 \text{ m/s}^2$ | $18.08 \text{ m/s}$ | $5.53 \text{ s}$ |
 | **Exp. 4a (Marte)** | $0 \text{ m/s}$ | $3.728 \text{ m/s}^2$ | $0.000$ | $1.864 \text{ m/s}^2$ | $13.65 \text{ m/s}$ | $7.32 \text{ s}$ |
 | **Exp. 4b (Luna)** | $0 \text{ m/s}$ | $1.625 \text{ m/s}^2$ | $0.000$ | $0.8125 \text{ m/s}^2$ | $9.01 \text{ m/s}$ | $11.09 \text{ s}$ |

@@ -105,55 +105,33 @@ $$t = \frac{v_f - v_0}{a} = \frac{18.90 \text{ m/s}}{3.571 \text{ m/s}^2} \appro
 ---
 
 ### 📝 Paso a Paso de los Cálculos
-
-Dado que las propiedades físicas del objeto (masa de $1 \text{ kg}$, radio de $2.000 \text{ m}$), el ángulo del plano ($30^\circ$) y el coeficiente de fricción ($0.520$) permanecen inalterados respecto a la experiencia 1, la aceleración no sufre cambios. Lo único que se modifica es la **velocidad inicial** ($v_0 = 22.64 \text{ m/s}$).
-
-#### 1. Verificación de la Aceleración ($a$)
-
-La ecuación dinámica para una esfera maciza rodando sin deslizar por un plano inclinado es independiente de la velocidad inicial:
-
-
-$$a = \frac{5}{7} g \sin \beta$$
-
-$$a = \frac{5}{7} \cdot (10 \text{ m/s}^2) \cdot \sin(30^\circ) = \frac{25}{7} \approx 3.571 \text{ m/s}^2$$
-
-
-*(La aceleración se mantiene idéntica a la experiencia anterior).*
-
-#### 2. Cálculo de la Velocidad Final ($v_f$)
-
-Utilizando la ecuación cinemática independiente del tiempo con una longitud de rampa de $L = 50 \text{ m}$ y la nueva velocidad inicial:
-
-
-$$v_f = \sqrt{v_0^2 + 2aL}$$
-
-$$v_f = \sqrt{(22.64 \text{ m/s})^2 + 2 \cdot (3.571 \text{ m/s}^2) \cdot (50 \text{ m})}$$
-
-$$v_f = \sqrt{512.57 + 357.1} = \sqrt{869.67} \approx 29.49 \text{ m/s}$$
-
-
-(En la gráfica de velocidad radial $v_r$, se observa cómo la curva inicia en $-22.64 \text{ m/s}$ y desciende de forma constante hasta alcanzar un valor cercano a $-29.5 \text{ m/s}$ justo antes de detenerse).
-
-#### 3. Cálculo del Tiempo de Descenso ($t$)
-
-Aplicando la ecuación de velocidad en función del tiempo:
-
-
-$$t = \frac{v_f - v_0}{a}$$
-
-$$t = \frac{29.49 \text{ m/s} - 22.64 \text{ m/s}}{3.571 \text{ m/s}^2} = \frac{6.85 \text{ m/s}}{3.571 \text{ m/s}^2} \approx 1.92 \text{ s}$$
-
-
-(En la gráfica de posición $r$ versus tiempo, el objeto alcanza la posición $r = 0 \text{ m}$ en un instante ubicado exactamente entre las marcas de $1.84 \text{ s}$ y $2.06 \text{ s}$, lo cual confirma el tiempo teórico calculado).
+Condiciones: g = 10 m/s2, β = 30◦, µ = 0, v0 = 10 m/s, L = 50 m.
+C´alculo de la Aceleraci´on:
+a2 = gsinβ = 10 m/s2 ·0,5 = 5,00 m/s2
+Nota: La aceleraci´on se mantiene id´entica a la Experiencia 1 pues las fuerzas externas no
+variaron.
+Velocidad al llegar a la base:
+vf2 = 
+102 + 2(5,00)(50) = √100+500 = 
+√
+600 ≈ 24,49 m/s
+Tiempo empleado en el descenso:
+50 = 10t2 + 1
+2 (5,00)t2
+2 =⇒ 2,5t2
+2 +10t2 −50 = 0 =⇒ t2
+2 +4t2 −20 = 0
+t2 = −4+
+16 −4(1)(−20)
+2
+= −4+√96
+2
+≈2,90 s
+Comparaci´on Exp. 1 vs Exp. 2: La aceleraci´on es la misma en ambas experiencias (a1 =
+a2 = 5 m/s2). Sin embargo, la velocidad inicial a favor de la pendiente reduce el tiempo de viaje
+(t2 < t1) e incrementa la velocidad final de llegada (vf2 > vf1).
 
 ---
-
-### ⚖️ Comparación entre ambas experiencias
-
-1. **Aceleración (Constante):** El valor de la aceleración ($3.571 \text{ m/s}^2$) es exactamente el mismo en ambas experiencias. Esto demuestra el principio de la dinámica newtoniana de que la aceleración de un cuerpo en un plano inclinado depende exclusivamente de las fuerzas aplicadas (componente del peso y fricción rotacional) y de su geometría/masa, pero **es completamente independiente de su estado de movimiento inicial** (velocidad).
-2. **Velocidad Final (Aumento):** Al dotar a la esfera de una velocidad inicial significativa a favor del movimiento ($22.64 \text{ m/s}$ en lugar de partir del reposo), el cuerpo acumula una mayor energía cinética. Por consiguiente, la velocidad de impacto en la base es sustancialmente mayor ($29.49 \text{ m/s}$ frente a los $18.90 \text{ m/s}$ de la primera experiencia).
-3. **Tiempo de recorrido (Disminución):** Debido a que la esfera ya cuenta con una alta velocidad desde el instante $t = 0 \text{ s}$, su velocidad media durante el trayecto es mucho mayor. Como resultado, recorre los mismos $50 \text{ m}$ de la rampa en apenas un tercio del tiempo ($1.92 \text{ s}$ comparado con los $5.16 \text{ s}$ originales).
-
 
 ### 📊 Resultados de la 3era Experiencia
 

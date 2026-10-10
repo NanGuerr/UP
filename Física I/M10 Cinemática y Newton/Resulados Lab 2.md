@@ -4,11 +4,11 @@ A continuación, se detallan las mediciones consolidadas de las cuatro experienc
 
 | Experiencia | Vel. Inicial $v_0$ | Gravedad $g$ | Fricción $\mu$ | Aceleración $a$ | Vel. Final $v_f$ | Tiempo $t$ |
 | :---------: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Exp. 1 (Tierra)** | $0 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.520$ | $3.571 \text{ m/s}^2$ | $18.90 \text{ m/s}$ | $5.16 \text{ s}$ |
-| **Exp. 2 (Tierra)** | $22.64 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.520$ | $3.571 \text{ m/s}^2$ | $19.90 \text{ m/s}$ | $3.61 \text{ s}$ |
-| **Exp. 3 (Tierra)** | $0 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.200$ | $3.270 \text{ m/s}^2$ | $18.08 \text{ m/s}$ | $5.53 \text{ s}$ |
-| **Exp. 4a (Marte)** | $0 \text{ m/s}$ | $3.728 \text{ m/s}^2$ | $0.000$ | $1.864 \text{ m/s}^2$ | $13.65 \text{ m/s}$ | $7.32 \text{ s}$ |
-| **Exp. 4b (Luna)** | $0 \text{ m/s}$ | $1.625 \text{ m/s}^2$ | $0.000$ | $0.8125 \text{ m/s}^2$ | $9.01 \text{ m/s}$ | $11.09 \text{ s}$ |
+| **Exp. 1 (Tierra)** | $0 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.000$ | $5 \text{ m/s}^2$ | $22,36 \text{ m/s}$ | $4.47 \text{ s}$ |
+| **Exp. 2 (Tierra)** | $10 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.000$ | $5 \text{ m/s}^2$ | $24,49 \text{ m/s}$ | $2.90 \text{ s}$ |
+| **Exp. 3 (Tierra)** | $0 \text{ m/s}$ | $10.00 \text{ m/s}^2$ | $0.200$ | $3.270 \text{ m/s}^2$ | $18.90 \text{ m/s}$ | $5.29 \text{ s}$ |
+| **Exp. 4a (Marte)** | $0 \text{ m/s}$ | $3.728 \text{ m/s}^2$ | $0.000$ | $1.865 \text{ m/s}^2$ | $13.65 \text{ m/s}$ | $7.32 \text{ s}$ |
+| **Exp. 4b (Luna)** | $0 \text{ m/s}$ | $1.625 \text{ m/s}^2$ | $0.000$ | $0.815 \text{ m/s}^2$ | $9.01 \text{ m/s}$ | $11.10 \text{ s}$ |
 
 ---
 
@@ -21,7 +21,7 @@ A continuación, se detallan las mediciones consolidadas de las cuatro experienc
 
 * **Experiencia 2: Alteración de la Velocidad Inicial**
 * **Variables de entrada:** $g = 10 \text{ m/s}^2$, $v_0 = 22.64 \text{ m/s}$, $\mu = 0.520$.
-* **Mediciones:** La aceleración permanece idéntica ($3.571 \text{ m/s}^2$) al no depender del estado cinemático previo. La alta velocidad de partida reduce drásticamente el tiempo de recorrido a $1.92 \text{ s}$ e incrementa la velocidad de llegada a $29.49 \text{ m/s}$.
+* **Mediciones:** La aceleración permanece idéntica ($3.571 \text{ m/s}^2$) al no depender del estado cinemático previo. La alta velocidad de partida reduce drásticamente el tiempo de recorrido a $2.16 \text{ s}$ e incrementa la velocidad de llegada a $23.71 \text{ m/s}$.
 
 
 * **Experiencia 3: Variación del Coeficiente de Fricción**
